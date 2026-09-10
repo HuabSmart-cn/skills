@@ -17,6 +17,12 @@ jobs:
       - uses: actions/checkout@v4
       - name: Validate manifest JSON
         run: python3 -m json.tool manifest.json >/dev/null
+      - name: Validate capability registry and every public asset entry
+        run: python3 tools/validate_registry.py --legacy-entry-severity error --json
+      - name: Verify generated cross-skill candidate index
+        run: |
+          python3 tools/build_dependency_candidates.py
+          git diff --exit-code -- registry/dependency-candidates.json
       - name: Check for private paths and credentials
         run: |
           if git grep -n -I -E '/Users/hukee|/home/hukee|BEGIN [A-Z ]*PRIVATE KEY|ghp_[A-Za-z0-9]+|github_pat_[A-Za-z0-9_]+|120\.79\.247\.188|gAAAAA' -- . ':!README.md' ':!README.en.md' ':!.github/**'; then
@@ -43,5 +49,6 @@ jobs:
           ssh "${{ secrets.DEPLOY_USER }}@${{ secrets.DEPLOY_HOST }}" "command -v rsync >/dev/null || (echo 'rsync is required on the deployment host' >&2; exit 1)"
           ssh "${{ secrets.DEPLOY_USER }}@${{ secrets.DEPLOY_HOST }}" "mkdir -p '${{ secrets.DEPLOY_PATH }}/skills'"
           scp manifest.json "${{ secrets.DEPLOY_USER }}@${{ secrets.DEPLOY_HOST }}:${{ secrets.DEPLOY_PATH }}/manifest.json"
+          rsync -az -e "ssh -i ~/.ssh/id_ed25519" registry/ "${{ secrets.DEPLOY_USER }}@${{ secrets.DEPLOY_HOST }}:${{ secrets.DEPLOY_PATH }}/registry/"
           rsync -az --delete -e "ssh -i ~/.ssh/id_ed25519" skills/ "${{ secrets.DEPLOY_USER }}@${{ secrets.DEPLOY_HOST }}:${{ secrets.DEPLOY_PATH }}/skills/"
           ssh "${{ secrets.DEPLOY_USER }}@${{ secrets.DEPLOY_HOST }}" "chmod -R a+rX '${{ secrets.DEPLOY_PATH }}/skills'"

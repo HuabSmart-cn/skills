@@ -1,0 +1,36 @@
+{
+  "$schema": "../schemas/capability-v1.schema.json",
+  "schemaVersion": "1.0.0",
+  "id": "cap.skill.lark-skills.lark-shared.v1",
+  "kind": "skill",
+  "identity": {
+    "canonicalName": "lark-shared",
+    "aliases": [],
+    "displayName": { "zh": "Lark 认证与权限", "en": "Lark authentication and authorization" }
+  },
+  "summary": { "zh": "为 Lark 能力提供身份、授权与权限处理约束。", "en": "Authentication and authorization guidance for Lark capabilities." },
+  "artifact": {
+    "legacyAssetId": "lark-skills:skill:skills__lark-shared__SKILL.md",
+    "root": "skills/lark-skills/skill/lark-shared--c4aa7d6c6c",
+    "entry": "SKILL.md",
+    "contentLayer": "source"
+  },
+  "origin": {
+    "sourceType": "local-capture",
+    "originalPath": "lark-skills/lark-shared/SKILL.md",
+    "license": { "status": "unverified" },
+    "metadataAuthority": "huabsmart"
+  },
+  "dependencies": { "required": [], "optional": [] },
+  "runtime": {
+    "hosts": [{ "runtime": "codex", "compatibility": "unverified" }],
+    "tools": [{ "name": "lark-cli", "required": true }],
+    "environment": [],
+    "externalServices": [{ "name": "Lark Open Platform", "required": true, "network": true }]
+  },
+  "permissions": { "operations": ["read", "auth"], "risk": "medium" },
+  "contracts": { "input": "conversation", "output": "guidance" },
+  "failurePolicy": { "mode": "no_fallback", "mustReturn": ["dependency_missing", "runtime_unsupported", "execution_failed"] },
+  "lifecycle": { "state": "active" },
+  "verification": { "status": "unverified", "receipts": [] }
+}

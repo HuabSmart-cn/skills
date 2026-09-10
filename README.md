@@ -31,6 +31,14 @@ AI 能力散落在不同平台、社区和代码仓库中，寻找、比较和�
 
 `manifest.json` 描述公开能力资产，`skills/` 保存对应文件。网站只是读取这些公开数据的一个使用界面，源码不在本仓库中。
 
+## Capability Registry（迁移中）
+
+仓库正在增加 `registry/` 作为机器可读的控制面，用来声明依赖、运行条件、权限、失败语义、来源、生命周期和验证状态。它不会改变本仓库“目录而非 Runtime”的边界：**被收录不等于已安装、可运行、已真实调用或已验证**。历史资产在未有真实验证凭据前会保持 `unverified`。
+
+规范、状态定义和迁移原则见 [docs/capability-registry.md](docs/capability-registry.md)。
+
+跨包调用的候选关系由 `registry/dependency-candidates.json` 记录；下载服务可用 sidecar 将它随单个资产包提供，不改写第三方原文。
+
 ## 参与贡献
 
 欢迎提交新的公开能力、元数据修正、界面改进和文档改进。提交前请确认：

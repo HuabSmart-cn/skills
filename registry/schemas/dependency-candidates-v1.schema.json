@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://huabsmart.cn/schemas/capability-registry/dependency-candidates/v1.json",
+  "type": "object",
+  "required": ["schemaVersion", "semantics", "records"],
+  "properties": {
+    "$schema": { "type": "string" },
+    "schemaVersion": { "const": "1.0.0" },
+    "sourceManifestVersion": { "type": "string" },
+    "sourceManifestGeneratedAt": { "type": "string" },
+    "semantics": { "const": "textual-candidates-only" },
+    "records": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["sourceAssetId", "candidates"],
+        "properties": {
+          "sourceAssetId": { "type": "string" },
+          "candidates": { "type": "array" }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

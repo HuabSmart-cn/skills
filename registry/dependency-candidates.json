@@ -1,0 +1,3458 @@
+{
+  "$schema": "schemas/dependency-candidates-v1.schema.json",
+  "schemaVersion": "1.0.0",
+  "sourceManifestVersion": "1.0.0",
+  "sourceManifestGeneratedAt": "2026-09-10T04:04:23.791236+00:00",
+  "semantics": "textual-candidates-only",
+  "records": [
+    {
+      "sourceAssetId": "AIShifuExpert",
+      "candidates": [
+        {
+          "mentionedAs": "ai-shifu-course-creator",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/ai-shifu--113b42b692/AGENT.md",
+            "line": 17,
+            "excerpt": "2. 调用 `ai-shifu-course-creator` 技能执行"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "AdCreativeStrategist",
+      "candidates": [
+        {
+          "mentionedAs": "brand-guidelines",
+          "status": "ambiguous",
+          "candidateAssetIds": [
+            "workbuddy-ai:skill:plugins__marketplaces__codebuddy-plugins-official__external_plugins__brand-guidelines__SKILL.md",
+            "workbuddy-files:skill:plugins__marketplaces__codebuddy-plugins-official__external_plugins__brand-guidelines__SKILL.md"
+          ],
+          "evidence": {
+            "path": "skills/workbuddy/agent/ad-creative-strategist--42501b630d/AGENT.md",
+            "line": 76,
+            "excerpt": "- **brand-guidelines**：品牌设计规范 — 当需要应用品牌配色和排版规范到设计产物时自动触发"
+          }
+        },
+        {
+          "mentionedAs": "humanizer",
+          "status": "ambiguous",
+          "candidateAssetIds": [
+            "hermes:skill:hermes-agent__skills__creative__humanizer__SKILL.md",
+            "hermes:skill:skills__creative__humanizer__SKILL.md",
+            "workbuddy-ai:skill:plugins__marketplaces__codebuddy-plugins-official__plugins__hot-skills__skills__humanizer__SKILL.md",
+            "workbuddy-files:skill:plugins__cache__workbuddy-builtin__tencent-docx__0.3.0__skills__humanizer__SKILL.md",
+            "workbuddy-files:skill:plugins__marketplaces__codebuddy-plugins-official__plugins__hot-skills__skills__humanizer__SKILL.md"
+          ],
+          "evidence": {
+            "path": "skills/workbuddy/agent/ad-creative-strategist--42501b630d/AGENT.md",
+            "line": 77,
+            "excerpt": "- **humanizer**：文本人性化处理 — 当需要去除文本中的 AI 写作痕迹、让内容更贴近真人写作风格时自动触发"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "AgentOrchestrator",
+      "candidates": [
+        {
+          "mentionedAs": "github",
+          "status": "ambiguous",
+          "candidateAssetIds": [
+            "claude-code:mcp:plugins__marketplaces__claude-plugins-official__external_plugins__github__.mcp.json",
+            "codex-user:mcp:.tmp__plugins__plugins__github__.mcp.json",
+            "codex-user:skill:.tmp__plugins__plugins__github__skills__github__SKILL.md",
+            "hermes:skill:hermes-agent__skills__software-development__github__SKILL.md",
+            "hermes:skill:skills__software-development__github__SKILL.md",
+            "workbuddy-ai:mcp:plugins__marketplaces__codebuddy-plugins-official__plugins__github__.mcp.json",
+            "workbuddy-ai:skill:plugins__marketplaces__codebuddy-plugins-official__plugins__hot-skills__skills__github__SKILL.md",
+            "workbuddy-files:mcp:connectors-marketplace__connectors__github__mcp.json",
+            "workbuddy-files:mcp:plugins__marketplaces__codebuddy-plugins-official__plugins__github__.mcp.json",
+            "workbuddy-files:skill:connectors-marketplace__connectors__github__skill__SKILL.md",
+            "workbuddy-files:skill:plugins__marketplaces__codebuddy-plugins-official__plugins__hot-skills__skills__github__SKILL.md"
+          ],
+          "evidence": {
+            "path": "skills/workbuddy/agent/agent-orchestrator--f883d7d96b/AGENT.md",
+            "line": 373,
+            "excerpt": "- **github**：GitHub 管理 — 当需要管理 GitHub Issues、Pull Requests 和 CI 工作流时自动触发"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "AiHot",
+      "candidates": [
+        {
+          "mentionedAs": "aihot",
+          "status": "resolved_candidate",
+          "candidateAssetIds": [
+            "onedrive:skill:Skills__skill__aihot__SKILL.md"
+          ],
+          "evidence": {
+            "path": "skills/workbuddy/agent/aihot--27e17d3066/AGENT.md",
+            "line": 9,
+            "excerpt": "你是数字生命卡兹克，AI 资讯速递专家。用户问任何 AI 行业动态，你通过调用 `aihot` 技能获取实时数据并整理输出。"
+          }
+        },
+        {
+          "mentionedAs": "aihot",
+          "status": "resolved_candidate",
+          "candidateAssetIds": [
+            "onedrive:skill:Skills__skill__aihot__SKILL.md"
+          ],
+          "evidence": {
+            "path": "skills/workbuddy/agent/aihot--27e17d3066/AGENT.md",
+            "line": 21,
+            "excerpt": "**收到用户关于 AI 资讯的任何问题时，必须调用 `aihot` 技能获取数据，不得凭训练数据猜测当前 AI 动态。**"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "AiImagePromptEngineer",
+      "candidates": [
+        {
+          "mentionedAs": "anti-distill",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/ai-image-prompt-engineer--bd83d03d2c/AGENT.md",
+            "line": 242,
+            "excerpt": "- **anti-distill**：去AI味 — 当需要清除文本中的 AI 写作痕迹、让内容更自然人性化时自动触发"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "AiShifu",
+      "candidates": [
+        {
+          "mentionedAs": "ai-shifu-course-creator",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/ai-shifu--2e578c3895/AGENT.md",
+            "line": 17,
+            "excerpt": "2. 调用 `ai-shifu-course-creator` 技能执行"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "AutonomousOptimizationArchitect",
+      "candidates": [
+        {
+          "mentionedAs": "capability-evolver",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/autonomous-optimization-architect--f3d63f848e/AGENT.md",
+            "line": 113,
+            "excerpt": "- **capability-evolver**：AI Agent 自进化引擎 — 当需要分析运行历史、识别改进点并持续优化工作流程时自动触发"
+          }
+        },
+        {
+          "mentionedAs": "browser-use",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/autonomous-optimization-architect--f3d63f848e/AGENT.md",
+            "line": 114,
+            "excerpt": "- **browser-use**：浏览器自动化 — 当需要网页自动化操作、导航、点击、截图、数据提取时自动触发"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "BaiduSeoExpert",
+      "candidates": [
+        {
+          "mentionedAs": "anti-distill",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/baidu-seo-expert--0bdb712bc2/AGENT.md",
+            "line": 232,
+            "excerpt": "- **anti-distill**：去AI味 — 当需要清除文本中的 AI 写作痕迹、让内容更自然人性化时自动触发"
+          }
+        },
+        {
+          "mentionedAs": "marketing-skills",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/baidu-seo-expert--0bdb712bc2/AGENT.md",
+            "line": 233,
+            "excerpt": "- **marketing-skills**：营销技能库 — 当需要执行 CRO、SEO、文案撰写、数据分析、实验设计、定价策略、产品发布等营销任务时自动触发"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "BehavioralNudgeEngine",
+      "candidates": [
+        {
+          "mentionedAs": "anti-distill",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/behavioral-nudge-engine--1f05211852/AGENT.md",
+            "line": 86,
+            "excerpt": "- **anti-distill**：去AI味 — 当需要清除文本中的 AI 写作痕迹、让内容更自然人性化时自动触发"
+          }
+        },
+        {
+          "mentionedAs": "fbs-bookwriter",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/behavioral-nudge-engine--1f05211852/AGENT.md",
+            "line": 87,
+            "excerpt": "- **fbs-bookwriter**：长文档手稿工具链 — 当需要创作书籍、手册、白皮书、行业指南等长文档，支持联网查证和分层审校时自动触发"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "BiddingStrategist",
+      "candidates": [
+        {
+          "mentionedAs": "bidding-strategist",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/bidding-strategist--6f289342e8/AGENT.md",
+            "line": 59,
+            "excerpt": "调用 `bidding-strategist` skill 获取以下三份完整模板并按需生成："
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "BilibiliContentStrategist",
+      "candidates": [
+        {
+          "mentionedAs": "marketing-skills",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/bilibili-content-strategist--d9545ca2c2/AGENT.md",
+            "line": 205,
+            "excerpt": "- **marketing-skills**：营销技能库 — 当需要执行 CRO、SEO、文案撰写、数据分析、实验设计、定价策略、产品发布等营销任务时自动触发"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "BookCoCreator",
+      "candidates": [
+        {
+          "mentionedAs": "fbs-bookwriter",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/book-co-creator--d4acbbb905/AGENT.md",
+            "line": 116,
+            "excerpt": "- **fbs-bookwriter**：长文档手稿工具链 — 当需要创作书籍、手册、白皮书、行业指南等长文档，支持联网查证和分层审校时自动触发"
+          }
+        },
+        {
+          "mentionedAs": "anti-distill",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/book-co-creator--d4acbbb905/AGENT.md",
+            "line": 117,
+            "excerpt": "- **anti-distill**：去AI味 — 当需要清除文本中的 AI 写作痕迹、让内容更自然人性化时自动触发"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "BrandGuardian",
+      "candidates": [
+        {
+          "mentionedAs": "brand-guidelines",
+          "status": "ambiguous",
+          "candidateAssetIds": [
+            "workbuddy-ai:skill:plugins__marketplaces__codebuddy-plugins-official__external_plugins__brand-guidelines__SKILL.md",
+            "workbuddy-files:skill:plugins__marketplaces__codebuddy-plugins-official__external_plugins__brand-guidelines__SKILL.md"
+          ],
+          "evidence": {
+            "path": "skills/workbuddy/agent/brand-guardian--bf614cec2e/AGENT.md",
+            "line": 328,
+            "excerpt": "- **brand-guidelines**：品牌设计规范 — 当需要应用品牌配色和排版规范到设计产物时自动触发"
+          }
+        },
+        {
+          "mentionedAs": "anti-distill",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/brand-guardian--bf614cec2e/AGENT.md",
+            "line": 329,
+            "excerpt": "- **anti-distill**：去AI味 — 当需要清除文本中的 AI 写作痕迹、让内容更自然人性化时自动触发"
+          }
+        },
+        {
+          "mentionedAs": "content-factory",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/brand-guardian--bf614cec2e/AGENT.md",
+            "line": 330,
+            "excerpt": "- **content-factory**：多智能体内容生产系统 — 当需要将一份素材生成多种格式内容时自动触发"
+          }
+        },
+        {
+          "mentionedAs": "market-researcher",
+          "status": "resolved_candidate",
+          "candidateAssetIds": [
+            "FsiMarketResearcher"
+          ],
+          "evidence": {
+            "path": "skills/workbuddy/agent/brand-guardian--bf614cec2e/AGENT.md",
+            "line": 331,
+            "excerpt": "- **market-researcher**：市场调研 — 当需要进行市场分析、消费者洞察与机会评估时自动触发"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "CATNetworkQualityAnalyst",
+      "candidates": [
+        {
+          "mentionedAs": "notebooklm-studio",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/cat-network-quality-analyst--8b671e427c/AGENT.md",
+            "line": 213,
+            "excerpt": "- **notebooklm-studio**：NotebookLM 学习工作室 — 当需要导入多种来源生成播客、测验、抽认卡、思维导图等学习产物时自动触发"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "CapacityExpert",
+      "candidates": [
+        {
+          "mentionedAs": "cloudq",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/capacity-expert--c90a40ff54/AGENT.md",
+            "line": 189,
+            "excerpt": "1. **按 SKILL.md 指引调用 CloudQ Skill** 处理用户请求——你只负责传递领域意图与上下文，不直接调用任何具体 API"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "ChaosExpert",
+      "candidates": [
+        {
+          "mentionedAs": "cloudq",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/chaos-expert--740e8b9695/AGENT.md",
+            "line": 196,
+            "excerpt": "1. **按 SKILL.md 指引调用 CloudQ Skill** 处理用户请求——你只负责传递领域意图与上下文，不直接调用任何具体 API"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "ChinaEcommerceOperationsExpert",
+      "candidates": [
+        {
+          "mentionedAs": "market-researcher",
+          "status": "resolved_candidate",
+          "candidateAssetIds": [
+            "FsiMarketResearcher"
+          ],
+          "evidence": {
+            "path": "skills/workbuddy/agent/china-ecommerce-operations-expert--f2f0fb7a7d/AGENT.md",
+            "line": 289,
+            "excerpt": "- **market-researcher**：市场调研 — 当需要进行市场分析、消费者洞察与机会评估时自动触发"
+          }
+        },
+        {
+          "mentionedAs": "multi-search-engine",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/china-ecommerce-operations-expert--f2f0fb7a7d/AGENT.md",
+            "line": 290,
+            "excerpt": "- **multi-search-engine**：多引擎搜索 — 当需要集成使用 17 个搜索引擎（8 国内 + 9 国际）进行综合信息检索时自动触发"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "CodeReviewExpert",
+      "candidates": [
+        {
+          "mentionedAs": "fullstack-dev",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/code-review-expert--9d42eeda41/AGENT.md",
+            "line": 82,
+            "excerpt": "- **fullstack-dev**：全栈应用架构与开发指南 — 当需要构建全栈应用、创建 REST API、搭建后端服务、实现前后端集成时自动触发"
+          }
+        },
+        {
+          "mentionedAs": "frontend-dev",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/code-review-expert--9d42eeda41/AGENT.md",
+            "line": 83,
+            "excerpt": "- **frontend-dev**：前端开发与 AI 媒体生成 — 当涉及前端 UI 开发、CSS 样式、组件构建、响应式设计时自动触发"
+          }
+        },
+        {
+          "mentionedAs": "impeccable",
+          "status": "resolved_candidate",
+          "candidateAssetIds": [
+            "hermes:skill:hermes-agent__optional-skills__creative__impeccable__SKILL.md"
+          ],
+          "evidence": {
+            "path": "skills/workbuddy/agent/code-review-expert--9d42eeda41/AGENT.md",
+            "line": 84,
+            "excerpt": "- **impeccable**：前端设计工具集 — 当需要创建高质量、有设计感的前端界面，避免通用 AI 美学时自动触发"
+          }
+        },
+        {
+          "mentionedAs": "capability-evolver",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/code-review-expert--9d42eeda41/AGENT.md",
+            "line": 85,
+            "excerpt": "- **capability-evolver**：AI Agent 自进化引擎 — 当需要分析运行历史、识别改进点并持续优化工作流程时自动触发"
+          }
+        },
+        {
+          "mentionedAs": "github",
+          "status": "ambiguous",
+          "candidateAssetIds": [
+            "claude-code:mcp:plugins__marketplaces__claude-plugins-official__external_plugins__github__.mcp.json",
+            "codex-user:mcp:.tmp__plugins__plugins__github__.mcp.json",
+            "codex-user:skill:.tmp__plugins__plugins__github__skills__github__SKILL.md",
+            "hermes:skill:hermes-agent__skills__software-development__github__SKILL.md",
+            "hermes:skill:skills__software-development__github__SKILL.md",
+            "workbuddy-ai:mcp:plugins__marketplaces__codebuddy-plugins-official__plugins__github__.mcp.json",
+            "workbuddy-ai:skill:plugins__marketplaces__codebuddy-plugins-official__plugins__hot-skills__skills__github__SKILL.md",
+            "workbuddy-files:mcp:connectors-marketplace__connectors__github__mcp.json",
+            "workbuddy-files:mcp:plugins__marketplaces__codebuddy-plugins-official__plugins__github__.mcp.json",
+            "workbuddy-files:skill:connectors-marketplace__connectors__github__skill__SKILL.md",
+            "workbuddy-files:skill:plugins__marketplaces__codebuddy-plugins-official__plugins__hot-skills__skills__github__SKILL.md"
+          ],
+          "evidence": {
+            "path": "skills/workbuddy/agent/code-review-expert--9d42eeda41/AGENT.md",
+            "line": 86,
+            "excerpt": "- **github**：GitHub 管理 — 当需要管理 GitHub Issues、Pull Requests 和 CI 工作流时自动触发"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "ComplianceAuditor",
+      "candidates": [
+        {
+          "mentionedAs": "humanizer",
+          "status": "ambiguous",
+          "candidateAssetIds": [
+            "hermes:skill:hermes-agent__skills__creative__humanizer__SKILL.md",
+            "hermes:skill:skills__creative__humanizer__SKILL.md",
+            "workbuddy-ai:skill:plugins__marketplaces__codebuddy-plugins-official__plugins__hot-skills__skills__humanizer__SKILL.md",
+            "workbuddy-files:skill:plugins__cache__workbuddy-builtin__tencent-docx__0.3.0__skills__humanizer__SKILL.md",
+            "workbuddy-files:skill:plugins__marketplaces__codebuddy-plugins-official__plugins__hot-skills__skills__humanizer__SKILL.md"
+          ],
+          "evidence": {
+            "path": "skills/workbuddy/agent/compliance-auditor--718d57eaa7/AGENT.md",
+            "line": 164,
+            "excerpt": "- **humanizer**：文本人性化处理 — 当需要去除文本中的 AI 写作痕迹、让内容更贴近真人写作风格时自动触发"
+          }
+        },
+        {
+          "mentionedAs": "anti-distill",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/compliance-auditor--718d57eaa7/AGENT.md",
+            "line": 165,
+            "excerpt": "- **anti-distill**：去AI味 — 当需要清除文本中的 AI 写作痕迹、让内容更自然人性化时自动触发"
+          }
+        },
+        {
+          "mentionedAs": "jiaozhen-factcheck",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/compliance-auditor--718d57eaa7/AGENT.md",
+            "line": 166,
+            "excerpt": "- **jiaozhen-factcheck**：事实查证 — 当需要进行事实查证、谣言识别或判断信息真伪与可靠性时自动触发"
+          }
+        },
+        {
+          "mentionedAs": "deep-research",
+          "status": "ambiguous",
+          "candidateAssetIds": [
+            "chatgpt-codex:skill:plugins__openai-bundled__plugins__deep-research__skills__deep-research__SKILL.md",
+            "codex-user:skill:plugins__cache__openai-curated-remote__deep-research-work__0.1.15__skills__deep-research__SKILL.md",
+            "workbuddy-ai:skill:plugins__marketplaces__codebuddy-plugins-official__plugins__oh-my-codebuddy__skills__deep-research__SKILL.md",
+            "workbuddy-files:skill:plugins__marketplaces__codebuddy-plugins-official__plugins__oh-my-codebuddy__skills__deep-research__SKILL.md"
+          ],
+          "evidence": {
+            "path": "skills/workbuddy/agent/compliance-auditor--718d57eaa7/AGENT.md",
+            "line": 167,
+            "excerpt": "- **deep-research**：深度调研 — 当需要进行结构化深度调研、生成大纲、并行搜索并输出调研报告时自动触发"
+          }
+        },
+        {
+          "mentionedAs": "minimax-docx",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/compliance-auditor--718d57eaa7/AGENT.md",
+            "line": 168,
+            "excerpt": "- **minimax-docx**：Word 文档生成与编辑 — 当需要创建、编辑 Word 文档或生成专业格式报告时自动触发"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "ContentCreator",
+      "candidates": [
+        {
+          "mentionedAs": "anti-distill",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/content-creator--114842e58f/AGENT.md",
+            "line": 59,
+            "excerpt": "- **anti-distill**：去AI味 — 当需要清除文本中的 AI 写作痕迹、让内容更自然人性化时自动触发"
+          }
+        },
+        {
+          "mentionedAs": "novel-writer",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/content-creator--114842e58f/AGENT.md",
+            "line": 60,
+            "excerpt": "- **novel-writer**：章节正文生成器 — 当需要根据章节大纲、角色档案生成小说章节正文时自动触发"
+          }
+        },
+        {
+          "mentionedAs": "novel-writing",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/content-creator--114842e58f/AGENT.md",
+            "line": 61,
+            "excerpt": "- **novel-writing**：AI 长篇网文创作技能包 — 当进行长篇网络小说创作、需要解决上下文丢失、文风一致性、设定冲突等问题时自动触发"
+          }
+        },
+        {
+          "mentionedAs": "minimax-docx",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/content-creator--114842e58f/AGENT.md",
+            "line": 62,
+            "excerpt": "- **minimax-docx**：Word 文档生成与编辑 — 当需要创建、编辑 Word 文档或生成专业格式报告时自动触发"
+          }
+        },
+        {
+          "mentionedAs": "humanizer",
+          "status": "ambiguous",
+          "candidateAssetIds": [
+            "hermes:skill:hermes-agent__skills__creative__humanizer__SKILL.md",
+            "hermes:skill:skills__creative__humanizer__SKILL.md",
+            "workbuddy-ai:skill:plugins__marketplaces__codebuddy-plugins-official__plugins__hot-skills__skills__humanizer__SKILL.md",
+            "workbuddy-files:skill:plugins__cache__workbuddy-builtin__tencent-docx__0.3.0__skills__humanizer__SKILL.md",
+            "workbuddy-files:skill:plugins__marketplaces__codebuddy-plugins-official__plugins__hot-skills__skills__humanizer__SKILL.md"
+          ],
+          "evidence": {
+            "path": "skills/workbuddy/agent/content-creator--114842e58f/AGENT.md",
+            "line": 63,
+            "excerpt": "- **humanizer**：文本人性化处理 — 当需要去除文本中的 AI 写作痕迹、让内容更贴近真人写作风格时自动触发"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "CorpCreditDueDiligence",
+      "candidates": [
+        {
+          "mentionedAs": "due-diligence",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/corp-credit-due-diligence--e866f9caa2/AGENT.md",
+            "line": 172,
+            "excerpt": "10. **问题上报**：业务输出组织完成后，必须调用 `due-diligence` skill 将本次问答进行上报，用于审计追踪和质量监控。上报失败不阻断输出，但需在内部记录异常。"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "CrossBorderEcommerceExpert",
+      "candidates": [
+        {
+          "mentionedAs": "browser-use",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/cross-border-ecommerce-expert--9b194ee6dc/AGENT.md",
+            "line": 265,
+            "excerpt": "- **browser-use**：浏览器自动化 — 当需要网页自动化操作、导航、点击、截图、数据提取时自动触发"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "CustomerSupportExpert",
+      "candidates": [
+        {
+          "mentionedAs": "market-researcher",
+          "status": "resolved_candidate",
+          "candidateAssetIds": [
+            "FsiMarketResearcher"
+          ],
+          "evidence": {
+            "path": "skills/workbuddy/agent/customer-support-expert--b3f9dc2f2a/AGENT.md",
+            "line": 591,
+            "excerpt": "- **market-researcher**：市场调研 — 当需要进行市场分析、消费者洞察与机会评估时自动触发"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "DataIntegrationAgent",
+      "candidates": [
+        {
+          "mentionedAs": "multi-search-engine",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/data-integration-agent--5e3a0df91e/AGENT.md",
+            "line": 66,
+            "excerpt": "- **multi-search-engine**：多引擎搜索 — 当需要集成使用 17 个搜索引擎（8 国内 + 9 国际）进行综合信息检索时自动触发"
+          }
+        },
+        {
+          "mentionedAs": "deep-research",
+          "status": "ambiguous",
+          "candidateAssetIds": [
+            "chatgpt-codex:skill:plugins__openai-bundled__plugins__deep-research__skills__deep-research__SKILL.md",
+            "codex-user:skill:plugins__cache__openai-curated-remote__deep-research-work__0.1.15__skills__deep-research__SKILL.md",
+            "workbuddy-ai:skill:plugins__marketplaces__codebuddy-plugins-official__plugins__oh-my-codebuddy__skills__deep-research__SKILL.md",
+            "workbuddy-files:skill:plugins__marketplaces__codebuddy-plugins-official__plugins__oh-my-codebuddy__skills__deep-research__SKILL.md"
+          ],
+          "evidence": {
+            "path": "skills/workbuddy/agent/data-integration-agent--5e3a0df91e/AGENT.md",
+            "line": 67,
+            "excerpt": "- **deep-research**：深度调研 — 当需要进行结构化深度调研、生成大纲、并行搜索并输出调研报告时自动触发"
+          }
+        },
+        {
+          "mentionedAs": "tavily",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/data-integration-agent--5e3a0df91e/AGENT.md",
+            "line": 68,
+            "excerpt": "- **tavily**：联网搜索 — 当需要进行 AI 优化的综合网络研究、时事查询和领域搜索时自动触发"
+          }
+        },
+        {
+          "mentionedAs": "wechat-article-search",
+          "status": "ambiguous",
+          "candidateAssetIds": [
+            "workbuddy-ai:skill:plugins__marketplaces__cb_teams_marketplace__plugins__deep-research__skills__wechat-article-search__SKILL.md",
+            "workbuddy-files:skill:plugins__marketplaces__cb_teams_marketplace__plugins__deep-research__skills__wechat-article-search__SKILL.md"
+          ],
+          "evidence": {
+            "path": "skills/workbuddy/agent/data-integration-agent--5e3a0df91e/AGENT.md",
+            "line": 69,
+            "excerpt": "- **wechat-article-search**：微信公众号文章搜索 — 当需要搜索微信公众号文章（标题、摘要、发布时间、来源账号）时自动触发"
+          }
+        },
+        {
+          "mentionedAs": "xiaohongshu",
+          "status": "ambiguous",
+          "candidateAssetIds": [
+            "workbuddy-ai:skill:plugins__marketplaces__codebuddy-plugins-official__plugins__hot-skills__skills__xiaohongshu__SKILL.md",
+            "workbuddy-files:skill:plugins__marketplaces__codebuddy-plugins-official__plugins__hot-skills__skills__xiaohongshu__SKILL.md"
+          ],
+          "evidence": {
+            "path": "skills/workbuddy/agent/data-integration-agent--5e3a0df91e/AGENT.md",
+            "line": 70,
+            "excerpt": "- **xiaohongshu**：小红书自动化助手 — 当需要进行小红书内容发布、搜索笔记、互动操作或内容策划时自动触发"
+          }
+        },
+        {
+          "mentionedAs": "capability-evolver",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/data-integration-agent--5e3a0df91e/AGENT.md",
+            "line": 71,
+            "excerpt": "- **capability-evolver**：AI Agent 自进化引擎 — 当需要分析运行历史、识别改进点并持续优化工作流程时自动触发"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "DatabaseOptimizationExpert",
+      "candidates": [
+        {
+          "mentionedAs": "capability-evolver",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/database-optimization-expert--277e693b23/AGENT.md",
+            "line": 182,
+            "excerpt": "- **capability-evolver**：AI Agent 自进化引擎 — 当需要分析运行历史、识别改进点并持续优化工作流程时自动触发"
+          }
+        },
+        {
+          "mentionedAs": "agent-team-orchestration",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/database-optimization-expert--277e693b23/AGENT.md",
+            "line": 183,
+            "excerpt": "- **agent-team-orchestration**：多智能体团队编排 — 当需要定义角色、任务流转、交接协议与质量门禁来协调多个智能体时自动触发"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "DealStrategist",
+      "candidates": [
+        {
+          "mentionedAs": "stock-analysis",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/deal-strategist--99e850362b/AGENT.md",
+            "line": 186,
+            "excerpt": "- **stock-analysis**：股票分析 — 当需要进行股票与加密货币分析（8维评分、组合管理、趋势扫描）时自动触发"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "DelightfulExperienceDesigner",
+      "candidates": [
+        {
+          "mentionedAs": "impeccable",
+          "status": "resolved_candidate",
+          "candidateAssetIds": [
+            "hermes:skill:hermes-agent__optional-skills__creative__impeccable__SKILL.md"
+          ],
+          "evidence": {
+            "path": "skills/workbuddy/agent/delightful-experience-designer--0f1f592fec/AGENT.md",
+            "line": 444,
+            "excerpt": "- **impeccable**：前端设计工具集 — 当需要创建高质量、有设计感的前端界面，避免通用 AI 美学时自动触发"
+          }
+        },
+        {
+          "mentionedAs": "canvas-design",
+          "status": "ambiguous",
+          "candidateAssetIds": [
+            "workbuddy-ai:skill:plugins__marketplaces__codebuddy-plugins-official__external_plugins__canvas-design__SKILL.md",
+            "workbuddy-files:skill:plugins__marketplaces__codebuddy-plugins-official__external_plugins__canvas-design__SKILL.md"
+          ],
+          "evidence": {
+            "path": "skills/workbuddy/agent/delightful-experience-designer--0f1f592fec/AGENT.md",
+            "line": 445,
+            "excerpt": "- **canvas-design**：视觉设计 — 当需要基于设计哲学创作精美视觉艺术作品（PNG/PDF）时自动触发"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "DevOpsAutomationEngineer",
+      "candidates": [
+        {
+          "mentionedAs": "agent-browser-core",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/dev-ops-automation-engineer--1af2d177a7/AGENT.md",
+            "line": 382,
+            "excerpt": "- **agent-browser-core**：AI 网页自动化 — 当需要基于 agent-browser CLI 进行 AI 友好型网页自动化操作时自动触发"
+          }
+        },
+        {
+          "mentionedAs": "ima-skills",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/dev-ops-automation-engineer--1af2d177a7/AGENT.md",
+            "line": 383,
+            "excerpt": "- **ima-skills**：IMA 笔记与知识库 — 当需要进行笔记管理、知识库读取/写入/检索或文件上传时自动触发"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "DiscoveryCoach",
+      "candidates": [
+        {
+          "mentionedAs": "market-researcher",
+          "status": "resolved_candidate",
+          "candidateAssetIds": [
+            "FsiMarketResearcher"
+          ],
+          "evidence": {
+            "path": "skills/workbuddy/agent/discovery-coach--6ce2e27ae1/AGENT.md",
+            "line": 231,
+            "excerpt": "- **market-researcher**：市场调研 — 当需要进行市场分析、消费者洞察与机会评估时自动触发"
+          }
+        },
+        {
+          "mentionedAs": "minimax-docx",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/discovery-coach--6ce2e27ae1/AGENT.md",
+            "line": 232,
+            "excerpt": "- **minimax-docx**：Word 文档生成与编辑 — 当需要创建、编辑 Word 文档或生成专业格式报告时自动触发"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "DiversityVisualExpert",
+      "candidates": [
+        {
+          "mentionedAs": "canvas-design",
+          "status": "ambiguous",
+          "candidateAssetIds": [
+            "workbuddy-ai:skill:plugins__marketplaces__codebuddy-plugins-official__external_plugins__canvas-design__SKILL.md",
+            "workbuddy-files:skill:plugins__marketplaces__codebuddy-plugins-official__external_plugins__canvas-design__SKILL.md"
+          ],
+          "evidence": {
+            "path": "skills/workbuddy/agent/diversity-visual-expert--88f45e9c46/AGENT.md",
+            "line": 77,
+            "excerpt": "- **canvas-design**：视觉设计 — 当需要基于设计哲学创作精美视觉艺术作品（PNG/PDF）时自动触发"
+          }
+        },
+        {
+          "mentionedAs": "browser-use",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/diversity-visual-expert--88f45e9c46/AGENT.md",
+            "line": 78,
+            "excerpt": "- **browser-use**：浏览器自动化 — 当需要网页自动化操作、导航、点击、截图、数据提取时自动触发"
+          }
+        },
+        {
+          "mentionedAs": "humanizer",
+          "status": "ambiguous",
+          "candidateAssetIds": [
+            "hermes:skill:hermes-agent__skills__creative__humanizer__SKILL.md",
+            "hermes:skill:skills__creative__humanizer__SKILL.md",
+            "workbuddy-ai:skill:plugins__marketplaces__codebuddy-plugins-official__plugins__hot-skills__skills__humanizer__SKILL.md",
+            "workbuddy-files:skill:plugins__cache__workbuddy-builtin__tencent-docx__0.3.0__skills__humanizer__SKILL.md",
+            "workbuddy-files:skill:plugins__marketplaces__codebuddy-plugins-official__plugins__hot-skills__skills__humanizer__SKILL.md"
+          ],
+          "evidence": {
+            "path": "skills/workbuddy/agent/diversity-visual-expert--88f45e9c46/AGENT.md",
+            "line": 79,
+            "excerpt": "- **humanizer**：文本人性化处理 — 当需要去除文本中的 AI 写作痕迹、让内容更贴近真人写作风格时自动触发"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "DocumentGenerationExpert",
+      "candidates": [
+        {
+          "mentionedAs": "minimax-docx",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/document-generation-expert--d990347c2c/AGENT.md",
+            "line": 61,
+            "excerpt": "- **minimax-docx**：Word 文档生成与编辑 — 当需要创建、编辑 Word 文档或生成专业格式报告时自动触发"
+          }
+        },
+        {
+          "mentionedAs": "anti-distill",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/document-generation-expert--d990347c2c/AGENT.md",
+            "line": 62,
+            "excerpt": "- **anti-distill**：去AI味 — 当需要清除文本中的 AI 写作痕迹、让内容更自然人性化时自动触发"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "DouyinStrategist",
+      "candidates": [
+        {
+          "mentionedAs": "humanizer",
+          "status": "ambiguous",
+          "candidateAssetIds": [
+            "hermes:skill:hermes-agent__skills__creative__humanizer__SKILL.md",
+            "hermes:skill:skills__creative__humanizer__SKILL.md",
+            "workbuddy-ai:skill:plugins__marketplaces__codebuddy-plugins-official__plugins__hot-skills__skills__humanizer__SKILL.md",
+            "workbuddy-files:skill:plugins__cache__workbuddy-builtin__tencent-docx__0.3.0__skills__humanizer__SKILL.md",
+            "workbuddy-files:skill:plugins__marketplaces__codebuddy-plugins-official__plugins__hot-skills__skills__humanizer__SKILL.md"
+          ],
+          "evidence": {
+            "path": "skills/workbuddy/agent/douyin-strategist--f6e9e03db4/AGENT.md",
+            "line": 155,
+            "excerpt": "- **humanizer**：文本人性化处理 — 当需要去除文本中的 AI 写作痕迹、让内容更贴近真人写作风格时自动触发"
+          }
+        },
+        {
+          "mentionedAs": "anti-distill",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/douyin-strategist--f6e9e03db4/AGENT.md",
+            "line": 156,
+            "excerpt": "- **anti-distill**：去AI味 — 当需要清除文本中的 AI 写作痕迹、让内容更自然人性化时自动触发"
+          }
+        },
+        {
+          "mentionedAs": "remotion-video-toolkit",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/douyin-strategist--f6e9e03db4/AGENT.md",
+            "line": 157,
+            "excerpt": "- **remotion-video-toolkit**：视频创作工具包 — 当需要使用 Remotion + React 进行编程式视频创作、动画、字幕、转场处理时自动触发"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "EnterpriseAccountStrategist",
+      "candidates": [
+        {
+          "mentionedAs": "market-researcher",
+          "status": "resolved_candidate",
+          "candidateAssetIds": [
+            "FsiMarketResearcher"
+          ],
+          "evidence": {
+            "path": "skills/workbuddy/agent/enterprise-account-strategist--17a71d0530/AGENT.md",
+            "line": 233,
+            "excerpt": "- **market-researcher**：市场调研 — 当需要进行市场分析、消费者洞察与机会评估时自动触发"
+          }
+        },
+        {
+          "mentionedAs": "marketing-skills",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/enterprise-account-strategist--17a71d0530/AGENT.md",
+            "line": 234,
+            "excerpt": "- **marketing-skills**：营销技能库 — 当需要执行 CRO、SEO、文案撰写、数据分析、实验设计、定价策略、产品发布等营销任务时自动触发"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "ExecutiveSummaryGenerator",
+      "candidates": [
+        {
+          "mentionedAs": "multi-search-engine",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/executive-summary-generator--7bdd41f309/AGENT.md",
+            "line": 218,
+            "excerpt": "- **multi-search-engine**：多引擎搜索 — 当需要集成使用 17 个搜索引擎（8 国内 + 9 国际）进行综合信息检索时自动触发"
+          }
+        },
+        {
+          "mentionedAs": "wechat-article-search",
+          "status": "ambiguous",
+          "candidateAssetIds": [
+            "workbuddy-ai:skill:plugins__marketplaces__cb_teams_marketplace__plugins__deep-research__skills__wechat-article-search__SKILL.md",
+            "workbuddy-files:skill:plugins__marketplaces__cb_teams_marketplace__plugins__deep-research__skills__wechat-article-search__SKILL.md"
+          ],
+          "evidence": {
+            "path": "skills/workbuddy/agent/executive-summary-generator--7bdd41f309/AGENT.md",
+            "line": 219,
+            "excerpt": "- **wechat-article-search**：微信公众号文章搜索 — 当需要搜索微信公众号文章（标题、摘要、发布时间、来源账号）时自动触发"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "FeedbackSynthesisAnalyst",
+      "candidates": [
+        {
+          "mentionedAs": "fbs-bookwriter",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/feedback-synthesis-analyst--3972ad311d/AGENT.md",
+            "line": 124,
+            "excerpt": "- **fbs-bookwriter**：长文档手稿工具链 — 当需要创作书籍、手册、白皮书、行业指南等长文档，支持联网查证和分层审校时自动触发"
+          }
+        },
+        {
+          "mentionedAs": "market-researcher",
+          "status": "resolved_candidate",
+          "candidateAssetIds": [
+            "FsiMarketResearcher"
+          ],
+          "evidence": {
+            "path": "skills/workbuddy/agent/feedback-synthesis-analyst--3972ad311d/AGENT.md",
+            "line": 125,
+            "excerpt": "- **market-researcher**：市场调研 — 当需要进行市场分析、消费者洞察与机会评估时自动触发"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "FinancialTracker",
+      "candidates": [
+        {
+          "mentionedAs": "finance-ops",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/financial-tracker--41172de114/AGENT.md",
+            "line": 448,
+            "excerpt": "- **finance-ops**：AI CFO 助手 — 当需要生成财务简报、进行成本分析或场景建模时自动触发"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "FinopsExpert",
+      "candidates": [
+        {
+          "mentionedAs": "cloudq",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/finops-expert--86ddaa1b3d/AGENT.md",
+            "line": 195,
+            "excerpt": "1. **按 SKILL.md 指引调用 CloudQ Skill** 处理用户请求——你只负责传递领域意图与上下文，不直接调用任何具体 API"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "GameDesigner",
+      "candidates": [
+        {
+          "mentionedAs": "android-native-dev",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/game-designer--2171952a10/AGENT.md",
+            "line": 173,
+            "excerpt": "- **android-native-dev**：Android 原生开发指南 — 当需要进行 Android 原生应用开发时自动触发"
+          }
+        },
+        {
+          "mentionedAs": "impeccable",
+          "status": "resolved_candidate",
+          "candidateAssetIds": [
+            "hermes:skill:hermes-agent__optional-skills__creative__impeccable__SKILL.md"
+          ],
+          "evidence": {
+            "path": "skills/workbuddy/agent/game-designer--2171952a10/AGENT.md",
+            "line": 174,
+            "excerpt": "- **impeccable**：前端设计工具集 — 当需要创建高质量、有设计感的前端界面，避免通用 AI 美学时自动触发"
+          }
+        },
+        {
+          "mentionedAs": "wechat-miniprogram",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/game-designer--2171952a10/AGENT.md",
+            "line": 175,
+            "excerpt": "- **wechat-miniprogram**：微信小程序开发框架 — 当进行微信小程序开发、使用模板、组件、API 或云开发时自动触发"
+          }
+        },
+        {
+          "mentionedAs": "anti-distill",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/game-designer--2171952a10/AGENT.md",
+            "line": 176,
+            "excerpt": "- **anti-distill**：去AI味 — 当需要清除文本中的 AI 写作痕迹、让内容更自然人性化时自动触发"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "GitWorkflowExpert",
+      "candidates": [
+        {
+          "mentionedAs": "github",
+          "status": "ambiguous",
+          "candidateAssetIds": [
+            "claude-code:mcp:plugins__marketplaces__claude-plugins-official__external_plugins__github__.mcp.json",
+            "codex-user:mcp:.tmp__plugins__plugins__github__.mcp.json",
+            "codex-user:skill:.tmp__plugins__plugins__github__skills__github__SKILL.md",
+            "hermes:skill:hermes-agent__skills__software-development__github__SKILL.md",
+            "hermes:skill:skills__software-development__github__SKILL.md",
+            "workbuddy-ai:mcp:plugins__marketplaces__codebuddy-plugins-official__plugins__github__.mcp.json",
+            "workbuddy-ai:skill:plugins__marketplaces__codebuddy-plugins-official__plugins__hot-skills__skills__github__SKILL.md",
+            "workbuddy-files:mcp:connectors-marketplace__connectors__github__mcp.json",
+            "workbuddy-files:mcp:plugins__marketplaces__codebuddy-plugins-official__plugins__github__.mcp.json",
+            "workbuddy-files:skill:connectors-marketplace__connectors__github__skill__SKILL.md",
+            "workbuddy-files:skill:plugins__marketplaces__codebuddy-plugins-official__plugins__hot-skills__skills__github__SKILL.md"
+          ],
+          "evidence": {
+            "path": "skills/workbuddy/agent/git-workflow-expert--26e60f7f48/AGENT.md",
+            "line": 90,
+            "excerpt": "- **github**：GitHub 管理 — 当需要管理 GitHub Issues、Pull Requests 和 CI 工作流时自动触发"
+          }
+        },
+        {
+          "mentionedAs": "capability-evolver",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/git-workflow-expert--26e60f7f48/AGENT.md",
+            "line": 91,
+            "excerpt": "- **capability-evolver**：AI Agent 自进化引擎 — 当需要分析运行历史、识别改进点并持续优化工作流程时自动触发"
+          }
+        },
+        {
+          "mentionedAs": "darwin-skill",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/git-workflow-expert--26e60f7f48/AGENT.md",
+            "line": 92,
+            "excerpt": "- **darwin-skill**：自主 Skill 优化器 — 当需要对 Skill 进行 8 维评分、爬坡优化、版本控制和测试验证时自动触发"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "GovernmentDigitalPresalesConsultant",
+      "candidates": [
+        {
+          "mentionedAs": "ima-skills",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/government-digital-presales-consultant--f971d81552/AGENT.md",
+            "line": 369,
+            "excerpt": "- **ima-skills**：IMA 笔记与知识库 — 当需要进行笔记管理、知识库读取/写入/检索或文件上传时自动触发"
+          }
+        },
+        {
+          "mentionedAs": "minimax-docx",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/government-digital-presales-consultant--f971d81552/AGENT.md",
+            "line": 370,
+            "excerpt": "- **minimax-docx**：Word 文档生成与编辑 — 当需要创建、编辑 Word 文档或生成专业格式报告时自动触发"
+          }
+        },
+        {
+          "mentionedAs": "anti-distill",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/government-digital-presales-consultant--f971d81552/AGENT.md",
+            "line": 371,
+            "excerpt": "- **anti-distill**：去AI味 — 当需要清除文本中的 AI 写作痕迹、让内容更自然人性化时自动触发"
+          }
+        },
+        {
+          "mentionedAs": "deep-research",
+          "status": "ambiguous",
+          "candidateAssetIds": [
+            "chatgpt-codex:skill:plugins__openai-bundled__plugins__deep-research__skills__deep-research__SKILL.md",
+            "codex-user:skill:plugins__cache__openai-curated-remote__deep-research-work__0.1.15__skills__deep-research__SKILL.md",
+            "workbuddy-ai:skill:plugins__marketplaces__codebuddy-plugins-official__plugins__oh-my-codebuddy__skills__deep-research__SKILL.md",
+            "workbuddy-files:skill:plugins__marketplaces__codebuddy-plugins-official__plugins__oh-my-codebuddy__skills__deep-research__SKILL.md"
+          ],
+          "evidence": {
+            "path": "skills/workbuddy/agent/government-digital-presales-consultant--f971d81552/AGENT.md",
+            "line": 372,
+            "excerpt": "- **deep-research**：深度调研 — 当需要进行结构化深度调研、生成大纲、并行搜索并输出调研报告时自动触发"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "GrowthHacker",
+      "candidates": [
+        {
+          "mentionedAs": "market-researcher",
+          "status": "resolved_candidate",
+          "candidateAssetIds": [
+            "FsiMarketResearcher"
+          ],
+          "evidence": {
+            "path": "skills/workbuddy/agent/growth-hacker--cf1e235815/AGENT.md",
+            "line": 59,
+            "excerpt": "- **market-researcher**：市场调研 — 当需要进行市场分析、消费者洞察与机会评估时自动触发"
+          }
+        },
+        {
+          "mentionedAs": "ima-skills",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/growth-hacker--cf1e235815/AGENT.md",
+            "line": 60,
+            "excerpt": "- **ima-skills**：IMA 笔记与知识库 — 当需要进行笔记管理、知识库读取/写入/检索或文件上传时自动触发"
+          }
+        },
+        {
+          "mentionedAs": "marketing-skills",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/growth-hacker--cf1e235815/AGENT.md",
+            "line": 61,
+            "excerpt": "- **marketing-skills**：营销技能库 — 当需要执行 CRO、SEO、文案撰写、数据分析、实验设计、定价策略、产品发布等营销任务时自动触发"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "IncidentResponseCommander",
+      "candidates": [
+        {
+          "mentionedAs": "minimax-docx",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/incident-response-commander--e6baa9220d/AGENT.md",
+            "line": 450,
+            "excerpt": "- **minimax-docx**：Word 文档生成与编辑 — 当需要创建、编辑 Word 文档或生成专业格式报告时自动触发"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "InspectionExpert",
+      "candidates": [
+        {
+          "mentionedAs": "cloudq",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/inspection-expert--d314036b48/AGENT.md",
+            "line": 189,
+            "excerpt": "1. **按 SKILL.md 指引调用 CloudQ Skill** 处理用户请求——你只负责传递领域意图与上下文，不直接调用任何具体 API"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "InvoiceVerifyExpert",
+      "candidates": [
+        {
+          "mentionedAs": "invoice-verify",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/invoice-verify--a54eb41533/AGENT.md",
+            "line": 46,
+            "excerpt": "**Step 2 — 调用 invoice-verify 技能执行查验**"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "JiraWorkflowAdmin",
+      "candidates": [
+        {
+          "mentionedAs": "cloudq",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/jira-workflow-admin--8a4fb172ab/AGENT.md",
+            "line": 236,
+            "excerpt": "- **cloudq**：多云管理顾问 — 当需要进行多云统一管理、架构可视化、风险评估或 AI 运维问答时自动触发"
+          }
+        },
+        {
+          "mentionedAs": "deep-research",
+          "status": "ambiguous",
+          "candidateAssetIds": [
+            "chatgpt-codex:skill:plugins__openai-bundled__plugins__deep-research__skills__deep-research__SKILL.md",
+            "codex-user:skill:plugins__cache__openai-curated-remote__deep-research-work__0.1.15__skills__deep-research__SKILL.md",
+            "workbuddy-ai:skill:plugins__marketplaces__codebuddy-plugins-official__plugins__oh-my-codebuddy__skills__deep-research__SKILL.md",
+            "workbuddy-files:skill:plugins__marketplaces__codebuddy-plugins-official__plugins__oh-my-codebuddy__skills__deep-research__SKILL.md"
+          ],
+          "evidence": {
+            "path": "skills/workbuddy/agent/jira-workflow-admin--8a4fb172ab/AGENT.md",
+            "line": 237,
+            "excerpt": "- **deep-research**：深度调研 — 当需要进行结构化深度调研、生成大纲、并行搜索并输出调研报告时自动触发"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "KdocsDataTable",
+      "candidates": [
+        {
+          "mentionedAs": "jielong-table",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/kdocs-data-table--c7a3dd7899/AGENT.md",
+            "line": 21,
+            "excerpt": "- 接龙文本 → 调用 `jielong-table` 技能"
+          }
+        },
+        {
+          "mentionedAs": "form-generator",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/kdocs-data-table--c7a3dd7899/AGENT.md",
+            "line": 22,
+            "excerpt": "- 字段描述 → 调用 `form-generator` 技能"
+          }
+        },
+        {
+          "mentionedAs": "table-beautify",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/kdocs-data-table--c7a3dd7899/AGENT.md",
+            "line": 23,
+            "excerpt": "- 已有表格 → 调用 `table-beautify` 技能"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "KdocsPdfToolbox",
+      "candidates": [
+        {
+          "mentionedAs": "pdf-toolbox",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/kdocs-pdf-toolbox--4755dde4c6/AGENT.md",
+            "line": 22,
+            "excerpt": "3. **执行操作**：调用 `pdf-toolbox` 技能下的相应工具完成拆分/提取/转换。"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "KdocsPptCreator",
+      "candidates": [
+        {
+          "mentionedAs": "ppt-gen",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/kdocs-ppt-creator--f921742f62/AGENT.md",
+            "line": 26,
+            "excerpt": "3. **生成 PPT**：调用 `ppt-gen` 技能完成幻灯片生成与上传。"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "LegalComplianceReviewer",
+      "candidates": [
+        {
+          "mentionedAs": "tencent-docs",
+          "status": "ambiguous",
+          "candidateAssetIds": [
+            "workbuddy-ai:skill:plugins__cache__workbuddy-builtin__tencent-docs-plugin__1.0.3__skills__tencent-docs__SKILL.md",
+            "workbuddy-ai:skill:plugins__marketplaces__workbuddy-builtin__builtin-plugins__tencent-docs-plugin__skills__tencent-docs__SKILL.md",
+            "workbuddy-files:mcp:connectors-marketplace__connectors__tencent-docs__mcp.json",
+            "workbuddy-files:skill:plugins__cache__workbuddy-builtin__tencent-docs-plugin__1.0.0__skills__tencent-docs__SKILL.md",
+            "workbuddy-files:skill:plugins__cache__workbuddy-builtin__tencent-docs-plugin__1.0.3__skills__tencent-docs__SKILL.md",
+            "workbuddy-files:skill:plugins__cache__workbuddy-builtin__tencent-docs-plugin__5.5.4-wb.38151288.g1ca4889a.hde0fbd244c72__skills__tencent-docs__SKILL.md",
+            "workbuddy-files:skill:plugins__marketplaces__workbuddy-builtin__builtin-plugins__tencent-docs-plugin__skills__tencent-docs__SKILL.md"
+          ],
+          "evidence": {
+            "path": "skills/workbuddy/agent/legal-compliance-reviewer--fbbaf7c507/AGENT.md",
+            "line": 594,
+            "excerpt": "- **tencent-docs**：腾讯文档 — 当需要创建、编辑、管理腾讯在线云文档时自动触发"
+          }
+        },
+        {
+          "mentionedAs": "minimax-docx",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/legal-compliance-reviewer--fbbaf7c507/AGENT.md",
+            "line": 595,
+            "excerpt": "- **minimax-docx**：Word 文档生成与编辑 — 当需要创建、编辑 Word 文档或生成专业格式报告时自动触发"
+          }
+        },
+        {
+          "mentionedAs": "ima-skills",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/legal-compliance-reviewer--fbbaf7c507/AGENT.md",
+            "line": 596,
+            "excerpt": "- **ima-skills**：IMA 笔记与知识库 — 当需要进行笔记管理、知识库读取/写入/检索或文件上传时自动触发"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "LegalSearchPro",
+      "candidates": [
+        {
+          "mentionedAs": "case-retrieval",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/legal-search-pro--ddf1f97214/AGENT.md",
+            "line": 78,
+            "excerpt": "9. **类案检索独立深度方法论**：需要类案时调用 `case-retrieval` 技能，按三维比对 + 相似度评估完整流程执行，不简单附带。"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "LevelDesigner",
+      "candidates": [
+        {
+          "mentionedAs": "darwin-skill",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/level-designer--f9ea251103/AGENT.md",
+            "line": 214,
+            "excerpt": "- **darwin-skill**：自主 Skill 优化器 — 当需要对 Skill 进行 8 维评分、爬坡优化、版本控制和测试验证时自动触发"
+          }
+        },
+        {
+          "mentionedAs": "multi-search-engine",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/level-designer--f9ea251103/AGENT.md",
+            "line": 215,
+            "excerpt": "- **multi-search-engine**：多引擎搜索 — 当需要集成使用 17 个搜索引擎（8 国内 + 9 国际）进行综合信息检索时自动触发"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "LivestreamEcommerceCoach",
+      "candidates": [
+        {
+          "mentionedAs": "marketing-skills",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/livestream-ecommerce-coach--834948681a/AGENT.md",
+            "line": 311,
+            "excerpt": "- **marketing-skills**：营销技能库 — 当需要执行 CRO、SEO、文案撰写、数据分析、实验设计、定价策略、产品发布等营销任务时自动触发"
+          }
+        },
+        {
+          "mentionedAs": "market-researcher",
+          "status": "resolved_candidate",
+          "candidateAssetIds": [
+            "FsiMarketResearcher"
+          ],
+          "evidence": {
+            "path": "skills/workbuddy/agent/livestream-ecommerce-coach--834948681a/AGENT.md",
+            "line": 312,
+            "excerpt": "- **market-researcher**：市场调研 — 当需要进行市场分析、消费者洞察与机会评估时自动触发"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "MobileApplicationDeveloper",
+      "candidates": [
+        {
+          "mentionedAs": "android-native-dev",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/mobile-application-developer--47d233b41a/AGENT.md",
+            "line": 499,
+            "excerpt": "- **android-native-dev**：Android 原生开发指南 — 当需要进行 Android 原生应用开发时自动触发"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "MultiCloudExpert",
+      "candidates": [
+        {
+          "mentionedAs": "cloudq",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/multi-cloud-expert--61547a5bcf/AGENT.md",
+            "line": 173,
+            "excerpt": "1. **按 SKILL.md 指引调用 CloudQ Skill** 处理用户请求——你只负责传递领域意图与上下文，不直接调用任何具体 API"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "NarrativeDesigner",
+      "candidates": [
+        {
+          "mentionedAs": "novel-writing",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/narrative-designer--7dc69daa79/AGENT.md",
+            "line": 249,
+            "excerpt": "- **novel-writing**：AI 长篇网文创作技能包 — 当进行长篇网络小说创作、需要解决上下文丢失、文风一致性、设定冲突等问题时自动触发"
+          }
+        },
+        {
+          "mentionedAs": "anti-distill",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/narrative-designer--7dc69daa79/AGENT.md",
+            "line": 250,
+            "excerpt": "- **anti-distill**：去AI味 — 当需要清除文本中的 AI 写作痕迹、让内容更自然人性化时自动触发"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "OmicsIggmExpert",
+      "candidates": [
+        {
+          "mentionedAs": "pdb-viewer-",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/omics-iggm-expert--8281f81d76/AGENT.md",
+            "line": 30,
+            "excerpt": "5. **3D 结构可视化**：调用 pdb-viewer-skill，对输出的 PDB/mmCIF 结构文件进行交互式三维展示。"
+          }
+        },
+        {
+          "mentionedAs": "iggm-wdl-",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/omics-iggm-expert--8281f81d76/AGENT.md",
+            "line": 35,
+            "excerpt": "2. **IgGM 任务提交**：调用 iggm-wdl-skill，按指定参数提交抗体设计任务至平台。"
+          }
+        },
+        {
+          "mentionedAs": "pdb-viewer-",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/omics-iggm-expert--8281f81d76/AGENT.md",
+            "line": 37,
+            "excerpt": "4. **结构可视化**：对代表性候选结构调用 pdb-viewer-skill 进行 3D 展示，定位 CDR 构象。"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "OmicsOriExpert",
+      "candidates": [
+        {
+          "mentionedAs": "pdb-viewer-",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/omics-ori-expert--6388315b1c/AGENT.md",
+            "line": 30,
+            "excerpt": "5. **3D 结构可视化**：调用 pdb-viewer-skill 对预测结构进行交互式三维展示。"
+          }
+        },
+        {
+          "mentionedAs": "ori-collection-",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/omics-ori-expert--6388315b1c/AGENT.md",
+            "line": 35,
+            "excerpt": "2. **任务执行**：调用 ori-collection-skill 提交相应分析任务。"
+          }
+        },
+        {
+          "mentionedAs": "pdb-viewer-",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/omics-ori-expert--6388315b1c/AGENT.md",
+            "line": 37,
+            "excerpt": "4. **结构可视化**：对优选候选调用 pdb-viewer-skill 进行 3D 展示，标注关键区域。"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "OmicsScbertExpert",
+      "candidates": [
+        {
+          "mentionedAs": "scbert-",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/omics-scbert-expert--9db42d5377/AGENT.md",
+            "line": 34,
+            "excerpt": "2. **运行 scBERT 预测**：调用 scbert-skill，按用户指定（或默认）参数提交细胞类型预测任务。"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "OmicsScproteinExpert",
+      "candidates": [
+        {
+          "mentionedAs": "scprotein-collection-",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/omics-scprotein-expert--e27307a073/AGENT.md",
+            "line": 34,
+            "excerpt": "2. **Stage1 执行**：调用 scprotein-collection-skill 运行肽级不确定性定量，生成分布图与复核清单。"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "OmicsTfoldExpert",
+      "candidates": [
+        {
+          "mentionedAs": "pdb-viewer-",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/omics-tfold-expert--184075b49e/AGENT.md",
+            "line": 30,
+            "excerpt": "5. **3D 结构可视化**：调用 pdb-viewer-skill，对预测的 PDB/mmCIF 结构进行交互式三维展示。"
+          }
+        },
+        {
+          "mentionedAs": "tfold-collection-",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/omics-tfold-expert--184075b49e/AGENT.md",
+            "line": 35,
+            "excerpt": "2. **tFold 任务提交**：调用 tfold-collection-skill，选择对应子应用（tFold_ab/ag/tcr_predict）提交结构预测任务。"
+          }
+        },
+        {
+          "mentionedAs": "pdb-viewer-",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/omics-tfold-expert--184075b49e/AGENT.md",
+            "line": 37,
+            "excerpt": "4. **3D 展示**：调用 pdb-viewer-skill 对结构文件进行交互式三维可视化，标注 CDR 和结合界面。"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "PresalesTechnicalConsultant",
+      "candidates": [
+        {
+          "mentionedAs": "wechat-article-search",
+          "status": "ambiguous",
+          "candidateAssetIds": [
+            "workbuddy-ai:skill:plugins__marketplaces__cb_teams_marketplace__plugins__deep-research__skills__wechat-article-search__SKILL.md",
+            "workbuddy-files:skill:plugins__marketplaces__cb_teams_marketplace__plugins__deep-research__skills__wechat-article-search__SKILL.md"
+          ],
+          "evidence": {
+            "path": "skills/workbuddy/agent/presales-technical-consultant--df6d472b29/AGENT.md",
+            "line": 188,
+            "excerpt": "- **wechat-article-search**：微信公众号文章搜索 — 当需要搜索微信公众号文章（标题、摘要、发布时间、来源账号）时自动触发"
+          }
+        },
+        {
+          "mentionedAs": "jiaozhen-factcheck",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/presales-technical-consultant--df6d472b29/AGENT.md",
+            "line": 189,
+            "excerpt": "- **jiaozhen-factcheck**：事实查证 — 当需要进行事实查证、谣言识别或判断信息真伪与可靠性时自动触发"
+          }
+        },
+        {
+          "mentionedAs": "minimax-docx",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/presales-technical-consultant--df6d472b29/AGENT.md",
+            "line": 190,
+            "excerpt": "- **minimax-docx**：Word 文档生成与编辑 — 当需要创建、编辑 Word 文档或生成专业格式报告时自动触发"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "ProjectShepherd",
+      "candidates": [
+        {
+          "mentionedAs": "anti-distill",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/project-shepherd--f2a6bb0be0/AGENT.md",
+            "line": 200,
+            "excerpt": "- **anti-distill**：去AI味 — 当需要清除文本中的 AI 写作痕迹、让内容更自然人性化时自动触发"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "ProposalStrategist",
+      "candidates": [
+        {
+          "mentionedAs": "anti-distill",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/proposal-strategist--78a8f7f3a6/AGENT.md",
+            "line": 223,
+            "excerpt": "- **anti-distill**：去AI味 — 当需要清除文本中的 AI 写作痕迹、让内容更自然人性化时自动触发"
+          }
+        },
+        {
+          "mentionedAs": "marketing-skills",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/proposal-strategist--78a8f7f3a6/AGENT.md",
+            "line": 224,
+            "excerpt": "- **marketing-skills**：营销技能库 — 当需要执行 CRO、SEO、文案撰写、数据分析、实验设计、定价策略、产品发布等营销任务时自动触发"
+          }
+        },
+        {
+          "mentionedAs": "browser-use",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/proposal-strategist--78a8f7f3a6/AGENT.md",
+            "line": 225,
+            "excerpt": "- **browser-use**：浏览器自动化 — 当需要网页自动化操作、导航、点击、截图、数据提取时自动触发"
+          }
+        },
+        {
+          "mentionedAs": "minimax-docx",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/proposal-strategist--78a8f7f3a6/AGENT.md",
+            "line": 226,
+            "excerpt": "- **minimax-docx**：Word 文档生成与编辑 — 当需要创建、编辑 Word 文档或生成专业格式报告时自动触发"
+          }
+        },
+        {
+          "mentionedAs": "market-researcher",
+          "status": "resolved_candidate",
+          "candidateAssetIds": [
+            "FsiMarketResearcher"
+          ],
+          "evidence": {
+            "path": "skills/workbuddy/agent/proposal-strategist--78a8f7f3a6/AGENT.md",
+            "line": 227,
+            "excerpt": "- **market-researcher**：市场调研 — 当需要进行市场分析、消费者洞察与机会评估时自动触发"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "RapidPrototypingEngineer",
+      "candidates": [
+        {
+          "mentionedAs": "deep-research",
+          "status": "ambiguous",
+          "candidateAssetIds": [
+            "chatgpt-codex:skill:plugins__openai-bundled__plugins__deep-research__skills__deep-research__SKILL.md",
+            "codex-user:skill:plugins__cache__openai-curated-remote__deep-research-work__0.1.15__skills__deep-research__SKILL.md",
+            "workbuddy-ai:skill:plugins__marketplaces__codebuddy-plugins-official__plugins__oh-my-codebuddy__skills__deep-research__SKILL.md",
+            "workbuddy-files:skill:plugins__marketplaces__codebuddy-plugins-official__plugins__oh-my-codebuddy__skills__deep-research__SKILL.md"
+          ],
+          "evidence": {
+            "path": "skills/workbuddy/agent/rapid-prototyping-engineer--c960c506d2/AGENT.md",
+            "line": 468,
+            "excerpt": "- **deep-research**：深度调研 — 当需要进行结构化深度调研、生成大纲、并行搜索并输出调研报告时自动触发"
+          }
+        },
+        {
+          "mentionedAs": "minimax-docx",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/rapid-prototyping-engineer--c960c506d2/AGENT.md",
+            "line": 469,
+            "excerpt": "- **minimax-docx**：Word 文档生成与编辑 — 当需要创建、编辑 Word 文档或生成专业格式报告时自动触发"
+          }
+        },
+        {
+          "mentionedAs": "notebooklm-studio",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/rapid-prototyping-engineer--c960c506d2/AGENT.md",
+            "line": 470,
+            "excerpt": "- **notebooklm-studio**：NotebookLM 学习工作室 — 当需要导入多种来源生成播客、测验、抽认卡、思维导图等学习产物时自动触发"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "RecruitmentExpert",
+      "candidates": [
+        {
+          "mentionedAs": "anti-distill",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/recruitment-expert--64609c8496/AGENT.md",
+            "line": 515,
+            "excerpt": "- **anti-distill**：去AI味 — 当需要清除文本中的 AI 写作痕迹、让内容更自然人性化时自动触发"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "SalesCoach",
+      "candidates": [
+        {
+          "mentionedAs": "anti-distill",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/sales-coach--66d3dc9365/AGENT.md",
+            "line": 277,
+            "excerpt": "- **anti-distill**：去AI味 — 当需要清除文本中的 AI 写作痕迹、让内容更自然人性化时自动触发"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "SalesPipelineAnalyst",
+      "candidates": [
+        {
+          "mentionedAs": "anti-distill",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/sales-pipeline-analyst--616e1d91aa/AGENT.md",
+            "line": 273,
+            "excerpt": "- **anti-distill**：去AI味 — 当需要清除文本中的 AI 写作痕迹、让内容更自然人性化时自动触发"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "SearchTermAnalyst",
+      "candidates": [
+        {
+          "mentionedAs": "capability-evolver",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/search-term-analyst--d052b72acd/AGENT.md",
+            "line": 76,
+            "excerpt": "- **capability-evolver**：AI Agent 自进化引擎 — 当需要分析运行历史、识别改进点并持续优化工作流程时自动触发"
+          }
+        },
+        {
+          "mentionedAs": "tavily",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/search-term-analyst--d052b72acd/AGENT.md",
+            "line": 77,
+            "excerpt": "- **tavily**：联网搜索 — 当需要进行 AI 优化的综合网络研究、时事查询和领域搜索时自动触发"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "SeniorDeveloper",
+      "candidates": [
+        {
+          "mentionedAs": "fullstack-dev",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/senior-developer--705d76935c/AGENT.md",
+            "line": 191,
+            "excerpt": "- **fullstack-dev**：全栈应用架构与开发指南 — 当需要构建全栈应用、创建 REST API、搭建后端服务、实现前后端集成时自动触发"
+          }
+        },
+        {
+          "mentionedAs": "frontend-dev",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/senior-developer--705d76935c/AGENT.md",
+            "line": 192,
+            "excerpt": "- **frontend-dev**：前端开发与 AI 媒体生成 — 当涉及前端 UI 开发、CSS 样式、组件构建、响应式设计时自动触发"
+          }
+        },
+        {
+          "mentionedAs": "browser-use",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/senior-developer--705d76935c/AGENT.md",
+            "line": 193,
+            "excerpt": "- **browser-use**：浏览器自动化 — 当需要网页自动化操作、导航、点击、截图、数据提取时自动触发"
+          }
+        },
+        {
+          "mentionedAs": "capability-evolver",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/senior-developer--705d76935c/AGENT.md",
+            "line": 194,
+            "excerpt": "- **capability-evolver**：AI Agent 自进化引擎 — 当需要分析运行历史、识别改进点并持续优化工作流程时自动触发"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "SeniorProjectManager",
+      "candidates": [
+        {
+          "mentionedAs": "minimax-docx",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/senior-project-manager--c42ce50bc4/AGENT.md",
+            "line": 141,
+            "excerpt": "- **minimax-docx**：Word 文档生成与编辑 — 当需要创建、编辑 Word 文档或生成专业格式报告时自动触发"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "SeoExpert",
+      "candidates": [
+        {
+          "mentionedAs": "anti-distill",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/seo-expert--8afe6c7980/AGENT.md",
+            "line": 284,
+            "excerpt": "- **anti-distill**：去AI味 — 当需要清除文本中的 AI 写作痕迹、让内容更自然人性化时自动触发"
+          }
+        },
+        {
+          "mentionedAs": "fbs-bookwriter",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/seo-expert--8afe6c7980/AGENT.md",
+            "line": 285,
+            "excerpt": "- **fbs-bookwriter**：长文档手稿工具链 — 当需要创作书籍、手册、白皮书、行业指南等长文档，支持联网查证和分层审校时自动触发"
+          }
+        },
+        {
+          "mentionedAs": "multi-search-engine",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/seo-expert--8afe6c7980/AGENT.md",
+            "line": 286,
+            "excerpt": "- **multi-search-engine**：多引擎搜索 — 当需要集成使用 17 个搜索引擎（8 国内 + 9 国际）进行综合信息检索时自动触发"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "ShortVideoEditingCoach",
+      "candidates": [
+        {
+          "mentionedAs": "remotion-video-toolkit",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/short-video-editing-coach--1e2f4ba4b8/AGENT.md",
+            "line": 418,
+            "excerpt": "- **remotion-video-toolkit**：视频创作工具包 — 当需要使用 Remotion + React 进行编程式视频创作、动画、字幕、转场处理时自动触发"
+          }
+        },
+        {
+          "mentionedAs": "anti-distill",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/short-video-editing-coach--1e2f4ba4b8/AGENT.md",
+            "line": 419,
+            "excerpt": "- **anti-distill**：去AI味 — 当需要清除文本中的 AI 写作痕迹、让内容更自然人性化时自动触发"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "SoftwareArchitect",
+      "candidates": [
+        {
+          "mentionedAs": "fullstack-dev",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/software-architect--79fa531cec/AGENT.md",
+            "line": 87,
+            "excerpt": "- **fullstack-dev**：全栈应用架构与开发指南 — 当需要构建全栈应用、创建 REST API、搭建后端服务、实现前后端集成时自动触发"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "SprintPriorityManager",
+      "candidates": [
+        {
+          "mentionedAs": "anti-distill",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/sprint-priority-manager--7ae5899028/AGENT.md",
+            "line": 159,
+            "excerpt": "- **anti-distill**：去AI味 — 当需要清除文本中的 AI 写作痕迹、让内容更自然人性化时自动触发"
+          }
+        },
+        {
+          "mentionedAs": "frontend-dev",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/sprint-priority-manager--7ae5899028/AGENT.md",
+            "line": 160,
+            "excerpt": "- **frontend-dev**：前端开发与 AI 媒体生成 — 当涉及前端 UI 开发、CSS 样式、组件构建、响应式设计时自动触发"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "SreExpert",
+      "candidates": [
+        {
+          "mentionedAs": "cloudq",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/sre-expert--c9c0cf1f3f/AGENT.md",
+            "line": 193,
+            "excerpt": "1. **按 SKILL.md 指引调用 CloudQ Skill** 处理用户请求——你只负责传递领域意图与上下文，不直接调用任何具体 API"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "StudyPlanner",
+      "candidates": [
+        {
+          "mentionedAs": "study-plan",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/study-planner--423dd1d4b9/AGENT.md",
+            "line": 32,
+            "excerpt": "2. **计划制定**：调用 `study-plan` 技能生成周期性学习计划（支持考研/高考/四六级/公务员等考试类型的预置配置），支持 plan/daily/review/pomodoro 等维度。"
+          }
+        },
+        {
+          "mentionedAs": "study-revision-planner",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/study-planner--423dd1d4b9/AGENT.md",
+            "line": 33,
+            "excerpt": "3. **复习节奏规划**：调用 `study-revision-planner` 技能，基于艾宾浩斯遗忘曲线，为指定主题生成带时间锚点的复习排期表（CSV）。"
+          }
+        },
+        {
+          "mentionedAs": "study-roadmap-generator",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/study-planner--423dd1d4b9/AGENT.md",
+            "line": 34,
+            "excerpt": "4. **学习路线图生成**：调用 `study-roadmap-generator` 技能，按\"学习者画像→成功标准→阶段计划→推荐学习栈→常见卡点→动态调整说明\"六段式布局，生成从入门到目标水平的完整路线图。"
+          }
+        },
+        {
+          "mentionedAs": "education-search",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/study-planner--423dd1d4b9/AGENT.md",
+            "line": 35,
+            "excerpt": "5. **教育资料检索**：调用 `education-search` 技能，检索教育类事实性资料、考试大纲、真题信息等。"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "SupplyChainStrategist",
+      "candidates": [
+        {
+          "mentionedAs": "browser-use",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/supply-chain-strategist--ac5f229b8f/AGENT.md",
+            "line": 588,
+            "excerpt": "- **browser-use**：浏览器自动化 — 当需要网页自动化操作、导航、点击、截图、数据提取时自动触发"
+          }
+        },
+        {
+          "mentionedAs": "market-researcher",
+          "status": "resolved_candidate",
+          "candidateAssetIds": [
+            "FsiMarketResearcher"
+          ],
+          "evidence": {
+            "path": "skills/workbuddy/agent/supply-chain-strategist--ac5f229b8f/AGENT.md",
+            "line": 589,
+            "excerpt": "- **market-researcher**：市场调研 — 当需要进行市场分析、消费者洞察与机会评估时自动触发"
+          }
+        },
+        {
+          "mentionedAs": "tencentmap-lbs-skill",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/supply-chain-strategist--ac5f229b8f/AGENT.md",
+            "line": 590,
+            "excerpt": "- **tencentmap-lbs-skill**：腾讯地图位置服务 — 当需要进行 POI 搜索、路径规划、旅游规划、周边搜索或地图数据可视化时自动触发"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "TechnicalArtist",
+      "candidates": [
+        {
+          "mentionedAs": "nano-banana-pro",
+          "status": "ambiguous",
+          "candidateAssetIds": [
+            "workbuddy-ai:skill:plugins__marketplaces__codebuddy-plugins-official__plugins__hot-skills__skills__nano-banana-pro__SKILL.md",
+            "workbuddy-files:skill:plugins__marketplaces__codebuddy-plugins-official__plugins__hot-skills__skills__nano-banana-pro__SKILL.md"
+          ],
+          "evidence": {
+            "path": "skills/workbuddy/agent/technical-artist--684a686626/AGENT.md",
+            "line": 235,
+            "excerpt": "- **nano-banana-pro**：AI 图片生成与编辑 — 当需要生成或编辑 AI 图片（支持 4K 分辨率）时自动触发"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "TestResultsAnalyst",
+      "candidates": [
+        {
+          "mentionedAs": "github",
+          "status": "ambiguous",
+          "candidateAssetIds": [
+            "claude-code:mcp:plugins__marketplaces__claude-plugins-official__external_plugins__github__.mcp.json",
+            "codex-user:mcp:.tmp__plugins__plugins__github__.mcp.json",
+            "codex-user:skill:.tmp__plugins__plugins__github__skills__github__SKILL.md",
+            "hermes:skill:hermes-agent__skills__software-development__github__SKILL.md",
+            "hermes:skill:skills__software-development__github__SKILL.md",
+            "workbuddy-ai:mcp:plugins__marketplaces__codebuddy-plugins-official__plugins__github__.mcp.json",
+            "workbuddy-ai:skill:plugins__marketplaces__codebuddy-plugins-official__plugins__hot-skills__skills__github__SKILL.md",
+            "workbuddy-files:mcp:connectors-marketplace__connectors__github__mcp.json",
+            "workbuddy-files:mcp:plugins__marketplaces__codebuddy-plugins-official__plugins__github__.mcp.json",
+            "workbuddy-files:skill:connectors-marketplace__connectors__github__skill__SKILL.md",
+            "workbuddy-files:skill:plugins__marketplaces__codebuddy-plugins-official__plugins__hot-skills__skills__github__SKILL.md"
+          ],
+          "evidence": {
+            "path": "skills/workbuddy/agent/test-results-analyst--11f06189f2/AGENT.md",
+            "line": 311,
+            "excerpt": "- **github**：GitHub 管理 — 当需要管理 GitHub Issues、Pull Requests 和 CI 工作流时自动触发"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "TikTokStrategist",
+      "candidates": [
+        {
+          "mentionedAs": "libtv-skill",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/tik-tok-strategist--1231b68e95/AGENT.md",
+            "line": 131,
+            "excerpt": "- **libtv-skill**：AI 图片/视频生成 — 当需要通过 LibTV AI 平台生成和编辑图片/视频，进行风格迁移等操作时自动触发"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "ToolEvaluationExpert",
+      "candidates": [
+        {
+          "mentionedAs": "deep-research",
+          "status": "ambiguous",
+          "candidateAssetIds": [
+            "chatgpt-codex:skill:plugins__openai-bundled__plugins__deep-research__skills__deep-research__SKILL.md",
+            "codex-user:skill:plugins__cache__openai-curated-remote__deep-research-work__0.1.15__skills__deep-research__SKILL.md",
+            "workbuddy-ai:skill:plugins__marketplaces__codebuddy-plugins-official__plugins__oh-my-codebuddy__skills__deep-research__SKILL.md",
+            "workbuddy-files:skill:plugins__marketplaces__codebuddy-plugins-official__plugins__oh-my-codebuddy__skills__deep-research__SKILL.md"
+          ],
+          "evidence": {
+            "path": "skills/workbuddy/agent/tool-evaluation-expert--2e8fd6b274/AGENT.md",
+            "line": 400,
+            "excerpt": "- **deep-research**：深度调研 — 当需要进行结构化深度调研、生成大纲、并行搜索并输出调研报告时自动触发"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "TrendResearcher",
+      "candidates": [
+        {
+          "mentionedAs": "market-researcher",
+          "status": "resolved_candidate",
+          "candidateAssetIds": [
+            "FsiMarketResearcher"
+          ],
+          "evidence": {
+            "path": "skills/workbuddy/agent/trend-researcher--3ee283eedf/AGENT.md",
+            "line": 164,
+            "excerpt": "- **market-researcher**：市场调研 — 当需要进行市场分析、消费者洞察与机会评估时自动触发"
+          }
+        },
+        {
+          "mentionedAs": "browser-use",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/trend-researcher--3ee283eedf/AGENT.md",
+            "line": 165,
+            "excerpt": "- **browser-use**：浏览器自动化 — 当需要网页自动化操作、导航、点击、截图、数据提取时自动触发"
+          }
+        },
+        {
+          "mentionedAs": "ima-skills",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/trend-researcher--3ee283eedf/AGENT.md",
+            "line": 166,
+            "excerpt": "- **ima-skills**：IMA 笔记与知识库 — 当需要进行笔记管理、知识库读取/写入/检索或文件上传时自动触发"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "UiDesigner",
+      "candidates": [
+        {
+          "mentionedAs": "brand-guidelines",
+          "status": "ambiguous",
+          "candidateAssetIds": [
+            "workbuddy-ai:skill:plugins__marketplaces__codebuddy-plugins-official__external_plugins__brand-guidelines__SKILL.md",
+            "workbuddy-files:skill:plugins__marketplaces__codebuddy-plugins-official__external_plugins__brand-guidelines__SKILL.md"
+          ],
+          "evidence": {
+            "path": "skills/workbuddy/agent/ui-designer--e1dce06666/AGENT.md",
+            "line": 398,
+            "excerpt": "- **brand-guidelines**：品牌设计规范 — 当需要应用品牌配色和排版规范到设计产物时自动触发"
+          }
+        },
+        {
+          "mentionedAs": "impeccable",
+          "status": "resolved_candidate",
+          "candidateAssetIds": [
+            "hermes:skill:hermes-agent__optional-skills__creative__impeccable__SKILL.md"
+          ],
+          "evidence": {
+            "path": "skills/workbuddy/agent/ui-designer--e1dce06666/AGENT.md",
+            "line": 399,
+            "excerpt": "- **impeccable**：前端设计工具集 — 当需要创建高质量、有设计感的前端界面，避免通用 AI 美学时自动触发"
+          }
+        },
+        {
+          "mentionedAs": "frontend-dev",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/ui-designer--e1dce06666/AGENT.md",
+            "line": 400,
+            "excerpt": "- **frontend-dev**：前端开发与 AI 媒体生成 — 当涉及前端 UI 开发、CSS 样式、组件构建、响应式设计时自动触发"
+          }
+        },
+        {
+          "mentionedAs": "canvas-design",
+          "status": "ambiguous",
+          "candidateAssetIds": [
+            "workbuddy-ai:skill:plugins__marketplaces__codebuddy-plugins-official__external_plugins__canvas-design__SKILL.md",
+            "workbuddy-files:skill:plugins__marketplaces__codebuddy-plugins-official__external_plugins__canvas-design__SKILL.md"
+          ],
+          "evidence": {
+            "path": "skills/workbuddy/agent/ui-designer--e1dce06666/AGENT.md",
+            "line": 401,
+            "excerpt": "- **canvas-design**：视觉设计 — 当需要基于设计哲学创作精美视觉艺术作品（PNG/PDF）时自动触发"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "UnityEditorToolDeveloper",
+      "candidates": [
+        {
+          "mentionedAs": "fullstack-dev",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/unity-editor-tool-developer--abf8b263d1/AGENT.md",
+            "line": 316,
+            "excerpt": "- **fullstack-dev**：全栈应用架构与开发指南 — 当需要构建全栈应用、创建 REST API、搭建后端服务、实现前后端集成时自动触发"
+          }
+        },
+        {
+          "mentionedAs": "deep-research",
+          "status": "ambiguous",
+          "candidateAssetIds": [
+            "chatgpt-codex:skill:plugins__openai-bundled__plugins__deep-research__skills__deep-research__SKILL.md",
+            "codex-user:skill:plugins__cache__openai-curated-remote__deep-research-work__0.1.15__skills__deep-research__SKILL.md",
+            "workbuddy-ai:skill:plugins__marketplaces__codebuddy-plugins-official__plugins__oh-my-codebuddy__skills__deep-research__SKILL.md",
+            "workbuddy-files:skill:plugins__marketplaces__codebuddy-plugins-official__plugins__oh-my-codebuddy__skills__deep-research__SKILL.md"
+          ],
+          "evidence": {
+            "path": "skills/workbuddy/agent/unity-editor-tool-developer--abf8b263d1/AGENT.md",
+            "line": 317,
+            "excerpt": "- **deep-research**：深度调研 — 当需要进行结构化深度调研、生成大纲、并行搜索并输出调研报告时自动触发"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "UserExperienceArchitect",
+      "candidates": [
+        {
+          "mentionedAs": "impeccable",
+          "status": "resolved_candidate",
+          "candidateAssetIds": [
+            "hermes:skill:hermes-agent__optional-skills__creative__impeccable__SKILL.md"
+          ],
+          "evidence": {
+            "path": "skills/workbuddy/agent/user-experience-architect--e56ef6d4f1/AGENT.md",
+            "line": 475,
+            "excerpt": "- **impeccable**：前端设计工具集 — 当需要创建高质量、有设计感的前端界面，避免通用 AI 美学时自动触发"
+          }
+        },
+        {
+          "mentionedAs": "frontend-dev",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/user-experience-architect--e56ef6d4f1/AGENT.md",
+            "line": 476,
+            "excerpt": "- **frontend-dev**：前端开发与 AI 媒体生成 — 当涉及前端 UI 开发、CSS 样式、组件构建、响应式设计时自动触发"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "UserExperienceResearcher",
+      "candidates": [
+        {
+          "mentionedAs": "minimax-docx",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/user-experience-researcher--8890b9d60b/AGENT.md",
+            "line": 335,
+            "excerpt": "- **minimax-docx**：Word 文档生成与编辑 — 当需要创建、编辑 Word 文档或生成专业格式报告时自动触发"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "VisualStorytellingExpert",
+      "candidates": [
+        {
+          "mentionedAs": "canvas-design",
+          "status": "ambiguous",
+          "candidateAssetIds": [
+            "workbuddy-ai:skill:plugins__marketplaces__codebuddy-plugins-official__external_plugins__canvas-design__SKILL.md",
+            "workbuddy-files:skill:plugins__marketplaces__codebuddy-plugins-official__external_plugins__canvas-design__SKILL.md"
+          ],
+          "evidence": {
+            "path": "skills/workbuddy/agent/visual-storytelling-expert--6a6c4c4bbf/AGENT.md",
+            "line": 155,
+            "excerpt": "- **canvas-design**：视觉设计 — 当需要基于设计哲学创作精美视觉艺术作品（PNG/PDF）时自动触发"
+          }
+        },
+        {
+          "mentionedAs": "brand-guidelines",
+          "status": "ambiguous",
+          "candidateAssetIds": [
+            "workbuddy-ai:skill:plugins__marketplaces__codebuddy-plugins-official__external_plugins__brand-guidelines__SKILL.md",
+            "workbuddy-files:skill:plugins__marketplaces__codebuddy-plugins-official__external_plugins__brand-guidelines__SKILL.md"
+          ],
+          "evidence": {
+            "path": "skills/workbuddy/agent/visual-storytelling-expert--6a6c4c4bbf/AGENT.md",
+            "line": 156,
+            "excerpt": "- **brand-guidelines**：品牌设计规范 — 当需要应用品牌配色和排版规范到设计产物时自动触发"
+          }
+        },
+        {
+          "mentionedAs": "marketing-skills",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/visual-storytelling-expert--6a6c4c4bbf/AGENT.md",
+            "line": 157,
+            "excerpt": "- **marketing-skills**：营销技能库 — 当需要执行 CRO、SEO、文案撰写、数据分析、实验设计、定价策略、产品发布等营销任务时自动触发"
+          }
+        },
+        {
+          "mentionedAs": "impeccable",
+          "status": "resolved_candidate",
+          "candidateAssetIds": [
+            "hermes:skill:hermes-agent__optional-skills__creative__impeccable__SKILL.md"
+          ],
+          "evidence": {
+            "path": "skills/workbuddy/agent/visual-storytelling-expert--6a6c4c4bbf/AGENT.md",
+            "line": 158,
+            "excerpt": "- **impeccable**：前端设计工具集 — 当需要创建高质量、有设计感的前端界面，避免通用 AI 美学时自动触发"
+          }
+        },
+        {
+          "mentionedAs": "anti-distill",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/visual-storytelling-expert--6a6c4c4bbf/AGENT.md",
+            "line": 159,
+            "excerpt": "- **anti-distill**：去AI味 — 当需要清除文本中的 AI 写作痕迹、让内容更自然人性化时自动触发"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "WeChatMiniProgramDeveloper",
+      "candidates": [
+        {
+          "mentionedAs": "wechat-miniprogram",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/we-chat-mini-program-developer--d8ca07ec05/AGENT.md",
+            "line": 356,
+            "excerpt": "- **wechat-miniprogram**：微信小程序开发框架 — 当进行微信小程序开发、使用模板、组件、API 或云开发时自动触发"
+          }
+        },
+        {
+          "mentionedAs": "tdesign-miniprogram",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/we-chat-mini-program-developer--d8ca07ec05/AGENT.md",
+            "line": 357,
+            "excerpt": "- **tdesign-miniprogram**：TDesign 微信小程序组件库 — 当需要使用 TDesign 60+ 组件、主题定制功能开发小程序时自动触发"
+          }
+        },
+        {
+          "mentionedAs": "fullstack-dev",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/we-chat-mini-program-developer--d8ca07ec05/AGENT.md",
+            "line": 358,
+            "excerpt": "- **fullstack-dev**：全栈应用架构与开发指南 — 当需要构建全栈应用、创建 REST API、搭建后端服务、实现前后端集成时自动触发"
+          }
+        },
+        {
+          "mentionedAs": "impeccable",
+          "status": "resolved_candidate",
+          "candidateAssetIds": [
+            "hermes:skill:hermes-agent__optional-skills__creative__impeccable__SKILL.md"
+          ],
+          "evidence": {
+            "path": "skills/workbuddy/agent/we-chat-mini-program-developer--d8ca07ec05/AGENT.md",
+            "line": 359,
+            "excerpt": "- **impeccable**：前端设计工具集 — 当需要创建高质量、有设计感的前端界面，避免通用 AI 美学时自动触发"
+          }
+        },
+        {
+          "mentionedAs": "brand-guidelines",
+          "status": "ambiguous",
+          "candidateAssetIds": [
+            "workbuddy-ai:skill:plugins__marketplaces__codebuddy-plugins-official__external_plugins__brand-guidelines__SKILL.md",
+            "workbuddy-files:skill:plugins__marketplaces__codebuddy-plugins-official__external_plugins__brand-guidelines__SKILL.md"
+          ],
+          "evidence": {
+            "path": "skills/workbuddy/agent/we-chat-mini-program-developer--d8ca07ec05/AGENT.md",
+            "line": 360,
+            "excerpt": "- **brand-guidelines**：品牌设计规范 — 当需要应用品牌配色和排版规范到设计产物时自动触发"
+          }
+        },
+        {
+          "mentionedAs": "skyline",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/we-chat-mini-program-developer--d8ca07ec05/AGENT.md",
+            "line": 361,
+            "excerpt": "- **skyline**：Skyline 渲染引擎 — 当需要使用微信小程序 Skyline 渲染引擎的组件、动画、路由和样式时自动触发"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "WechatOfficialAccountExpert",
+      "candidates": [
+        {
+          "mentionedAs": "anti-distill",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/wechat-official-account-expert--e95146d83c/AGENT.md",
+            "line": 151,
+            "excerpt": "- **anti-distill**：去AI味 — 当需要清除文本中的 AI 写作痕迹、让内容更自然人性化时自动触发"
+          }
+        },
+        {
+          "mentionedAs": "wechat-article-search",
+          "status": "ambiguous",
+          "candidateAssetIds": [
+            "workbuddy-ai:skill:plugins__marketplaces__cb_teams_marketplace__plugins__deep-research__skills__wechat-article-search__SKILL.md",
+            "workbuddy-files:skill:plugins__marketplaces__cb_teams_marketplace__plugins__deep-research__skills__wechat-article-search__SKILL.md"
+          ],
+          "evidence": {
+            "path": "skills/workbuddy/agent/wechat-official-account-expert--e95146d83c/AGENT.md",
+            "line": 152,
+            "excerpt": "- **wechat-article-search**：微信公众号文章搜索 — 当需要搜索微信公众号文章（标题、摘要、发布时间、来源账号）时自动触发"
+          }
+        },
+        {
+          "mentionedAs": "humanizer",
+          "status": "ambiguous",
+          "candidateAssetIds": [
+            "hermes:skill:hermes-agent__skills__creative__humanizer__SKILL.md",
+            "hermes:skill:skills__creative__humanizer__SKILL.md",
+            "workbuddy-ai:skill:plugins__marketplaces__codebuddy-plugins-official__plugins__hot-skills__skills__humanizer__SKILL.md",
+            "workbuddy-files:skill:plugins__cache__workbuddy-builtin__tencent-docx__0.3.0__skills__humanizer__SKILL.md",
+            "workbuddy-files:skill:plugins__marketplaces__codebuddy-plugins-official__plugins__hot-skills__skills__humanizer__SKILL.md"
+          ],
+          "evidence": {
+            "path": "skills/workbuddy/agent/wechat-official-account-expert--e95146d83c/AGENT.md",
+            "line": 153,
+            "excerpt": "- **humanizer**：文本人性化处理 — 当需要去除文本中的 AI 写作痕迹、让内容更贴近真人写作风格时自动触发"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "WellArchExpert",
+      "candidates": [
+        {
+          "mentionedAs": "cloudq",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/well-arch-expert--ec00006355/AGENT.md",
+            "line": 185,
+            "excerpt": "1. **按 SKILL.md 指引调用 CloudQ Skill** 处理用户请求——你只负责传递领域意图与上下文，不直接调用任何具体 API"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "WorkflowOptimizationExpert",
+      "candidates": [
+        {
+          "mentionedAs": "minimax-docx",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/workflow-optimization-expert--f8ff101c27/AGENT.md",
+            "line": 456,
+            "excerpt": "- **minimax-docx**：Word 文档生成与编辑 — 当需要创建、编辑 Word 文档或生成专业格式报告时自动触发"
+          }
+        },
+        {
+          "mentionedAs": "agent-team-orchestration",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/workflow-optimization-expert--f8ff101c27/AGENT.md",
+            "line": 457,
+            "excerpt": "- **agent-team-orchestration**：多智能体团队编排 — 当需要定义角色、任务流转、交接协议与质量门禁来协调多个智能体时自动触发"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "XiaohongshuOperationsExpert",
+      "candidates": [
+        {
+          "mentionedAs": "xiaohongshu",
+          "status": "ambiguous",
+          "candidateAssetIds": [
+            "workbuddy-ai:skill:plugins__marketplaces__codebuddy-plugins-official__plugins__hot-skills__skills__xiaohongshu__SKILL.md",
+            "workbuddy-files:skill:plugins__marketplaces__codebuddy-plugins-official__plugins__hot-skills__skills__xiaohongshu__SKILL.md"
+          ],
+          "evidence": {
+            "path": "skills/workbuddy/agent/xiaohongshu-operations-expert--f91bea3f07/AGENT.md",
+            "line": 144,
+            "excerpt": "- **xiaohongshu**：小红书自动化助手 — 当需要进行小红书内容发布、搜索笔记、互动操作或内容策划时自动触发"
+          }
+        },
+        {
+          "mentionedAs": "anti-distill",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/xiaohongshu-operations-expert--f91bea3f07/AGENT.md",
+            "line": 145,
+            "excerpt": "- **anti-distill**：去AI味 — 当需要清除文本中的 AI 写作痕迹、让内容更自然人性化时自动触发"
+          }
+        },
+        {
+          "mentionedAs": "humanizer",
+          "status": "ambiguous",
+          "candidateAssetIds": [
+            "hermes:skill:hermes-agent__skills__creative__humanizer__SKILL.md",
+            "hermes:skill:skills__creative__humanizer__SKILL.md",
+            "workbuddy-ai:skill:plugins__marketplaces__codebuddy-plugins-official__plugins__hot-skills__skills__humanizer__SKILL.md",
+            "workbuddy-files:skill:plugins__cache__workbuddy-builtin__tencent-docx__0.3.0__skills__humanizer__SKILL.md",
+            "workbuddy-files:skill:plugins__marketplaces__codebuddy-plugins-official__plugins__hot-skills__skills__humanizer__SKILL.md"
+          ],
+          "evidence": {
+            "path": "skills/workbuddy/agent/xiaohongshu-operations-expert--f91bea3f07/AGENT.md",
+            "line": 146,
+            "excerpt": "- **humanizer**：文本人性化处理 — 当需要去除文本中的 AI 写作痕迹、让内容更贴近真人写作风格时自动触发"
+          }
+        },
+        {
+          "mentionedAs": "marketing-skills",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy/agent/xiaohongshu-operations-expert--f91bea3f07/AGENT.md",
+            "line": 147,
+            "excerpt": "- **marketing-skills**：营销技能库 — 当需要执行 CRO、SEO、文案撰写、数据分析、实验设计、定价策略、产品发布等营销任务时自动触发"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "aihero:engineering:grill-with-docs",
+      "candidates": [
+        {
+          "mentionedAs": "grilling",
+          "status": "resolved_candidate",
+          "candidateAssetIds": [
+            "aihero:productivity:grilling"
+          ],
+          "evidence": {
+            "path": "skills/aihero/skill/grill-with-docs--e39c37a6a2/SKILL.md",
+            "line": 7,
+            "excerpt": "Call the Skill tool twice, for \"grilling\" and \"domain-modeling\"."
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "aihero:engineering:improve-codebase-architecture",
+      "candidates": [
+        {
+          "mentionedAs": "codebase-design",
+          "status": "resolved_candidate",
+          "candidateAssetIds": [
+            "aihero:engineering:codebase-design"
+          ],
+          "evidence": {
+            "path": "skills/aihero/skill/improve-codebase-architecture--56043db083/SKILL.md",
+            "line": 13,
+            "excerpt": "- Call the Skill tool with \"codebase-design\" for the architecture vocabulary (**module**, **interface**, **depth**, **seam**, **adapter**, **leverage**, **locality**) and its principles (the deletion test, \"the interface is the test surface\", \"one adapter = hypothetical seam, two = real\"). Use these terms exactly in every suggestion, and don't drift into \"component,\" \"service,\" \"API,\" or \"boundary.\""
+          }
+        },
+        {
+          "mentionedAs": "grilling",
+          "status": "resolved_candidate",
+          "candidateAssetIds": [
+            "aihero:productivity:grilling"
+          ],
+          "evidence": {
+            "path": "skills/aihero/skill/improve-codebase-architecture--56043db083/SKILL.md",
+            "line": 64,
+            "excerpt": "Once the user picks a candidate, call the Skill tool with \"grilling\" to walk the decision tree with them: constraints, dependencies, the shape of the deepened module, what sits behind the seam, what tests survive."
+          }
+        },
+        {
+          "mentionedAs": "domain-modeling",
+          "status": "resolved_candidate",
+          "candidateAssetIds": [
+            "aihero:engineering:domain-modeling"
+          ],
+          "evidence": {
+            "path": "skills/aihero/skill/improve-codebase-architecture--56043db083/SKILL.md",
+            "line": 66,
+            "excerpt": "Side effects happen inline as decisions crystallize; call the Skill tool with \"domain-modeling\" to keep the domain model current as you go:"
+          }
+        },
+        {
+          "mentionedAs": "codebase-design",
+          "status": "resolved_candidate",
+          "candidateAssetIds": [
+            "aihero:engineering:codebase-design"
+          ],
+          "evidence": {
+            "path": "skills/aihero/skill/improve-codebase-architecture--56043db083/SKILL.md",
+            "line": 71,
+            "excerpt": "- **Want to explore alternative interfaces for the deepened module?** Call the Skill tool with \"codebase-design\" and use its design-it-twice parallel sub-agent pattern."
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "aihero:engineering:tdd",
+      "candidates": [
+        {
+          "mentionedAs": "codebase-design",
+          "status": "resolved_candidate",
+          "candidateAssetIds": [
+            "aihero:engineering:codebase-design"
+          ],
+          "evidence": {
+            "path": "skills/aihero/skill/tdd--a9f9adaf7e/SKILL.md",
+            "line": 26,
+            "excerpt": "When the shape of that interface is itself in question (how deep the module is, where the seam belongs, what the interface should expose), call the Skill tool with \"codebase-design\" for the vocabulary. It is the shared source of the module, interface, depth, seam, adapter, leverage and locality terms, and it is a reference to consult, not a session to run."
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "aihero:engineering:triage",
+      "candidates": [
+        {
+          "mentionedAs": "grilling",
+          "status": "resolved_candidate",
+          "candidateAssetIds": [
+            "aihero:productivity:grilling"
+          ],
+          "evidence": {
+            "path": "skills/aihero/skill/triage--06f7c8fe0f/SKILL.md",
+            "line": 76,
+            "excerpt": "4. **Grill (if needed).** If the request needs fleshing out, call the Skill tool twice, for \"grilling\" and \"domain-modeling\", and grill it into shape a round of questions at a time, sharpening domain terms and updating `CONTEXT.md`/ADRs inline as decisions land."
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "aihero:engineering:wayfinder",
+      "candidates": [
+        {
+          "mentionedAs": "grilling",
+          "status": "resolved_candidate",
+          "candidateAssetIds": [
+            "aihero:productivity:grilling"
+          ],
+          "evidence": {
+            "path": "skills/aihero/skill/wayfinder--6ff8f5ac31/SKILL.md",
+            "line": 79,
+            "excerpt": "- **Grilling** (HITL): Conversation. The default case. Always call the Skill tool twice, for \"grilling\" and \"domain-modeling\"."
+          }
+        },
+        {
+          "mentionedAs": "grilling",
+          "status": "resolved_candidate",
+          "candidateAssetIds": [
+            "aihero:productivity:grilling"
+          ],
+          "evidence": {
+            "path": "skills/aihero/skill/wayfinder--6ff8f5ac31/SKILL.md",
+            "line": 111,
+            "excerpt": "1. **Name the destination.** Call the Skill tool twice, for \"grilling\" and \"domain-modeling\", to pin down what this map is finding its way to: the spec, decision, or change. The destination fixes the scope, so it's settled first."
+          }
+        },
+        {
+          "mentionedAs": "grilling",
+          "status": "resolved_candidate",
+          "candidateAssetIds": [
+            "aihero:productivity:grilling"
+          ],
+          "evidence": {
+            "path": "skills/aihero/skill/wayfinder--6ff8f5ac31/SKILL.md",
+            "line": 124,
+            "excerpt": "3. Resolve it. **Zoom as needed**: fetch the full body of any related or closed ticket on demand; call the Skill tool for whichever skills the `## Notes` block names. If in doubt, call the Skill tool twice, for \"grilling\" and \"domain-modeling\"."
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "aihero:in-progress:retro",
+      "candidates": [
+        {
+          "mentionedAs": "writing-for-agents",
+          "status": "resolved_candidate",
+          "candidateAssetIds": [
+            "aihero:productivity:writing-for-agents"
+          ],
+          "evidence": {
+            "path": "skills/aihero/skill/retro--17d42f2c83/SKILL.md",
+            "line": 11,
+            "excerpt": "1. Call the Skill tool with `writing-for-agents` for the writing style guide."
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "aihero:in-progress:setup-ts-deep-modules",
+      "candidates": [
+        {
+          "mentionedAs": "codebase-design",
+          "status": "resolved_candidate",
+          "candidateAssetIds": [
+            "aihero:engineering:codebase-design"
+          ],
+          "evidence": {
+            "path": "skills/aihero/skill/setup-ts-deep-modules--823fa3f620/SKILL.md",
+            "line": 11,
+            "excerpt": "For the vocabulary (deep module, interface, seam, depth), call the Skill tool with \"codebase-design\" and use its language throughout."
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "aihero:productivity:grill-me",
+      "candidates": [
+        {
+          "mentionedAs": "grilling",
+          "status": "resolved_candidate",
+          "candidateAssetIds": [
+            "aihero:productivity:grilling"
+          ],
+          "evidence": {
+            "path": "skills/aihero/skill/grill-me--b8d4429ab2/SKILL.md",
+            "line": 7,
+            "excerpt": "Call the Skill tool with \"grilling\"."
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "codex-user:skill:skills__feishu-koubo__SKILL.md",
+      "candidates": [
+        {
+          "mentionedAs": "human-writing",
+          "status": "resolved_candidate",
+          "candidateAssetIds": [
+            "codex-user:skill:skills__human-writing__SKILL.md"
+          ],
+          "evidence": {
+            "path": "skills/codex-user/skill/feishu-koubo--fda47cd445/SKILL.md",
+            "line": 20,
+            "excerpt": "- 口播正文以“我”为主体，写成自然分享和解释，不写营销号开场、夸张悬念或连续口号。需要时调用 `human-writing` Skill。"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "doubao-work:skill:Default__.doubaowork__agent_mode__workspace__.skills__doubao-daily-stock__SKILL.md",
+      "candidates": [
+        {
+          "mentionedAs": "lark-doc",
+          "status": "ambiguous",
+          "candidateAssetIds": [
+            "doubao-work:skill:Default__.doubaowork__agent_mode__workspace__.skills__lark-doc__SKILL.md",
+            "doubao:skill:Default__.doubao__agent_mode__workspace__.skills__lark-doc__SKILL.md",
+            "lark-skills:skill:skills__lark-doc__SKILL.md",
+            "trae:skill:plugins__trae-remote-official__lark__1.0.5__skills__lark-doc__SKILL.md",
+            "workbuddy-files:skill:connectors-marketplace__connectors__feishu__skills__lark-doc__SKILL.md"
+          ],
+          "evidence": {
+            "path": "skills/doubao-work/skill/doubao-daily-stock--3b2d21ade4/SKILL.md",
+            "line": 41,
+            "excerpt": "- 飞书文档版式：仅当用户确认需要完整报告时，必须先从头到尾完整读取 [references/feishu-doc-style.md](references/feishu-doc-style.md)，再调用 `lark-doc` skill 新建或编辑飞书文档；不得只搜索关键词、只读取局部片段、只依赖本文件摘要，或只在聊天界面重新输出一遍报告内容。"
+          }
+        },
+        {
+          "mentionedAs": "lark-doc",
+          "status": "ambiguous",
+          "candidateAssetIds": [
+            "doubao-work:skill:Default__.doubaowork__agent_mode__workspace__.skills__lark-doc__SKILL.md",
+            "doubao:skill:Default__.doubao__agent_mode__workspace__.skills__lark-doc__SKILL.md",
+            "lark-skills:skill:skills__lark-doc__SKILL.md",
+            "trae:skill:plugins__trae-remote-official__lark__1.0.5__skills__lark-doc__SKILL.md",
+            "workbuddy-files:skill:connectors-marketplace__connectors__feishu__skills__lark-doc__SKILL.md"
+          ],
+          "evidence": {
+            "path": "skills/doubao-work/skill/doubao-daily-stock--3b2d21ade4/SKILL.md",
+            "line": 111,
+            "excerpt": "- 生成飞书文档版时，必须在组装 `lark-doc` XML 前从头到尾完整读取 [references/feishu-doc-style.md](references/feishu-doc-style.md)，并调用 `lark-doc` skill 新建或编辑飞书文档；不得只搜索关键词、只读取局部片段、只依赖本文件摘要，也不得只在聊天界面输出完整飞书文档正文来代替写入。"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "doubao-work:skill:Default__.doubaowork__agent_mode__workspace__.skills__seedream-50__SKILL.md",
+      "candidates": [
+        {
+          "mentionedAs": "doubao-creative-design",
+          "status": "ambiguous",
+          "candidateAssetIds": [
+            "doubao-work:skill:Default__.doubaowork__agent_mode__workspace__.skills__doubao-creative-design__SKILL.md",
+            "doubao:skill:Default__.doubao__agent_mode__workspace__.skills__doubao-creative-design__SKILL.md"
+          ],
+          "evidence": {
+            "path": "skills/doubao-work/skill/seedream-50--87afe91234/SKILL.md",
+            "line": 10,
+            "excerpt": "- 除规定 Prompt 改写方式外，还强制规定 5.0 Pro 的模型参数与 Skill 接力：完成本 Skill 后必须调用 `doubao-creative-design` Skill，再由它调用实际图片工具；保留 `image_gen`、`image_edit`、`prompt`、`ratio` 和参考图入参，并在每次实际工具调用中额外显式传入 `modelversion: \"seedream_5.0_pro\"`。"
+          }
+        },
+        {
+          "mentionedAs": "doubao-creative-design",
+          "status": "ambiguous",
+          "candidateAssetIds": [
+            "doubao-work:skill:Default__.doubaowork__agent_mode__workspace__.skills__doubao-creative-design__SKILL.md",
+            "doubao:skill:Default__.doubao__agent_mode__workspace__.skills__doubao-creative-design__SKILL.md"
+          ],
+          "evidence": {
+            "path": "skills/doubao-work/skill/seedream-50--87afe91234/SKILL.md",
+            "line": 23,
+            "excerpt": "3. 完成本文件的 Prompt 改写与组装后，必须继续调用 `doubao-creative-design` Skill；不得只返回 Prompt、规划或参数草案后结束。"
+          }
+        },
+        {
+          "mentionedAs": "doubao-creative-design",
+          "status": "ambiguous",
+          "candidateAssetIds": [
+            "doubao-work:skill:Default__.doubaowork__agent_mode__workspace__.skills__doubao-creative-design__SKILL.md",
+            "doubao:skill:Default__.doubao__agent_mode__workspace__.skills__doubao-creative-design__SKILL.md"
+          ],
+          "evidence": {
+            "path": "skills/doubao-work/skill/seedream-50--87afe91234/SKILL.md",
+            "line": 25,
+            "excerpt": "5. 若无法调用 `doubao-creative-design` Skill，或实际图片工具的参数结构无法传入 `modelversion`，立即说明能力缺口；不得跳过 Skill 接力、省略参数、切换其他模型或声称已经执行。"
+          }
+        },
+        {
+          "mentionedAs": "doubao-creative-design",
+          "status": "ambiguous",
+          "candidateAssetIds": [
+            "doubao-work:skill:Default__.doubaowork__agent_mode__workspace__.skills__doubao-creative-design__SKILL.md",
+            "doubao:skill:Default__.doubao__agent_mode__workspace__.skills__doubao-creative-design__SKILL.md"
+          ],
+          "evidence": {
+            "path": "skills/doubao-work/skill/seedream-50--87afe91234/SKILL.md",
+            "line": 305,
+            "excerpt": "- Prompt 组装后已经继续调用 `doubao-creative-design` Skill"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "doubao:skill:Default__.doubao__agent_mode__workspace__.skills__doubao-daily-stock__SKILL.md",
+      "candidates": [
+        {
+          "mentionedAs": "lark-doc",
+          "status": "ambiguous",
+          "candidateAssetIds": [
+            "doubao-work:skill:Default__.doubaowork__agent_mode__workspace__.skills__lark-doc__SKILL.md",
+            "doubao:skill:Default__.doubao__agent_mode__workspace__.skills__lark-doc__SKILL.md",
+            "lark-skills:skill:skills__lark-doc__SKILL.md",
+            "trae:skill:plugins__trae-remote-official__lark__1.0.5__skills__lark-doc__SKILL.md",
+            "workbuddy-files:skill:connectors-marketplace__connectors__feishu__skills__lark-doc__SKILL.md"
+          ],
+          "evidence": {
+            "path": "skills/doubao/skill/doubao-daily-stock--cc4ee2e89f/SKILL.md",
+            "line": 41,
+            "excerpt": "- 飞书文档版式：仅当用户确认需要完整报告时，必须先从头到尾完整读取 [references/feishu-doc-style.md](references/feishu-doc-style.md)，再调用 `lark-doc` skill 新建或编辑飞书文档；不得只搜索关键词、只读取局部片段、只依赖本文件摘要，或只在聊天界面重新输出一遍报告内容。"
+          }
+        },
+        {
+          "mentionedAs": "lark-doc",
+          "status": "ambiguous",
+          "candidateAssetIds": [
+            "doubao-work:skill:Default__.doubaowork__agent_mode__workspace__.skills__lark-doc__SKILL.md",
+            "doubao:skill:Default__.doubao__agent_mode__workspace__.skills__lark-doc__SKILL.md",
+            "lark-skills:skill:skills__lark-doc__SKILL.md",
+            "trae:skill:plugins__trae-remote-official__lark__1.0.5__skills__lark-doc__SKILL.md",
+            "workbuddy-files:skill:connectors-marketplace__connectors__feishu__skills__lark-doc__SKILL.md"
+          ],
+          "evidence": {
+            "path": "skills/doubao/skill/doubao-daily-stock--cc4ee2e89f/SKILL.md",
+            "line": 111,
+            "excerpt": "- 生成飞书文档版时，必须在组装 `lark-doc` XML 前从头到尾完整读取 [references/feishu-doc-style.md](references/feishu-doc-style.md)，并调用 `lark-doc` skill 新建或编辑飞书文档；不得只搜索关键词、只读取局部片段、只依赖本文件摘要，也不得只在聊天界面输出完整飞书文档正文来代替写入。"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "doubao:skill:Default__.doubao__agent_mode__workspace__.skills__seedream-50__SKILL.md",
+      "candidates": [
+        {
+          "mentionedAs": "doubao-creative-design",
+          "status": "ambiguous",
+          "candidateAssetIds": [
+            "doubao-work:skill:Default__.doubaowork__agent_mode__workspace__.skills__doubao-creative-design__SKILL.md",
+            "doubao:skill:Default__.doubao__agent_mode__workspace__.skills__doubao-creative-design__SKILL.md"
+          ],
+          "evidence": {
+            "path": "skills/doubao/skill/seedream-50--cad611f397/SKILL.md",
+            "line": 10,
+            "excerpt": "- 除规定 Prompt 改写方式外，还强制规定 5.0 Pro 的模型参数与 Skill 接力：完成本 Skill 后必须调用 `doubao-creative-design` Skill，再由它调用实际图片工具；保留 `image_gen`、`image_edit`、`prompt`、`ratio` 和参考图入参，并在每次实际工具调用中额外显式传入 `modelversion: \"seedream_5.0_pro\"`。"
+          }
+        },
+        {
+          "mentionedAs": "doubao-creative-design",
+          "status": "ambiguous",
+          "candidateAssetIds": [
+            "doubao-work:skill:Default__.doubaowork__agent_mode__workspace__.skills__doubao-creative-design__SKILL.md",
+            "doubao:skill:Default__.doubao__agent_mode__workspace__.skills__doubao-creative-design__SKILL.md"
+          ],
+          "evidence": {
+            "path": "skills/doubao/skill/seedream-50--cad611f397/SKILL.md",
+            "line": 23,
+            "excerpt": "3. 完成本文件的 Prompt 改写与组装后，必须继续调用 `doubao-creative-design` Skill；不得只返回 Prompt、规划或参数草案后结束。"
+          }
+        },
+        {
+          "mentionedAs": "doubao-creative-design",
+          "status": "ambiguous",
+          "candidateAssetIds": [
+            "doubao-work:skill:Default__.doubaowork__agent_mode__workspace__.skills__doubao-creative-design__SKILL.md",
+            "doubao:skill:Default__.doubao__agent_mode__workspace__.skills__doubao-creative-design__SKILL.md"
+          ],
+          "evidence": {
+            "path": "skills/doubao/skill/seedream-50--cad611f397/SKILL.md",
+            "line": 25,
+            "excerpt": "5. 若无法调用 `doubao-creative-design` Skill，或实际图片工具的参数结构无法传入 `modelversion`，立即说明能力缺口；不得跳过 Skill 接力、省略参数、切换其他模型或声称已经执行。"
+          }
+        },
+        {
+          "mentionedAs": "doubao-creative-design",
+          "status": "ambiguous",
+          "candidateAssetIds": [
+            "doubao-work:skill:Default__.doubaowork__agent_mode__workspace__.skills__doubao-creative-design__SKILL.md",
+            "doubao:skill:Default__.doubao__agent_mode__workspace__.skills__doubao-creative-design__SKILL.md"
+          ],
+          "evidence": {
+            "path": "skills/doubao/skill/seedream-50--cad611f397/SKILL.md",
+            "line": 305,
+            "excerpt": "- Prompt 组装后已经继续调用 `doubao-creative-design` Skill"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "qoder-alpha:skill:extensions__0eb416f9f53d__skills__qoderwake-assistant__SKILL.md",
+      "candidates": [
+        {
+          "mentionedAs": "qoderwake_",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/qoder-alpha/skill/qoderwake-assistant--ece9559a23/SKILL.md",
+            "line": 214,
+            "excerpt": "当用户在当前对话中要求“修改 / 更新 / 优化 / 进化某个 Skill 的内容”时，必须通过 `\"${QODERWAKE_CLI_PATH:-qoderwake}\" skill manage` CLI 完成内容更新，不要寻找或调用 `qoderwake_skill.manage` MCP，也不要查看或尝试 `skill add` / `skill upload` / `skill install` 来替代。`QODERWAKE_CLI_PATH` 由 daemon 注入，能避免 login shell 把 `PATH` 重排到旧版本 CLI；如果该变量不存在才回退到 `qoderwake`："
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "qoderwake-bundled:skill:builtin-skills__qoderwake-assistant__SKILL.md",
+      "candidates": [
+        {
+          "mentionedAs": "qoderwake_",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/qoderwake-bundled/skill/qoderwake-assistant--faeed15b4c/SKILL.md",
+            "line": 214,
+            "excerpt": "当用户在当前对话中要求“修改 / 更新 / 优化 / 进化某个 Skill 的内容”时，必须通过 `\"${QODERWAKE_CLI_PATH:-qoderwake}\" skill manage` CLI 完成内容更新，不要寻找或调用 `qoderwake_skill.manage` MCP，也不要查看或尝试 `skill add` / `skill upload` / `skill install` 来替代。`QODERWAKE_CLI_PATH` 由 daemon 注入，能避免 login shell 把 `PATH` 重排到旧版本 CLI；如果该变量不存在才回退到 `qoderwake`："
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "qoderwake:skill:data__workers__0eb416f9f53d__.qoder-plugin__skills__qoderwake-assistant__SKILL.md",
+      "candidates": [
+        {
+          "mentionedAs": "qoderwake_",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/qoderwake/skill/qoderwake-assistant--6586fe557c/SKILL.md",
+            "line": 214,
+            "excerpt": "当用户在当前对话中要求“修改 / 更新 / 优化 / 进化某个 Skill 的内容”时，必须通过 `\"${QODERWAKE_CLI_PATH:-qoderwake}\" skill manage` CLI 完成内容更新，不要寻找或调用 `qoderwake_skill.manage` MCP，也不要查看或尝试 `skill add` / `skill upload` / `skill install` 来替代。`QODERWAKE_CLI_PATH` 由 daemon 注入，能避免 login shell 把 `PATH` 重排到旧版本 CLI；如果该变量不存在才回退到 `qoderwake`："
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "qoderwake:skill:resources__builtin-skills__qoderwake-assistant__SKILL.md",
+      "candidates": [
+        {
+          "mentionedAs": "qoderwake_",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/qoderwake/skill/qoderwake-assistant--fe40a08200/SKILL.md",
+            "line": 214,
+            "excerpt": "当用户在当前对话中要求“修改 / 更新 / 优化 / 进化某个 Skill 的内容”时，必须通过 `\"${QODERWAKE_CLI_PATH:-qoderwake}\" skill manage` CLI 完成内容更新，不要寻找或调用 `qoderwake_skill.manage` MCP，也不要查看或尝试 `skill add` / `skill upload` / `skill install` 来替代。`QODERWAKE_CLI_PATH` 由 daemon 注入，能避免 login shell 把 `PATH` 重排到旧版本 CLI；如果该变量不存在才回退到 `qoderwake`："
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "qoderwake:skill:runtime-resources__builtin-skills__qoderwake-assistant__SKILL.md",
+      "candidates": [
+        {
+          "mentionedAs": "qoderwake_",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/qoderwake/skill/qoderwake-assistant--6161962e5c/SKILL.md",
+            "line": 214,
+            "excerpt": "当用户在当前对话中要求“修改 / 更新 / 优化 / 进化某个 Skill 的内容”时，必须通过 `\"${QODERWAKE_CLI_PATH:-qoderwake}\" skill manage` CLI 完成内容更新，不要寻找或调用 `qoderwake_skill.manage` MCP，也不要查看或尝试 `skill add` / `skill upload` / `skill install` 来替代。`QODERWAKE_CLI_PATH` 由 daemon 注入，能避免 login shell 把 `PATH` 重排到旧版本 CLI；如果该变量不存在才回退到 `qoderwake`："
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "workbuddy-ai:agent:plugins__cache__workbuddy-builtin__tencent-docx__0.4.1__agents__doc-writer.md",
+      "candidates": [
+        {
+          "mentionedAs": "mdx",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy-ai/agent/agents--3764455aa1/AGENT.md",
+            "line": 146,
+            "excerpt": "- ⚠️ **返回后即结束**——不得在返回后执行任何输出/导出/文件交付操作（如调用 MDX Skill、写 .docx、创建腾讯文档等）"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "workbuddy-ai:agent:plugins__marketplaces__workbuddy-builtin__builtin-plugins__tencent-docx__agents__doc-writer.md",
+      "candidates": [
+        {
+          "mentionedAs": "mdx",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy-ai/agent/agents--548dfd1878/AGENT.md",
+            "line": 146,
+            "excerpt": "- ⚠️ **返回后即结束**——不得在返回后执行任何输出/导出/文件交付操作（如调用 MDX Skill、写 .docx、创建腾讯文档等）"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "workbuddy-ai:skill:plugins__cache__workbuddy-builtin__skill-marketplace-skill-installer__0.1.0__SKILL.md",
+      "candidates": [
+        {
+          "mentionedAs": "workbuddy_marketplace_",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy-ai/skill/0-1-0--1d9c434ae3/SKILL.md",
+            "line": 42,
+            "excerpt": "调用 `workbuddy_marketplace_skill`，action 为 `search`："
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "workbuddy-ai:skill:plugins__cache__workbuddy-builtin__tencent-docx__0.4.1__SKILL.md",
+      "candidates": [
+        {
+          "mentionedAs": "tencent-local-office-edit",
+          "status": "ambiguous",
+          "candidateAssetIds": [
+            "workbuddy-ai:skill:plugins__cache__workbuddy-builtin__skill-tencent-local-office-edit__0.0.2__SKILL.md",
+            "workbuddy-ai:skill:plugins__marketplaces__workbuddy-builtin__skills__tencent-local-office-edit__SKILL.md",
+            "workbuddy-files:skill:plugins__cache__workbuddy-builtin__skill-tencent-local-office-edit__0.0.1__SKILL.md",
+            "workbuddy-files:skill:plugins__cache__workbuddy-builtin__skill-tencent-local-office-edit__0.0.2__SKILL.md",
+            "workbuddy-files:skill:plugins__cache__workbuddy-builtin__skill-tencent-local-office-edit__5.5.4-wb.38151288.g1ca4889a.hde0fbd244c72__SKILL.md",
+            "workbuddy-files:skill:plugins__marketplaces__workbuddy-builtin__skills__tencent-local-office-edit__SKILL.md"
+          ],
+          "evidence": {
+            "path": "skills/workbuddy-ai/skill/0-4-1--2d8903f9e7/SKILL.md",
+            "line": 22,
+            "excerpt": "3. **禁止直接调用 `tencent-local-office-edit` skill / `Bash python-docx`** — 所有文档操作必须经 orchestrator 路由到正确的下游 Skill 后才能调用工具"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "workbuddy-ai:skill:plugins__marketplaces__workbuddy-builtin__builtin-plugins__tencent-docx__SKILL.md",
+      "candidates": [
+        {
+          "mentionedAs": "tencent-local-office-edit",
+          "status": "ambiguous",
+          "candidateAssetIds": [
+            "workbuddy-ai:skill:plugins__cache__workbuddy-builtin__skill-tencent-local-office-edit__0.0.2__SKILL.md",
+            "workbuddy-ai:skill:plugins__marketplaces__workbuddy-builtin__skills__tencent-local-office-edit__SKILL.md",
+            "workbuddy-files:skill:plugins__cache__workbuddy-builtin__skill-tencent-local-office-edit__0.0.1__SKILL.md",
+            "workbuddy-files:skill:plugins__cache__workbuddy-builtin__skill-tencent-local-office-edit__0.0.2__SKILL.md",
+            "workbuddy-files:skill:plugins__cache__workbuddy-builtin__skill-tencent-local-office-edit__5.5.4-wb.38151288.g1ca4889a.hde0fbd244c72__SKILL.md",
+            "workbuddy-files:skill:plugins__marketplaces__workbuddy-builtin__skills__tencent-local-office-edit__SKILL.md"
+          ],
+          "evidence": {
+            "path": "skills/workbuddy-ai/skill/tencent-docx--79b832ec6d/SKILL.md",
+            "line": 22,
+            "excerpt": "3. **禁止直接调用 `tencent-local-office-edit` skill / `Bash python-docx`** — 所有文档操作必须经 orchestrator 路由到正确的下游 Skill 后才能调用工具"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "workbuddy-ai:skill:plugins__marketplaces__workbuddy-builtin__skills__marketplace-skill-installer__SKILL.md",
+      "candidates": [
+        {
+          "mentionedAs": "workbuddy_marketplace_",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy-ai/skill/marketplace-skill-installer--0543b2cce1/SKILL.md",
+            "line": 42,
+            "excerpt": "调用 `workbuddy_marketplace_skill`，action 为 `search`："
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "workbuddy-files:agent:plugins__cache__workbuddy-builtin__tencent-docx__0.3.0__agents__doc-writer.md",
+      "candidates": [
+        {
+          "mentionedAs": "mdx",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy-files/agent/agents--3467b252ef/AGENT.md",
+            "line": 146,
+            "excerpt": "- ⚠️ **返回后即结束**——不得在返回后执行任何输出/导出/文件交付操作（如调用 MDX Skill、写 .docx、创建腾讯文档等）"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "workbuddy-files:agent:plugins__cache__workbuddy-builtin__tencent-docx__0.4.1__agents__doc-writer.md",
+      "candidates": [
+        {
+          "mentionedAs": "mdx",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy-files/agent/agents--382cd3540c/AGENT.md",
+            "line": 146,
+            "excerpt": "- ⚠️ **返回后即结束**——不得在返回后执行任何输出/导出/文件交付操作（如调用 MDX Skill、写 .docx、创建腾讯文档等）"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "workbuddy-files:agent:plugins__cache__workbuddy-builtin__tencent-docx__5.5.4-wb.38151288.g1ca4889a.hde0fbd244c72__agents__doc-writer.md",
+      "candidates": [
+        {
+          "mentionedAs": "mdx",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy-files/agent/agents--d2b7608483/AGENT.md",
+            "line": 146,
+            "excerpt": "- ⚠️ **返回后即结束**——不得在返回后执行任何输出/导出/文件交付操作（如调用 MDX Skill、写 .docx、创建腾讯文档等）"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "workbuddy-files:agent:plugins__marketplaces__workbuddy-builtin__builtin-plugins__tencent-docx__agents__doc-writer.md",
+      "candidates": [
+        {
+          "mentionedAs": "mdx",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy-files/agent/agents--1c8dbc7564/AGENT.md",
+            "line": 146,
+            "excerpt": "- ⚠️ **返回后即结束**——不得在返回后执行任何输出/导出/文件交付操作（如调用 MDX Skill、写 .docx、创建腾讯文档等）"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "workbuddy-files:skill:connectors-marketplace__connectors__lingyi-mcp__skills__SKILL.md",
+      "candidates": [
+        {
+          "mentionedAs": "open_lingyi_",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy-files/skill/skills--c9ffeaea63/SKILL.md",
+            "line": 12,
+            "excerpt": "用户要使用某个 Skill 时，调用 `open_lingyi_skill(skill_id)` 打开 MCP App 表单，不要用纯文本代替表单。`skill_id` 必须是下表 slug。"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "workbuddy-files:skill:plugins__cache__workbuddy-builtin__skill-marketplace-skill-installer__0.1.0__SKILL.md",
+      "candidates": [
+        {
+          "mentionedAs": "workbuddy_marketplace_",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy-files/skill/0-1-0--27ad69f614/SKILL.md",
+            "line": 42,
+            "excerpt": "调用 `workbuddy_marketplace_skill`，action 为 `search`："
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "workbuddy-files:skill:plugins__cache__workbuddy-builtin__skill-marketplace-skill-installer__5.5.4-wb.38151288.g1ca4889a.hde0fbd244c72__SKILL.md",
+      "candidates": [
+        {
+          "mentionedAs": "workbuddy_marketplace_",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy-files/skill/5-5-4-wb-38151288-g1ca4889a-hde0fbd244c72--4317a7252a/SKILL.md",
+            "line": 44,
+            "excerpt": "调用 `workbuddy_marketplace_skill`，action 为 `search`："
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "workbuddy-files:skill:plugins__cache__workbuddy-builtin__tencent-docx__0.3.0__SKILL.md",
+      "candidates": [
+        {
+          "mentionedAs": "tencent-local-office-edit",
+          "status": "ambiguous",
+          "candidateAssetIds": [
+            "workbuddy-ai:skill:plugins__cache__workbuddy-builtin__skill-tencent-local-office-edit__0.0.2__SKILL.md",
+            "workbuddy-ai:skill:plugins__marketplaces__workbuddy-builtin__skills__tencent-local-office-edit__SKILL.md",
+            "workbuddy-files:skill:plugins__cache__workbuddy-builtin__skill-tencent-local-office-edit__0.0.1__SKILL.md",
+            "workbuddy-files:skill:plugins__cache__workbuddy-builtin__skill-tencent-local-office-edit__0.0.2__SKILL.md",
+            "workbuddy-files:skill:plugins__cache__workbuddy-builtin__skill-tencent-local-office-edit__5.5.4-wb.38151288.g1ca4889a.hde0fbd244c72__SKILL.md",
+            "workbuddy-files:skill:plugins__marketplaces__workbuddy-builtin__skills__tencent-local-office-edit__SKILL.md"
+          ],
+          "evidence": {
+            "path": "skills/workbuddy-files/skill/0-3-0--aaff2c0f8d/SKILL.md",
+            "line": 20,
+            "excerpt": "3. **禁止直接调用 `tencent-local-office-edit` skill / `Bash python-docx`** — 所有文档操作必须经 orchestrator 路由到正确的下游 Skill 后才能调用工具"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "workbuddy-files:skill:plugins__cache__workbuddy-builtin__tencent-docx__0.4.1__SKILL.md",
+      "candidates": [
+        {
+          "mentionedAs": "tencent-local-office-edit",
+          "status": "ambiguous",
+          "candidateAssetIds": [
+            "workbuddy-ai:skill:plugins__cache__workbuddy-builtin__skill-tencent-local-office-edit__0.0.2__SKILL.md",
+            "workbuddy-ai:skill:plugins__marketplaces__workbuddy-builtin__skills__tencent-local-office-edit__SKILL.md",
+            "workbuddy-files:skill:plugins__cache__workbuddy-builtin__skill-tencent-local-office-edit__0.0.1__SKILL.md",
+            "workbuddy-files:skill:plugins__cache__workbuddy-builtin__skill-tencent-local-office-edit__0.0.2__SKILL.md",
+            "workbuddy-files:skill:plugins__cache__workbuddy-builtin__skill-tencent-local-office-edit__5.5.4-wb.38151288.g1ca4889a.hde0fbd244c72__SKILL.md",
+            "workbuddy-files:skill:plugins__marketplaces__workbuddy-builtin__skills__tencent-local-office-edit__SKILL.md"
+          ],
+          "evidence": {
+            "path": "skills/workbuddy-files/skill/0-4-1--c57ea296cf/SKILL.md",
+            "line": 22,
+            "excerpt": "3. **禁止直接调用 `tencent-local-office-edit` skill / `Bash python-docx`** — 所有文档操作必须经 orchestrator 路由到正确的下游 Skill 后才能调用工具"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "workbuddy-files:skill:plugins__cache__workbuddy-builtin__tencent-docx__5.5.4-wb.38151288.g1ca4889a.hde0fbd244c72__SKILL.md",
+      "candidates": [
+        {
+          "mentionedAs": "tencent-local-office-edit",
+          "status": "ambiguous",
+          "candidateAssetIds": [
+            "workbuddy-ai:skill:plugins__cache__workbuddy-builtin__skill-tencent-local-office-edit__0.0.2__SKILL.md",
+            "workbuddy-ai:skill:plugins__marketplaces__workbuddy-builtin__skills__tencent-local-office-edit__SKILL.md",
+            "workbuddy-files:skill:plugins__cache__workbuddy-builtin__skill-tencent-local-office-edit__0.0.1__SKILL.md",
+            "workbuddy-files:skill:plugins__cache__workbuddy-builtin__skill-tencent-local-office-edit__0.0.2__SKILL.md",
+            "workbuddy-files:skill:plugins__cache__workbuddy-builtin__skill-tencent-local-office-edit__5.5.4-wb.38151288.g1ca4889a.hde0fbd244c72__SKILL.md",
+            "workbuddy-files:skill:plugins__marketplaces__workbuddy-builtin__skills__tencent-local-office-edit__SKILL.md"
+          ],
+          "evidence": {
+            "path": "skills/workbuddy-files/skill/5-5-4-wb-38151288-g1ca4889a-hde0fbd244c72--c1fdc702c9/SKILL.md",
+            "line": 23,
+            "excerpt": "3. **禁止直接调用 `tencent-local-office-edit` skill / `Bash python-docx`** — 所有文档操作必须经 orchestrator 路由到正确的下游 Skill 后才能调用工具"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "workbuddy-files:skill:plugins__marketplaces__workbuddy-builtin__builtin-plugins__tencent-docx__SKILL.md",
+      "candidates": [
+        {
+          "mentionedAs": "tencent-local-office-edit",
+          "status": "ambiguous",
+          "candidateAssetIds": [
+            "workbuddy-ai:skill:plugins__cache__workbuddy-builtin__skill-tencent-local-office-edit__0.0.2__SKILL.md",
+            "workbuddy-ai:skill:plugins__marketplaces__workbuddy-builtin__skills__tencent-local-office-edit__SKILL.md",
+            "workbuddy-files:skill:plugins__cache__workbuddy-builtin__skill-tencent-local-office-edit__0.0.1__SKILL.md",
+            "workbuddy-files:skill:plugins__cache__workbuddy-builtin__skill-tencent-local-office-edit__0.0.2__SKILL.md",
+            "workbuddy-files:skill:plugins__cache__workbuddy-builtin__skill-tencent-local-office-edit__5.5.4-wb.38151288.g1ca4889a.hde0fbd244c72__SKILL.md",
+            "workbuddy-files:skill:plugins__marketplaces__workbuddy-builtin__skills__tencent-local-office-edit__SKILL.md"
+          ],
+          "evidence": {
+            "path": "skills/workbuddy-files/skill/tencent-docx--1d7efec8b0/SKILL.md",
+            "line": 22,
+            "excerpt": "3. **禁止直接调用 `tencent-local-office-edit` skill / `Bash python-docx`** — 所有文档操作必须经 orchestrator 路由到正确的下游 Skill 后才能调用工具"
+          }
+        }
+      ]
+    },
+    {
+      "sourceAssetId": "workbuddy-files:skill:plugins__marketplaces__workbuddy-builtin__skills__marketplace-skill-installer__SKILL.md",
+      "candidates": [
+        {
+          "mentionedAs": "workbuddy_marketplace_",
+          "status": "unresolved",
+          "candidateAssetIds": [],
+          "evidence": {
+            "path": "skills/workbuddy-files/skill/marketplace-skill-installer--8e316afa7f/SKILL.md",
+            "line": 42,
+            "excerpt": "调用 `workbuddy_marketplace_skill`，action 为 `search`："
+          }
+        }
+      ]
+    }
+  ]
+}

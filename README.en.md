@@ -31,6 +31,12 @@ This is not a runtime framework and it does not install or execute third-party c
 
 `manifest.json` describes the public assets and `skills/` contains their files. The website is one consumer of this data; its source code is not part of this repository.
 
+## Capability Registry (in migration)
+
+The repository is adding `registry/` as a machine-readable control plane for dependencies, runtime requirements, permissions, failure semantics, provenance, lifecycle, and verification. This does not change the repository boundary: **cataloged does not mean installed, runnable, invoked, or verified**. Historical assets remain `unverified` until they have an explicit verification receipt.
+
+See [docs/capability-registry.md](docs/capability-registry.md) for the contract and migration rules.
+
 ## Contributing
 
 Contributions are welcome: new public assets, metadata corrections, UI improvements, and documentation updates. Before opening a pull request, please verify that:
