@@ -1,0 +1,43 @@
+name: Validate and deploy public skills
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate manifest JSON
+        run: python3 -m json.tool manifest.json >/dev/null
+      - name: Check for private paths and credentials
+        run: |
+          if git grep -n -I -E '/Users/|/home/|BEGIN [A-Z ]*PRIVATE KEY|ghp_|github_pat_|120\.79\.247\.188|gAAAAA' -- . ':!README.md' ':!README.en.md'; then
+            echo 'Potential private path, credential, server address, or encrypted payload found.'
+            exit 1
+          fi
+
+  deploy:
+    needs: validate
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Configure SSH
+        env:
+          DEPLOY_KEY: ${{ secrets.DEPLOY_SSH_KEY }}
+        run: |
+          install -m 700 -d ~/.ssh
+          printf '%s\n' "$DEPLOY_KEY" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          ssh-keyscan -H "${{ secrets.DEPLOY_HOST }}" >> ~/.ssh/known_hosts
+      - name: Sync public skills and manifest
+        run: |
+          ssh "${{ secrets.DEPLOY_USER }}@${{ secrets.DEPLOY_HOST }}" "mkdir -p '${{ secrets.DEPLOY_PATH }}/skills'"
+          scp manifest.json "${{ secrets.DEPLOY_USER }}@${{ secrets.DEPLOY_HOST }}:${{ secrets.DEPLOY_PATH }}/manifest.json"
+          rsync -az --delete -e "ssh -i ~/.ssh/id_ed25519" skills/ "${{ secrets.DEPLOY_USER }}@${{ secrets.DEPLOY_HOST }}:${{ secrets.DEPLOY_PATH }}/skills/"
+          ssh "${{ secrets.DEPLOY_USER }}@${{ secrets.DEPLOY_HOST }}" "chmod -R a+rX '${{ secrets.DEPLOY_PATH }}/skills'"
