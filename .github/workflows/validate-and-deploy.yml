@@ -17,7 +17,7 @@ jobs:
         run: python3 -m json.tool manifest.json >/dev/null
       - name: Check for private paths and credentials
         run: |
-          if git grep -n -I -E '/Users/hukee|/home/hukee|BEGIN [A-Z ]*PRIVATE KEY|ghp_[A-Za-z0-9]+|github_pat_[A-Za-z0-9_]+|120\.79\.247\.188|gAAAAA' -- . ':!README.md' ':!README.en.md'; then
+          if git grep -n -I -E '/Users/hukee|/home/hukee|BEGIN [A-Z ]*PRIVATE KEY|ghp_[A-Za-z0-9]+|github_pat_[A-Za-z0-9_]+|120\.79\.247\.188|gAAAAA' -- . ':!README.md' ':!README.en.md' ':!.github/**'; then
             echo 'Potential private path, credential, server address, or encrypted payload found.'
             exit 1
           fi
