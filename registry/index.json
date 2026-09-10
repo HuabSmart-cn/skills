@@ -1,0 +1,27 @@
+{
+  "$schema": "schemas/registry-index-v1.schema.json",
+  "schemaVersion": "1.0.0",
+  "registryId": "huabsmart-capability-registry",
+  "generatedAt": "2026-09-10T00:00:00Z",
+  "migrationState": "bootstrap",
+  "capabilities": [
+    {
+      "id": "cap.skill.lark-skills.lark-shared.v1",
+      "kind": "skill",
+      "title": "Lark shared authentication and authorization",
+      "legacyAssetId": "lark-skills:skill:skills__lark-shared__SKILL.md",
+      "detail": "capabilities/cap.skill.lark-skills.lark-shared.v1.json",
+      "status": "unverified",
+      "tags": ["lark", "authentication", "authorization"]
+    },
+    {
+      "id": "cap.skill.lark-skills.lark-calendar.v1",
+      "kind": "skill",
+      "title": "Lark calendar",
+      "legacyAssetId": "lark-skills:skill:skills__lark-calendar__SKILL.md",
+      "detail": "capabilities/cap.skill.lark-skills.lark-calendar.v1.json",
+      "status": "unverified",
+      "tags": ["lark", "calendar", "scheduling"]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://huabsmart.cn/schemas/capability-registry/download-bundle/v1.json",
+  "type": "object",
+  "required": ["schemaVersion", "bundleKind", "asset", "registry", "declaredDependencies", "textualCandidates", "verification"],
+  "properties": {
+    "schemaVersion": { "const": "1.0.0" },
+    "bundleKind": { "const": "huabsmart-download-bundle" },
+    "asset": { "type": "object" },
+    "registry": { "type": "object" },
+    "declaredDependencies": { "type": "object" },
+    "textualCandidates": { "type": "array" },
+    "verification": { "type": "object", "required": ["runtime", "meaning"], "properties": { "runtime": { "const": "not_verified" }, "meaning": { "type": "string" } } }
+  }
+}

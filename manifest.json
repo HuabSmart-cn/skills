@@ -8,7 +8,7 @@
     "lastUpdated": "2026-09-04T10:36:06Z"
   },
   "assetsRoot": "skills",
-  "count": 7143,
+  "count": 7137,
   "categories": [
     {
       "id": "01-ProductDesign",
@@ -4008,75 +4008,6 @@
         "contentSource": "remote",
         "attachments": [],
         "withheldForReview": 0
-      }
-    },
-    {
-      "id": "TechnicalDocumentationEngineer",
-      "categoryId": "10-ProjectQuality",
-      "displayName": {
-        "en": "Anna",
-        "zh": "文通通"
-      },
-      "profession": {
-        "en": "Technical Documentation Engineer",
-        "zh": "技术文档工程师"
-      },
-      "description": {
-        "en": "Transforms complex technical concepts into clear and accurate documentation, making technical knowledge shareable",
-        "zh": "将复杂技术概念转化为清晰准确的文档，让技术知识可传播"
-      },
-      "promptFile": "https://acc-1258344699.cos.accelerate.myqcloud.com/workbuddy/expert-marketplace/plugins/technical-documentation-engineer/agents/technical-documentation-engineer.md",
-      "avatar": "/avatars/TechnicalDocumentationEngineer.png",
-      "createdAt": "2026-03-13T00:00:00Z",
-      "updatedAt": "2026-05-22T19:29:00Z",
-      "defaultInitPrompt": {
-        "zh": "我们的技术文档不够完善,影响开发效率和知识传递,请技术文档工程师帮我们建立系统的文档体系。",
-        "en": "Our technical documentation is inadequate, affecting development efficiency and knowledge transfer. Please, Technical Documentation Engineer, help us establish a systematic documentation system."
-      },
-      "expertType": "agent",
-      "agentName": "technical-documentation-engineer",
-      "plugin": "technical-documentation-engineer",
-      "tags": [
-        {
-          "zh": "技术文档",
-          "en": "Technical Documentation"
-        },
-        {
-          "zh": "API文档",
-          "en": "API Documentation"
-        },
-        {
-          "zh": "开发者指南",
-          "en": "Developer Guide"
-        }
-      ],
-      "quickPrompts": [
-        {
-          "zh": "我们的技术文档不够完善,影响开发效率和知识传递,请技术文档工程师帮我们建立系统的文档体系。",
-          "en": "Our technical documentation is inadequate, affecting development efficiency and knowledge transfer. Please, Technical Documentation Engineer, help us establish a systematic documentation system."
-        },
-        {
-          "zh": "搭建文档站点和版本管理体系",
-          "en": "Build documentation site and versioning system"
-        },
-        {
-          "zh": "制定文档规范和模板库",
-          "en": "Develop documentation standards and template library"
-        }
-      ],
-      "platformId": "workbuddy",
-      "platformName": {
-        "zh": "WorkBuddy",
-        "en": "WorkBuddy"
-      },
-      "sourceKind": "agent",
-      "asset": {
-        "directory": "skills/workbuddy/agent/technical-documentation-engineer--733e79e40c",
-        "primaryFile": "AGENT.md",
-        "sourcePrompt": "https://acc-1258344699.cos.accelerate.myqcloud.com/workbuddy/expert-marketplace/plugins/technical-documentation-engineer/agents/technical-documentation-engineer.md",
-        "contentSource": "remote",
-        "attachments": [],
-        "withheldForReview": 1
       }
     },
     {
@@ -45647,57 +45578,6 @@
       }
     },
     {
-      "id": "agency-agents:engineering:engineering-technical-writer",
-      "categoryId": "02-Engineering",
-      "displayName": {
-        "en": "Technical Writer",
-        "zh": "技术文档工程师（Technical Writer）"
-      },
-      "profession": {
-        "en": "Technical Writer",
-        "zh": "技术文档工程师（Technical Writer）"
-      },
-      "description": {
-        "en": "Expert technical writer specializing in developer documentation, API references, README files, and tutorials. Transforms complex engineering concepts into clear, accurate, and engaging docs that developers actually re...",
-        "zh": "开发者文档、API 参考手册与教程撰写专家"
-      },
-      "promptFile": "https://github.com/msitarzewski/agency-agents/blob/main/engineering/engineering-technical-writer.md",
-      "agentName": "engineering-technical-writer",
-      "tags": [
-        {
-          "en": "Agency Agents",
-          "zh": "Agency Agents"
-        },
-        {
-          "en": "Engineering",
-          "zh": "技术工程"
-        },
-        {
-          "en": "Agent",
-          "zh": "Agent"
-        },
-        {
-          "en": "📚",
-          "zh": "📚"
-        }
-      ],
-      "quickPrompts": [],
-      "platformId": "agency-agents",
-      "platformName": {
-        "zh": "Agency Agents 专业智能体",
-        "en": "Agency Agents"
-      },
-      "sourceKind": "agent",
-      "asset": {
-        "directory": "skills/agency-agents/agent/engineering-technical-writer--135d7027d1",
-        "primaryFile": "AGENT.md",
-        "sourcePrompt": "https://github.com/msitarzewski/agency-agents/blob/main/engineering/engineering-technical-writer.md",
-        "contentSource": "github",
-        "attachments": [],
-        "withheldForReview": 1
-      }
-    },
-    {
       "id": "agency-agents:engineering:engineering-universal-document-compiler",
       "categoryId": "02-Engineering",
       "displayName": {
@@ -51610,57 +51490,6 @@
       }
     },
     {
-      "id": "agency-agents:security:security-ai-generated-code-auditor",
-      "categoryId": "11-SecurityCompliance",
-      "displayName": {
-        "en": "AI-Generated Code Security Auditor",
-        "zh": "AI 生成代码安全审计师（AI-Generated Code Security Auditor）"
-      },
-      "profession": {
-        "en": "AI-Generated Code Security Auditor",
-        "zh": "AI 生成代码安全审计师（AI-Generated Code Security Auditor）"
-      },
-      "description": {
-        "en": "Security reviewer for AI-generated and vibe-coded apps — hunts the hardcoded secrets, broken row-level security, and prompt-injection sinks that coding assistants ship by default, then drives a scan, fix, and rescan l...",
-        "zh": "Security reviewer for AI-generated and vibe-coded apps — hunts the hardcoded secrets, broken row-level security, and prompt-injection sinks that coding assistants ship by default, then drives a scan, fix, and rescan l..."
-      },
-      "promptFile": "https://github.com/msitarzewski/agency-agents/blob/main/security/security-ai-generated-code-auditor.md",
-      "agentName": "security-ai-generated-code-auditor",
-      "tags": [
-        {
-          "en": "Agency Agents",
-          "zh": "Agency Agents"
-        },
-        {
-          "en": "Security",
-          "zh": "信息安全"
-        },
-        {
-          "en": "Agent",
-          "zh": "Agent"
-        },
-        {
-          "en": "🔎",
-          "zh": "🔎"
-        }
-      ],
-      "quickPrompts": [],
-      "platformId": "agency-agents",
-      "platformName": {
-        "zh": "Agency Agents 专业智能体",
-        "en": "Agency Agents"
-      },
-      "sourceKind": "agent",
-      "asset": {
-        "directory": "skills/agency-agents/agent/security-ai-generated-code-auditor--4faad1ed7c",
-        "primaryFile": "AGENT.md",
-        "sourcePrompt": "https://github.com/msitarzewski/agency-agents/blob/main/security/security-ai-generated-code-auditor.md",
-        "contentSource": "github",
-        "attachments": [],
-        "withheldForReview": 1
-      }
-    },
-    {
       "id": "agency-agents:security:security-appsec-engineer",
       "categoryId": "11-SecurityCompliance",
       "displayName": {
@@ -52066,57 +51895,6 @@
         "contentSource": "github",
         "attachments": [],
         "withheldForReview": 0
-      }
-    },
-    {
-      "id": "agency-agents:security:security-senior-secops",
-      "categoryId": "11-SecurityCompliance",
-      "displayName": {
-        "en": "Senior SecOps Engineer",
-        "zh": "资深安全运维工程师（SecOps）（Senior SecOps Engineer）"
-      },
-      "profession": {
-        "en": "Senior SecOps Engineer",
-        "zh": "资深安全运维工程师（SecOps）（Senior SecOps Engineer）"
-      },
-      "description": {
-        "en": "Defensive application security specialist who scans every code submission for secrets and sensitive data exposure before anything else, then implements or audits security controls following the organization's security...",
-        "zh": "Defensive application security specialist who scans every code submission for secrets and sensitive data exposure before anything else, then implements or audits security controls following the organization's security..."
-      },
-      "promptFile": "https://github.com/msitarzewski/agency-agents/blob/main/security/security-senior-secops.md",
-      "agentName": "security-senior-secops",
-      "tags": [
-        {
-          "en": "Agency Agents",
-          "zh": "Agency Agents"
-        },
-        {
-          "en": "Security",
-          "zh": "信息安全"
-        },
-        {
-          "en": "Agent",
-          "zh": "Agent"
-        },
-        {
-          "en": "🛡️",
-          "zh": "🛡️"
-        }
-      ],
-      "quickPrompts": [],
-      "platformId": "agency-agents",
-      "platformName": {
-        "zh": "Agency Agents 专业智能体",
-        "en": "Agency Agents"
-      },
-      "sourceKind": "agent",
-      "asset": {
-        "directory": "skills/agency-agents/agent/security-senior-secops--73d6f4636b",
-        "primaryFile": "AGENT.md",
-        "sourcePrompt": "https://github.com/msitarzewski/agency-agents/blob/main/security/security-senior-secops.md",
-        "contentSource": "github",
-        "attachments": [],
-        "withheldForReview": 1
       }
     },
     {
@@ -69126,55 +68904,6 @@
           "files/scripts/validate-chart.sh"
         ],
         "withheldForReview": 0
-      }
-    },
-    {
-      "id": "workbuddy-ai:skill:plugins__marketplaces__codebuddy-plugins-official__external_plugins__kubernetes-operations__skills__k8s-manifest-generator__SKILL.md",
-      "categoryId": "03-CloudDevOps",
-      "displayName": {
-        "en": "Kubernetes Manifest Generator",
-        "zh": "Kubernetes Manifest Generator"
-      },
-      "profession": {
-        "en": "Kubernetes Manifest Generator",
-        "zh": "Kubernetes Manifest Generator"
-      },
-      "description": {
-        "en": "Create production-ready Kubernetes manifests for Deployments, Services, ConfigMaps, and Secrets following best practices and security standards. Use when generating Kubernetes YAML manifests, creating K8s resources, o...",
-        "zh": "Create production-ready Kubernetes manifests for Deployments, Services, ConfigMaps, and Secrets following best practices and security standards. Use when generating Kubernetes YAML manifests, creating K8s resources, o..."
-      },
-      "promptFile": "plugins/marketplaces/codebuddy-plugins-official/external_plugins/kubernetes-operations/skills/k8s-manifest-generator/SKILL.md",
-      "agentName": "k8s-manifest-generator",
-      "tags": [
-        {
-          "en": "Skill",
-          "zh": "Skill"
-        },
-        {
-          "zh": "WorkBuddy AI",
-          "en": "WorkBuddy AI"
-        }
-      ],
-      "quickPrompts": [],
-      "platformId": "workbuddy-ai",
-      "platformName": {
-        "zh": "WorkBuddy AI",
-        "en": "WorkBuddy AI"
-      },
-      "sourceKind": "skill",
-      "asset": {
-        "directory": "skills/workbuddy-ai/skill/k8s-manifest-generator--9d39dfb437",
-        "primaryFile": "SKILL.md",
-        "sourcePrompt": "plugins/marketplaces/codebuddy-plugins-official/external_plugins/kubernetes-operations/skills/k8s-manifest-generator/SKILL.md",
-        "contentSource": "local",
-        "attachments": [
-          "files/assets/configmap-template.yaml",
-          "files/assets/deployment-template.yaml",
-          "files/assets/service-template.yaml",
-          "files/references/deployment-spec.md",
-          "files/references/service-spec.md"
-        ],
-        "withheldForReview": 1
       }
     },
     {
@@ -167901,55 +167630,6 @@
           "files/scripts/validate-chart.sh"
         ],
         "withheldForReview": 0
-      }
-    },
-    {
-      "id": "workbuddy-files:skill:plugins__marketplaces__codebuddy-plugins-official__external_plugins__kubernetes-operations__skills__k8s-manifest-generator__SKILL.md",
-      "categoryId": "03-CloudDevOps",
-      "displayName": {
-        "en": "Kubernetes Manifest Generator",
-        "zh": "Kubernetes Manifest Generator"
-      },
-      "profession": {
-        "en": "Kubernetes Manifest Generator",
-        "zh": "Kubernetes Manifest Generator"
-      },
-      "description": {
-        "en": "Create production-ready Kubernetes manifests for Deployments, Services, ConfigMaps, and Secrets following best practices and security standards. Use when generating Kubernetes YAML manifests, creating K8s resources, o...",
-        "zh": "Create production-ready Kubernetes manifests for Deployments, Services, ConfigMaps, and Secrets following best practices and security standards. Use when generating Kubernetes YAML manifests, creating K8s resources, o..."
-      },
-      "promptFile": "plugins/marketplaces/codebuddy-plugins-official/external_plugins/kubernetes-operations/skills/k8s-manifest-generator/SKILL.md",
-      "agentName": "k8s-manifest-generator",
-      "tags": [
-        {
-          "en": "Skill",
-          "zh": "Skill"
-        },
-        {
-          "zh": "WorkBuddy 本地文件",
-          "en": "WorkBuddy Local Files"
-        }
-      ],
-      "quickPrompts": [],
-      "platformId": "workbuddy-files",
-      "platformName": {
-        "zh": "WorkBuddy 本地文件",
-        "en": "WorkBuddy Local Files"
-      },
-      "sourceKind": "skill",
-      "asset": {
-        "directory": "skills/workbuddy-files/skill/k8s-manifest-generator--45276ea814",
-        "primaryFile": "SKILL.md",
-        "sourcePrompt": "plugins/marketplaces/codebuddy-plugins-official/external_plugins/kubernetes-operations/skills/k8s-manifest-generator/SKILL.md",
-        "contentSource": "local",
-        "attachments": [
-          "files/assets/configmap-template.yaml",
-          "files/assets/deployment-template.yaml",
-          "files/assets/service-template.yaml",
-          "files/references/deployment-spec.md",
-          "files/references/service-spec.md"
-        ],
-        "withheldForReview": 1
       }
     },
     {

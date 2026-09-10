@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://huabsmart.cn/schemas/capability-registry/index/v1.json",
+  "type": "object",
+  "required": ["schemaVersion", "registryId", "migrationState", "capabilities"],
+  "properties": {
+    "$schema": { "type": "string" },
+    "schemaVersion": { "const": "1.0.0" },
+    "registryId": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "generatedAt": { "type": "string", "format": "date-time" },
+    "migrationState": { "enum": ["bootstrap", "partial", "complete"] },
+    "capabilities": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "kind", "title", "detail", "status", "tags"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^cap\\.(skill|agent|prompt|mcp|plugin|workflow|knowledge)\\.[a-z0-9.-]+\\.v[0-9]+$" },
+          "kind": { "enum": ["skill", "agent", "prompt", "mcp", "plugin", "workflow", "knowledge"] },
+          "title": { "type": "string", "minLength": 1 },
+          "legacyAssetId": { "type": "string" },
+          "detail": { "type": "string", "pattern": "^capabilities/.+\\.json$" },
+          "status": { "enum": ["available", "incomplete", "dependency_missing", "runtime_unsupported", "deprecated", "unverified", "archived"] },
+          "tags": { "type": "array", "items": { "type": "string" } }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

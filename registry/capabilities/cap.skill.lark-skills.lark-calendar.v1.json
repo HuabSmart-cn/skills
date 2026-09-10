@@ -1,0 +1,39 @@
+{
+  "$schema": "../schemas/capability-v1.schema.json",
+  "schemaVersion": "1.0.0",
+  "id": "cap.skill.lark-skills.lark-calendar.v1",
+  "kind": "skill",
+  "identity": {
+    "canonicalName": "lark-calendar",
+    "aliases": ["calendar"],
+    "displayName": { "zh": "Lark 日历", "en": "Lark calendar" }
+  },
+  "summary": { "zh": "查询和管理 Lark 日程、忙闲、会议室与参会人。", "en": "Query and manage Lark events, availability, rooms, and attendees." },
+  "artifact": {
+    "legacyAssetId": "lark-skills:skill:skills__lark-calendar__SKILL.md",
+    "root": "skills/lark-skills/skill/lark-calendar--554195928d",
+    "entry": "SKILL.md",
+    "contentLayer": "source"
+  },
+  "origin": {
+    "sourceType": "local-capture",
+    "originalPath": "lark-skills/lark-calendar/SKILL.md",
+    "license": { "status": "unverified" },
+    "metadataAuthority": "huabsmart"
+  },
+  "dependencies": {
+    "required": [{ "id": "cap.skill.lark-skills.lark-shared.v1", "reason": "authentication and authorization" }],
+    "optional": []
+  },
+  "runtime": {
+    "hosts": [{ "runtime": "codex", "compatibility": "unverified" }],
+    "tools": [{ "name": "lark-cli", "required": true }],
+    "environment": [],
+    "externalServices": [{ "name": "Lark Open Platform", "required": true, "network": true }]
+  },
+  "permissions": { "operations": ["read", "create", "update", "delete", "external_write"], "risk": "high" },
+  "contracts": { "input": "calendar-request", "output": "calendar-result" },
+  "failurePolicy": { "mode": "must_execute", "mustReturn": ["dependency_missing", "runtime_unsupported", "authorization_denied", "execution_failed"] },
+  "lifecycle": { "state": "active" },
+  "verification": { "status": "unverified", "receipts": [] }
+}
