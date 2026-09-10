@@ -1,0 +1,7 @@
+interface:
+  display_name: "大模型教案PPT模板"
+  short_description: "Create presentations with the 大模型教案PPT模板 template"
+  icon_large: "./assets/preview.png"
+  default_prompt: "Use $artifact-template-ppt to create a new presentation with this template."
+policy:
+  allow_implicit_invocation: true

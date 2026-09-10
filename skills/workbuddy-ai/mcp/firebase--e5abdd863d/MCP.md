@@ -1,0 +1,10 @@
+{
+  "firebase": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "firebase-tools@latest",
+      "mcp"
+    ]
+  }
+}

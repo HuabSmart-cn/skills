@@ -1,0 +1,66 @@
+{
+  "name": "omics-bioinfo-expert",
+  "version": "1.0.0",
+  "description": "Tencent Health Omics Bioinformatics Analysis Expert - covering WDL/Nextflow workflow management, task diagnosis, and protein structure visualization",
+  "author": {
+    "name": "Tencent Health Omics Team",
+    "email": "omics@tencent.com"
+  },
+  "expertType": "agent",
+  "agentName": "omics-bioinfo-expert",
+  "agents": [
+    "./agents/omics-bioinfo-expert.md"
+  ],
+  "skills": [
+    "./skills/omics-task-skill",
+    "./skills/omics-run-diagnosis",
+    "./skills/pdb-viewer-skill"
+  ],
+  "displayName": {
+    "en": "omics-expert",
+    "zh": "组小学"
+  },
+  "profession": {
+    "en": "Omics Bioinformatics Analysis Expert",
+    "zh": "腾讯组学生信分析专家"
+  },
+  "displayDescription": {
+    "en": "Expert in omics bioinformatics analysis, providing WDL/Nextflow workflow execution, task failure diagnosis, and 3D protein structure visualization services",
+    "zh": "专攻生信分析，支持任务投递、进度追踪、日志解析、智能排错。内置自研模型库，加速生信研发与生产分析"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "04-DataAI",
+  "defaultInitPrompt": {
+    "zh": "帮我在组学平台运行 WGS 质控公共应用，全程跟踪任务状态，生成一份专业级 HTML 任务运行报告",
+    "en": "Help me run the WGS QC public application on the omics platform, track the task status throughout, and generate a professional-grade HTML task run report"
+  },
+  "tags": [
+    {
+      "zh": "生科分析",
+      "en": "Bioinformatics Analysis"
+    },
+    {
+      "zh": "任务管理",
+      "en": "Task Management"
+    },
+    {
+      "zh": "AI智能排错",
+      "en": "AI Intelligent Troubleshooting"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "zh": "帮我在组学平台运行 WGS 质控公共应用，全程跟踪任务状态，生成一份专业级 HTML 任务运行报告",
+      "en": "Help me run the WGS QC public application on the omics platform, track the task status throughout, and generate a professional-grade HTML task run report"
+    },
+    {
+      "zh": "编写一个最小化 FastQC 单端质控 WDL 流程，生成模拟测序数据并上传运行，跟踪到出结果并输出专业级 HTML 分析报告",
+      "en": "Write a minimal FastQC single-end QC WDL workflow, generate simulated sequencing data, upload and run it, track until results are ready, and output a professional-grade HTML analysis report"
+    },
+    {
+      "zh": "查询我失败的组学任务并诊断根因，生成一份批量失败任务的专业级 HTML 诊断报告",
+      "en": "Query my failed omics tasks, diagnose the root cause, and generate a professional-grade HTML diagnostic report for the batch of failed tasks"
+    }
+  ],
+  "plugin": "omics-bioinfo-expert"
+}

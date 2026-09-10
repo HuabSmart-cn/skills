@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "edgeone-pages": {
+      "timeout": 600,
+      "command": "npx",
+      "args": [
+        "edgeone-pages-mcp-fullstack@latest",
+        "--region",
+        "china"
+      ],
+      "runtime": {
+        "type": "node",
+        "version": ">=20"
+      }
+    }
+  },
+  "preAuth": "cli"
+}

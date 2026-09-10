@@ -1,0 +1,1036 @@
+
+========== PAGE 2 ==========
+Copyright 2020 Britcham Brasil  
+ 
+The British Chamber of Commerce and Industry in Brazil - Britcham 
+ 
+Rua Ferreira de Araújo, 741 - 1st floor 
+05428-002 São Paulo SP Brazil 
+ 
+ 
+First published by The British Chamber of Commerce and 
+Industry in Brazil - Britcham in 1998. This digital edition published 
+in 2020. 
+ 
+All rights reserved. This digital book may not be reproduced 
+in whole or in part, stored in a retrieval system or transmitted in any 
+form or by any means without prior permission from the publishers.  
+ 
+This digital book is distributed subject to the condition that 
+it may not, by way of trade or otherwise, be lent, sold, hired out or 
+otherwise circulated without the publisher’s prior consent in any 
+form of binding or cover other than that in which it is published and 
+without a similar condition including this condition being imposed 
+on the subsequent purchaser.  
+ 
+Britcham Coordination  
+Fabrício Soares 
+ 
+Legal, Tax & Regulatory Committee 
+Luiz Guilherme Gomes Primos - President, São Paulo 
+Paula Costa - President, Rio de Janeiro 
+Rômulo Cristiano Coutinho da Silva - Vice-President, São Paulo 
+Paula Abreu - Vice-President, Rio de Janeiro 
+ 
+ 
+ 
+ 
+ 
+ 
+Disclaimer 
+This digital publication is designed to provide accurate and authoritative information in regard 
+to the subject matter covered. It is distributed with the understanding that the publisher is not 
+engaged in rendering legal, accounting or other personal services. If legal advice or other expert 
+assistance is required, the services of a competent professional person should be sought.
+2
+Designed by 
+André Bogdan 
+www.aloby.com.br 
+ 
+Review by 
+Steve Wingrove 
+Wordplay Traduções 
+ 
+Illustration by 
+Odilon Moraes 
+São Paulo, Dec. 1999 
+
+========== PAGE 3 ==========
+3
+Doing
+BUSINESS
+IN BRAZIL
+7th edition
+The British Chamber of Commerce and Industry in Brazil  
+BRITCHAM 
+ 
+ 
+São Paulo 
+Centro Brasileiro Britânico 
+Rua Ferreira de Araújo, 741 - 1st floor 
+05428-002 - Pinheiros - São Paulo - SP 
+Phone: +55 11 3819-0265 
+ 
+Rio de Janeiro 
+Av. Graça Aranha, 1 - 6th floor 
+20030-002 - Centro - Rio de Janeiro - RJ 
+Phone: +55 21 2262-5926 
+ 
+Paraná 
+Rua Mauá, 1248 
+80030-200 - Centro Cívico - Curitiba - PR 
+Phone: +55 41 3021-2100 
+ 
+Minas Gerais 
+Rua Timbiras, 1.754 
+30140-061 - Lourdes - Belo Horizonte - MG 
+Phone: +55 31 3248-2300 
+ 
+ 
+britcham@britcham.com.br  
+www.britcham.com.br 
+
+========== PAGE 4 ==========
+FOREWORD ...................................................................................... 
+  
+ 
+ACKNOWLEDGEMENTS .............................................................. 
+  
+ 
+ABBREVIATIONS ........................................................................... 
+  
+ 
+1.      AN OVERVIEW OF BRAZIL ................................................. 
+Introduction ................................................................................ 
+The Political System ................................................................... 
+Political Divisions ...................................................................... 
+The Legal System ....................................................................... 
+Recent Political and Economic History .................................. 
+International Treaties ................................................................. 
+Logistics ...................................................................................... 
+  
+ 
+2.      FOREIGN INVESTMENT IN BRAZIL ................................  
+Direct Investment ....................................................................... 
+Indirect Investment ................................................................... 
+4
+ 
+Contents
+8 
+ 
+ 
+10 
+ 
+ 
+12 
+ 
+ 
+26 
+26 
+30 
+34 
+36 
+38 
+43 
+46 
+ 
+ 
+50 
+50 
+54 
+
+========== PAGE 5 ==========
+3.      CORPORATE LAW ................................................................. 
+Different Types of Corporate Entities ..................................... 
+Duties and Liabilities of Directors and Officers .................... 
+Resignation of Directors and Officers ..................................... 
+Restructuring and Insolvency .................................................. 
+Media and Foreign Investment ................................................ 
+Managers and Investors’ Liability .......................................... 
+  
+ 
+4.     CORPORATE CRIMINAL LAW ........................................... 
+  
+ 
+5.     CONTRACT LAW ..................................................................... 
+The Agency and Distribution Relationship ........................... 
+The Franchising Agreement ..................................................... 
+Electronic Commerce ................................................................ 
+  
+ 
+6.     TAX LAW .................................................................................... 
+General Rules of Brazilian Tax System ................................... 
+Taxation of Indirect Investment ................................................ 
+Transfer Pricing on Commercial and Financial Transactions ....   
+Tax Aspects of Electronic Commerce ...................................... 
+Importing and Exporting .......................................................... 
+Tax Incentives ............................................................................. 
+  
+ 
+7.      LABOUR LAW ......................................................................... 
+Employment Law ...................................................................... 
+Immigration and Expatriate Rights ........................................ 
+Stock Option Plans .................................................................... 
+ 
+ 
+8.      BANKING LAW ...................................................................... 
+The Brazilian Securities and Exchange Commission ........... 
+B3 S.A. ......................................................................................... 
+Public Offerings ......................................................................... 
+Debentures .................................................................................. 
+Mortgage and Securitisation Companies ............................... 
+Investment Funds  ..................................................................... 
+  
+ 
+9.     PROJECT AND TRADE FINANCE ...................................... 
+5
+60 
+60 
+78 
+82 
+82 
+87 
+89 
+ 
+ 
+114 
+ 
+ 
+124 
+124 
+132 
+138 
+ 
+ 
+146 
+146 
+169 
+178 
+183 
+195 
+197 
+ 
+ 
+214 
+214 
+220 
+238 
+ 
+ 
+244 
+244 
+248 
+250 
+253 
+256 
+260 
+ 
+ 
+274 
+
+========== PAGE 6 ==========
+Project Finance ........................................................................... 
+Trade Finance ............................................................................. 
+  
+ 
+10.     COMPETITION LAW ............................................................ 
+  
+ 
+11.     PUBLIC UTILITY BIDS AND CONTRACTS ..................  
+Public Bidding and Public Contracts .................................... 
+Public Private Partnerships .................................................... 
+  
+ 
+12.     ENVIRONMENTAL LAW ....................................................  
+Brazilian Biodiversity and the ABS Laws ............................. 
+The Legal Framework for Environmental Protection ......... 
+Enforcement of Laws and Regulations: The Question of Liability ..  
+ 
+ 
+13.     REAL ESTATE AND PROPERTY .......................................  
+  
+ 
+14.     REGULATED SECTORS ....................................................... 
+Telecommunications (ANATEL) ............................................ 
+Electric Energy (ANEEL) ........................................................ 
+Oil & Gas (ANP) ....................................................................... 
+Health (ANVISA and ANS) .................................................... 
+Hydro Resources (ANA) ..........................................................  
+Cinema (ANCINE) ................................................................... 
+Transport (ANTAQ, ANTT and ANAC) ............................... 
+ 
+ 
+15.     SOCIAL SECURITY ............................................................... 
+Public Social Security ............................................................... 
+Complementary Social Security ............................................. 
+  
+ 
+16.     INSURANCE & REINSURANCE ....................................... 
+Insurance ................................................................................... 
+Reinsurance .............................................................................. 
+ 
+ 
+17.     INTELLECTUAL PROPERTY .............................................. 
+Patents ....................................................................................... 
+6
+274 
+280 
+ 
+ 
+286 
+ 
+ 
+294 
+294 
+309 
+ 
+ 
+316 
+316 
+321 
+324 
+ 
+ 
+332 
+ 
+ 
+344 
+344 
+350 
+355 
+368 
+380 
+383 
+389 
+ 
+ 
+394 
+394 
+399 
+ 
+ 
+404 
+404 
+406 
+ 
+ 
+412 
+412 
+
+========== PAGE 7 ==========
+Trademarks ................................................................................ 
+Well-Known Trademarks ......................................................... 
+Law for Innovation in Technology ......................................... 
+Domain Names ......................................................................... 
+IP and the Internet .................................................................... 
+Biotechnology ............................................................................ 
+Copyright and Software .......................................................... 
+Piracy ......................................................................................... 
+  
+ 
+18.     CONSUMER RIGHTS ........................................................... 
+  
+ 
+19.     AVIATION ............................................................................... 
+The Brazilian Aeronautical Registry ...................................... 
+Aircraft Agreements ................................................................. 
+Aircraft Mortgages ................................................................... 
+Repossession and Foreclosure ................................................. 
+Air Services ............................................................................... 
+  
+ 
+20.     SPORTS LAW IN BRAZIL ................................................... 
+  
+ 
+21.     INTERNATIONAL TRADE .................................................. 
+Brazilian International Relations ............................................ 
+International Trade and Customs Regulations ..................... 
+Trade Remedies ........................................................................ 
+Customs Regime ...................................................................... 
+ . 
+ 
+22.     DISPUTE RESOLUTION ...................................................... 
+Traditional Dispute Resolution ...............................................  
+Alternative Dispute Resolution ..............................................  
+Conciliation and Mediation ....................................................  
+Arbitration ................................................................................... 
+  
+ 
+23.     COMPLIANCE ........................................................................ 
+  
+ 
+CONTRIBUTORS ............................................................................. 
+7
+420 
+422 
+424 
+431 
+434 
+436 
+441 
+442 
+ 
+ 
+446 
+ 
+ 
+454 
+454 
+456 
+460 
+463 
+464 
+ 
+ 
+468 
+ 
+ 
+474 
+474 
+478 
+482 
+488 
+ 
+ 
+492
+492
+507 
+507 
+510 
+ 
+ 
+516 
+ 
+ 
+524
+
+========== PAGE 8 ==========
+ 
+Foreword
+ 
+ 
+ 
+ 
+ 
+Over the past few years, Brazil has consolidated its leading 
+role in the international scenario, either reactivating commercial 
+agreements and relations with old partners or reopening relevant 
+issues for discussion on the development of trade of goods and 
+services throughout the international community. 
+Brexit opens the door for new business opportunities and 
+discussions regarding the need for a Free Trade Agreement between 
+the UK and Brazil.  As is widely recognized, Brazil has not only a 
+strong and globally integrated business base, but also a European-
+oriented culture and approach to business practice. 
+Despite the recent economic crisis worldwide and the severe 
+recession it has faced, Brazil has been working to improve its 
+business environment and keep its economy stable. In 2019, the 
+country achieved substantial reforms in its pension system. By 2020, 
+the National Congress is expected to pass a major tax reform, which 
+should greatly simplify the calculation of taxes on sales and 
+8
+
+========== PAGE 9 ==========
+consumption. Very soon, Brazil will access the OECD and the free-
+trade agreement between Mercosur and the European Community 
+will be signed. These positive facts create good business 
+opportunities and make the country an important and safe hub for 
+the attraction of large foreign investments. 
+The economy has been responding positively. In 2020, 
+Brazil's Gross Domestic Product (GDP) is expected to grow by 2.4%, 
+the interest rate is close to international levels, and the inflation rate 
+is expected to be 3.62% by the end of the year, confirming the 
+scenario of stability. 
+With this background in mind, and aiming to continue the 
+success of the previous editions of “Doing Business in Brazil”, The 
+British Chamber of Commerce and Industry in Brazil is proud to 
+publish the seventh edition of this book, providing the foreign 
+investor with a complete guide to the Brazilian legal system (one that 
+is well-known for its complexity).  
+ There have been many changes in Brazilian legislation that 
+have affected foreign companies and investments since the last 
+edition of this book, as well as certain developments in other areas. 
+These changes and developments have led the members of the Legal 
+and Tax Committee to expand and update the chapters on aviation, 
+tax, private pension funds, logistics, transportation agencies, and 
+mortgage and securitization companies, among others, as well as to 
+reflect upon the state of the law in general. 
+It is important to note that this edition was co-written by the 
+members of the São Paulo and Rio de Janeiro Legal, Tax and 
+Regulatory Committees, all of whom are renowned law firms and 
+auditing companies. The Legal, Tax and Regulatory Committees 
+have no doubt that “Doing Business in Brazil” will continue to be a 
+useful guide for foreign (not only British) investors, Brazilian and 
+foreign law firms, accounting and auditing companies, embassies 
+and consulates, and financial institutions and insurance companies, 
+which means that it is essentially for anyone with a commercial or 
+economic interest in Brazil.  
+ 
+ 
+ 
+The Legal, Tax & Regulatory Committees of 
+The British Chamber of Commerce and Industry in Brazil 
+BRITCHAM
+9
+
+========== PAGE 10 ==========
+ 
+Acknowledgments
+ 
+ 
+ 
+ 
+ 
+The Legal, Tax and Regulatory Committees of the British 
+Chamber of Commerce and Industry in Brazil - Britcham would like 
+to thank the following people and organisations without whom the 
+seventh edition of this book would not have become a reality. 
+First of all, gratitude and appreciation goes out to all the 
+members of the Legal, Tax and Regulatory Committees and other 
+Britcham members for their hard work and collaboration in writing the 
+chapters for this book: Castro Barros Advogados, Correia da Silva 
+Advogados, Demarest Advogados, Domingues e Pinho Contadores, 
+Gaia, Silva, Gaede & Associados Advogados, Graça Couto Advogados, 
+Henry Advogados Associados, JLT Brasil, Kasznar Leonardos – 
+Propriedade Intelectual, KPMG Auditores Independentes, Lessa Bastos 
+Advogados, Machado Meyer Advogados, Montgomery & Associados, 
+Mourão Campos Sociedade de Advogados, Nabas International 
+Lawyers, Primos e Primos Advogados, PwC Brasil, TozziniFreire 
+Advogados and Ulhôa Canto Advogados. 
+10
+
+========== PAGE 11 ==========
+Furthermore, our thanks are extended to the Administrative 
+Council of the Chamber, as well as to the President and Vice-
+Presidents of Britcham’s branches in São Paulo and Rio de Janeiro 
+and to the Regional Directors of the new branches in Paraná and 
+Minas Gerais for their continued support and encouraging 
+enthusiasm and belief in the project. 
+Thanks is also due to the team that brought the project 
+together: the Chamber’s staff based in all the branches; Mr. Steve 
+Wingrove for reviewing the texts; Mr. André Bogdan (Aloby) for 
+designing the book; Mr. Odilon Moraes who produced the 
+illustration for the cover, and finally to all those who have in some 
+way contributed to the development and production of this 
+seventh edition.  
+ 
+ 
+ 
+The Legal, Tax & Regulatory Committees of 
+The British Chamber of Commerce and Industry in Brazil 
+BRITCHAM 
+11
+
+========== PAGE 12 ==========
+ 
+Abbreviations
+12
+ABS
+American Bureau of Shipping 
+ 
+ACE
+Economic Cooperation Agreements 
+ 
+ADR
+American Depositary Receipts 
+ 
+AEO
+Operador Econômico Autorizado 
+Authorized Economic Operator 
+ 
+AGE
+Assembleia Geral Extraordinária 
+Extraordinary General Meetings 
+ 
+AGO
+Assembleia Geral Ordinária 
+Annual General Meetings 
+ 
+AGU
+Advocacia-Geral da União 
+Federal Attorney General 
+ 
+ALADI
+Latin American Integration Association 
+ 
+ANA
+Agência Nacional de Águas 
+National Water Agency 
+ 
+ANAC
+Agência Nacional de Aviação Civil 
+National Civil Aviation Agency 
+ 
+ANATEL
+Agência Nacional de Telecomunicações 
+National Telecommunications Agency 
+ 
+ANBIMA
+Associação Brasileira das Entidades dos Mercados  
+Financeiro e de Capitais 
+Brazilian Financial and Capital Markets Association 
+
+========== PAGE 13 ==========
+13
+Abbreviations  
+ANCINE
+Agência Nacional do Cinema 
+National Cinema Agency 
+ 
+ANEEL
+Agência Nacional de Energia Elétrica  
+Brazilian Electricity Regulatory Agency 
+ 
+ANP
+Agência Nacional do Petróleo, Gás Natural e  
+Biocombustíveis 
+National Agency of Petroleum, Natural Gas and  
+Biofuels 
+ 
+ANS 
+Agência Nacional de Saúde Suplementar 
+National Supplementary Health Agency 
+ 
+ANTAQ
+Agência Nacional de Transportes Aquaviários 
+National Water Transport Agency 
+ 
+ANTT
+Agência Nacional de Transportes Terrestres 
+National Land Transport Agency 
+ 
+ANVISA
+Agência Nacional de Vigilância Sanitária 
+National Sanitation Agency 
+ 
+B3 | BM&F Bovespa
+Brasil, Bolsa, Balcão 
+Brazil Stock Exchange 
+ 
+BACEN | BCB
+Banco Central do Brasil  
+Central Bank of Brazil 
+ 
+BEPS
+Base Erosion and Profit Shifting 
+ 
+BNDES
+Banco Nacional de Desenvolvimento Econômico e Social 
+Brazilian Development Bank 
+ 
+BofD
+Board of Directors 
+ 
+BPTO
+Brazilian Patent and Trademark Office 
+ 
+CADE
+Conselho Administrativo de Defesa Econômica 
+Administrative Economic Defence Council 
+
+========== PAGE 14 ==========
+14
+CAMED
+Chamber of Medicine 
+ 
+CAMEX
+Secretaria-Executiva da Câmara de Comércio Exterior 
+Foreign Trade Chamber 
+ 
+CAP
+Cost Plus Taxes and Profit 
+ 
+CARF
+Conselho Administrativo de Recursos Fiscais 
+Higher Chamber of the Administrative Tax  
+Appeals Council 
+ 
+CBD
+Convention on Biological Diversity 
+ 
+CBF
+Confederação Brasileira de Futebol 
+Brazilian Football Confederation 
+ 
+CCB
+Cédulas de Crédito Bancário  
+Banking Credit Notes 
+ 
+CCEE
+Electrical Energy Trading Chamber 
+ 
+CCO
+Chief Commercial Officer 
+ 
+CDC
+Consumer Protection Code 
+ 
+CDCA
+Certified Agribusiness Credit Rights 
+ 
+CEO
+Chief Executive Officer 
+ 
+CFO
+Chief Financial Officer 
+ 
+CGEN
+Conselho de Gestão do Patrimônio Genético 
+Genetic Heritage Management Council  
+ 
+CGU
+Controladoria-Geral da União 
+Comptroller General of Brazil 
+ 
+CINM
+International Business Centre of Madeira 
+ 
+CLT
+Consolidation of Labour Laws 
+
+========== PAGE 15 ==========
+15
+Abbreviations  
+CMN
+Conselho Monetário Nacional 
+National Monetary Council 
+ 
+CNJ
+Conselho Nacional de Justiça 
+National Board of Justice 
+ 
+CNPE
+National Council for Energy Policy 
+ 
+CNPJ
+Entities Tax ID Number 
+ 
+CoAF
+Conselho de Controle de Atividades Financeiras 
+Council for Financial Activities Control 
+ 
+COFINS
+Contribuição para o Financiamento da Seguridade Social 
+Contribution for the Financing of Social Security 
+ 
+CONAMA
+National Environmental Council 
+ 
+CONDECINE
+Contribution for the Development of the National  
+Cinema Industry  
+ 
+CONFAZ
+Conselho Nacional de Política Fazendária 
+National Council of Finance Policy 
+ 
+COO
+Chief Operating Officer 
+ 
+COSRA
+Council of Securities Regulators of the Americas 
+ 
+CPF
+Individuals tax ID number 
+ 
+CPL
+Cost Plus Profit 
+ 
+CRA
+Receivables Certificate in Agribusiness 
+ 
+CSLL
+Contribuição Social sobre o Lucro Líquido 
+Social Contribution on Net Profit 
+ 
+CTC
+Cape Town Protocol 
+ 
+CTN
+National Tax Code 
+
+========== PAGE 16 ==========
+16
+CUP
+Paris Convention Agreement 
+ 
+CVA
+Customs Valuation Agreement 
+ 
+CVM
+Comissão de Valores Mobiliários 
+Securities and Exchange Commission 
+ 
+DECOM
+Departamento de Defesa Comercial 
+Department of Commercial Defense 
+ 
+DIT
+Department for International Trade 
+ 
+DNA
+Deoxyribonucleic Acid 
+ 
+DR
+Depositary Receipts 
+ 
+DrCI
+Department of Asset Recovery and  
+International Legal Cooperation 
+ 
+DU-E
+Single Export Declaration 
+ 
+EED
+Strategic Defence Company 
+ 
+EFTA
+European Free Trade Association (Iceland,  
+Liechtenstein, Norway and Switzerland) 
+ 
+ENCLLA
+National Strategy Against Corruption and Money  
+Laundering 
+ 
+EPC Contract
+Engineering, Procurement and Construction Agreement  
+ 
+EPE
+Energy Research Company 
+ 
+EST
+Expressed Sequence Tags 
+ 
+ETVE
+Entidad de Tenancia de Valores Extranjeros 
+ 
+EU
+European Union 
+ 
+FCTA
+Foreign Corrupt Practices Act 
+
+========== PAGE 17 ==========
+17
+Abbreviations  
+FDA
+U.S. Food and Drug Administration 
+ 
+FDBT
+Federal Department of Boards of Trade 
+ 
+FGTS
+Fundo de Garantia do Tempo de Serviço 
+Government Severance Indemnity Fund for Employees 
+ 
+FIFA
+International Federation of Association Football 
+ 
+FIFO
+‘First In First Out’ 
+ 
+FIF FIP
+Investment Funds in Equity Fund Quotas 
+ 
+FIP
+Equity Investment Funds 
+ 
+FIP – PD&I
+Private Equity Funds - Intensive Economic Production  
+in Research, Development and Innovation 
+ 
+FISTEL
+Fundo de Fiscalização das Telecomunicações 
+Telecommunications Fiscal Fund 
+ 
+FMIEE  
+Investment Funds in Emerging Companies 
+ 
+FNRB
+National Fund for the Distribution of Benefits 
+ 
+FOP
+Free on Board 
+ 
+FUNCINES
+Funds of the National Film Industry 
+ 
+FUNDAP
+Fund for Performance of Port Activities 
+ 
+Fust
+Fund for the Universalization of  
+Telecommunications Services 
+ 
+GATT
+General Agreement on Tariffs and Trade 
+ 
+GFIP
+Guia de Recolhimento do Fundo de Garantia do Tempo  
+de Serviço e Informações à Previdência Social 
+Employee Dismissal Fund and Social Security  
+Information Payment Form 
+
+========== PAGE 18 ==========
+18
+GNP
+Gross National Product 
+ 
+GTIP
+Group of Public Interest Evaluation 
+ 
+GURTs
+Genetic Use Restriction Technologies 
+ 
+HMC
+High Movie Council 
+ 
+HMO
+Healthcare Management Organizations 
+ 
+IBAMA
+Instituto Brasileiro do Meio Ambiente e dos  
+Recursos Naturais Renováveis 
+Brazilian Institute of Environment and  
+Renewable Natural Resources 
+ 
+ICC
+International Chamber of Commerce 
+ 
+ICMS
+Imposto sobre Circulação de Mercadorias e Serviços 
+State Value-Added Tax 
+ 
+ICTs
+Scientific, Technological and Innovation  
+Institutions 
+ 
+IDERA
+Irrevocable Deregistration and Export Request  
+Authorization 
+ 
+IED
+Investimento Estrangeiro Direto 
+Foreign Direct Investment 
+ 
+IHC
+International Holding Companies 
+ 
+II
+Import Duty 
+ 
+INCRA
+National Institute for Settlement and  
+Agrarian Reform 
+ 
+INSS
+Instituto Nacional do Seguro Social 
+National Social Security Institute 
+ 
+INPI
+National Industrial Property Institute 
+
+========== PAGE 19 ==========
+19
+Abbreviations  
+IOF
+Financial Operations Tax 
+ 
+IOSCO
+International Organization of  
+Securities Commissioners 
+ 
+IPI
+Imposto sobre Produto Industrializado 
+Excise Tax on Industrialised Products 
+ 
+IPO
+Initial Public Offers 
+ 
+IPTU
+Tax on Urban Property  
+ 
+IPVA
+Vehicle Tax 
+ 
+IRPJ
+Imposto sobre a Renda da Pessoa Jurídica 
+Corporate Income Tax 
+ 
+IRRF
+Withholding Income Tax 
+ 
+ITBI
+Real Estate Conveyance Tax 
+ 
+ITC
+International Trading Companies  
+ 
+ITCMD
+Estate and Gift Tax 
+ 
+ITR
+Tax on Rural Property 
+ 
+JSCP
+Interest on Net Equity 
+ 
+JV
+Joint Ventures 
+ 
+LAIA
+Latin American Integration Association 
+ 
+LALUR
+Livro de Apuração do Lucro Real 
+ 
+LCA
+Letters of Credit for Agribusiness 
+ 
+LIFO
+‘Last in First Out’ 
+ 
+LPCO
+Export License, Permit, Certificate or Other 
+
+========== PAGE 20 ==========
+Ltda.
+Sociedade Limitada – similar to a LLC 
+ 
+MCTIC
+Ministry of Science, Technology, Innovations  
+and Communication 
+ 
+MME
+Ministry of Mines and Energy 
+ 
+MP
+Provisional Measure 
+ 
+MPS
+Ministério da Previdência Social 
+Social Security Ministry 
+ 
+NCM
+Mercosur Common Nomenclature 
+ 
+NEPA
+National Environmental Policy Act 
+ 
+NRPOL
+Reference Rules for Online Privacy 
+ 
+OECD
+The Organisation for Economic Co-operation  
+and Development 
+ 
+ONS
+National System Operator 
+ 
+ORF
+Open Reading Frames  
+ 
+PAC
+Growth Accelerati
+
+... [Content truncated, total 1,009,864 chars] ...

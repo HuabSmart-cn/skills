@@ -1,0 +1,1387 @@
+{
+  "meta": {
+    "title": "周易六十四卦签库",
+    "scope": "六十四卦卦辞与爻辞原文，用作确定性查表，不含模型生成签文",
+    "primary_source": "https://zh.wikisource.org/wiki/周易",
+    "source_note": "古籍原文属公有领域；结构按通行本卦序整理。"
+  },
+  "hexagrams": [
+    {
+      "id": 1,
+      "name": "乾",
+      "symbol": "䷀",
+      "array": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "combination": [
+        "乾",
+        "乾"
+      ],
+      "scripture": "元亨利贞。",
+      "lines": [
+        {
+          "id": 1,
+          "type": 1,
+          "name": "初九",
+          "scripture": "潜龙，勿用。"
+        },
+        {
+          "id": 2,
+          "type": 1,
+          "name": "九二",
+          "scripture": "见龙在田，利见大人。"
+        },
+        {
+          "id": 3,
+          "type": 1,
+          "name": "九三",
+          "scripture": "君子终日乾乾，夕惕若，厉无咎。"
+        },
+        {
+          "id": 4,
+          "type": 1,
+          "name": "九四",
+          "scripture": "或跃在渊，无咎。"
+        },
+        {
+          "id": 5,
+          "type": 1,
+          "name": "九五",
+          "scripture": "飞龙在天，利见大人。"
+        },
+        {
+          "id": 6,
+          "type": 1,
+          "name": "上九",
+          "scripture": "亢龙有悔。"
+        },
+        {
+          "id": 7,
+          "type": 1,
+          "name": "用九",
+          "scripture": "见群龙无首，吉。"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "坤",
+      "symbol": "䷁",
+      "array": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "combination": [
+        "坤",
+        "坤"
+      ],
+      "scripture": "元亨，利牝马之贞。君子有攸往，先迷，后得主，利。西南得朋，东北丧朋。安贞吉。",
+      "lines": [
+        {
+          "id": 1,
+          "type": 0,
+          "name": "初六",
+          "scripture": "履霜，坚冰至。"
+        },
+        {
+          "id": 2,
+          "type": 0,
+          "name": "六二",
+          "scripture": "直方大，不习无不利。"
+        },
+        {
+          "id": 3,
+          "type": 0,
+          "name": "六三",
+          "scripture": "含章可贞；或从王事，无成有终。"
+        },
+        {
+          "id": 4,
+          "type": 0,
+          "name": "六四",
+          "scripture": "括囊，无咎无誉。"
+        },
+        {
+          "id": 5,
+          "type": 0,
+          "name": "六五",
+          "scripture": "黄裳，元吉。"
+        },
+        {
+          "id": 6,
+          "type": 0,
+          "name": "上六",
+          "scripture": "龙战于野，其血玄黄。"
+        },
+        {
+          "id": 7,
+          "type": 0,
+          "name": "用六",
+          "scripture": "利永贞。"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "屯",
+      "symbol": "䷂",
+      "array": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "combination": [
+        "震",
+        "坎"
+      ],
+      "scripture": "元亨，利贞；勿用有攸往，利建侯。",
+      "lines": [
+        {
+          "id": 1,
+          "type": 1,
+          "name": "初九",
+          "scripture": "磐桓；利居贞，利建侯。"
+        },
+        {
+          "id": 2,
+          "type": 0,
+          "name": "六二",
+          "scripture": "屯如，邅如，乘马班如。匪寇婚媾。女子贞不字，十年乃字。"
+        },
+        {
+          "id": 3,
+          "type": 0,
+          "name": "六三",
+          "scripture": "即鹿无虞，惟入于林中，君子几，不如舍，往吝。"
+        },
+        {
+          "id": 4,
+          "type": 0,
+          "name": "六四",
+          "scripture": "乘马班如，求婚媾，往吉，无不利。"
+        },
+        {
+          "id": 5,
+          "type": 1,
+          "name": "九五",
+          "scripture": "屯其膏，小贞吉，大贞凶。"
+        },
+        {
+          "id": 6,
+          "type": 0,
+          "name": "上六",
+          "scripture": "乘马班如，泣血涟如。"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "蒙",
+      "symbol": "䷃",
+      "array": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "combination": [
+        "坎",
+        "艮"
+      ],
+      "scripture": "亨。匪我求童蒙，童蒙求我。初筮告，再三渎，渎则不告。利贞。",
+      "lines": [
+        {
+          "id": 1,
+          "type": 0,
+          "name": "初六",
+          "scripture": "发蒙，利用刑人，用说桎梏；以往吝。"
+        },
+        {
+          "id": 2,
+          "type": 1,
+          "name": "九二",
+          "scripture": "包蒙，吉。纳妇，吉；子克家。"
+        },
+        {
+          "id": 3,
+          "type": 0,
+          "name": "六三",
+          "scripture": "勿用取女，见金夫，不有躬，无攸利。"
+        },
+        {
+          "id": 4,
+          "type": 0,
+          "name": "六四",
+          "scripture": "困蒙，吝。"
+        },
+        {
+          "id": 5,
+          "type": 0,
+          "name": "六五",
+          "scripture": "童蒙，吉。"
+        },
+        {
+          "id": 6,
+          "type": 1,
+          "name": "上九",
+          "scripture": "击蒙；不利为寇，利御寇。"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "需",
+      "symbol": "䷄",
+      "array": [
+        1,
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "combination": [
+        "乾",
+        "坎"
+      ],
+      "scripture": "有孚，光亨，贞吉，利涉大川。",
+      "lines": [
+        {
+          "id": 1,
+          "type": 1,
+          "name": "初九",
+          "scripture": "需于郊，利用恒，无咎。"
+        },
+        {
+          "id": 2,
+          "type": 1,
+          "name": "九二",
+          "scripture": "需于沙，小有言；终吉。"
+        },
+        {
+          "id": 3,
+          "type": 1,
+          "name": "九三",
+          "scripture": "需于泥，致寇至。"
+        },
+        {
+          "id": 4,
+          "type": 0,
+          "name": "六四",
+          "scripture": "需于血，出自穴。"
+        },
+        {
+          "id": 5,
+          "type": 1,
+          "name": "九五",
+          "scripture": "需于酒食，贞吉。"
+        },
+        {
+          "id": 6,
+          "type": 0,
+          "name": "上六",
+          "scripture": "入于穴，有不速之客三人来；敬之，终吉。"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "讼",
+      "symbol": "䷅",
+      "array": [
+        0,
+        1,
+        0,
+        1,
+        1,
+        1
+      ],
+      "combination": [
+        "坎",
+        "乾"
+      ],
+      "scripture": "有孚，窒惕，中吉；终凶。利见大人，不利涉大川。",
+      "lines": [
+        {
+          "id": 1,
+          "type": 0,
+          "name": "初六",
+          "scripture": "不永所事，小有言，终吉。"
+        },
+        {
+          "id": 2,
+          "type": 1,
+          "name": "九二",
+          "scripture": "不克讼，归而逋，其邑人三百户，无眚。"
+        },
+        {
+          "id": 3,
+          "type": 0,
+          "name": "六三",
+          "scripture": "食旧德，贞厉，终吉；或从王事，无成。"
+        },
+        {
+          "id": 4,
+          "type": 1,
+          "name": "九四",
+          "scripture": "不克讼；复即命，渝，安贞，吉。"
+        },
+        {
+          "id": 5,
+          "type": 1,
+          "name": "九五",
+          "scripture": "讼，元吉。"
+        },
+        {
+          "id": 6,
+          "type": 1,
+          "name": "上九",
+          "scripture": "或锡之鞶带，终朝三褫之。"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "师",
+      "symbol": "䷆",
+      "array": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "combination": [
+        "坎",
+        "坤"
+      ],
+      "scripture": "贞，丈人吉，无咎。",
+      "lines": [
+        {
+          "id": 1,
+          "type": 0,
+          "name": "初六",
+          "scripture": "师出以律，否臧凶。"
+        },
+        {
+          "id": 2,
+          "type": 1,
+          "name": "九二",
+          "scripture": "在师中吉，无咎；王三锡命。"
+        },
+        {
+          "id": 3,
+          "type": 0,
+          "name": "六三",
+          "scripture": "师或舆尸，凶。"
+        },
+        {
+          "id": 4,
+          "type": 0,
+          "name": "六四",
+          "scripture": "师左次，无咎。"
+        },
+        {
+          "id": 5,
+          "type": 0,
+          "name": "六五",
+          "scripture": "田有禽，利执言，无咎；长子帅师，弟子舆尸，贞凶。"
+        },
+        {
+          "id": 6,
+          "type": 0,
+          "name": "上六",
+          "scripture": "大君有命，开国承家，小人勿用。"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "比",
+      "symbol": "䷇",
+      "array": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "combination": [
+        "坤",
+        "坎"
+      ],
+      "scripture": "吉。原筮，元永贞，无咎。不宁方来，后夫凶。",
+      "lines": [
+        {
+          "id": 1,
+          "type": 0,
+          "name": "初六",
+          "scripture": "有孚比之，无咎；有孚盈缶，终来有它，吉。"
+        },
+        {
+          "id": 2,
+          "type": 0,
+          "name": "六二",
+          "scripture": "比之自内，贞吉。"
+        },
+        {
+          "id": 3,
+          "type": 0,
+          "name": "六三",
+          "scripture": "比之匪人。"
+        },
+        {
+          "id": 4,
+          "type": 0,
+          "name": "六四",
+          "scripture": "外比之，贞吉。"
+        },
+        {
+          "id": 5,
+          "type": 1,
+          "name": "九五",
+          "scripture": "显比；王用三驱，失前禽。邑人不诫，吉。"
+        },
+        {
+          "id": 6,
+          "type": 0,
+          "name": "上六",
+          "scripture": "比之无首，凶。"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "小畜",
+      "symbol": "䷈",
+      "array": [
+        1,
+        1,
+        1,
+        0,
+        1,
+        1
+      ],
+      "combination": [
+        "乾",
+        "巽"
+      ],
+      "scripture": "亨。密云不雨，自我西郊。",
+      "lines": [
+        {
+          "id": 1,
+          "type": 1,
+          "name": "初九",
+          "scripture": "复自道，何其咎？吉。"
+        },
+        {
+          "id": 2,
+          "type": 1,
+          "name": "九二",
+          "scripture": "牵复，吉。"
+        },
+        {
+          "id": 3,
+          "type": 1,
+          "name": "九三",
+          "scripture": "舆说辐，夫妻反目。"
+        },
+        {
+          "id": 4,
+          "type": 0,
+          "name": "六四",
+          "scripture": "有孚，血去惕出，无咎。"
+        },
+        {
+          "id": 5,
+          "type": 1,
+          "name": "九五",
+          "scripture": "有孚挛如，富以其邻。"
+        },
+        {
+          "id": 6,
+          "type": 1,
+          "name": "上九",
+          "scripture": "既雨既处，尚德载；妇贞厉，月几望；君子征凶。"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "履",
+      "symbol": "䷉",
+      "array": [
+        1,
+        1,
+        0,
+        1,
+        1,
+        1
+      ],
+      "combination": [
+        "兑",
+        "乾"
+      ],
+      "scripture": "履虎尾，不咥人，亨。",
+      "lines": [
+        {
+          "id": 1,
+          "type": 1,
+          "name": "初九",
+          "scripture": "素履，往，无咎。"
+        },
+        {
+          "id": 2,
+          "type": 1,
+          "name": "九二",
+          "scripture": "履道坦坦，幽人贞吉。"
+        },
+        {
+          "id": 3,
+          "type": 0,
+          "name": "六三",
+          "scripture": "眇能视，跛能履，履虎尾，咥人，凶；武人为于大君。"
+        },
+        {
+          "id": 4,
+          "type": 1,
+          "name": "九四",
+          "scripture": "履虎尾，愬愬，终吉。"
+        },
+        {
+          "id": 5,
+          "type": 1,
+          "name": "九五",
+          "scripture": "夬履，贞厉。"
+        },
+        {
+          "id": 6,
+          "type": 1,
+          "name": "上九",
+          "scripture": "视履考祥，其旋元吉。"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "泰",
+      "symbol": "䷊",
+      "array": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "combination": [
+        "乾",
+        "坤"
+      ],
+      "scripture": "小往大来，吉，亨。",
+      "lines": [
+        {
+          "id": 1,
+          "type": 1,
+          "name": "初九",
+          "scripture": "拔茅茹，以其汇，征吉。"
+        },
+        {
+          "id": 2,
+          "type": 1,
+          "name": "九二",
+          "scripture": "包荒，用冯河，不遐遗；朋亡，得尚于中行。"
+        },
+        {
+          "id": 3,
+          "type": 1,
+          "name": "九三",
+          "scripture": "无平不陂，无往不复；艰贞无咎，勿恤其孚，于食有福。"
+        },
+        {
+          "id": 4,
+          "type": 0,
+          "name": "六四",
+          "scripture": "翩翩，不富，以其邻，不戒以孚。"
+        },
+        {
+          "id": 5,
+          "type": 0,
+          "name": "六五",
+          "scripture": "帝乙归妹，以祉元吉。"
+        },
+        {
+          "id": 6,
+          "type": 0,
+          "name": "上六",
+          "scripture": "城复于隍，勿用师，自邑告命，贞吝。"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "否",
+      "symbol": "䷋",
+      "array": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "combination": [
+        "坤",
+        "乾"
+      ],
+      "scripture": "否之匪人，不利君子贞，大往小来。",
+      "lines": [
+        {
+          "id": 1,
+          "type": 0,
+          "name": "初六",
+          "scripture": "拔茅茹，以其汇，贞吉，亨。"
+        },
+        {
+          "id": 2,
+          "type": 0,
+          "name": "六二",
+          "scripture": "包承，小人吉。大人否，亨。"
+        },
+        {
+          "id": 3,
+          "type": 0,
+          "name": "六三",
+          "scripture": "包羞。"
+        },
+        {
+          "id": 4,
+          "type": 1,
+          "name": "九四",
+          "scripture": "有命无咎，畴离祉。"
+        },
+        {
+          "id": 5,
+          "type": 1,
+          "name": "九五",
+          "scripture": "休否，大人吉；其亡其亡，系于苞桑。"
+        },
+        {
+          "id": 6,
+          "type": 1,
+          "name": "上九",
+          "scripture": "倾否，先否后喜。"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "同人",
+      "symbol": "䷌",
+      "array": [
+        1,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "combination": [
+        "离",
+        "乾"
+      ],
+      "scripture": "同人于野，亨。利涉大川，利君子贞。",
+      "lines": [
+        {
+          "id": 1,
+          "type": 1,
+          "name": "初九",
+          "scripture": "同人于门，无咎。"
+        },
+        {
+          "id": 2,
+          "type": 0,
+          "name": "六二",
+          "scripture": "同人于宗，吝。"
+        },
+        {
+          "id": 3,
+          "type": 1,
+          "name": "九三",
+          "scripture": "伏戎于莽，升其高陵，三岁不兴。"
+        },
+        {
+          "id": 4,
+          "type": 1,
+          "name": "九四",
+          "scripture": "乘其墉，弗克攻，吉。"
+        },
+        {
+          "id": 5,
+          "type": 1,
+          "name": "九五",
+          "scripture": "同人，先号咷，而后笑，大师克相遇。"
+        },
+        {
+          "id": 6,
+          "type": 1,
+          "name": "上九",
+          "scripture": "同人于郊，无悔。"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "大有",
+      "symbol": "䷍",
+      "array": [
+        1,
+        1,
+        1,
+        1,
+        0,
+        1
+      ],
+      "combination": [
+        "乾",
+        "离"
+      ],
+      "scripture": "元亨。",
+      "lines": [
+        {
+          "id": 1,
+          "type": 1,
+          "name": "初九",
+          "scripture": "无交害，匪咎；艰则无咎。"
+        },
+        {
+          "id": 2,
+          "type": 1,
+          "name": "九二",
+          "scripture": "大车以载，有攸往，无咎。"
+        },
+        {
+          "id": 3,
+          "type": 1,
+          "name": "九三",
+          "scripture": "公用亨于天子，小人弗克。"
+        },
+        {
+          "id": 4,
+          "type": 1,
+          "name": "九四",
+          "scripture": "匪其彭，无咎。"
+        },
+        {
+          "id": 5,
+          "type": 0,
+          "name": "六五",
+          "scripture": "厥孚交如，威如，吉。"
+        },
+        {
+          "id": 6,
+          "type": 1,
+          "name": "上九",
+          "scripture": "自天祐之，吉无不利。"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "谦",
+      "symbol": "䷎",
+      "array": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "combination": [
+        "艮",
+        "坤"
+      ],
+      "scripture": "亨，君子有终。",
+      "lines": [
+        {
+          "id": 1,
+          "type": 0,
+          "name": "初六",
+          "scripture": "谦谦君子，用涉大川，吉。"
+        },
+        {
+          "id": 2,
+          "type": 0,
+          "name": "六二",
+          "scripture": "鸣谦，贞吉。"
+        },
+        {
+          "id": 3,
+          "type": 1,
+          "name": "九三",
+          "scripture": "劳谦，君子有终，吉。"
+        },
+        {
+          "id": 4,
+          "type": 0,
+          "name": "六四",
+          "scripture": "无不利，撝谦。"
+        },
+        {
+          "id": 5,
+          "type": 0,
+          "name": "六五",
+          "scripture": "不富以其邻，利用侵伐，无不利。"
+        },
+        {
+          "id": 6,
+          "type": 0,
+          "name": "上六",
+          "scripture": "鸣谦，利用行师，征邑国。"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "豫",
+      "symbol": "䷏",
+      "array": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "combination": [
+        "坤",
+        "震"
+      ],
+      "scripture": "利建侯，行师。",
+      "lines": [
+        {
+          "id": 1,
+          "type": 0,
+          "name": "初六",
+          "scripture": "鸣豫，凶。"
+        },
+        {
+          "id": 2,
+          "type": 0,
+          "name": "六二",
+          "scripture": "介于石，不终日，贞吉。"
+        },
+        {
+          "id": 3,
+          "type": 0,
+          "name": "六三",
+          "scripture": "盱豫，悔。迟有悔。"
+        },
+        {
+          "id": 4,
+          "type": 1,
+          "name": "九四",
+          "scripture": "由豫，大有得；勿疑。朋盍簪。"
+        },
+        {
+          "id": 5,
+          "type": 0,
+          "name": "六五",
+          "scripture": "贞疾，恒不死。"
+        },
+        {
+          "id": 6,
+          "type": 0,
+          "name": "上六",
+          "scripture": "冥豫，成有渝，无咎。"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "随",
+      "symbol": "䷐",
+      "array": [
+        1,
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      "combination": [
+        "震",
+        "兑"
+      ],
+      "scripture": "元亨，利贞，无咎。",
+      "lines": [
+        {
+          "id": 1,
+          "type": 1,
+          "name": "初九",
+          "scripture": "官有渝，贞吉；出门交有功。"
+        },
+        {
+          "id": 2,
+          "type": 0,
+          "name": "六二",
+          "scripture": "系小子，失丈夫。"
+        },
+        {
+          "id": 3,
+          "type": 0,
+          "name": "六三",
+          "scripture": "系丈夫，失小子；随有求得，利居贞。"
+        },
+        {
+          "id": 4,
+          "type": 1,
+          "name": "九四",
+          "scripture": "随有获，贞凶；有孚在道，以明，何咎？"
+        },
+        {
+          "id": 5,
+          "type": 1,
+          "name": "九五",
+          "scripture": "孚于嘉，吉。"
+        },
+        {
+          "id": 6,
+          "type": 0,
+          "name": "上六",
+          "scripture": "拘系之，乃从维之；王用亨于西山。"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "蛊",
+      "symbol": "䷑",
+      "array": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        1
+      ],
+      "combination": [
+        "巽",
+        "艮"
+      ],
+      "scripture": "元亨，利涉大川。先甲三日，后甲三日。",
+      "lines": [
+        {
+          "id": 1,
+          "type": 0,
+          "name": "初六",
+          "scripture": "干父之蛊，有子，考无咎，厉终吉。"
+        },
+        {
+          "id": 2,
+          "type": 1,
+          "name": "九二",
+          "scripture": "干母之蛊，不可贞。"
+        },
+        {
+          "id": 3,
+          "type": 1,
+          "name": "九三",
+          "scripture": "干父之蛊，小有悔，无大咎。"
+        },
+        {
+          "id": 4,
+          "type": 0,
+          "name": "六四",
+          "scripture": "裕父之蛊，往见吝。"
+        },
+        {
+          "id": 5,
+          "type": 0,
+          "name": "六五",
+          "scripture": "干父之蛊，用誉。"
+        },
+        {
+          "id": 6,
+          "type": 1,
+          "name": "上九",
+          "scripture": "不事王侯，高尚其事。"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "临",
+      "symbol": "䷒",
+      "array": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "combination": [
+        "兑",
+        "坤"
+      ],
+      "scripture": "元亨，利贞；至于八月，有凶。",
+      "lines": [
+        {
+          "id": 1,
+          "type": 1,
+          "name": "初九",
+          "scripture": "咸临，贞吉。"
+        },
+        {
+          "id": 2,
+          "type": 1,
+          "name": "九二",
+          "scripture": "咸临，吉，无不利。"
+        },
+        {
+          "id": 3,
+          "type": 0,
+          "name": "六三",
+          "scripture": "甘临，无攸利；既忧之，无咎。"
+        },
+        {
+          "id": 4,
+          "type": 0,
+          "name": "六四",
+          "scripture": "至临，无咎。"
+        },
+        {
+          "id": 5,
+          "type": 0,
+          "name": "六五",
+          "scripture": "知临，大君之宜，吉。"
+        },
+        {
+          "id": 6,
+          "type": 0,
+          "name": "上六",
+          "scripture": "敦临，吉，无咎。"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "观",
+      "symbol": "䷓",
+      "array": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "combination": [
+        "坤",
+        "巽"
+      ],
+      "scripture": "盥而不荐，有孚颙若。",
+      "lines": [
+        {
+          "id": 1,
+          "type": 0,
+          "name": "初六",
+          "scripture": "童观，小人无咎，君子吝。"
+        },
+        {
+          "id": 2,
+          "type": 0,
+          "name": "六二",
+          "scripture": "窥观，利女贞。"
+        },
+        {
+          "id": 3,
+          "type": 0,
+          "name": "六三",
+          "scripture": "观我生，进退。"
+        },
+        {
+          "id": 4,
+          "type": 0,
+          "name": "六四",
+          "scripture": "观国之光，利用宾于王。"
+        },
+        {
+          "id": 5,
+          "type": 1,
+          "name": "九五",
+          "scripture": "观我生，君子无咎。"
+        },
+        {
+          "id": 6,
+          "type": 1,
+          "name": "上九",
+          "scripture": "观其生，君子无咎。"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "噬嗑",
+      "symbol": "䷔",
+      "array": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "combination": [
+        "震",
+        "离"
+      ],
+      "scripture": "亨，利用狱。",
+      "lines": [
+        {
+          "id": 1,
+          "type": 1,
+          "name": "初九",
+          "scripture": "屦校灭趾，无咎。"
+        },
+        {
+          "id": 2,
+          "type": 0,
+          "name": "六二",
+          "scripture": "噬肤灭鼻，无咎。"
+        },
+        {
+          "id": 3,
+          "type": 0,
+          "name": "六三",
+          "scripture": "噬腊肉，遇毒；小吝，无咎。"
+        },
+        {
+          "id": 4,
+          "type": 1,
+          "name": "九四",
+          "scripture": "噬干胏，得金矢；利艰贞，吉。"
+        },
+        {
+          "id": 5,
+          "type": 0,
+          "name": "六五",
+          "scripture": "噬干肉，得黄金，贞厉，无咎。"
+        },
+        {
+          "id": 6,
+          "type": 1,
+          "name": "上九",
+          "scripture": "何校灭耳，凶。"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "name": "贲",
+      "symbol": "䷕",
+      "array": [
+        1,
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "combination": [
+        "离",
+        "艮"
+      ],
+      "scripture": "亨，小利有攸往。",
+      "lines": [
+        {
+          "id": 1,
+          "type": 1,
+          "name": "初九",
+          "scripture": "贲其趾，舍车而徒。"
+        },
+        {
+          "id": 2,
+          "type": 0,
+          "name": "六二",
+          "scripture": "贲其须。"
+        },
+        {
+          "id": 3,
+          "type": 1,
+          "name": "九三",
+          "scripture": "贲如，濡如，永贞吉。"
+        },
+        {
+          "id": 4,
+          "type": 0,
+          "name": "六四",
+          "scripture": "贲如，皤如，白马翰如，匪寇，婚媾。"
+        },
+        {
+          "id": 5,
+          "type": 0,
+          "name": "六五",
+          "scripture": "贲于丘园，束帛戋戋；吝，终吉。"
+        },
+        {
+          "id": 6,
+          "type": 1,
+          "name": "上九",
+          "scripture": "白贲，无咎。"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "name": "剥",
+      "symbol": "䷖",
+      "array": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "combination": [
+        "坤",
+        "艮"
+      ],
+      "scripture": "不利有攸往。",
+      "lines": [
+        {
+          "id": 1,
+          "type": 0,
+          "name": "初六",
+          "scripture": "剥床以足，蔑贞；凶。"
+        },
+        {
+          "id": 2,
+          "type": 0,
+          "name": "六二",
+          "scripture": "剥床以辨，蔑贞凶。"
+        },
+        {
+          "id": 3,
+          "type": 0,
+          "name": "六三",
+          "scripture": "剥之，无咎。"
+        },
+        {
+          "id": 4,
+          "type": 0,
+          "name": "六四",
+          "scripture": "剥床以肤，凶。"
+        },
+        {
+          "id": 5,
+          "type": 0,
+          "name": "六五",
+          "scripture": "贯鱼以宫人宠，无不利。"
+        },
+        {
+          "id": 6,
+          "type": 1,
+          "name": "上九",
+          "scripture": "硕果不食，君子得舆，小人剥庐。"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "name": "复",
+      "symbol": "䷗",
+      "array": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "combination": [
+        "震",
+        "坤"
+      ],
+      "scripture": "亨。出入无疾，朋来无咎。反复其道，七日来复，利有攸往。",
+      "lines": [
+        {
+          "id": 1,
+          "type": 1,
+          "name": "初九",
+          "scripture": "不远复，无祗悔，元吉。"
+        },
+        {
+          "id": 2,
+          "type": 0,
+          "name": "六二",
+          "scripture": "休复，吉。"
+        },
+        {
+          "id": 3,
+          "type": 0,
+          "name": "六三",
+          "scripture": "频复，厉无咎。"
+        },
+        {
+          "id": 4,
+          "type": 0,
+          "name": "六四",
+          "scripture": "中行独复。"
+        },
+        {
+          "id": 5,
+          "type": 0,
+          "name": "六五",
+          "scripture": "敦复，无悔。"
+        },
+        {
+          "id": 6,
+          "type": 0,
+          "name": "上六",
+          "scripture": "迷复，凶，有灾眚。用行师，终有大败；以其国，君凶，至于十年不克征。"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "name": "无妄",
+      "symbol": "䷘",
+      "array": [
+        1,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "combination": [
+        "震",
+        "乾"
+      ],
+      "scripture": "元亨利贞。其匪正有眚，不利有攸往。",
+      "lines": [
+        {
+          "id": 1,
+     
+
+... [Content truncated, total 65,422 chars] ...

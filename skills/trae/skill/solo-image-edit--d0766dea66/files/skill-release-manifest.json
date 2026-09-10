@@ -1,0 +1,7 @@
+{
+  "schema_version": "1.0",
+  "name": "solo-image-edit",
+  "version": "2026.08.10.10.55.13",
+  "release": "bottom-right-watermark-removal-prompt",
+  "version_source": "skill-release-manifest.json"
+}

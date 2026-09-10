@@ -1,0 +1,1083 @@
+[
+  {
+    "jumlah": 2,
+    "tarikh": "2021-01-01",
+    "cawangan": "Gua Musang",
+    "sub kategori": "Jenayah Luar Bidang Kuasa",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2021-01-01",
+    "cawangan": "Gua Musang",
+    "sub kategori": "Keluarga Sivil",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 8,
+    "tarikh": "2021-01-01",
+    "cawangan": "Gua Musang",
+    "sub kategori": "Keluarga Syariah",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 5,
+    "tarikh": "2021-01-01",
+    "cawangan": "Ibu Pejabat",
+    "sub kategori": " Sivil Pelbagai",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 3,
+    "tarikh": "2021-01-01",
+    "cawangan": "Ibu Pejabat",
+    "sub kategori": "Keluarga Sivil",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 10,
+    "tarikh": "2021-01-01",
+    "cawangan": "Ibu Pejabat",
+    "sub kategori": "Sivil Luar Bidang Kuasa",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 6,
+    "tarikh": "2021-01-01",
+    "cawangan": "Ibu Pejabat",
+    "sub kategori": "Keluarga Syariah",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 18,
+    "tarikh": "2021-01-01",
+    "cawangan": "Johor ",
+    "sub kategori": " Sivil Pelbagai",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 2,
+    "tarikh": "2021-01-01",
+    "cawangan": "Johor ",
+    "sub kategori": "Jenayah Sivil",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 56,
+    "tarikh": "2021-01-01",
+    "cawangan": "Johor ",
+    "sub kategori": "Keluarga Sivil",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 8,
+    "tarikh": "2021-01-01",
+    "cawangan": "Johor ",
+    "sub kategori": "Sivil Luar Bidang Kuasa",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 104,
+    "tarikh": "2021-01-01",
+    "cawangan": "Johor ",
+    "sub kategori": "Keluarga Syariah",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 5,
+    "tarikh": "2021-01-01",
+    "cawangan": "Kedah",
+    "sub kategori": "Jenayah Sivil",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 13,
+    "tarikh": "2021-01-01",
+    "cawangan": "Kedah",
+    "sub kategori": "Keluarga Sivil",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 2,
+    "tarikh": "2021-01-01",
+    "cawangan": "Kedah",
+    "sub kategori": "Sivil Luar Bidang Kuasa",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 69,
+    "tarikh": "2021-01-01",
+    "cawangan": "Kedah",
+    "sub kategori": "Keluarga Syariah",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 6,
+    "tarikh": "2021-01-01",
+    "cawangan": "Kelantan",
+    "sub kategori": " Sivil Pelbagai",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 17,
+    "tarikh": "2021-01-01",
+    "cawangan": "Kelantan",
+    "sub kategori": "Jenayah Luar Bidang Kuasa",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 5,
+    "tarikh": "2021-01-01",
+    "cawangan": "Kelantan",
+    "sub kategori": "Jenayah Sivil",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 3,
+    "tarikh": "2021-01-01",
+    "cawangan": "Kelantan",
+    "sub kategori": "Keluarga Sivil",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 11,
+    "tarikh": "2021-01-01",
+    "cawangan": "Kelantan",
+    "sub kategori": "Sivil Luar Bidang Kuasa",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 82,
+    "tarikh": "2021-01-01",
+    "cawangan": "Kelantan",
+    "sub kategori": "Keluarga Syariah",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 3,
+    "tarikh": "2021-01-01",
+    "cawangan": "Kelantan",
+    "sub kategori": "Syariah Luar Bidang Kuasa ",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2021-01-01",
+    "cawangan": "Kelantan ",
+    "sub kategori": " Sivil Pelbagai",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 13,
+    "tarikh": "2021-01-01",
+    "cawangan": "Kelantan ",
+    "sub kategori": "Keluarga Syariah",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 7,
+    "tarikh": "2021-01-01",
+    "cawangan": "Kuala Lumpur",
+    "sub kategori": " Sivil Pelbagai",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 5,
+    "tarikh": "2021-01-01",
+    "cawangan": "Kuala Lumpur",
+    "sub kategori": "Jenayah Luar Bidang Kuasa",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 41,
+    "tarikh": "2021-01-01",
+    "cawangan": "Kuala Lumpur",
+    "sub kategori": "Keluarga Sivil",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 5,
+    "tarikh": "2021-01-01",
+    "cawangan": "Kuala Lumpur",
+    "sub kategori": "Sivil Luar Bidang Kuasa",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 61,
+    "tarikh": "2021-01-01",
+    "cawangan": "Kuala Lumpur",
+    "sub kategori": "Keluarga Syariah",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 2,
+    "tarikh": "2021-01-01",
+    "cawangan": "Kuala Lumpur",
+    "sub kategori": "Syariah Luar Bidang Kuasa ",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 2,
+    "tarikh": "2021-01-01",
+    "cawangan": "Labuan",
+    "sub kategori": "Keluarga Sivil",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 8,
+    "tarikh": "2021-01-01",
+    "cawangan": "Labuan",
+    "sub kategori": "Keluarga Syariah",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2021-01-01",
+    "cawangan": "Labuan",
+    "sub kategori": "Syariah Luar Bidang Kuasa ",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 4,
+    "tarikh": "2021-01-01",
+    "cawangan": "Langkawi",
+    "sub kategori": " Sivil Pelbagai",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2021-01-01",
+    "cawangan": "Langkawi",
+    "sub kategori": "Jenayah Luar Bidang Kuasa",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2021-01-01",
+    "cawangan": "Langkawi",
+    "sub kategori": "Jenayah Sivil",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 4,
+    "tarikh": "2021-01-01",
+    "cawangan": "Langkawi",
+    "sub kategori": "Sivil Luar Bidang Kuasa",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 9,
+    "tarikh": "2021-01-01",
+    "cawangan": "Langkawi",
+    "sub kategori": "Keluarga Syariah",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 9,
+    "tarikh": "2021-01-01",
+    "cawangan": "Langkawi ",
+    "sub kategori": "Keluarga Syariah",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2021-01-01",
+    "cawangan": "Melaka",
+    "sub kategori": " Sivil Pelbagai",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 3,
+    "tarikh": "2021-01-01",
+    "cawangan": "Melaka",
+    "sub kategori": "Jenayah Luar Bidang Kuasa",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 2,
+    "tarikh": "2021-01-01",
+    "cawangan": "Melaka",
+    "sub kategori": "Keluarga Sivil",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 7,
+    "tarikh": "2021-01-01",
+    "cawangan": "Melaka",
+    "sub kategori": "Sivil Luar Bidang Kuasa",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 24,
+    "tarikh": "2021-01-01",
+    "cawangan": "Melaka",
+    "sub kategori": "Keluarga Syariah",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2021-01-01",
+    "cawangan": "Melaka",
+    "sub kategori": "Syariah Luar Bidang Kuasa ",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2021-01-01",
+    "cawangan": "Melaka ",
+    "sub kategori": "Keluarga Syariah",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 4,
+    "tarikh": "2021-01-01",
+    "cawangan": "Miri",
+    "sub kategori": "Jenayah Luar Bidang Kuasa",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 33,
+    "tarikh": "2021-01-01",
+    "cawangan": "Miri",
+    "sub kategori": "Keluarga Sivil",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2021-01-01",
+    "cawangan": "Miri",
+    "sub kategori": "Sivil Luar Bidang Kuasa",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 21,
+    "tarikh": "2021-01-01",
+    "cawangan": "Miri",
+    "sub kategori": "Keluarga Syariah",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2021-01-01",
+    "cawangan": "Muar",
+    "sub kategori": " Sivil Pelbagai",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2021-01-01",
+    "cawangan": "Muar",
+    "sub kategori": "Jenayah Luar Bidang Kuasa",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 3,
+    "tarikh": "2021-01-01",
+    "cawangan": "Muar",
+    "sub kategori": "Keluarga Sivil",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 2,
+    "tarikh": "2021-01-01",
+    "cawangan": "Muar",
+    "sub kategori": "Sivil Luar Bidang Kuasa",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 12,
+    "tarikh": "2021-01-01",
+    "cawangan": "Muar",
+    "sub kategori": "Keluarga Syariah",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 8,
+    "tarikh": "2021-01-01",
+    "cawangan": "Negeri Sembilan",
+    "sub kategori": " Sivil Pelbagai",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 2,
+    "tarikh": "2021-01-01",
+    "cawangan": "Negeri Sembilan",
+    "sub kategori": "Jenayah Luar Bidang Kuasa",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 2,
+    "tarikh": "2021-01-01",
+    "cawangan": "Negeri Sembilan",
+    "sub kategori": "Jenayah Sivil",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 24,
+    "tarikh": "2021-01-01",
+    "cawangan": "Negeri Sembilan",
+    "sub kategori": "Keluarga Sivil",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 2,
+    "tarikh": "2021-01-01",
+    "cawangan": "Negeri Sembilan",
+    "sub kategori": "Sivil Luar Bidang Kuasa",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 14,
+    "tarikh": "2021-01-01",
+    "cawangan": "Negeri Sembilan",
+    "sub kategori": "Keluarga Syariah",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 2,
+    "tarikh": "2021-01-01",
+    "cawangan": "Pahang",
+    "sub kategori": "Keluarga Sivil",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2021-01-01",
+    "cawangan": "Pahang",
+    "sub kategori": "Sivil Luar Bidang Kuasa",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 26,
+    "tarikh": "2021-01-01",
+    "cawangan": "Pahang",
+    "sub kategori": "Keluarga Syariah",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 12,
+    "tarikh": "2021-01-01",
+    "cawangan": "Pahang ",
+    "sub kategori": "Keluarga Syariah",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 11,
+    "tarikh": "2021-01-01",
+    "cawangan": "Perak",
+    "sub kategori": " Sivil Pelbagai",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 4,
+    "tarikh": "2021-01-01",
+    "cawangan": "Perak",
+    "sub kategori": "Jenayah Sivil",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 71,
+    "tarikh": "2021-01-01",
+    "cawangan": "Perak",
+    "sub kategori": "Keluarga Sivil",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 10,
+    "tarikh": "2021-01-01",
+    "cawangan": "Perak",
+    "sub kategori": "Sivil Luar Bidang Kuasa",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 52,
+    "tarikh": "2021-01-01",
+    "cawangan": "Perak",
+    "sub kategori": "Keluarga Syariah",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 3,
+    "tarikh": "2021-01-01",
+    "cawangan": "Perak",
+    "sub kategori": "Syariah Luar Bidang Kuasa ",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 7,
+    "tarikh": "2021-01-01",
+    "cawangan": "Perlis",
+    "sub kategori": " Sivil Pelbagai",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2021-01-01",
+    "cawangan": "Perlis",
+    "sub kategori": "Jenayah Luar Bidang Kuasa",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 8,
+    "tarikh": "2021-01-01",
+    "cawangan": "Perlis",
+    "sub kategori": "Keluarga Sivil",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 8,
+    "tarikh": "2021-01-01",
+    "cawangan": "Perlis",
+    "sub kategori": "Sivil Luar Bidang Kuasa",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 28,
+    "tarikh": "2021-01-01",
+    "cawangan": "Perlis",
+    "sub kategori": "Keluarga Syariah",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 2,
+    "tarikh": "2021-01-01",
+    "cawangan": "Perlis",
+    "sub kategori": "Syariah Luar Bidang Kuasa ",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 6,
+    "tarikh": "2021-01-01",
+    "cawangan": "Pulau Pinang",
+    "sub kategori": " Sivil Pelbagai",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 2,
+    "tarikh": "2021-01-01",
+    "cawangan": "Pulau Pinang",
+    "sub kategori": "Jenayah Luar Bidang Kuasa",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 44,
+    "tarikh": "2021-01-01",
+    "cawangan": "Pulau Pinang",
+    "sub kategori": "Keluarga Sivil",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 2,
+    "tarikh": "2021-01-01",
+    "cawangan": "Pulau Pinang",
+    "sub kategori": "Sivil Luar Bidang Kuasa",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 31,
+    "tarikh": "2021-01-01",
+    "cawangan": "Pulau Pinang",
+    "sub kategori": "Keluarga Syariah",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2021-01-01",
+    "cawangan": "Pulau Pinang",
+    "sub kategori": "Syariah Luar Bidang Kuasa",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 6,
+    "tarikh": "2021-01-01",
+    "cawangan": "Raub",
+    "sub kategori": "Keluarga Sivil",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 8,
+    "tarikh": "2021-01-01",
+    "cawangan": "Raub",
+    "sub kategori": "Keluarga Syariah",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 6,
+    "tarikh": "2021-01-01",
+    "cawangan": "Raub ",
+    "sub kategori": "Keluarga Syariah",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 17,
+    "tarikh": "2021-01-01",
+    "cawangan": "Sabah",
+    "sub kategori": " Sivil Pelbagai",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2021-01-01",
+    "cawangan": "Sabah",
+    "sub kategori": "Jenayah Luar Bidang Kuasa",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2021-01-01",
+    "cawangan": "Sabah",
+    "sub kategori": "Jenayah Sivil",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 34,
+    "tarikh": "2021-01-01",
+    "cawangan": "Sabah",
+    "sub kategori": "Keluarga Sivil",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 13,
+    "tarikh": "2021-01-01",
+    "cawangan": "Sabah",
+    "sub kategori": "Sivil Luar Bidang Kuasa",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 12,
+    "tarikh": "2021-01-01",
+    "cawangan": "Sabah",
+    "sub kategori": "Keluarga Syariah",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 2,
+    "tarikh": "2021-01-01",
+    "cawangan": "Sabah",
+    "sub kategori": "Syariah Luar Bidang Kuasa ",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2021-01-01",
+    "cawangan": "Sarawak",
+    "sub kategori": " Sivil Pelbagai",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 3,
+    "tarikh": "2021-01-01",
+    "cawangan": "Sarawak",
+    "sub kategori": "Jenayah Luar Bidang Kuasa",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 53,
+    "tarikh": "2021-01-01",
+    "cawangan": "Sarawak",
+    "sub kategori": "Keluarga Sivil",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 11,
+    "tarikh": "2021-01-01",
+    "cawangan": "Sarawak",
+    "sub kategori": "Sivil Luar Bidang Kuasa",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 46,
+    "tarikh": "2021-01-01",
+    "cawangan": "Sarawak",
+    "sub kategori": "Keluarga Syariah",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2021-01-01",
+    "cawangan": "Sarawak",
+    "sub kategori": "Syariah Luar Bidang Kuasa ",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2021-01-01",
+    "cawangan": "Sarawak ",
+    "sub kategori": "Syariah Luar Bidang Kuasa ",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 10,
+    "tarikh": "2021-01-01",
+    "cawangan": "Selangor",
+    "sub kategori": " Sivil Pelbagai",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 2,
+    "tarikh": "2021-01-01",
+    "cawangan": "Selangor",
+    "sub kategori": "Jenayah Luar Bidang Kuasa",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 2,
+    "tarikh": "2021-01-01",
+    "cawangan": "Selangor",
+    "sub kategori": "Jenayah Sivil",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 41,
+    "tarikh": "2021-01-01",
+    "cawangan": "Selangor",
+    "sub kategori": "Keluarga Sivil",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 18,
+    "tarikh": "2021-01-01",
+    "cawangan": "Selangor",
+    "sub kategori": "Sivil Luar Bidang Kuasa",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 32,
+    "tarikh": "2021-01-01",
+    "cawangan": "Selangor",
+    "sub kategori": "Keluarga Syariah",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2021-01-01",
+    "cawangan": "Selangor",
+    "sub kategori": "Syariah Luar Bidang Kuasa ",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2021-01-01",
+    "cawangan": "Sibu",
+    "sub kategori": "Jenayah Sivil",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 18,
+    "tarikh": "2021-01-01",
+    "cawangan": "Sibu",
+    "sub kategori": "Keluarga Sivil",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 17,
+    "tarikh": "2021-01-01",
+    "cawangan": "Sibu",
+    "sub kategori": "Keluarga Syariah",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2021-01-01",
+    "cawangan": "Taiping",
+    "sub kategori": " Sivil Pelbagai",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 22,
+    "tarikh": "2021-01-01",
+    "cawangan": "Taiping",
+    "sub kategori": "Keluarga Sivil",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 9,
+    "tarikh": "2021-01-01",
+    "cawangan": "Taiping",
+    "sub kategori": "Sivil Luar Bidang Kuasa",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 33,
+    "tarikh": "2021-01-01",
+    "cawangan": "Taiping",
+    "sub kategori": "Keluarga Syariah",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 6,
+    "tarikh": "2021-01-01",
+    "cawangan": "Taiping ",
+    "sub kategori": " Sivil Pelbagai",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 2,
+    "tarikh": "2021-01-01",
+    "cawangan": "Taiping ",
+    "sub kategori": "Jenayah Luar Bidang Kuasa",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2021-01-01",
+    "cawangan": "Taiping ",
+    "sub kategori": "Keluarga Syariah",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2021-01-01",
+    "cawangan": "Terengganu",
+    "sub kategori": " Sivil Pelbagai",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2021-01-01",
+    "cawangan": "Terengganu",
+    "sub kategori": "Jenayah Luar Bidang Kuasa",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2021-01-01",
+    "cawangan": "Terengganu",
+    "sub kategori": "Keluarga Sivil",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2021-01-01",
+    "cawangan": "Terengganu",
+    "sub kategori": "Sivil Luar Bidang Kuasa",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 47,
+    "tarikh": "2021-01-01",
+    "cawangan": "Terengganu",
+    "sub kategori": "Keluarga Syariah",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 6,
+    "tarikh": "2021-01-01",
+    "cawangan": "Terengganu",
+    "sub kategori": "Syariah Luar Bidang Kuasa ",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2021-02-01",
+    "cawangan": "Gua Musang",
+    "sub kategori": " Sivil Pelbagai",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2021-02-01",
+    "cawangan": "Gua Musang",
+    "sub kategori": "Jenayah Luar Bidang Kuasa",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2021-02-01",
+    "cawangan": "Gua Musang",
+    "sub kategori": "Jenayah Sivil",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 2,
+    "tarikh": "2021-02-01",
+    "cawangan": "Gua Musang",
+    "sub kategori": "Sivil Luar Bidang Kuasa",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 11,
+    "tarikh": "2021-02-01",
+    "cawangan": "Gua Musang",
+    "sub kategori": "Keluarga Syariah",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 9,
+    "tarikh": "2021-02-01",
+    "cawangan": "Ibu Pejabat",
+    "sub kategori": " Sivil Pelbagai",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2021-02-01",
+    "cawangan": "Ibu Pejabat",
+    "sub kategori": "Jenayah Sivil",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 3,
+    "tarikh": "2021-02-01",
+    "cawangan": "Ibu Pejabat",
+    "sub kategori": "Keluarga Sivil",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 14,
+    "tarikh": "2021-02-01",
+    "cawangan": "Ibu Pejabat",
+    "sub kategori": "Sivil Luar Bidang Kuasa",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 8,
+    "tarikh": "2021-02-01",
+    "cawangan": "Ibu Pejabat",
+    "sub kategori": "Keluarga Syariah",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 7,
+    "tarikh": "2021-02-01",
+    "cawangan": "Johor",
+    "sub kategori": "Jenayah Luar Bidang Kuasa",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 9,
+    "tarikh": "2021-02-01",
+    "cawangan": "Johor",
+    "sub kategori": "Sivil Luar Bidang Kuasa",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 44,
+    "tarikh": "2021-02-01",
+    "cawangan": "Johor",
+    "sub kategori": "Keluarga Syariah",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 4,
+    "tarikh": "2021-02-01",
+    "cawangan": "Johor",
+    "sub kategori": "Syariah Luar Bidang Kuasa ",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 13,
+    "tarikh": "2021-02-01",
+    "cawangan": "Johor ",
+    "sub kategori": " Sivil Pelbagai",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 3,
+    "tarikh": "2021-02-01",
+    "cawangan": "Johor ",
+    "sub kategori": "Jenayah Sivil",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 44,
+    "tarikh": "2021-02-01",
+    "cawangan": "Johor ",
+    "sub kategori": "Keluarga Sivil",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 7,
+    "tarikh": "2021-02-01",
+    "cawangan": "Johor ",
+    "sub kategori": "Sivil Luar Bidang Kuasa",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 60,
+    "tarikh": "2021-02-01",
+    "cawangan": "Johor ",
+    "sub kategori": "Keluarga Syariah",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 5,
+    "tarikh": "2021-02-01",
+    "cawangan": "Kedah",
+    "sub kategori": "Jenayah Sivil",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 13,
+    "tarikh": "2021-02-01",
+    "cawangan": "Kedah",
+    "sub kategori": "Keluarga Sivil",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 2,
+    "tarikh": "2021-02-01",
+    "cawangan": "Kedah",
+    "sub kategori": "Sivil Luar Bidang Kuasa",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 42,
+    "tarikh": "2021-02-01",
+    "cawangan": "Kedah",
+    "sub kategori": "Keluarga Syariah",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 5,
+    "tarikh": "2021-02-01",
+    "cawangan": "Kelantan",
+    "sub kategori": " Sivil Pelbagai",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 8,
+    "tarikh": "2021-02-01",
+    "cawangan": "Kelantan",
+    "sub kategori": "Jenayah Luar Bidang Kuasa",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2021-02-01",
+    "cawangan": "Kelantan",
+    "sub kategori": "Jenayah Sivil",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 2,
+    "tarikh": "2021-02-01",
+    "cawangan": "Kelantan",
+    "sub kategori": "Keluarga Sivil",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 8,
+    "tarikh": "2021-02-01",
+    "cawangan": "Kelantan",
+    "sub kategori": "Sivil Luar Bidang Kuasa",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 80,
+    "tarikh": "2021-02-01",
+    "cawangan": "Kelantan",
+    "sub kategori": "Keluarga Syariah",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 27,
+    "tarikh": "2021-02-01",
+    "cawangan": "Kelantan ",
+    "sub kategori": "Keluarga Syariah",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jum
+
+... [Content truncated, total 1,014,794 chars] ...

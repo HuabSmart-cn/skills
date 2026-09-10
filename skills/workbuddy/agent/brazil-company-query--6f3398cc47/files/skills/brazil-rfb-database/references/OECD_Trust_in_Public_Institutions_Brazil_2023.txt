@@ -1,0 +1,511 @@
+
+========== PAGE 1 ==========
+Building Trust in Public Institutions
+Drivers of Trust in Public 
+Institutions in Brazil
+
+========== PAGE 3 ==========
+Building Trust in Public Institutions
+Drivers of Trust in Public 
+Institutions in Brazil
+
+========== PAGE 4 ==========
+This document, as well as any data and map included herein, are without prejudice to the status of or sovereignty over
+any territory, to the delimitation of international frontiers and boundaries and to the name of any territory, city or area.
+Please cite this publication as:
+OECD (2023), Drivers of Trust in Public Institutions in Brazil, Building Trust in Public Institutions, OECD Publishing, Paris, 
+https://doi.org/10.1787/fb0e1896-en.
+ISBN 978-92-64-73949-9 (print)
+ISBN 978-92-64-72935-3 (pdf)
+ISBN 978-92-64-97474-6 (HTML)
+ISBN 978-92-64-82259-7 (epub)
+Building Trust in Public Institutions
+ISSN 2957-3947 (print)
+ISSN 2957-3955 (online)
+Photo credits: Cover © ESB Professional/shutterstock.com
+Corrigenda to OECD publications may be found on line at: www.oecd.org/about/publishing/corrigenda.htm.
+© OECD 2023
+The use of this work, whether digital or print, is governed by the Terms and Conditions to be found at https://www.oecd.org/termsandconditions.
+
+========== PAGE 5 ==========
+   3 
+DRIVERS OF TRUST IN PUBLIC INSTITUTIONS IN BRAZIL © OECD 2023 
+  
+Foreword 
+Brazil is one of the biggest democracies in the world, and the largest in Latin America. Yet, as in many 
+other countries, Brazilian democracy faces challenges that include stark inequalities, high unemployment, 
+rising prices, and the need for evolving regulatory frameworks to keep the pace of rapid technological 
+advances. Brazil is also grappling with the effects of climate change: the country is home to the Amazon 
+rainforest, a crucial source of biodiversity threatened by environmental degradation. These are 
+exacerbated by underlying domestic challenges including corruption and, more recently, heightened 
+political polarisation and the spread of mis- and disinformation, as evidenced by the riots in Brasilia in 
+January 2023.  
+Trust in public institutions is essential for democracy and will be key to helping Brazil effectively address 
+these challenges. Yet, around seven in ten Brazilians think that public institutions are not working in the 
+public interest and trust in government and public institutions has reached an all-time low, according to 
+data collected in April 2022. Focusing on building public trust could help bring about a cultural shift within 
+the public administration, strengthen the legitimacy of public institutions and nurture social cohesion. 
+Drivers of Trust in Public Institutions in Brazil emphasises the importance of making public institutions more 
+responsive through the systematic use of user-centred design of policies and services and ensuring that 
+all public services use “feedback loops” to address citizens’ input. The report also recognises the potential 
+to further institutionalise participatory practices, enhance collaboration and reduce fragmentation among 
+public agencies and levels of government, by investing in the technical capacity of the civil service and 
+integrating long-term thinking into policymaking. Finally, it stresses the need to develop a holistic approach 
+to public communication, instil a culture of openness and strengthen the integrity system. In doing so, 
+Brazil could ensure that its public governance is more resilient and sustainable and can adapt to the 
+changing needs of society. 
+Brazil’s past public governance efforts have served as a significant example for Latin American countries 
+in areas such as civil service reform, open government, and digital government. By carrying out this study, 
+Brazil becomes the first country in Latin America to set trust as a key policy objective and driver for public 
+sector improvement, paving the way for other countries in the region to undertake a similar analysis. 
+This report is the result of close collaboration between the OECD and the Comptroller General of Brazil 
+(Controladoria-Geral da União – CGU) and was carried out together with an Integrity Review of Brazil. It 
+draws on quantitative information collected in April 2022 through the OECD Trust Survey carried out in 
+Brazil and benefits from comparative data gathered through the 2021 OECD Trust Survey in 22 countries, 
+including two OECD Latin American Members, Colombia and Mexico. In addition, it relies on insights 
+provided in around 40 interviews with government officials, civil society representatives and academics in 
+Brazil, as well as input provided by minority leaders from the Amazon region who took part in in-depth 
+focus interviews. This report is the fifth country study in the OECD series “Building Trust in Public 
+Institutions” following Korea in 2018, Finland in 2021, Norway in 2022 and New Zealand in 2023.  
+The report was approved by the Public Governance Committee on 10 November 2023 and prepared for 
+publication by the Secretariat. 
+
+========== PAGE 6 ==========
+4    
+DRIVERS OF TRUST IN PUBLIC INSTITUTIONS IN BRAZIL © OECD 2023 
+  
+Acknowledgements 
+The report was prepared by the OECD Directorate for Public Governance (GOV), under the leadership of 
+Elsa Pilichowski, Director. Mariana Prats co-ordinated the report, under the direction of Monica Brezzi, 
+Head of the Governance Indicators and Performance Division (GIP).  
+The report was drafted by Santiago González, Emma Phillips, Mariana Prats and Sina Smid. Barbara 
+Baredes and Nara Pavao contributed significantly with thorough research and drafting some sections of 
+the report. The report greatly benefitted from comments provided by Karine Badr, Frédéric Boehm, Monica 
+Brezzi, Laura Córdoba Reyes, Gillian Dorner, David Goessmann, Camila Saffirio and Marie Whelan from 
+GOV; and Isabelle Chatry, María Varinia Michalun and Geoff Upton from the OECD Centre for 
+Entrepreneurship, SMEs, Regions and Cities Directorate. Editorial assistance was provided by Meral 
+Gedik, Sally Hinchcliffe and Andrea Uhrhammer.  
+The team in the Controladoria-Geral da União in charge of co-ordinating and supervising this study was 
+composed of Pepe Tonin, Henrique Fernandes Nascimento, Renata Figuereido, Otavio Moreira de Castro 
+Neves, and Tatiana Petry, under the leadership of Izabela Correa, Secretary of Public Integrity. Carolina 
+Carbalhido also provided key support during early stages of the study. The OECD team acknowledges 
+insights provided by experts and national stakeholders in the 38 interviews carried out during May-July 
+2022, as well as valuable inputs provided in July 2022 by minority leaders from the Amazon region. The 
+OECD would like to thank all people interviewed for their time and inputs. 
+
+========== PAGE 7 ==========
+   5 
+DRIVERS OF TRUST IN PUBLIC INSTITUTIONS IN BRAZIL © OECD 2023 
+  
+Table of contents 
+Foreword 
+3 
+Acknowledgements 
+4 
+Executive summary 
+9 
+1 Trust and public governance in Brazil 
+13 
+1.1. Overall drivers of public trust in Brazil 
+16 
+1.2. Brazil’s response to COVID-19 and its impact on trust 
+22 
+1.3. The OECD approach to understanding the drivers of trust in public institutions 
+25 
+References 
+27 
+Notes 
+33 
+2 Trust in public institutions and its main drivers in Brazil 
+35 
+2.1. Measuring drivers of trust and the OECD Survey 
+36 
+2.2. Results of the OECD Trust Survey in Brazil 
+41 
+2.3. The drivers of trust in public institutions in Brazil 
+52 
+References 
+60 
+Note 
+62 
+3 Trust and competence in Brazil 
+63 
+3.1. Responsiveness 
+64 
+3.2. Reliability 
+87 
+References 
+101 
+Notes 
+106 
+4 Trust and values in Brazil 
+107 
+4.1. Openness 
+108 
+4.2. Integrity 
+120 
+4.3. Fairness 
+130 
+References 
+139 
+Notes 
+144 
+Annex A. Methodological notes on the OECD Trust Survey implemented in Brazil 
+145 
+Annex B. OECD Trust Survey Questionnaire in Portuguese for Brazil 
+149 
+ 
+
+========== PAGE 8 ==========
+6    
+DRIVERS OF TRUST IN PUBLIC INSTITUTIONS IN BRAZIL © OECD 2023 
+  
+FIGURES 
+Figure 1.1. Confidence in the national government in Brazil is close to the regional average 
+18 
+Figure 1.2. Interpersonal trust in Brazil is lower than in most countries in the region 
+19 
+Figure 1.3. Low levels of trust are associated with high levels of inequality 
+20 
+Figure 1.4. Trust in government is associated with a longer history of democracy 
+21 
+Figure 1.5. Positive perceptions about government preparedness are associated with higher trust in 
+government, and vice versa 
+24 
+Figure 2.1. Unusually, Brazilian respondents are more likely to trust the federal government than local 
+government or the civil service 
+42 
+Figure 2.2. Trust in government in Brazil has mostly tracked regional levels, with deviations coinciding with key 
+political events 
+43 
+Figure 2.3. Even the most trusted institution, the police, are trusted by less than half of Brazilian respondents 
+44 
+Figure 2.4. Trust varies across institutions in LAC 
+46 
+Figure 2.5. Newspapers readers and social media users rely on slightly different criteria for gauging 
+trustworthiness 
+47 
+Figure 2.6. Trust is higher among people belonging to a higher social class 
+48 
+Figure 2.7. People with low levels of education tend to trust public institutions less 
+49 
+Figure 2.8. Trust in public institutions differs markedly by age 
+50 
+Figure 2.9. People who feel they have a say in what the government does trust all institutions more 
+51 
+Figure 2.10. Levels of trust vary between those who see themselves as politically aligned with the government 
+and those who do not 
+51 
+Figure 2.11. Those who feel safer tend to have higher levels of trust in public institutions 
+52 
+Figure 2.12. Perceptions of effectiveness in reducing greenhouse emissions and fairness are the most 
+important determinants of trust in the federal government 
+55 
+Figure 2.13. Perceptions of equal treatment and openness are key to explaining trust in the civil service 
+56 
+Figure 2.14. Openness and satisfaction with administrative services are the main drivers of trust in the local 
+government 
+57 
+Figure 2.15. Perceptions of public responsiveness are the highest among Brazilians, and integrity the lowest 
+58 
+Figure 3.1. Satisfaction with education and administrative services in Brazil is lower than in Colombia and 
+surveyed OECD countries 
+66 
+Figure 3.2. Satisfaction with the availability of quality healthcare and the education system are slightly below 
+the regional average 
+67 
+Figure 3.3. People with a low socioeconomic status and those with a low level of education are less satisfied 
+with administrative services 
+68 
+Figure 3.4. People with a low socioeconomic status and those with a low level of education are less satisfied 
+with the Unified Health System 
+69 
+Figure 3.5. People with high levels of education and those with higher socioeconomic status are less satisfied 
+with public schooling 
+72 
+Figure 3.6 Respondents with low levels of education, lower socioeconomic status and from the northern 
+regions reported more experience with public schools 
+73 
+Figure 3.7. Perceptions of responsiveness in Brazil are close to the OECD average 
+74 
+Figure 3.8. Men, people with high levels of education and those with a higher socioeconomic status are more 
+confident public services would improve if people complain 
+75 
+Figure 3.9. Most Brazilians believe having a contact is important for accessing public services 
+78 
+Figure 3.10. More Brazilian people trust private clinics than public hospitals 
+79 
+Figure 3.11. Only one-third of Brazilian respondents expect public agencies to adopt innovative ideas to 
+improve services 
+84 
+Figure 3.12. There is room to improve all aspects of reliability 
+88 
+Figure 3.13. People with a higher education and men are more confident in government preparedness for 
+future infectious disease outbreaks 
+89 
+Figure 3.14. Younger people are more likely to feel that personal data would only be used for legitimate 
+purposes 
+91 
+Figure 3.15. The majority of Brazilian respondents express willingness to register a business 
+93 
+Figure 3.16. The willingness to register a business is higher among people with a higher education and higher 
+socioeconomic status 
+94 
+Figure 3.17. There is a 25 percentage point gap between those who think that tackling climate change is a 
+priority and those who think that the government will succeed 
+97 
+Figure 3.18. There is higher confidence that the government will succeed in reducing greenhouse gas 
+emissions among the older population and people with a higher education 
+98 
+
+========== PAGE 9 ==========
+   7 
+DRIVERS OF TRUST IN PUBLIC INSTITUTIONS IN BRAZIL © OECD 2023 
+  
+Figure 4.1. Brazil performs well among Latin America countries on the open government agenda 
+110 
+Figure 4.2. Around one third of Brazilian respondents are pessimistic about the ease of finding information out 
+about administrative procedures 
+110 
+Figure 4.3. Perceptions of participatory engagement are low 
+113 
+Figure 4.4. Women and those with lower levels of education are less optimistic about the government listening 
+to them 
+114 
+Figure 4.5. After voting, posting political content and signing petitions are the most common form of political 
+participation in Brazil 
+117 
+Figure 4.6. Despite their scepticism over whether government will let them have a say, many Brazilians are 
+confident in their own ability to participate in politics 
+118 
+Figure 4.7. A majority of Brazilians believe that collective action at the local level would be successful 
+118 
+Figure 4.8. Brazil is around the regional average on the Political Corruption Index 
+122 
+Figure 4.9. Most of Brazilian respondents do not believe that a public employee would refuse a bribe 
+123 
+Figure 4.10. People who believe contacts are not important for accessing public services or are confident in 
+the success of collective actions have greater trust in government 
+124 
+Figure 4.11. Almost 16% of respondents in Brazil believe that Congress representatives are involved in 
+corruption 
+126 
+Figure 4.12. Perception of revolving doors practices is a challenge in Brazil 
+126 
+Figure 4.13. Few Brazilians expect the courts to act independently of political pressure 
+128 
+Figure 4.14. Constraints on government powers in Brazil are in line with the regional average 
+128 
+Figure 4.15. Perceptions on the political independence of the courts vary by age, gender and region 
+129 
+Figure 4.16. Few Brazilians expect fair treatment of their government applications 
+131 
+Figure 4.17. Perceptions of unfair treatment by public employees are widespread 
+132 
+Figure 4.18. Women and those with lower levels of education are more likely to expect public employees to 
+treat people unequally 
+133 
+Figure 4.19. A large majority in Brazil wants the government to do more to promote equal opportunities for all 134 
+Figure 4.20. Brazil ranks last among many Latin American countries for the share of women in Congress 
+135 
+ 
+TABLES 
+Table 1.1. OECD Framework of the Drivers of Trust in Public Institutions, 2022 
+26 
+Table 2.1. Composition of the weighted sample by gender, age, region, level of education and socio-economic 
+category 
+38 
+Table 2.2. New questions included in the OECD Trust Survey in Brazil 
+40 
+Table 2.3. Drivers of institutional trust in Brazil 
+58 
+ 
+Table A A.1. Sample composition by age, gender, education, region and social class 
+146 
+Table A A.2. Additional variables 
+147 
+Table A A.3. Drivers of institutional trust in Brazil 
+148 
+ 
+BOXES 
+Box 1.1. Trust and public governance 
+15 
+Box 1.2. Some leading initiatives to address economic and governance challenges in Brazil 
+17 
+Box 1.3. Democratic experience and public trust in Brazil 
+21 
+Box 2.1. The inaugural 2021 OECD Trust Survey 
+37 
+Box 2.2. Methodological notes: The implementation of the survey in Brazil 
+38 
+Box 2.3. Questionnaire revisions 
+39 
+Box 2.4. Trust in the police 
+44 
+Box 2.5. Notes on the model for the drivers of trust in public institutions 
+53 
+Box 3.1. In-depth interviews with minority leaders from the Amazon region in Brazil 
+70 
+Box 3.2. Customer experience centred design in the United States 
+76 
+Box 3.3. Services Publics + in France 
+77 
+Box 3.4. Co-creation approaches to public communication in Canada 
+80 
+Box 3.5. Clarifying responsibilities between levels of government: The OECD criteria 
+82 
+Box 3.6. Overview of equalisation systems in OECD countries 
+83 
+
+========== PAGE 10 ==========
+8    
+DRIVERS OF TRUST IN PUBLIC INSTITUTIONS IN BRAZIL © OECD 2023 
+  
+Box 3.7. Learning from failure in the Netherlands 
+85 
+Box 3.8. Canada’s free agent programme: Embedding innovation into regular practice 
+85 
+Box 3.9. Country examples of planning and communication during crisis 
+90 
+Box 3.10. Key milestones of planning in Brazil 
+95 
+Box 3.11. Examples of forward-looking instruments for policy making in selected OECD countries 
+96 
+Box 3.12. Citizen and stakeholder engagement for climate action 
+99 
+Box 4.1. Inclusive data governance in New Zealand 
+111 
+Box 4.2. Strategies to provide feedback to citizens in Colombia and the United Kingdom 
+115 
+Box 4.3. Signature initiatives to increase participation 
+116 
+Box 4.4. Representative deliberative processes in Ireland 
+119 
+Box 4.5. Mock elections in Norwegian schools 
+119 
+Box 4.6. Public service integrity training in Flanders, Belgium 
+125 
+Box 4.7. Lobbying practices in Chile and Ireland 
+127 
+Box 4.8. Addressing inequalities using government open data in Australia 
+134 
+Box 4.9. Towards gender equality in politics in Latin America and the Caribbean 
+136 
+Box 4.10. Elements to build and implement robust diversity management 
+137 
+Box 4.11. Ethnic Communities Graduate Programme in New Zealand 
+137 
+ 
+ 
+ 
+ 
+Look for the 12 at the bottom of the tables or graphs in
+this book. To download the matching Excel® spreadsheet, just type
+the link into your Internet browser or click on the link from the digital
+version.
+This book has...
+A service that delivers Excel® files from the printed page!
+Follow OECD Publications on:
+https://twitter.com/OECD
+https://www.facebook.com/theOECD
+https://www.linkedin.com/company/organisation-eco-cooperation-
+development-organisation-cooperation-developpement-eco/
+https://www.youtube.com/user/OECDiLibrary
+https://www.oecd.org/newsletters/
+
+========== PAGE 11 ==========
+   9 
+DRIVERS OF TRUST IN PUBLIC INSTITUTIONS IN BRAZIL © OECD 2023 
+  
+Executive summary 
+Trust is an important indicator to measure how people perceive the quality of, and associate with, 
+government institutions in democratic countries. Governments can strengthen trust through having reliable 
+institutions which are responsive to people’s needs and expectations, as well as political processes and 
+public policies that follow the principles of openness, integrity, and fairness. In turn, trust leads to greater 
+compliance with policies, nurtures political participation, strengthens social cohesion and builds institutional 
+legitimacy.  
+In line with trends throughout Latin America, trust in government and public institutions in Brazil has 
+consistently declined in recent decades (Latinobarometer 1995-2020, Gallup World Poll), hindering 
+inclusive and sustainable growth and social cohesion (see Chapter 1 of this report). The COVID-19 crisis 
+exacerbated this trend. 
+According to the OECD Trust Survey carried out online in Brazil in April 2022 as part of this study, only one 
+quarter of Brazilian people (25.9%) reported high or moderately high levels of trust in their federal 
+government, a larger share than those who reported high or moderately high trust in local government 
+(19.6%) and the civil service (23.6%). Similar to results observed in other countries, Congress (14%) and 
+political parties (7.6%) were the least trusted among the institutions considered. Vulnerable groups ‒ the 
+poor, the young, people with lower levels of education, and those with economic or security concerns ‒ have 
+the lowest trust in public institutions and feel most strongly that the political system does not work for all. 
+Drivers of trust in Brazil also vary according to the institution and level of government considered (see 
+Chapter 2), suggesting the need to adopt different strategies in different areas to correctly target policies 
+and reforms to build confidence. For example, the most important drivers of trust in the federal government 
+in Brazil are perceptions of the government’s ability to address long-term challenges such as climate 
+change, and fairness in providing services. Levels of trust in local governments are most influenced by 
+whether people feel they have a say in community decisions and their satisfaction with administrative 
+services. Finally, trust in the civil service is predominantly influenced by perceptions that civil servants treat 
+everybody fairly and that people’s inputs in public deliberations are reflected in policymaking.  
+In a global context marked by multiple crises and complexity in recent years, Brazil will need a better 
+understanding of what drives trust in public institutions if it is to effectively respond to current and future 
+governance challenges. Setting public trust as an explicit policy objective will be key, especially to 
+overcome policy implementation gaps and high levels of institutional fragmentation, while preserving 
+Brazil’s hard-fought achievements on a number of public governance practices. Shifting from control-based 
+to trust-based relations among civil servants, elected officials and public institutions would also help people 
+feel trusted by institutions, leading to constructive interactions and reductions in negative perceptions and 
+improving political attitudes. This is not an easy task but could act as a tipping point towards meaningful 
+change in the country.  
+By carrying out this study Brazil becomes the first country in the Latin America and the Caribbean region 
+to reflect in an in-depth analysis based on evidence and people’s feedback, how to set trust as a policy 
+objective and place public trust on the public sector’s improvement agenda, investing in different initiatives 
+to build trustworthy relationships between people and institutions. This report contributes to these efforts, 
+providing a thorough analysis of the main drivers of trust in government in Brazil and identifying 
+opportunities to strengthen it.  
+ 
+
+========== PAGE 12 ==========
+10    
+DRIVERS OF TRUST IN PUBLIC INSTITUTIONS IN BRAZIL © OECD 2023 
+  
+The opportunities identified in this report can be grouped into six areas: 1) improving the delivery and 
+responsiveness of public services; 2) enhancing foresight, planning and preparedness to address long-
+term challenges; 3) enhancing communication and engagement between government and population; 4) 
+strengthening public integrity and reducing perceptions of corruption; 5) promoting fairness across public 
+institutions; and 6) improving the measurement of trust in public institutions and its drivers to build a robust 
+evidence base. The table below summarises the main findings and areas of opportunity of this report. 
+Main findings 
+Areas of opportunity 
+Improving the delivery and responsiveness of public services (Chapter 3) 
+Satisfaction with public services is comparatively low in Brazil and 
+unequal among population groups. For instance, in April 2022, 30% 
+of Brazilian respondents were satisfied with the education system 
+and 32% with administrative services, compared with 58% and 
+63%, respectively, in 22 surveyed OECD countries.  
+ 
+Satisfaction with services is a key driver for trust in local 
+government in Brazil, and levels of trust in local government (20%) 
+are lower than trust in the civil service (24%) or the federal 
+government (26%).  
+Increasing targeted communication and awareness-raising campaigns to 
+inform citizens of their rights and how to access public services directly.  
+ 
+Revisiting the allocation of responsibilities and co-ordination mechanisms 
+among levels of government to deliver public services and ensuring 
+resources are commensurate with the levels of responsibility allocated. 
+People’s perception of government responsiveness is a challenge 
+for Brazil, as for many OECD countries. Most people are sceptical 
+about institutions adapting policies and services based on their 
+feedback. Only 36% of Brazilian respondents believe that services 
+would improve if people complained and 32% believe that policies 
+would be adapted. 
+Systematising user-centred design of public services through guidance and 
+support from the centre, and pilot user-centred initiatives targeting high-
+impact life events.  
+ 
+Continue strengthening feedback loops by ensuring satisfaction indicators 
+are analysed in conjunction with performance indicators and by improving 
+data integration to ensure the government has a holistic view of its users’ 
+needs. 
+ 
+Ensuring that vulnerable population groups have the opportunity to provide 
+feedback to the government and that their feedback is properly analysed.  
+Innovatio
+
+... [Content truncated, total 464,473 chars] ...

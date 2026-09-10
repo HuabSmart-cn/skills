@@ -1,0 +1,65 @@
+{
+  "name": "soe",
+  "version": "1.1.1",
+  "description": "Security Operations Expert",
+  "author": {
+    "name": "odaywang",
+    "email": "odaywang@tencent.com"
+  },
+  "expertType": "agent",
+  "agentName": "soe",
+  "agents": [
+    "./agents/soe.md"
+  ],
+  "skills": [
+    "./skills/soe"
+  ],
+  "displayName": {
+    "en": "Security Operations Expert",
+    "zh": "腾讯云安全运营专家"
+  },
+  "profession": {
+    "en": "Security Operations Expert",
+    "zh": "腾讯云安全运营专家"
+  },
+  "displayDescription": {
+    "en": "Security Operations Expert covering vulnerability management, alert triage (CWP/WAF/Yujie/Tianmu/SOC), intrusion analysis, DDoS traffic analysis, ransomware analysis, asset management, and Tencent iOA zero-trust troubleshooting. Automatically routes requests to the right sub-skill and orchestrates multi-skill pipelines (L0 parsing -> L1 product analysis -> L2 cross-product correlation).",
+    "zh": "分析WAF、主机安全、云防火墙、SOC、御界、天幕告警事件，覆盖漏洞、攻击、入侵溯源与iOA排障。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "13-TencentZone",
+  "defaultInitPrompt": {
+    "zh": "解析这份漏洞扫描报告",
+    "en": "Parse this vulnerability scan report"
+  },
+  "tags": [
+    {
+      "en": "Security Operations",
+      "zh": "安全运营"
+    },
+    {
+      "en": "Vulnerability Analysis",
+      "zh": "漏洞分析"
+    },
+    {
+      "en": "Threat Detection",
+      "zh": "威胁检测"
+    }
+  ],
+  "quickPrompts": [
+
+    {
+      "en": "Parse this vulnerability scan report",
+      "zh": "解析这份漏洞扫描报告"
+    },
+    {
+      "en": "Investigate suspicious intrusion on this host",
+      "zh": "排查这台主机是否存在入侵痕迹"
+    },
+    {
+      "en": "iOA client logged in but cannot access intranet business systems. Help me troubleshoot.",
+      "zh": "iOA客户端登录成功了，但访问不了内网业务系统，帮我排查一下。"
+    }
+  ],
+  "plugin": "soe"
+}

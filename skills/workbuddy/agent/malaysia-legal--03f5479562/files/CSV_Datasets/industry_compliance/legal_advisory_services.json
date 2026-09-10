@@ -1,0 +1,986 @@
+[
+  {
+    "jumlah": 11,
+    "tarikh": "2023-07-01",
+    "cawangan": "Kelantan",
+    "jenis kes": "Tuntutan Harta Sepencarian",
+    "sub kategori": "Keluarga Syariah",
+    "kategori utama": "Syariah"
+  },
+  {
+    "jumlah": 16,
+    "tarikh": "2023-07-01",
+    "cawangan": "Kelantan",
+    "jenis kes": "Tuntutan Perceraian",
+    "sub kategori": "Keluarga Syariah",
+    "kategori utama": "Syariah"
+  },
+  {
+    "jumlah": 6,
+    "tarikh": "2023-07-01",
+    "cawangan": "Kelantan",
+    "jenis kes": "Lain-Lain (Sivil)",
+    "sub kategori": "Sivil Luar Bidang Kuasa",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 40,
+    "tarikh": "2023-07-01",
+    "cawangan": "Sabah",
+    "jenis kes": "Cerai",
+    "sub kategori": "Keluarga Sivil",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 15,
+    "tarikh": "2023-07-01",
+    "cawangan": "Sabah",
+    "jenis kes": "Surat Mentadbir Harta Pusaka",
+    "sub kategori": "Sivil Pelbagai",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2023-07-01",
+    "cawangan": "Sabah",
+    "jenis kes": "Jagaan",
+    "sub kategori": "Keluarga Sivil",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2023-07-01",
+    "cawangan": "Sabah",
+    "jenis kes": "Tuntutan Nafkah Anak Dan Isteri",
+    "sub kategori": "Keluarga Sivil",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2023-07-01",
+    "cawangan": "Sabah",
+    "jenis kes": "Pemberi Pinjaman Wang",
+    "sub kategori": "Sivil Pelbagai",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2023-07-01",
+    "cawangan": "Sabah",
+    "jenis kes": "Probet",
+    "sub kategori": "Sivil Pelbagai",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2023-07-01",
+    "cawangan": "IP Putrajaya",
+    "jenis kes": "Kuatkuasa Perintah - Pampasan Pekerja",
+    "sub kategori": "Sivil Pelbagai",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2023-07-01",
+    "cawangan": "IP Putrajaya",
+    "jenis kes": "Undang-Undang Syarikat",
+    "sub kategori": "Sivil Pelbagai",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2023-07-01",
+    "cawangan": "Johor",
+    "jenis kes": "Kuatkuasa Perintah Nafkah Anak",
+    "sub kategori": "Keluarga Sivil",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2023-07-01",
+    "cawangan": "Johor",
+    "jenis kes": "Rayuan Sivil",
+    "sub kategori": "Sivil Luar Bidang Kuasa",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2023-07-01",
+    "cawangan": "Johor",
+    "jenis kes": "Pemecahan Kontrak",
+    "sub kategori": "Sivil Pelbagai",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2023-07-01",
+    "cawangan": "Johor",
+    "jenis kes": "Tuntutan Nafkah Anak Dan Isteri",
+    "sub kategori": "Keluarga Sivil",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 2,
+    "tarikh": "2023-07-01",
+    "cawangan": "Johor",
+    "jenis kes": "Jagaan",
+    "sub kategori": "Keluarga Sivil",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 27,
+    "tarikh": "2023-07-01",
+    "cawangan": "Kedah",
+    "jenis kes": "Cerai",
+    "sub kategori": "Keluarga Sivil",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 89,
+    "tarikh": "2023-07-01",
+    "cawangan": "Sarawak",
+    "jenis kes": "Cerai",
+    "sub kategori": "Keluarga Sivil",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 2,
+    "tarikh": "2023-07-01",
+    "cawangan": "Sarawak",
+    "jenis kes": "Akta Dadah Berbahaya 1952",
+    "sub kategori": "Jenayah Luar Bidang Kuasa",
+    "kategori utama": "Jenayah"
+  },
+  {
+    "jumlah": 7,
+    "tarikh": "2023-07-01",
+    "cawangan": "Kelantan",
+    "jenis kes": "Cerai",
+    "sub kategori": "Keluarga Sivil",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2023-07-01",
+    "cawangan": "Kelantan",
+    "jenis kes": "Perbankan",
+    "sub kategori": "Sivil Pelbagai",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2023-07-01",
+    "cawangan": "IP Putrajaya",
+    "jenis kes": "Akta Sewa Beli",
+    "sub kategori": "Sivil Pelbagai",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2023-07-01",
+    "cawangan": "Johor",
+    "jenis kes": "Seksyen 105 Akta Insolvensi 2017",
+    "sub kategori": "Sivil Luar Bidang Kuasa",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2023-07-01",
+    "cawangan": "Johor",
+    "jenis kes": "Tuntutan Nafkah Anak",
+    "sub kategori": "Keluarga Sivil",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2023-07-01",
+    "cawangan": "Johor",
+    "jenis kes": "Kuatkuasa Perintah Nafkah Isteri",
+    "sub kategori": "Keluarga Sivil",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2023-07-01",
+    "cawangan": "Johor",
+    "jenis kes": "Perbankan",
+    "sub kategori": "Sivil Pelbagai",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2023-07-01",
+    "cawangan": "Johor",
+    "jenis kes": "Tatatertib",
+    "sub kategori": "Sivil Luar Bidang Kuasa",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2023-07-01",
+    "cawangan": "Johor",
+    "jenis kes": "Pampasan Pekerja",
+    "sub kategori": "Sivil Pelbagai",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2023-07-01",
+    "cawangan": "Johor",
+    "jenis kes": "Akta Keselamatan Sosial Pekerja 1969",
+    "sub kategori": "Sivil Luar Bidang Kuasa",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2023-07-01",
+    "cawangan": "Johor",
+    "jenis kes": "Kanun Keseksaan (Lain-Lain)",
+    "sub kategori": "Jenayah Luar Bidang Kuasa",
+    "kategori utama": "Jenayah"
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2023-07-01",
+    "cawangan": "Johor",
+    "jenis kes": "Kuatkuasa Perintah Nafkah Anak Dan Isteri",
+    "sub kategori": "Keluarga Sivil",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2023-07-01",
+    "cawangan": "Johor",
+    "jenis kes": "Akta Perhubungan Perusahaan 1967",
+    "sub kategori": "Sivil Luar Bidang Kuasa",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2023-07-01",
+    "cawangan": "Kedah",
+    "jenis kes": "Akta Keselamatan Sosial Pekerja 1969",
+    "sub kategori": "Sivil Luar Bidang Kuasa",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 5,
+    "tarikh": "2023-07-01",
+    "cawangan": "Sabah",
+    "jenis kes": "Akta Dadah Berbahaya 1952",
+    "sub kategori": "Jenayah Luar Bidang Kuasa",
+    "kategori utama": "Jenayah"
+  },
+  {
+    "jumlah": 2,
+    "tarikh": "2023-07-01",
+    "cawangan": "Sabah",
+    "jenis kes": "Mencuri (Kanun Keseksaan)",
+    "sub kategori": "Jenayah Luar Bidang Kuasa",
+    "kategori utama": "Jenayah"
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2023-07-01",
+    "cawangan": "Sabah",
+    "jenis kes": "Kuatkuasa Perintah Nafkah Anak",
+    "sub kategori": "Keluarga Sivil",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2023-07-01",
+    "cawangan": "Sabah",
+    "jenis kes": "Ugutan Jenayah (Kanun Keseksaan)",
+    "sub kategori": "Jenayah Luar Bidang Kuasa",
+    "kategori utama": "Jenayah"
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2023-07-01",
+    "cawangan": "Sabah",
+    "jenis kes": "Akta Kontrak 1950",
+    "sub kategori": "Sivil Luar Bidang Kuasa",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2023-07-01",
+    "cawangan": "Sarawak",
+    "jenis kes": "Kuatkuasa Perintah Nafkah Anak",
+    "sub kategori": "Keluarga Sivil",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2023-07-01",
+    "cawangan": "Sarawak",
+    "jenis kes": "Undang-Undang Tanah",
+    "sub kategori": "Sivil Luar Bidang Kuasa",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2023-07-01",
+    "cawangan": "Sarawak",
+    "jenis kes": "Pengangkatan",
+    "sub kategori": "Sivil Pelbagai",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2023-07-01",
+    "cawangan": "Sarawak",
+    "jenis kes": "Kuatkuasa Perintah Nafkah Isteri",
+    "sub kategori": "Keluarga Sivil",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2023-07-01",
+    "cawangan": "Sarawak",
+    "jenis kes": "Probet",
+    "sub kategori": "Sivil Pelbagai",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2023-07-01",
+    "cawangan": "Gua Musang",
+    "jenis kes": "Cerai",
+    "sub kategori": "Keluarga Sivil",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 16,
+    "tarikh": "2023-07-01",
+    "cawangan": "Sabah",
+    "jenis kes": "-",
+    "sub kategori": "-",
+    "kategori utama": "Jenayah"
+  },
+  {
+    "jumlah": 14,
+    "tarikh": "2023-07-01",
+    "cawangan": "Sabah",
+    "jenis kes": "-",
+    "sub kategori": "-",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 71,
+    "tarikh": "2023-07-01",
+    "cawangan": "Sabah",
+    "jenis kes": "-",
+    "sub kategori": "-",
+    "kategori utama": "Syariah"
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2023-07-01",
+    "cawangan": "IP Putrajaya",
+    "jenis kes": "Harta Pusaka Kecil",
+    "sub kategori": "Sivil Pelbagai",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 19,
+    "tarikh": "2023-07-01",
+    "cawangan": "Perak",
+    "jenis kes": "Tuntutan Muta'Ah",
+    "sub kategori": "Keluarga Syariah",
+    "kategori utama": "Syariah"
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2023-07-01",
+    "cawangan": "Kedah",
+    "jenis kes": "Tuntutan Mengubah Perintah Hak Jagaan Anak/Hak Lawatan",
+    "sub kategori": "Keluarga Syariah",
+    "kategori utama": "Syariah"
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2023-07-01",
+    "cawangan": "Kedah",
+    "jenis kes": "Kanun Keseksaan (Lain-Lain)",
+    "sub kategori": "Jenayah Luar Bidang Kuasa",
+    "kategori utama": "Jenayah"
+  },
+  {
+    "jumlah": 17,
+    "tarikh": "2023-07-01",
+    "cawangan": "Sarawak",
+    "jenis kes": "-",
+    "sub kategori": "-",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 20,
+    "tarikh": "2023-07-01",
+    "cawangan": "Sarawak",
+    "jenis kes": "-",
+    "sub kategori": "-",
+    "kategori utama": "Syariah"
+  },
+  {
+    "jumlah": 4,
+    "tarikh": "2023-07-01",
+    "cawangan": "Sarawak",
+    "jenis kes": "-",
+    "sub kategori": "-",
+    "kategori utama": "Jenayah"
+  },
+  {
+    "jumlah": 12,
+    "tarikh": "2023-07-01",
+    "cawangan": "Kelantan",
+    "jenis kes": "-",
+    "sub kategori": "-",
+    "kategori utama": "Syariah"
+  },
+  {
+    "jumlah": 19,
+    "tarikh": "2023-07-01",
+    "cawangan": "Kelantan",
+    "jenis kes": "Tuntutan Hadhanah",
+    "sub kategori": "Keluarga Syariah",
+    "kategori utama": "Syariah"
+  },
+  {
+    "jumlah": 6,
+    "tarikh": "2023-07-01",
+    "cawangan": "Kelantan",
+    "jenis kes": "Tuntutan Pengesahan Lafaz Cerai",
+    "sub kategori": "Keluarga Syariah",
+    "kategori utama": "Syariah"
+  },
+  {
+    "jumlah": 5,
+    "tarikh": "2023-07-01",
+    "cawangan": "Kelantan",
+    "jenis kes": "Tuntutan Fasakh",
+    "sub kategori": "Keluarga Syariah",
+    "kategori utama": "Syariah"
+  },
+  {
+    "jumlah": 2,
+    "tarikh": "2023-07-01",
+    "cawangan": "Kelantan",
+    "jenis kes": "Akta Dadah Berbahaya 1952",
+    "sub kategori": "Jenayah Luar Bidang Kuasa",
+    "kategori utama": "Jenayah"
+  },
+  {
+    "jumlah": 4,
+    "tarikh": "2023-07-01",
+    "cawangan": "Kelantan",
+    "jenis kes": "Akta Antipemerdagangan Orang 2007",
+    "sub kategori": "Jenayah Luar Bidang Kuasa",
+    "kategori utama": "Jenayah"
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2023-07-01",
+    "cawangan": "Kelantan",
+    "jenis kes": "Harta Pusaka Kecil",
+    "sub kategori": "Sivil Pelbagai",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2023-07-01",
+    "cawangan": "Kelantan",
+    "jenis kes": "Menipu (Kanun Keseksaan)",
+    "sub kategori": "Jenayah Luar Bidang Kuasa",
+    "kategori utama": "Jenayah"
+  },
+  {
+    "jumlah": 3,
+    "tarikh": "2023-07-01",
+    "cawangan": "Kelantan",
+    "jenis kes": "Akta Kebankrapan 1967",
+    "sub kategori": "Sivil Luar Bidang Kuasa",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 5,
+    "tarikh": "2023-07-01",
+    "cawangan": "Kelantan",
+    "jenis kes": "Tuntutan Mengubah Perintah Hak Jagaan Anak/Hak Lawatan",
+    "sub kategori": "Keluarga Syariah",
+    "kategori utama": "Syariah"
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2023-07-01",
+    "cawangan": "Kelantan",
+    "jenis kes": "Undang-Undang Tanah",
+    "sub kategori": "Sivil Luar Bidang Kuasa",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2023-07-01",
+    "cawangan": "Kelantan",
+    "jenis kes": "Akta Sewa Beli",
+    "sub kategori": "Sivil Pelbagai",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 3,
+    "tarikh": "2023-07-01",
+    "cawangan": "Kelantan",
+    "jenis kes": "Tuntutan Mengubah Perintah Nafkah Anak/Isteri/Lain-Lain",
+    "sub kategori": "Keluarga Syariah",
+    "kategori utama": "Syariah"
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2023-07-01",
+    "cawangan": "Kelantan",
+    "jenis kes": "Rayuan Sivil",
+    "sub kategori": "Sivil Luar Bidang Kuasa",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 2,
+    "tarikh": "2023-07-01",
+    "cawangan": "Kelantan",
+    "jenis kes": "Lain-Lain (Jenayah)",
+    "sub kategori": "Jenayah Luar Bidang Kuasa",
+    "kategori utama": "Jenayah"
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2023-07-01",
+    "cawangan": "Kelantan",
+    "jenis kes": "Kanun Keseksaan 1997",
+    "sub kategori": "Jenayah Bidang Kuasa",
+    "kategori utama": "Jenayah"
+  },
+  {
+    "jumlah": 28,
+    "tarikh": "2023-07-01",
+    "cawangan": "Perak",
+    "jenis kes": "Tuntutan Nafkah Anak",
+    "sub kategori": "Keluarga Syariah",
+    "kategori utama": "Syariah"
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2023-07-01",
+    "cawangan": "Kelantan",
+    "jenis kes": "Amang (Assault) (Kanun Keseksaan)",
+    "sub kategori": "Jenayah Luar Bidang Kuasa",
+    "kategori utama": "Jenayah"
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2023-07-01",
+    "cawangan": "Kelantan",
+    "jenis kes": "Tuntutan Sabitan Nusyuz",
+    "sub kategori": "Keluarga Syariah",
+    "kategori utama": "Syariah"
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2023-07-01",
+    "cawangan": "Kelantan",
+    "jenis kes": "Akta Kerja 1955",
+    "sub kategori": "Sivil Luar Bidang Kuasa",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 6,
+    "tarikh": "2023-07-01",
+    "cawangan": "Kelantan",
+    "jenis kes": "Perihal Tanah",
+    "sub kategori": "Sivil Pelbagai",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2023-07-01",
+    "cawangan": "Kelantan",
+    "jenis kes": "Lain-Lain (Mal)",
+    "sub kategori": "Keluarga Syariah",
+    "kategori utama": "Syariah"
+  },
+  {
+    "jumlah": 2,
+    "tarikh": "2023-07-01",
+    "cawangan": "Kelantan",
+    "jenis kes": "Kemalangan",
+    "sub kategori": "Sivil Pelbagai",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2023-07-01",
+    "cawangan": "Kelantan",
+    "jenis kes": " Saman Penghutang Penghakiman",
+    "sub kategori": "Sivil Luar Bidang Kuasa",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 2,
+    "tarikh": "2023-07-01",
+    "cawangan": "Kelantan",
+    "jenis kes": "Rayuan Syariah Keluarga/Mal",
+    "sub kategori": "Keluarga Syariah",
+    "kategori utama": "Syariah"
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2023-07-01",
+    "cawangan": "Kelantan",
+    "jenis kes": "Akta Kontrak 1950",
+    "sub kategori": "Sivil Luar Bidang Kuasa",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2023-07-01",
+    "cawangan": "Kelantan",
+    "jenis kes": "Akta Fitnah 1957",
+    "sub kategori": "Sivil Luar Bidang Kuasa",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2023-07-01",
+    "cawangan": "Kelantan",
+    "jenis kes": "Tuntutan Nafkah Eddah",
+    "sub kategori": "Keluarga Syariah",
+    "kategori utama": "Syariah"
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2023-07-01",
+    "cawangan": "Kelantan",
+    "jenis kes": "Pampasan Pekerja",
+    "sub kategori": "Sivil Pelbagai",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 7,
+    "tarikh": "2023-07-01",
+    "cawangan": "Langkawi",
+    "jenis kes": "Tuntutan Pengesahan Cerai Taklik",
+    "sub kategori": "Keluarga Syariah",
+    "kategori utama": "Syariah"
+  },
+  {
+    "jumlah": 4,
+    "tarikh": "2023-07-01",
+    "cawangan": "Langkawi",
+    "jenis kes": "Akta Dadah Berbahaya 1952",
+    "sub kategori": "Jenayah Luar Bidang Kuasa",
+    "kategori utama": "Jenayah"
+  },
+  {
+    "jumlah": 2,
+    "tarikh": "2023-07-01",
+    "cawangan": "Langkawi",
+    "jenis kes": "Kanun Keseksaan 1997",
+    "sub kategori": "Jenayah Bidang Kuasa",
+    "kategori utama": "Jenayah"
+  },
+  {
+    "jumlah": 2,
+    "tarikh": "2023-07-01",
+    "cawangan": "Langkawi",
+    "jenis kes": "Lain-Lain (Sivil)",
+    "sub kategori": "Sivil Luar Bidang Kuasa",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2023-07-01",
+    "cawangan": "Langkawi",
+    "jenis kes": "Tuntutan Pengesahan Lafaz Cerai",
+    "sub kategori": "Keluarga Syariah",
+    "kategori utama": "Syariah"
+  },
+  {
+    "jumlah": 5,
+    "tarikh": "2023-07-01",
+    "cawangan": "Langkawi",
+    "jenis kes": "Tuntutan Perceraian",
+    "sub kategori": "Keluarga Syariah",
+    "kategori utama": "Syariah"
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2023-07-01",
+    "cawangan": "Langkawi",
+    "jenis kes": "Lain-Lain (Mal)",
+    "sub kategori": "Keluarga Syariah",
+    "kategori utama": "Syariah"
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2023-07-01",
+    "cawangan": "Langkawi",
+    "jenis kes": "Permohonan Sijil Faraid/Akuan Pusaka",
+    "sub kategori": "Syariah Luar Bidang Kuasa",
+    "kategori utama": "Syariah"
+  },
+  {
+    "jumlah": 2,
+    "tarikh": "2023-07-01",
+    "cawangan": "Langkawi",
+    "jenis kes": "Akta Sewa Beli",
+    "sub kategori": "Sivil Pelbagai",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 3,
+    "tarikh": "2023-07-01",
+    "cawangan": "Langkawi",
+    "jenis kes": "Tuntutan Fasakh",
+    "sub kategori": "Keluarga Syariah",
+    "kategori utama": "Syariah"
+  },
+  {
+    "jumlah": 4,
+    "tarikh": "2023-07-01",
+    "cawangan": "Langkawi",
+    "jenis kes": "Tuntutan Nafkah Anak",
+    "sub kategori": "Keluarga Syariah",
+    "kategori utama": "Syariah"
+  },
+  {
+    "jumlah": 2,
+    "tarikh": "2023-07-01",
+    "cawangan": "Langkawi",
+    "jenis kes": "Tuntutan Muta'Ah",
+    "sub kategori": "Keluarga Syariah",
+    "kategori utama": "Syariah"
+  },
+  {
+    "jumlah": 2,
+    "tarikh": "2023-07-01",
+    "cawangan": "Langkawi",
+    "jenis kes": "Tuntutan Nafkah Eddah",
+    "sub kategori": "Keluarga Syariah",
+    "kategori utama": "Syariah"
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2023-07-01",
+    "cawangan": "Langkawi",
+    "jenis kes": "Tuntutan Harta Sepencarian",
+    "sub kategori": "Keluarga Syariah",
+    "kategori utama": "Syariah"
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2023-07-01",
+    "cawangan": "Langkawi",
+    "jenis kes": "Tuntutan Hadhanah",
+    "sub kategori": "Keluarga Syariah",
+    "kategori utama": "Syariah"
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2023-07-01",
+    "cawangan": "Langkawi",
+    "jenis kes": "Akta Perkhidmatan Kewangan 2013",
+    "sub kategori": "Sivil Luar Bidang Kuasa",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2023-07-01",
+    "cawangan": "Langkawi",
+    "jenis kes": "Tuntutan Nafkah Isteri",
+    "sub kategori": "Keluarga Syariah",
+    "kategori utama": "Syariah"
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2023-07-01",
+    "cawangan": "Langkawi",
+    "jenis kes": "Tuntutan Tunggakan Nafkah Anak/Isteri/Lain-Lain",
+    "sub kategori": "Keluarga Syariah",
+    "kategori utama": "Syariah"
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2023-07-01",
+    "cawangan": "Langkawi",
+    "jenis kes": "Tuntutan Mengubah Perintah Nafkah Anak/Isteri/Lain-Lain",
+    "sub kategori": "Keluarga Syariah",
+    "kategori utama": "Syariah"
+  },
+  {
+    "jumlah": 9,
+    "tarikh": "2023-07-01",
+    "cawangan": "Melaka",
+    "jenis kes": "Tuntutan Hadhanah",
+    "sub kategori": "Keluarga Syariah",
+    "kategori utama": "Syariah"
+  },
+  {
+    "jumlah": 6,
+    "tarikh": "2023-07-01",
+    "cawangan": "Melaka",
+    "jenis kes": "Tuntutan Nafkah Anak",
+    "sub kategori": "Keluarga Syariah",
+    "kategori utama": "Syariah"
+  },
+  {
+    "jumlah": 13,
+    "tarikh": "2023-07-01",
+    "cawangan": "Melaka",
+    "jenis kes": "Tuntutan Fasakh",
+    "sub kategori": "Keluarga Syariah",
+    "kategori utama": "Syariah"
+  },
+  {
+    "jumlah": 3,
+    "tarikh": "2023-07-01",
+    "cawangan": "Melaka",
+    "jenis kes": "Tuntutan Perceraian",
+    "sub kategori": "Keluarga Syariah",
+    "kategori utama": "Syariah"
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2023-07-01",
+    "cawangan": "Melaka",
+    "jenis kes": "Lain-Lain (Mal)",
+    "sub kategori": "Keluarga Syariah",
+    "kategori utama": "Syariah"
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2023-07-01",
+    "cawangan": "Melaka",
+    "jenis kes": "Akta Dadah Berbahaya 1952",
+    "sub kategori": "Jenayah Luar Bidang Kuasa",
+    "kategori utama": "Jenayah"
+  },
+  {
+    "jumlah": 4,
+    "tarikh": "2023-07-01",
+    "cawangan": "Melaka",
+    "jenis kes": "Lain-Lain (Sivil)",
+    "sub kategori": "Sivil Luar Bidang Kuasa",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 2,
+    "tarikh": "2023-07-01",
+    "cawangan": "Melaka",
+    "jenis kes": "Tuntutan Gantirugi Perkahwinan/Hutang Perkahwinan",
+    "sub kategori": "Keluarga Syariah",
+    "kategori utama": "Syariah"
+  },
+  {
+    "jumlah": 3,
+    "tarikh": "2023-07-01",
+    "cawangan": "Melaka",
+    "jenis kes": "Tuntutan Nafkah Eddah",
+    "sub kategori": "Keluarga Syariah",
+    "kategori utama": "Syariah"
+  },
+  {
+    "jumlah": 4,
+    "tarikh": "2023-07-01",
+    "cawangan": "Melaka",
+    "jenis kes": "Tuntutan Muta'Ah",
+    "sub kategori": "Keluarga Syariah",
+    "kategori utama": "Syariah"
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2023-07-01",
+    "cawangan": "Melaka",
+    "jenis kes": "Permohonan Sijil Faraid/Akuan Pusaka",
+    "sub kategori": "Syariah Luar Bidang Kuasa",
+    "kategori utama": "Syariah"
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2023-07-01",
+    "cawangan": "Melaka",
+    "jenis kes": "Anggapan Kematian",
+    "sub kategori": "Sivil Pelbagai",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 20,
+    "tarikh": "2023-07-01",
+    "cawangan": "Melaka",
+    "jenis kes": "Mitigasi Pengakuan Salah",
+    "sub kategori": "Jenayah Bidang Kuasa",
+    "kategori utama": "Jenayah"
+  },
+  {
+    "jumlah": 2,
+    "tarikh": "2023-07-01",
+    "cawangan": "Melaka",
+    "jenis kes": "Harta Pusaka Kecil",
+    "sub kategori": "Sivil Pelbagai",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2023-07-01",
+    "cawangan": "Melaka",
+    "jenis kes": "Surat Mentadbir Harta Pusaka",
+    "sub kategori": "Sivil Pelbagai",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2023-07-01",
+    "cawangan": "Melaka",
+    "jenis kes": "Tuntutan Tunggakan Nafkah Anak/Isteri/Lain-Lain",
+    "sub kategori": "Keluarga Syariah",
+    "kategori utama": "Syariah"
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2023-07-01",
+    "cawangan": "Melaka",
+    "jenis kes": "Tuntutan Harta Sepencarian",
+    "sub kategori": "Keluarga Syariah",
+    "kategori utama": "Syariah"
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2023-07-01",
+    "cawangan": "Melaka",
+    "jenis kes": "Lain-Lain (Jenayah)",
+    "sub kategori": "Jenayah Luar Bidang Kuasa",
+    "kategori utama": "Jenayah"
+  },
+  {
+    "jumlah": 2,
+    "tarikh": "2023-07-01",
+    "cawangan": "Miri",
+    "jenis kes": "Permohonan Sijil Faraid/Akuan Pusaka",
+    "sub kategori": "Syariah Luar Bidang Kuasa",
+    "kategori utama": "Syariah"
+  },
+  {
+    "jumlah": 6,
+    "tarikh": "2023-07-01",
+    "cawangan": "Miri",
+    "jenis kes": "Tuntutan Hadhanah",
+    "sub kategori": "Keluarga Syariah",
+    "kategori utama": "Syariah"
+  },
+  {
+    "jumlah": 3,
+    "tarikh": "2023-07-01",
+    "cawangan": "Miri",
+    "jenis kes": "Tuntutan Nafkah Anak",
+    "sub kategori": "Keluarga Syariah",
+    "kategori utama"
+
+... [Content truncated, total 50,031,103 chars] ...

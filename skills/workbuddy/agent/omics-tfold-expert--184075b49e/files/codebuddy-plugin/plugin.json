@@ -1,0 +1,65 @@
+{
+  "name": "omics-tfold-expert",
+  "version": "1.0.0",
+  "description": "Tencent tFold model focusing on high-precision binding interface modeling of monoclonal antibodies, nanobodies and antigen complexes.",
+  "author": {
+    "name": "Tencent Health Omics Team",
+    "email": "omics@tencent.com"
+  },
+  "expertType": "agent",
+  "agentName": "omics-tfold-expert",
+  "agents": [
+    "./agents/omics-tfold-expert.md"
+  ],
+  "skills": [
+    "./skills/tfold-collection-skill",
+    "./skills/pdb-viewer-skill"
+  ],
+  "displayName": {
+    "en": "omics-expert",
+    "zh": "组小学"
+  },
+  "profession": {
+    "en": "Tencent tFold Antibody Structure Prediction Expert",
+    "zh": "腾讯tFold抗体结构预测专家"
+  },
+  "displayDescription": {
+    "en": "Tencent tFold model focusing on high-precision binding interface modeling of monoclonal antibodies, nanobodies and antigen complexes.",
+    "zh": "腾讯tFold模型，专注单克隆抗体、纳米抗体与抗原复合物的高精度结合界面建模，辅助表位预测与亲和力改造"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "04-DataAI",
+  "defaultInitPrompt": {
+    "zh": "预测抗体 Fv 结构，运行 tFold_ab_predict 默认参数，3D 展示 CDR-H3 构象",
+    "en": "Predict antibody Fv structure, run tFold_ab_predict with default parameters, 3D display CDR-H3 conformation"
+  },
+  "tags": [
+    {
+      "zh": "抗体结构预测",
+      "en": "Antibody Structure Prediction"
+    },
+    {
+      "zh": "抗原抗体复合物",
+      "en": "Antigen-Antibody Complex"
+    },
+    {
+      "zh": "TCR 复合物",
+      "en": "TCR Complex"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "zh": "预测抗体 Fv 结构，运行 tFold_ab_predict 默认参数，3D 展示 CDR-H3 构象",
+      "en": "Predict antibody Fv structure, run tFold_ab_predict with default parameters, 3D display CDR-H3 conformation"
+    },
+    {
+      "zh": "预测抗体-抗原复合物，运行 tFold_ag_predict 默认参数，定位表位与对位",
+      "en": "Predict antibody-antigen complex, run tFold_ag_predict with default parameters, locate epitope and paratope"
+    },
+    {
+      "zh": "预测 TCR 结构，运行 tFold_tcr_predict 默认参数，分析 CDR3 环构象",
+      "en": "Predict TCR structure, run tFold_tcr_predict with default parameters, analyze CDR3 loop conformation"
+    }
+  ],
+  "plugin": "omics-tfold-expert"
+}

@@ -1,0 +1,23 @@
+# Runtime dependencies for plugins/sheetagent/scripts/*.py
+#
+# Note:
+#   - 建表脚本（主代理写的 build.py）与 recalc.py 都用 openpyxl；build.py 内会在
+#     缺失时自动 pip install openpyxl，此处声明供 dev/CI 预装。
+#   - extract.py auto-installs missing deps on demand (pip install --quiet);
+#     it exits with code 4 only if an install fails or the package is still
+#     unavailable afterwards.
+#   - recalc.py 额外依赖 LibreOffice（系统级，非 pip 包）；缺失时 SOP 走降级校验。
+#
+# This file is kept as a documentation-style declaration so dev/CI environments
+# can pre-install via:
+#     pip install -r plugins/sheetagent/scripts/requirements.txt
+
+# build.py（openpyxl 直写）+ recalc.py
+openpyxl>=3.1.0
+
+# extract.py
+mammoth>=1.6.0
+pymupdf>=1.23.0
+python-pptx>=0.6.21
+Pillow>=10.0.0
+markdownify>=0.11.6

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Find Extensions"
+  short_description: "Find trusted skills, MCPs, and plugins"
+  default_prompt: "Use $find-extensions to discover trusted capabilities for this task and install only after I choose one."

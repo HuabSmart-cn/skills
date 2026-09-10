@@ -1,0 +1,429 @@
+[
+  {
+    "SdkName": "实时音视频TRTC",
+    "LogRuleList": [
+      {
+        "RuleDesc": "调用sdk的进房接口进入rtc房间",
+        "Id": "643e555c957e2e8dc77ec33d",
+        "RuleLevel": "info",
+        "RuleRegList": [
+          {
+            "RegDesc": "进房参数:\n- sdkAppId: {{sdkAppId}}\n- userId {{userId}}\n- 数字房间号 {{roomId}}\n- 角色{{ if role === 'Anchor'}}主播{{else}}观众{{/if}}\n- 模式 {{scene}}\n{{if streamId}}- 自定义流id: {{streamId}}{{/if}}",
+            "Reg": ".*trtc(_|-)api.*enterRoom.*sdkAppId: (?<sdkAppId>\\d+).*roomId: (?<roomId>\\d*).*role:(?<role>\\w+).*userId: (?<userId>\\w+).*scene: (?<scene>\\w+).*streamId:(?<streamId>\\w*).*",
+            "RegTestLog": "[I][2023-04-03 +8.0 18:22:00.117][1176, 9696*][][monitor_api.cpp, liteav::monitor::PrintLocalLog, 153][trtc_api enterRoom sdkAppId: 1400714061, roomId: 0, role:Anchor, userId: 12, userSig: 200, privateMapKey: 0, scene: Live, businessInfo:, streamId: self:1095F008"
+          },
+          {
+            "RegDesc": "进房参数:\n- sdkAppId : {{sdkAppId}}\n- {{if strRoomId}} 字符串房间号 : {{strRoomId}}{{else}}数字房间号 : {{roomId}}{{/if}}\n- 角色 : {{if role === 'Anchor'}} 主播{{else}} 观众{{/if}}\n- userId : {{userId}}\n- 模式 : {{scene}}{{ __log | __valueOfKey 'scene' }}\n{{if streamId}}- 自定义流id : {{streamId}}{{/if}}",
+            "Reg": ".*EnterRoom.*sdkAppId:\\s*(?<sdkAppId>\\d+).*user_id:\\s*(?<userId>\\w+).*room_id:\\s*(?<roomId>\\d*).*str_room_id:\\s*(?<strRoomId>\\w*).*role:\\s*(?<role>\\w+).*stream_id:\\s*(?<streamId>\\w*).*user_define_record_id:\\s*(?<userDefineRecordId>\\w*).*business_info:\\s*(?<businessInfo>\\w*).*",
+            "RegTestLog": "[I][04-20/16:28:21.508+8.0][8620,9912][trtc_pipeline.cc:640]@5f58 trtc_api(aea8): EnterRoom [sdkAppId:1400460191|user_id:619d9981242b308331|room_id:304416785|str_room_id:|role:Anchor|stream_id:kg_ori_anchor_304416785|user_define_record_id:|business_info:]"
+          }
+        ]
+      },
+      {
+        "RuleDesc": "sdk进房成功与否的回调",
+        "Id": "643e55d1957e2e8dc77ec35a",
+        "RuleLevel": "info",
+        "RuleRegList": [
+          {
+            "RegDesc": "进房{{if errCode === '0'}}成功{{else}}失败, 错误码{{errCode}}, 错误码解释:{{errCode | errorCode }}{{/if}}, 耗时: {{time}}毫秒",
+            "Reg": ".*trtc(_|-)api.*(onEnterRoom|OnJoinRoom).*(err|code):(?<errCode>[-0-9]+).*(spendTime|elapsed_time_ms|cost_time):(?<time>\\d+).*",
+            "RegTestLog": "[I][2023-04-03 +8.0 18:22:00.211][1176, 2040][][monitor_api.cpp, liteav::monitor::PrintLocalLog, 153][trtc_api onEnterRoom err:0 msg: spendTime:95 self:1095F008"
+          },
+          {
+            "RegDesc": "进房成功回调",
+            "Reg": ".*OnEnterRoom success.*",
+            "RegTestLog": "[I][06-23/14:11:23.315+8.0][235028,235052][room_impl.cc:325]@e460 OnJoinRoom() CB OnEnterRoom success"
+          }
+        ]
+      },
+      {
+        "RuleDesc": "日志打印的3a级别，或者是否有效",
+        "Id": "644111f0a598ffc2ac671920",
+        "RuleLevel": "normal",
+        "RuleRegList": [
+          {
+            "RegDesc": "{{ set config = $imports.__3a(__log) }}当前3a设置：{{ config }}\n  -  回声消除{{ if config.aecOn }}[success]开启[/success]{{else}} [danger]关闭[/danger]{{/if}}， 值[primary]{{config.aec}}[/primary]\n  -  人声增强{{ if config.agcOn }}[success]开启[/success]{{else}} [danger]关闭[/danger]{{/if}}, 值[primary]{{config.agc}}[/primary]\n  -  降噪{{ if config.ansOn }}[success]开启[/success]{{else}} [danger]关闭[/danger]{{/if}}, AI降噪{{ if config.ainsOn }}[success]开启[/success]{{else}} [danger]关闭[/danger]{{/if}}, 值 [primary]{{config.ans}}[/primary]",
+            "Reg": ".*current 3a level.*",
+            "RegTestLog": "[I][04-18/10:08:25.559+8.0][5948,3532][audio_dsp_processor_impl.cc:1080]Dsp realtime state [ec: 1, ai-ec: -9; ns: 1, ai-ns: -9; agc: 0], current 3a level: [AudioDspConfig: AEC = kAecLevel_60, ANS = kAnsLevel_100, AGC = kAgcLevel_100, ec_level_influence_ns_level = 0, agc_mode = kNewDspAgcAndAnalogDB], enable aec mute: 0"
+          }
+        ]
+      },
+      {
+        "RuleDesc": "设置软/硬件采集音量大小",
+        "Id": "6441fc0fa598ffc2ac671a5b",
+        "RuleLevel": "normal",
+        "RuleRegList": [
+          {
+            "RegDesc": "设置{{if type == 'software'}}软件{{else if type == 'hardware'}}硬件{{else}}{{type}}{{/if}}采集音量：[success]{{volume}}[/success]",
+            "Reg": ".*set\\s*(?<type>(software|hardware)).*capture\\s*volume.*(:|to)\\s*(?<volume>[0-9]+).*",
+            "RegTestLog": "[I][04-06/17:51:38.631+8.0][25353,58115][trtc_pipeline.cc:2096]@1ce0 [API]set software capture volume [volume:60]"
+          },
+          {
+            "RegDesc": "设置软件采集音量：[success]{{volume}}[/success]",
+            "Reg": ".*trtc_pipeline.*trtc_api.*DoSetAudioCaptureVolume.*volume:\\s*(?<volume>[0-9]+).*",
+            "RegTestLog": "[I][05-24/19:17:59.313+8.0][992,1888][trtc_pipeline.cc:2053]@bdb8 trtc_api: DoSetAudioCaptureVolume [volume:100]"
+          },
+          {
+            "RegDesc": "设置软件采集音量：[success]{{volume}}[/success]",
+            "Reg": ".*trtc_pipeline_audio.*trtc-api.*SetAudioCaptureVolume.*volume:\\s*(?<volume>[0-9]+).*",
+            "RegTestLog": "[I][03-28/17:31:13.639+8.0][6784,46595][trtc_pipeline_audio.cc:149][trtc-api][8210]SetAudioCaptureVolume [volume:32]"
+          },
+          {
+            "RegDesc": "设置{{if type == 'Microphone'}}采集{{else}}{{type}}{{/if}}设备音量，设备类型：{{type}}，音量：{{volume}}",
+            "Reg": ".*SetCurrentDeviceVolume.*type:(?<type>[^|]+)\\|volume:(?<volume>\\d+).*",
+            "RegTestLog": "[I][10-08/19:51:41.000+8.0][11648,4476][device_manager.cc:448]@4a0 dm_api: SetCurrentDeviceVolume [type:Microphone|volume:0]"
+          }
+        ]
+      },
+      {
+        "RuleDesc": "软件/硬件的播放音量变化",
+        "Id": "6442006fcc77ea5a32520ece",
+        "RuleLevel": "normal",
+        "RuleRegList": [
+          {
+            "RegDesc": "设置{{if type == 'software' }}软件{{else}}硬件{{/if}}播放音量为：[success]{{volume}}[/success]\n注：\n{{if volume > 100}}[danger]1. 超过 100 的 volume 会有爆音的风险，请谨慎操作\n2. 播放音量过大，会抑制人声采集，有导致人声被消除风险，设置成100预期会好一点，可结合仪表盘观察3A处理后音频能量值变化[/danger]\n{{else}}\n1. 超过 100 的 volume 会有爆音的风险，请谨慎操作\n2. 播放音量过大，会抑制人声采集，有导致人声被消除风险，设置成100预期会好一点，可结合仪表盘观察3A处理后音频能量值变化\n{{/if}}",
+            "Reg": ".*set\\s+(?<type>(hardware|software|audio)).*playout\\s+volume[^0-9]+(?<volume>[0-9]+).*",
+            "RegTestLog": "[I][03-28/17:39:24.304+8.0][6886,60163][audio_io_service_impl.cc:372][audio_log][audio-io]set audio playout volume to: 122"
+          }
+        ]
+      },
+      {
+        "RuleDesc": "ntp时间校准，估算本地日志时间跟服务器时间的差值",
+        "Id": "64420506cc77ea5a32520f1e",
+        "RuleLevel": "normal",
+        "RuleRegList": [
+          {
+            "RegDesc": "ntp时间同步成功{{if offset }} 与服务器时间相差{{offset}}微秒{{/if}}",
+            "Reg": ".*NTP\\s+time\\s+sync\\s+successful.*offset\\(us\\):\\s*(?<offset>[-0-9]+).*",
+            "RegTestLog": "[I][03-28/17:46:52.215+8.0][6984,46339][ntp_time_manager_impl.cc:318]NTP time sync successful, took(ms): 200, last request took(ms): 200, use sample count:9, success offset(us): 98106, ntp time:2024-03-28 17:46:52.313 UTC, trtc.time.tencent-cloud.com, IP:198.18.20.146:123"
+          }
+        ]
+      },
+      {
+        "RuleDesc": "dns解析失败",
+        "Id": "644207b3a598ffc2ac671b46",
+        "RuleLevel": "normal",
+        "RuleRegList": [
+          {
+            "RegDesc": "请检查网络环境，dns解析失败：{{err}}",
+            "Reg": ".*\\[E\\].*address_resolver.*error\\s+in\\s+AddressResolver:\\s*(?<err>\\S+).*",
+            "RegTestLog": "[E][04-17/20:02:43.958+8.0][9888,6512][address_resolver.cc:28]error in AddressResolver: 不知道这样的主机。"
+          }
+        ]
+      },
+      {
+        "RuleDesc": "TRTC sdk 的当前环境",
+        "Id": "6442085aa598ffc2ac671b6c",
+        "RuleLevel": "normal",
+        "RuleRegList": [
+          {
+            "RegDesc": "当前环境：{{if EnvironmentType === 'Official'}} 正式环境 {{else if EnvironmentType  === 'Custom'}} 私有环境 {{else if EnvironmentType  === 'Oversea'}} 海外环境 {{/if}}",
+            "Reg": "Environment type: ((?<EnvironmentType>\\w*))",
+            "RegTestLog": "[I][04-20/16:28:21.509+8.0][8620,12516][signal_manager.cc:5354]@5f58 Network: Environment type: Official"
+          }
+        ]
+      },
+      {
+        "RuleDesc": "采集的原始分辨率",
+        "Id": "6442690ca598ffc2ac672069",
+        "RuleLevel": "normal",
+        "RuleRegList": [
+          {
+            "RegDesc": "摄像头的采集格式：\n    - 宽：{{width}}\n    - 高：{{height}}\n    - 帧率：{{fps}}\n    - 数据格式：{{format}}",
+            "Reg": ".*capture_pin.cc.*format:(?<format>\\w*).*width:(?<width>\\d*).*height:(?<height>\\d*).*fps:(?<fps>\\d*)",
+            "RegTestLog": "[I][04-20/18:12:25.016+8.0][17524,19472][capture_pin.cc:90][CameraMediaType] video format:JPG, width:1280, height:720, fps:30"
+          }
+        ]
+      },
+      {
+        "RuleDesc": "sdk 申请辅路失败，trtc 房间默认一个房间只能有一个辅路",
+        "Id": "64462924a598ffc2ac672201",
+        "RuleLevel": "error",
+        "RuleRegList": [
+          {
+            "RegDesc": "辅路上行权限请求失败:\n   - 网络请求超时\n   - 没有收到后台的回包（客户网络原因）",
+            "Reg": ".*trtc(_|-)api.*OnError\\s+.*code:\\s*(?<code>(-6|-102015)).*",
+            "RegTestLog": "[E][04-19/18:57:20.074+8.0][11144,13768][trtc_pipeline.cc:2959]@cdd8 trtc_api(c798): OnError [code:-6|msg:Sub video apply failed.]"
+          }
+        ]
+      },
+      {
+        "RuleDesc": "分享回调事件",
+        "Id": "644783a6cc77ea5a325217bf",
+        "RuleLevel": "info",
+        "RuleRegList": [
+          {
+            "RegDesc": "采集窗口被遮挡：\n   - 采集的窗口源被其它第三方窗口遮挡 遮挡部分会被涂灰 采集不会暂停，主要出现在Win 7，因为它本身是不支持抗遮挡，少部分win10 会出现",
+            "Reg": ".*trtc(_|-)api.*OnScreenCovered.*stream_type:SubStream",
+            "RegTestLog": "[I][04-25/14:26:45.352+8.0][20388,16656][local_video_stream.cc:1238]@7f10 trtc_api: OnScreenCovered [stream_type:SubStream|msg:Video: Share window is covered by other windows.]"
+          },
+          {
+            "RegDesc": "屏幕分享暂停：\n{{if reason === 'WindowMinimized'}}    - 采集源窗口最小化了 {{/if}}\n{{if reason === 'UserBehavior'}}    - 调用了 pauseScreenCapture 接口 {{/if}}\n{{if reason === 'WindowHidden'}}    - 采集源隐藏了，窗口隐藏对应的操作 Qt 的 hide() 方法 windows 的 SW_HIDE 消息 {{/if}}",
+            "Reg": ".*trtc(_|-)api.*OnScreenPaused.*stream_type:SubStream.*reason:(?<reason>\\w+).*",
+            "RegTestLog": "[I][04-25/14:27:17.153+8.0][20388,16656][local_video_stream.cc:1210]@7f10 trtc_api: OnScreenPaused [stream_type:SubStream|msg:Video: Screen capture pause. reason:WindowHidden]"
+          },
+          {
+            "RegDesc": "屏幕分享停止：\n{{if stopReason === 'WindowClosed'}}    - 采集源窗口关闭了 {{/if}}\n{{if stopReason === 'UserBehavior'}}    - 调用了 stopScreenCapture 接口 {{/if}}\n{{if stopReason === 'MonitorStatusChanged'}}    - 显示器状态变更（如接口被拔出、投影模式变更等 {{/if}}",
+            "Reg": ".*OnScreen.*Stopped.*(?:stream_type|type):(?:SubStream|BigStream).*reason:(?<stopReason>\\w+).*",
+            "RegTestLog": "[I][04-25/14:27:17.221+8.0][20388,16656][local_video_stream.cc:1183]@7f10 trtc_api: OnScreenStopped [stream_type:SubStream|msg:Video: Screen capture stop. reason:WindowClosed]"
+          },
+          {
+            "RegDesc": "屏幕分享暂停：\n{{if reason === 'WindowMinimized'}}    - 采集源窗口最小化了 {{/if}}\n{{if reason === 'UserBehavior'}}    - 调用了 pauseScreenCapture 接口 {{/if}}\n{{if reason === 'WindowHidden'}}    - 采集源隐藏了，窗口隐藏对应的操作 Qt 的 hide() 方法 windows 的 SW_HIDE 消息 {{/if}}",
+            "Reg": ".*OnScreenPaused.*trtc(_|-)api.*stream type:SubStream.*reason:(?<reason>\\w+).*",
+            "RegTestLog": "[I][05-11/14:02:45.630+8.0][16632,20892][local_video_stream.cc:1270]@5958 [OnScreenPaused]|trtc_api Local video stream type:SubStream, msg:Video: Screen capture pause. reason:WindowHidden"
+          },
+          {
+            "RegDesc": "屏幕分享开始，分享类型：{{type}}",
+            "Reg": ".*OnScreen.*Started.*type:(?<type>\\w+).*",
+            "RegTestLog": "[I][04-02/15:38:41.947+8.0][69498,39431][local_video_stream2.cc:864][local-video][86e0]OnScreenSharingStarted [type:BigStream|window_id:0]"
+          }
+        ]
+      },
+      {
+        "RuleDesc": "sdk的warning回调",
+        "Id": "6448870cba3bb1097662cfbe",
+        "RuleLevel": "warn",
+        "RuleRegList": [
+          {
+            "RegDesc": "onWarning回调,错误码{{code}}{{if code != '0' }}, 错误码解释:{{ code | __errorCode }}{{/if}}",
+            "Reg": ".*On[A-z]*Warning.*code:\\s*(?<code>[-0-9]+).*",
+            "RegTestLog": "[W][05-24/19:40:56.328+8.0][992,1888][trtc_pipeline.cc:3630]@bdb8 trtc_api: OnAudioWarning [code:1204|msg:AudioDevice: may be a problem with the audio capture device. OnAudioDeviceEnergyAbnormal audio capture device energy abnormal with muted: 0 volume: 100 device restart count: 10[name:回音消除话筒 (Eacome SV18)]]"
+          }
+        ]
+      },
+      {
+        "RuleDesc": "通过隐藏api调用sdk未对外公开的能力",
+        "Id": "6448967c10c4abc4a77f2860",
+        "RuleLevel": "normal",
+        "RuleRegList": [
+          {
+            "RegDesc": "{{set api = $imports.__json(__log, '0.api') }}{{set params = $imports.__json(__log, '0.params') }}[warning]调用隐藏api: {{api|__expApi}}[/warning]\n参数：[success]{{params}}[/success]",
+            "Reg": "^(?!.*TuikitLog).*CallExperimentalApi",
+            "RegTestLog": "[I][05-01/11:04:30.263+8.0][14626,15288][experimental_api_invoker.cc:224]@d3c0 trtc_api: CallExperimentalApi [msg:ok|json:{\"api\": \"setRoomType\", \"params\": {\"type\": 1}}]"
+          }
+        ]
+      },
+      {
+        "RuleDesc": "调用隐藏api开启合唱参数设置不正确",
+        "Id": "64489808ba3bb1097662d0b9",
+        "RuleLevel": "normal",
+        "RuleRegList": [
+          {
+            "RegDesc": "audioSource参数未设置\n参考\n{\n\t\"api\" : \"enableChorus\",\n\t\"params\" : {\n\t\t\"enable\" : true,\n\t\t\"audioSource\": 0, // 0：voice  1: background music\n\t}\n}",
+            "Reg": ".*experimental_api_invoker.cc.*SetChorusEnable:.*get audioSource failed.*",
+            "RegTestLog": "[E][04-25/19:17:28.014+8.0][42149,58371][experimental_api_invoker.cc:1270]SetChorusEnable: get audioSource failed."
+          },
+          {
+            "RegDesc": "audioSource参数未设置\n参考\n{\n\t\"api\" : \"enableChorus\",\n\t\"params\" : {\n\t\t\"enable\" : true,\n\t\t\"audioSource\": 0, // 0：voice  1: background music\n\t}\n}",
+            "Reg": ".*experimental_api_invoker2.cc.*SetChorusEnable.*lack parameter or illegal type.*",
+            "RegTestLog": "[E][06-26/10:48:57.501+8.0][11791,48643][experimental_api_invoker2.cc:1714][trtc-api][1:8920]SetChorusEnable[lack parameter or illegal type]: enable"
+          }
+        ]
+      },
+      {
+        "RuleDesc": "OnSwitchRole的报错信息",
+        "Id": "64489e9310c4abc4a77f28a6",
+        "RuleLevel": "normal",
+        "RuleRegList": [
+          {
+            "RegDesc": "{{if code != '0' }}切换角色报错{{else}}切换角色成功{{/if}}\n{{if code == '-4' }}没有加入房间{{else}}{{msg}}{{/if}}\n{{ if msg == 'Same role. Current Role:Anchor'}}当前已经是主播{{ else if msg == 'Same role. Current Role:Audience' }}当前已经是观众{{else}}{{/if}}",
+            "Reg": ".*(trtc_pipeline|trtc_event_dispatcher).*.*(?:trtc(_|-)api:)?\\s*OnSwitchRole.*code:\\s*(?<code>[-0-9]+).*msg:(?<msg>.*)\\|.*",
+            "RegTestLog": "[I][04-25/19:17:28.013+8.0][42149,58371][trtc_pipeline.cc:2769]@2920 trtc_api: OnSwitchRole [code:-4|msg:You haven't joined room. Current Role:Unknown|role:Unknown]"
+          }
+        ]
+      },
+      {
+        "RuleDesc": "",
+        "Id": "6448c25b10c4abc4a77f28d7",
+        "RuleLevel": "info",
+        "RuleRegList": [
+          {
+            "RegDesc": "接口机ip:{{ip}}, 端口:{{port}},协议:{{protocol}}",
+            "Reg": ".*ACC ip:\\s*(?<ip>\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}).*:(?<port>\\d+).*protocol:\\s*(?<protocol>(UDP|TCP)).*",
+            "RegTestLog": "[I][04-25/18:57:40.993+8.0][41986,51203][signal_manager.cc:540]@6d20 Network: Signal: onRequestACCIP SUCC, ACC ip: 115.236.134.145:8000, protocol:UDP"
+          },
+          {
+            "RegDesc": "接口机ip:{{ip}}, 端口:{{port}},协议:  {{protocol == '1' ? 'TCP' : 'UDP'}}",
+            "Reg": ".*onRequestACCIP\\s+SUCC.*ip:\\s*(?<ip>\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}).*port:\\s*(?<port>\\d+).*type:\\s*(?<protocol>[01]).*",
+            "RegTestLog": "[I][2023-04-06 +8.0 19:00:48.243][17660, 16892][][TRtcSignaling.cpp, txliteav::TRtcSignalingImpl::onRequestACCIP, 881][Signal: onRequestACCIP SUCC, size:8, ACC ip(4), ip:117.68.20.172 port:8000 type:0 IPv6: addr_family:IPv4"
+          }
+        ]
+      },
+      {
+        "RuleDesc": "sdk的onError事件回调",
+        "Id": "6448cf33ba3bb1097662d17a",
+        "RuleLevel": "error",
+        "RuleRegList": [
+          {
+            "RegDesc": "触发onError事件, 错误码: {{code}}{{ if code != '0' }},  错误码解释:{{ code | __errorCode }}{{/if}}",
+            "Reg": ".*On[a-zA-Z]*Error.*code:\\s*(?<code>[-0-9]+).*",
+            "RegTestLog": "[E][08-09/19:18:25.405+8.0][20082,30106][trtc_pipeline.cc:2930]@a80 trtc_api(9100): OnError [code:-3301|msg:[-100001]token error]"
+          }
+        ]
+      },
+      {
+        "RuleDesc": "调用隐藏api设置3a ans 参数, 参数值非法, 不生效",
+        "Id": "64560d7010c4abc4a77f2d34",
+        "RuleLevel": "error",
+        "RuleRegList": [
+          {
+            "RegDesc": "设置的 {{levelName}}:{{levelValue}} 无效:\n{{if levelName === 'ans' }}    - 有效值有 0 20 40 60 80 100 120 {{/if}}\n{{if levelName === 'agc' }}    - 有效值有 0 100  {{/if}}\n{{if levelName === 'aec' }}    - 有效值有 0 30 60 100 120 {{/if}}",
+            "Reg": ".*set illegal (?<levelName>\\w+) level = (?<levelValue>\\d+)",
+            "RegTestLog": "[E][04-25/14:26:31.614+8.0][20388,11884][audio_dsp_config_manager_impl.cc:47]set illegal ans level = 50"
+          },
+          {
+            "RegDesc": "SetAudioANSEnabled 参数level({{ level }})无效，支持的取值有: 0、30、60、100，0 表示关闭 ANS，100 表示最高级别。",
+            "Reg": ".*SetAudioANSEnabled\\[Invalid ans level\\]:(?<level>\\d+)",
+            "RegTestLog": "[E][04-02/17:04:04.480+8.0][70706,47619][experimental_api_invoker2.cc:941][trtc-api][6e0]SetAudioANSEnabled[Invalid ans level]:50"
+          }
+        ]
+      },
+      {
+        "RuleDesc": "sdk 编码器的耗时",
+        "Id": "6458b6f8ba3bb1097662daa3",
+        "RuleLevel": "normal",
+        "RuleRegList": [
+          {
+            "RegDesc": "编码耗时过长：\n    实际耗时：{{encodeTime}} ms",
+            "Reg": ".*task_annotator.cc.*ProcessFrame.*video_producing_context.cc.*RunTask took\\(ms\\):\\s*(?<encodeTime>\\d+).*",
+            "RegTestLog": "[W][05-04/01:53:32.073+8.0][11788,10636][task_annotator.cc:139]posted_from: ProcessFrame@../../../video/win/producer/video_producing_context.cc:614 RunTask took(ms): 5588"
+          }
+        ]
+      },
+      {
+        "RuleDesc": "比如采集 960 * 540 但是实际设备给出的确是 960 * 536 然后导致sdk 转码失败",
+        "Id": "6458cf7ece4f79450d58ec91",
+        "RuleLevel": "error",
+        "RuleRegList": [
+          {
+            "RegDesc": "采集格式转换失败：\n    已知问题（比如：采集 {{width}} * {{height}} 但是sdk 收到的却是 960 * 536）推荐升级到 11.0 以上版本",
+            "Reg": ".*video_processor_impl.cc.*process failed.*TranscodeFilter.*source_image_info\\{format:(?<format>\\w+);width:(?<width>\\d+);height:(?<height>\\d+)\\}",
+            "RegTestLog": "[E][04-27/09:36:55.213+8.0][10612,19460][video_processor_impl.cc:161]process failed: TranscodeFilter, source_image_info{format:JPG;width:960;height:540}"
+          }
+        ]
+      },
+      {
+        "RuleDesc": "远端所有用户静音/取消静音",
+        "Id": "64707b6612bbd9331807349e",
+        "RuleLevel": "normal",
+        "RuleRegList": [
+          {
+            "RegDesc": "远端所有用户{{if mute == 'true' || mute == 'True' }}静音{{else}}取消静音{{/if}}",
+            "Reg": ".*trtc(_|-)api[:\\]].*?MuteAllRemoteAudio.*mute:\\s*(?<mute>\\w+).*",
+            "RegTestLog": "[I][05-25/11:02:15.250+8.0][24653,25576][trtc_pipeline.cc:2149]@1a20 trtc_api: MuteAllRemoteAudio [mute:True]"
+          }
+        ]
+      },
+      {
+        "RuleDesc": "调用退房接口",
+        "Id": "64707d33d0425d3cdcfebec5",
+        "RuleLevel": "normal",
+        "RuleRegList": [
+          {
+            "RegDesc": "调用退房",
+            "Reg": ".*trtc(_|-)api.*ExitRoom(Sync)?\\s+.*",
+            "RegTestLog": "[I][05-29/16:26:56.826+8.0][13919,14200][trtc_pipeline.cc:786]@3f60 trtc_api: ExitRoomSync [max_wait_time:2]"
+          },
+          {
+            "RegDesc": "调用退房接口",
+            "Reg": ".*method=exitRoom.*",
+            "RegTestLog": "[I][12-10/20:14:34.222+5.5][22140,22140][log_jni.cc:30]TRTCCloudPlugin: TRTCCloudWrapper|channel=trtcCloudChannel|method=exitRoom|arguments=null"
+          }
+        ]
+      },
+      {
+        "RuleDesc": "销毁trtc实例",
+        "Id": "6470834e12bbd93318073537",
+        "RuleLevel": "warn",
+        "RuleRegList": [
+          {
+            "RegDesc": "销毁trtc实例！！！",
+            "Reg": ".*trtc_pipeline.*run\\s+sync\\s+uninit\\s+task.*",
+            "RegTestLog": "[I][05-25/11:02:15.275+8.0][24653,26276][trtc_pipeline.cc:435]TRTCPipeline-main:run sync uninit task"
+          },
+          {
+            "RegDesc": "销毁trtc实例！！！",
+            "Reg": ".*trtc_pipeline2.*trtc(-|_)api.*PipelineV2 destruct.*",
+            "RegTestLog": "[I][06-26/14:37:09.258+8.0][13567,62211][trtc_pipeline2.cc:155][trtc-api][1:370]PipelineV2 destruct."
+          },
+          {
+            "RegDesc": "销毁TRTC实例：{{Object}}",
+            "Reg": ".*trtc_pipeline.*PipelineV2 start destruct, object:@(?<Object>\\w+).*",
+            "RegTestLog": "[I][12-21/13:53:22.217+10.0][36756,21836][trtc_pipeline2.cc:119][trtc-api][54:35a0]PipelineV2 start destruct, object:@35a0"
+          },
+          {
+            "RegDesc": "销毁TRTC实例",
+            "Reg": ".*destroySharedInstance.*",
+            "RegTestLog": "[I][02-22/18:02:34.798+8.0][14610,14748][log_jni.cc:30]TRTCCloudImpl: destructor destroySharedInstance"
+          },
+          {
+            "RegDesc": "销毁TRTC实例：{{Object}}",
+            "Reg": ".*trtc_cloud.*Try Destroy Cloud.*@(?<Object>.*)",
+            "RegTestLog": "[I][01-17/17:05:16.830+8.0][63,153][trtc_cloud.cc:109]Try Destroy Cloud @0x24e6000"
+          }
+        ]
+      },
+      {
+        "RuleDesc": "sdk的版本号,系统",
+        "Id": "64798a54832271ccd94bbb0a",
+        "RuleLevel": "normal",
+        "RuleRegList": [
+          {
+            "RegDesc": "sdk版本{{version}}, 系统:{{system}}, 系统版本:{{systemVersion}}",
+            "Reg": ".*SDK Version:\\s*(?<version>[0-9.]+)\\s*Device Name::(?<system>.*?)(System Version:(?<systemVersion>.*?))?=+",
+            "RegTestLog": "[I][05-21/11:04:03.203+8.0][31032,32560][trtc_pipeline.cc:694]trtc_api ============= SDK Version:10.3.0.4277 Device Name::HUAWEI_MateBook System Version:10.0.22621.1702 ============="
+          }
+        ]
+      },
+      {
+        "RuleDesc": "日志打印的ntp时间, 当本地日志时间跟仪表盘有差异时可以参考",
+        "Id": "647ff9ac9bd6ad971e6b044b",
+        "RuleLevel": "normal",
+        "RuleRegList": [
+          {
+            "RegDesc": "本地时间{{localTime}}, 服务器时间:{{ntpTime}}",
+            "Reg": "\\[I\\]\\[(?<localTime>[0-9/:+-.\\s]+)\\].*signal_manager.*Current\\s*NTP\\s*time:\\s*(?<ntpTime>[0-9-\\s:.]+).*",
+            "RegTestLog": "[I][04-06/17:36:32.028+8.0][26802,86787][signal_manager.cc:1215]@4d0 Network: Current NTP time: 2023-04-06 17:36:32.053 UTC"
+          },
+          {
+            "RegDesc": "本地时间{{localTime}}, 服务器时间:{{ntpTime}}",
+            "Reg": ".*\\[(?<localTime>[^\\]]+)\\].*NTP time sync successful.*ntp time:(?<ntpTime>[\\d-:. ]+)",
+            "RegTestLog": "[I][06-26/15:24:28.816+8.0][13995,61955][ntp_time_manager_impl.cc:320]NTP time sync successful, took(ms): 205, last request took(ms): 205, use sample count:6, success offset(us): 173486, ntp time:2024-06-26 15:24:28.989 UTC, trtc.time.tencent-cloud.com, IP:198.18.16.109:123"
+          }
+        ]
+      },
+      {
+        "RuleDesc": "设置进房是否自动订阅音视频流",
+        "Id": "64b10436d79792e7c2966eb0",
+        "RuleLevel": "normal",
+        "RuleRegList": [
+          {
+            "RegDesc": "设置订阅模式: \n - 音频{{if audio == 'True' || audio == 'true'}}自动订阅{{else}}手动订阅{{/if}}\n - 视频{{if video == 'True' || video == 'true'}}自动订阅{{else}}手动订阅{{/if}}",
+            "Reg": ".*trtc_pipeline.*trtc(_|-)api.*SetDefaultStreamRecvMode.*auto_recv_audio:?\\s*(?<audio>[a-zA-Z]+).*auto_recv_video:?\\s*(?<video>[a-zA-Z]+).*",
+            "RegTestLog": "[I][06-26/11:07:18.131+8.0][59677,259][trtc_pipeline.cc:896][d760]trtc_api: SetDefaultStreamRecvMode [auto_recv_audio:True|auto_recv_video:False]"
+          }
+        ]
+      },
+      {
+        "RuleDesc": "启动sdk音频采集",
+        "Id": "64b108ded9a3de7d0126671f",
+        "RuleLevel": "info",
+        "RuleRegList": [
+          {
+            "RegDesc": "启动sdk音频采集, 音质:{{quality}}",
+            "Reg": ".*StartLocalAudio.*(audio_)?quality:?\\s*(?<quality>[a-zA-Z]+).*",
+            "RegTestLog": "[I][05-22/11:26:42.191+8.0][40664,51444][trtc_pipeline.cc:2076]@5880 trtc_api(7410): StartLocalAudio [audio_quality:Default]"
+          }
+        ]
+      },
+      {
+        "RuleDesc": "调用setRemoteAudioVolume设置某一个用户的播放音量",
+        "Id": "64b11f93d79792e7c2966f33",
+        "RuleLevel": "normal",
+        "RuleRegList": [
+          {
+            "RegDesc": "设置远端用户{{userId}}的播放音量为[success]{{volume}}[/success]",
+            "Reg": ".*trtc_pipeline.*trtc(_|-)api.*SetRemoteAudioVolume.*user_id:\\s*(?<userId>\\w+).*volume:\\s*(?<volume>\\d+).*",
+            "RegTestLog": "[I][04-06/17:58:25.584+8.0][26802,259][trtc_pipeline.cc:2143]trtc_a
+
+... [Content truncated, total 576,458 chars] ...

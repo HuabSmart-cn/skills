@@ -1,0 +1,1155 @@
+{
+  "gender": {
+    "desc": "性别",
+    "field_path": "targeting.gender",
+    "type": "string[]",
+    "category": "targeting",
+    "options": [
+      {
+        "key": "MALE",
+        "label": "男性",
+        "value": "1"
+      },
+      {
+        "key": "FEMALE",
+        "label": "女性",
+        "value": "2"
+      }
+    ]
+  },
+  "education": {
+    "desc": "学历",
+    "field_path": "targeting.education",
+    "type": "string[]",
+    "category": "targeting",
+    "options": [
+      {
+        "key": "DOCTOR",
+        "label": "博士",
+        "value": "1"
+      },
+      {
+        "key": "MASTER",
+        "label": "硕士",
+        "value": "2"
+      },
+      {
+        "key": "BACHELOR",
+        "label": "本科",
+        "value": "3"
+      },
+      {
+        "key": "SENIOR",
+        "label": "高中",
+        "value": "4"
+      },
+      {
+        "key": "JUNIOR",
+        "label": "初中",
+        "value": "5"
+      },
+      {
+        "key": "PRIMARY",
+        "label": "小学",
+        "value": "6"
+      },
+      {
+        "key": "JUNIOR_COLLEGE",
+        "label": "专科",
+        "value": "7"
+      }
+    ]
+  },
+  "user_os": {
+    "desc": "操作系统",
+    "field_path": "targeting.user_os",
+    "type": "string[]",
+    "category": "targeting",
+    "options": [
+      {
+        "key": "IOS",
+        "label": "iOS 系统",
+        "value": "1"
+      },
+      {
+        "key": "IOS_VERSION_4",
+        "label": "iOS 4.x",
+        "value": "1003"
+      },
+      {
+        "key": "IOS_VERSION_5",
+        "label": "iOS 5.x",
+        "value": "1004"
+      },
+      {
+        "key": "IOS_VERSION_6",
+        "label": "iOS 6.x",
+        "value": "1005"
+      },
+      {
+        "key": "IOS_VERSION_7",
+        "label": "iOS 7.x",
+        "value": "1006"
+      },
+      {
+        "key": "IOS_VERSION_8",
+        "label": "iOS 8.x",
+        "value": "1007"
+      },
+      {
+        "key": "IOS_VERSION_9",
+        "label": "iOS 9.x",
+        "value": "1008"
+      },
+      {
+        "key": "IOS_VERSION_10",
+        "label": "iOS 10.x",
+        "value": "1009"
+      },
+      {
+        "key": "IOS_VERSION_11",
+        "label": "iOS 11.x",
+        "value": "1010"
+      },
+      {
+        "key": "IOS_VERSION_12",
+        "label": "iOS 12.x",
+        "value": "1011"
+      },
+      {
+        "key": "IOS_VERSION_13",
+        "label": "iOS 13.x",
+        "value": "1012"
+      },
+      {
+        "key": "IOS_VERSION_14",
+        "label": "iOS 14.x",
+        "value": "1013"
+      },
+      {
+        "key": "IOS_VERSION_15",
+        "label": "iOS 15.x",
+        "value": "1014"
+      },
+      {
+        "key": "IOS_VERSION_16",
+        "label": "iOS 16.x",
+        "value": "1015"
+      },
+      {
+        "key": "IOS_VERSION_17",
+        "label": "iOS 17.x",
+        "value": "1016"
+      },
+      {
+        "key": "IOS_VERSION_18",
+        "label": "iOS 18.x",
+        "value": "1017"
+      },
+      {
+        "key": "ANDROID",
+        "label": "Android 系统",
+        "value": "2"
+      },
+      {
+        "key": "ANDROID_VERSION_1",
+        "label": "Android 1.x",
+        "value": "2000"
+      },
+      {
+        "key": "ANDROID_VERSION_2",
+        "label": "Android 2.x",
+        "value": "2001"
+      },
+      {
+        "key": "ANDROID_VERSION_3",
+        "label": "Android 3.x",
+        "value": "2002"
+      },
+      {
+        "key": "ANDROID_VERSION_4",
+        "label": "Android 4.x",
+        "value": "2003"
+      },
+      {
+        "key": "ANDROID_VERSION_5",
+        "label": "Android 5.x",
+        "value": "2004"
+      },
+      {
+        "key": "ANDROID_VERSION_6",
+        "label": "Android 6.x",
+        "value": "2005"
+      },
+      {
+        "key": "ANDROID_VERSION_7",
+        "label": "Android 7.x",
+        "value": "2006"
+      },
+      {
+        "key": "ANDROID_VERSION_8",
+        "label": "Android 8.x",
+        "value": "2007"
+      },
+      {
+        "key": "ANDROID_VERSION_9",
+        "label": "Android 9.x",
+        "value": "2008"
+      },
+      {
+        "key": "ANDROID_VERSION_10",
+        "label": "Android 10.x",
+        "value": "2009"
+      },
+      {
+        "key": "ANDROID_VERSION_11",
+        "label": "Android 11.x",
+        "value": "2010"
+      },
+      {
+        "key": "ANDROID_VERSION_12",
+        "label": "Android 12.x",
+        "value": "2011"
+      },
+      {
+        "key": "ANDROID_VERSION_13",
+        "label": "Android 13.x",
+        "value": "2012"
+      },
+      {
+        "key": "ANDROID_VERSION_14",
+        "label": "Android 14.x",
+        "value": "2013"
+      },
+      {
+        "key": "ANDROID_VERSION_15",
+        "label": "Android 15.x",
+        "value": "2014"
+      },
+      {
+        "key": "ANDROID_VERSION_16",
+        "label": "Android 16.x",
+        "value": "2015"
+      },
+      {
+        "key": "HARMONY",
+        "label": "Harmony",
+        "value": "7"
+      }
+    ]
+  },
+  "network_type": {
+    "desc": "联网方式",
+    "field_path": "targeting.network_type",
+    "type": "string[]",
+    "category": "targeting",
+    "options": [
+      {
+        "key": "WIFI",
+        "label": "无线网络",
+        "value": "1"
+      },
+      {
+        "key": "NET_2G",
+        "label": "2G网络",
+        "value": "2"
+      },
+      {
+        "key": "NET_3G",
+        "label": "3G网络",
+        "value": "3"
+      },
+      {
+        "key": "NET_4G",
+        "label": "4G网络",
+        "value": "4"
+      },
+      {
+        "key": "NET_5G",
+        "label": "5G网络",
+        "value": "7"
+      }
+    ]
+  },
+  "device_price": {
+    "desc": "设备价格",
+    "field_path": "targeting.device_price",
+    "type": "string[]",
+    "category": "targeting",
+    "options": [
+      {
+        "key": "PRICE_1500_LESS",
+        "label": "￥1500以下",
+        "value": "1"
+      },
+      {
+        "key": "PRICE_1500_2500",
+        "label": "￥1500 ~ 2500",
+        "value": "2"
+      },
+      {
+        "key": "PRICE_2500_3500",
+        "label": "￥2500 ~ 3500",
+        "value": "4"
+      },
+      {
+        "key": "PRICE_3500_4500",
+        "label": "￥3500 ~ 4500",
+        "value": "5"
+      },
+      {
+        "key": "PRICE_4500_MORE",
+        "label": "￥4500以上",
+        "value": "6"
+      }
+    ]
+  },
+  "marital_status": {
+    "desc": "婚恋状态",
+    "field_path": "targeting.marital_status",
+    "type": "string[]",
+    "category": "targeting",
+    "options": [
+      {
+        "key": "SINGLE",
+        "label": "单身",
+        "value": "1"
+      },
+      {
+        "key": "IN_LOVE",
+        "label": "热恋",
+        "value": "4"
+      },
+      {
+        "key": "NEWLY_MARRIED",
+        "label": "新婚",
+        "value": "3"
+      },
+      {
+        "key": "MARRIED",
+        "label": "已婚",
+        "value": "6"
+      },
+      {
+        "key": "PARENTING",
+        "label": "育儿",
+        "value": "2"
+      },
+      {
+        "key": "PARENTING_0",
+        "label": "育儿（孕育中）",
+        "value": "21"
+      },
+      {
+        "key": "PARENTING_0_6",
+        "label": "育儿（宝宝0-6个月）",
+        "value": "22"
+      },
+      {
+        "key": "PARENTING_6_12",
+        "label": "育儿（宝宝6-12个月",
+        "value": "23"
+      },
+      {
+        "key": "PARENTING_12_24",
+        "label": "育儿（宝宝1-2岁）",
+        "value": "24"
+      },
+      {
+        "key": "PARENTING_24_36",
+        "label": "育儿（宝宝2-3岁）",
+        "value": "25"
+      },
+      {
+        "key": "CHILD_PRE_SCHOOL",
+        "label": "育儿（孩子3-6周岁）",
+        "value": "26"
+      },
+      {
+        "key": "CHILD_PRIMARY_SCHOOL",
+        "label": "育儿（孩子6-12周岁）",
+        "value": "27"
+      },
+      {
+        "key": "CHILD_JUNIOR_SCHOOL",
+        "label": "育儿（孩子12-15周岁）",
+        "value": "28"
+      },
+      {
+        "key": "CHILD_HIGH_SCHOOL",
+        "label": "育儿（孩子15-18周岁）",
+        "value": "29"
+      }
+    ]
+  },
+  "app_install_status": {
+    "desc": "应用安装状态",
+    "field_path": "targeting.app_install_status",
+    "type": "string[]",
+    "category": "targeting",
+    "options": [
+      {
+        "key": "NOT_INSTALLED",
+        "label": "未安装",
+        "value": "-1"
+      },
+      {
+        "key": "INSTALLED",
+        "label": "已安装",
+        "value": "1"
+      }
+    ]
+  },
+  "game_consumption_level": {
+    "desc": "游戏消费能力",
+    "field_path": "targeting.game_consumption_level",
+    "type": "string[]",
+    "category": "targeting",
+    "options": [
+      {
+        "key": "HIGH",
+        "label": "高消费用户",
+        "value": "1"
+      },
+      {
+        "key": "NORMAL",
+        "label": "普通消费用户",
+        "value": "2"
+      }
+    ]
+  },
+  "excluded_os": {
+    "desc": "排除操作系统",
+    "field_path": "targeting.excluded_os",
+    "type": "string[]",
+    "category": "targeting",
+    "options": [
+      {
+        "key": "ANDROID_PURE_MODE",
+        "label": "鸿蒙纯净版",
+        "value": "991"
+      },
+      {
+        "key": "IOS",
+        "label": "苹果系统",
+        "value": "1"
+      },
+      {
+        "key": "IOS_VERSION_4",
+        "label": "iOS 4.x",
+        "value": "1003"
+      },
+      {
+        "key": "IOS_VERSION_5",
+        "label": "iOS 5.x",
+        "value": "1004"
+      },
+      {
+        "key": "IOS_VERSION_6",
+        "label": "iOS 6.x",
+        "value": "1005"
+      },
+      {
+        "key": "IOS_VERSION_7",
+        "label": "iOS 7.x",
+        "value": "1006"
+      },
+      {
+        "key": "IOS_VERSION_8",
+        "label": "iOS 8.x",
+        "value": "1007"
+      },
+      {
+        "key": "IOS_VERSION_9",
+        "label": "iOS 9.x",
+        "value": "1008"
+      },
+      {
+        "key": "IOS_VERSION_10",
+        "label": "iOS 10.x",
+        "value": "1009"
+      },
+      {
+        "key": "IOS_VERSION_11",
+        "label": "iOS 11.x",
+        "value": "1010"
+      },
+      {
+        "key": "IOS_VERSION_12",
+        "label": "iOS 12.x",
+        "value": "1011"
+      },
+      {
+        "key": "IOS_VERSION_13",
+        "label": "iOS 13.x",
+        "value": "1012"
+      },
+      {
+        "key": "IOS_VERSION_14",
+        "label": "iOS 14.x",
+        "value": "1013"
+      },
+      {
+        "key": "IOS_VERSION_15",
+        "label": "iOS 15.x",
+        "value": "1014"
+      },
+      {
+        "key": "IOS_VERSION_16",
+        "label": "iOS 16.x",
+        "value": "1015"
+      },
+      {
+        "key": "IOS_VERSION_17",
+        "label": "iOS 17.x",
+        "value": "1016"
+      },
+      {
+        "key": "IOS_VERSION_18",
+        "label": "iOS 18.x",
+        "value": "1017"
+      },
+      {
+        "key": "ANDROID",
+        "label": "安卓系统",
+        "value": "2"
+      },
+      {
+        "key": "ANDROID_VERSION_1",
+        "label": "Android 1.x",
+        "value": "2000"
+      },
+      {
+        "key": "ANDROID_VERSION_2",
+        "label": "Android 2.x",
+        "value": "2001"
+      },
+      {
+        "key": "ANDROID_VERSION_3",
+        "label": "Android 3.x",
+        "value": "2002"
+      },
+      {
+        "key": "ANDROID_VERSION_4",
+        "label": "Android 4.x",
+        "value": "2003"
+      },
+      {
+        "key": "ANDROID_VERSION_5",
+        "label": "Android 5.x",
+        "value": "2004"
+      },
+      {
+        "key": "ANDROID_VERSION_6",
+        "label": "Android 6.x",
+        "value": "2005"
+      },
+      {
+        "key": "ANDROID_VERSION_7",
+        "label": "Android 7.x",
+        "value": "2006"
+      },
+      {
+        "key": "ANDROID_VERSION_8",
+        "label": "Android 8.x",
+        "value": "2007"
+      },
+      {
+        "key": "ANDROID_VERSION_9",
+        "label": "Android 9.x",
+        "value": "2008"
+      },
+      {
+        "key": "ANDROID_VERSION_10",
+        "label": "Android 10.x",
+        "value": "2009"
+      },
+      {
+        "key": "ANDROID_VERSION_11",
+        "label": "Android 11.x",
+        "value": "2010"
+      },
+      {
+        "key": "ANDROID_VERSION_12",
+        "label": "Android 12.x",
+        "value": "2011"
+      },
+      {
+        "key": "ANDROID_VERSION_13",
+        "label": "Android 13.x",
+        "value": "2012"
+      },
+      {
+        "key": "ANDROID_VERSION_14",
+        "label": "Android 14.x",
+        "value": "2013"
+      },
+      {
+        "key": "ANDROID_VERSION_15",
+        "label": "Android 15.x",
+        "value": "2014"
+      },
+      {
+        "key": "ANDROID_VERSION_16",
+        "label": "Android 16.x",
+        "value": "2015"
+      },
+      {
+        "key": "WINDOWS",
+        "label": "Windows系统",
+        "value": "3"
+      },
+      {
+        "key": "SYMBIAN",
+        "label": "塞班系统",
+        "value": "4"
+      },
+      {
+        "key": "JAVA",
+        "label": "爪哇系统",
+        "value": "5"
+      }
+    ]
+  },
+  "location_types": {
+    "desc": "地点类型",
+    "field_path": "targeting.geo_location.location_types",
+    "type": "string[]",
+    "category": "targeting",
+    "options": [
+      {
+        "key": "RECENTLY_IN",
+        "label": "近期",
+        "value": "1"
+      },
+      {
+        "key": "VISITED_IN",
+        "label": "去过",
+        "value": "2"
+      },
+      {
+        "key": "LIVE_IN",
+        "label": "常住",
+        "value": "3"
+      },
+      {
+        "key": "TRAVEL_IN",
+        "label": "旅行",
+        "value": "4"
+      },
+      {
+        "key": "CAA_RECENTLY_IN",
+        "label": "CAA近期",
+        "value": "5"
+      },
+      {
+        "key": "LIVE_AND_RECENTLY",
+        "label": "常驻且近期",
+        "value": "6"
+      },
+      {
+        "key": "INTELLIGENCE",
+        "label": "预估实时位置",
+        "value": "7"
+      }
+    ]
+  },
+  "excluded_dimension": {
+    "desc": "排除已转化维度",
+    "field_path": "targeting.excluded_converted_audience.excluded_dimension",
+    "type": "string",
+    "category": "targeting",
+    "options": [
+      {
+        "key": "EXCLUDED_DIMENSION_UID",
+        "label": "客户",
+        "value": "2"
+      },
+      {
+        "key": "EXCLUDED_DIMENSION_COMPANY_ACCOUNT",
+        "label": "公司主体",
+        "value": "4"
+      },
+      {
+        "key": "EXCLUDED_DIMENSION_APP",
+        "label": "应用",
+        "value": "5"
+      },
+      {
+        "key": "EXCLUDED_DIMENSION_PRODUCT",
+        "label": "商品",
+        "value": "6"
+      },
+      {
+        "key": "EXCLUDE_DIMENSION_WORKTABLE",
+        "label": "业务单元",
+        "value": "7"
+      }
+    ]
+  },
+  "excluded_day": {
+    "desc": "排除天数",
+    "field_path": "targeting.excluded_converted_audience.excluded_day",
+    "type": "string",
+    "category": "targeting",
+    "options": [
+      {
+        "key": "EXCLUDED_DAY_SEVEN_DAY",
+        "label": "7天",
+        "value": "1"
+      },
+      {
+        "key": "EXCLUDED_DAY_ONE_MONTH",
+        "label": "1个月",
+        "value": "2"
+      },
+      {
+        "key": "EXCLUDED_DAY_ONE_DAY",
+        "label": "1天",
+        "value": "6"
+      }
+    ]
+  },
+  "wechat_ad_behavior_actions": {
+    "desc": "微信再营销行为（正向）",
+    "field_path": "targeting.wechat_ad_behavior.actions",
+    "type": "string[]",
+    "category": "targeting",
+    "options": [
+      {
+        "key": "WECHAT_OFFICIAL_ACCOUNT_FOLLOWED",
+        "label": "关注过客户微信公众号",
+        "value": "101"
+      },
+      {
+        "key": "WECHAT_COUPON_OBTAINED",
+        "label": "领取过客户微信卡券",
+        "value": "301"
+      },
+      {
+        "key": "WECHAT_OFFICIAL_ACCOUNT_AD_LIKE",
+        "label": "对微信公众号营销感兴趣",
+        "value": "401"
+      },
+      {
+        "key": "WECHAT_MOMENTS_AD_LIKE",
+        "label": "对微信朋友圈营销感兴趣",
+        "value": "501"
+      },
+      {
+        "key": "MINI_GAME_WECHAT_REGISTERED",
+        "label": "曾经注册过你的小游戏。当且仅当promoted_object_type是PROMOTED_OBJECT_TYPE_MINI_GAME_WECHAT时，MINI_GAME_WECHAT_REGISTERED 才可以使用",
+        "value": "701"
+      },
+      {
+        "key": "WECHAT_WORK_CONTACTS_ADDED",
+        "label": "已经添加过企业微信",
+        "value": "801"
+      },
+      {
+        "key": "GDT_WECHAT_OFFICIAL_ACCOUNT_FOLLOWED",
+        "label": "GDT账户，关注过客户微信公众号",
+        "value": "901"
+      },
+      {
+        "key": "WECHAT_CHANNELS_FANS",
+        "label": "是你的视频号粉丝",
+        "value": "1001"
+      },
+      {
+        "key": "WE_COM_CORP_ID_ADDED",
+        "label": "已经添加过企业微信",
+        "value": "2001"
+      },
+      {
+        "key": "WECHAT_MINI_GAME_AD_LIKE",
+        "label": "曾对你的小游戏广告感兴趣或未注册",
+        "value": "3001"
+      }
+    ]
+  },
+  "wechat_ad_behavior_excluded_actions": {
+    "desc": "微信再营销行为（排除）",
+    "field_path": "targeting.wechat_ad_behavior.excluded_actions",
+    "type": "string[]",
+    "category": "targeting",
+    "options": [
+      {
+        "key": "WECHAT_OFFICIAL_ACCOUNT_FOLLOWED",
+        "label": "关注过客户微信公众号",
+        "value": "101"
+      },
+      {
+        "key": "WECHAT_COUPON_OBTAINED",
+        "label": "领取过客户微信卡券",
+        "value": "301"
+      },
+      {
+        "key": "WECHAT_OFFICIAL_ACCOUNT_AD_LIKE",
+        "label": "对微信公众号营销感兴趣",
+        "value": "401"
+      },
+      {
+        "key": "WECHAT_MOMENTS_AD_LIKE",
+        "label": "对微信朋友圈营销感兴趣",
+        "value": "501"
+      },
+      {
+        "key": "MINI_GAME_WECHAT_REGISTERED",
+        "label": "曾经注册过你的小游戏。当且仅当promoted_object_type是PROMOTED_OBJECT_TYPE_MINI_GAME_WECHAT时，MINI_GAME_WECHAT_REGISTERED 才可以使用",
+        "value": "701"
+      },
+      {
+        "key": "WECHAT_WORK_CONTACTS_ADDED",
+        "label": "已经添加过企业微信",
+        "value": "801"
+      },
+      {
+        "key": "GDT_WECHAT_OFFICIAL_ACCOUNT_FOLLOWED",
+        "label": "GDT账户，关注过客户微信公众号",
+        "value": "901"
+      },
+      {
+        "key": "WECHAT_CHANNELS_FANS",
+        "label": "是你的视频号粉丝",
+        "value": "1001"
+      },
+      {
+        "key": "WE_COM_CORP_ID_ADDED",
+        "label": "已经添加过企业微信",
+        "value": "2001"
+      },
+      {
+        "key": "WECHAT_MINI_GAME_AD_LIKE",
+        "label": "曾对你的小游戏广告感兴趣或未注册",
+        "value": "3001"
+      }
+    ]
+  },
+  "scene_spec_mobile_union": {
+    "desc": "移动联盟场景定向",
+    "field_path": "scene_spec.mobile_union",
+    "type": "string[]",
+    "category": "scene_spec",
+    "options": [
+      {
+        "key": "MOBILE_UNION_IN_WECHAT",
+        "label": "移动联盟第三方流量在微信内打开的场景",
+        "value": "1"
+      },
+      {
+        "key": "MOBILE_UNION_REWARDED_VIDEO",
+        "label": "激励视频，该流量场景可以为用户打造沉浸式广告体验，用奖励吸引他们完整观看视频广告，视频时长要求5-30s",
+        "value": "3"
+      },
+      {
+        "key": "MOBILE_UNION_REWARDED_MEDIA",
+        "label": "激励媒体，含激励任务的app、激活成本低且人群较下沉的流量场景",
+        "value": "1010007"
+      },
+      {
+        "key": "MOBILE_UNION_SMB_CUSTOMIZATION",
+        "label": "中小广告主定制，适合第1次投放联盟流量的中小客户，做测试投放的冷启动，该场景流量较小，有扩量需求不建议使用",
+        "value": "1010012"
+      },
+      {
+        "key": "MOBILE_UNION_GAME_ADVERTISER_PECULIAR",
+        "label": "根据游戏广告关注的效果指标，系统推荐的定投流量，建议配合oCPA使用",
+        "value": "1017881"
+      },
+      {
+        "key": "MOBILE_UNION_READ_ADVERTISER",
+        "label": "阅读行业广告主定制，适合阅读行业且考核留存指标的客户投放",
+        "value": "1023467"
+      }
+    ]
+  },
+  "scene_spec_exclude_mobile_union": {
+    "desc": "移动联盟场景屏蔽定向",
+    "field_path": "scene_spec.exclude_mobile_union",
+    "type": "string[]",
+    "category": "scene_spec",
+    "options": [
+      {
+        "key": "MOBILE_UNION_IN_WECHAT",
+        "label": "移动联盟第三方流量在微信内打开的场景",
+        "value": "1"
+      },
+      {
+        "key": "MOBILE_UNION_REWARDED_VIDEO",
+        "label": "激励视频，该流量场景可以为用户打造沉浸式广告体验，用奖励吸引他们完整观看视频广告，视频时长要求5-30s",
+        "value": "3"
+      },
+      {
+        "key": "MOBILE_UNION_REWARDED_MEDIA",
+        "label": "激励媒体，含激励任务的app、激活成本低且人群较下沉的流量场景",
+        "value": "1010007"
+      },
+      {
+        "key": "MOBILE_UNION_GAME_ADVERTISER_EXCLUDE",
+        "label": "根据游戏广告关注的效果指标，系统推荐的屏蔽流量，建议冷启动时使用",
+        "value": "1010016"
+      },
+      {
+        "key": "MOBILE_UNION_READ_ADVERTISER_EXCLUDE",
+        "label": "阅读行业广告主定制，适合阅读行业且考核留存指标的客户投放",
+        "value": "1023468"
+      },
+      {
+        "key": "MOBILE_UNION_LIGHT_GAME_ADVERTISER_EXCLUDE",
+        "label": "阅读行业广告主定制，适合阅读行业且考核留存指标的客户投放",
+        "value": "1023466"
+      }
+    ]
+  },
+  "scene_spec_tencent_news": {
+    "desc": "腾讯新闻流量场景定向",
+    "field_path": "scene_spec.tencent_news",
+    "type": "string[]",
+    "category": "scene_spec",
+    "options": [
+      {
+        "key": "TENCENT_NEWS_APP",
+        "label": "腾讯新闻APP，腾讯新闻APP内打开的场景",
+        "value": "1000002"
+      },
+      {
+        "key": "TENCENT_NEWS_WECHAT",
+        "label": "腾讯新闻微信插件，微信APP腾讯新闻插件内打开的场景",
+        "value": "1000003"
+      },
+      {
+        "key": "TENCENT_NEWS_QQ",
+        "label": "腾讯新闻手机QQ插件，手机QQ APP腾讯新闻插件内打开的场景",
+        "value": "1000004"
+      }
+    ]
+  },
+  "scene_spec_display_scene": {
+    "desc": "广告展示场景",
+    "field_path": "scene_spec.display_scene",
+    "type": "string[]",
+    "category": "scene_spec",
+    "options": [
+      {
+        "key": "DISPLAY_SCENE_BANNER",
+        "label": "Banner",
+        "value": "1"
+      },
+      {
+        "key": "DISPLAY_SCENE_INLINE",
+        "label": "插屏",
+        "value": "2"
+      },
+      {
+        "key": "DISPLAY_SCENE_SPLASH",
+        "label": "开屏",
+        "value": "4"
+      },
+      {
+        "key": "DISPLAY_SCENE_NATIVE",
+        "label": "原生",
+        "value": "9"
+      },
+      {
+        "key": "DISPLAY_SCENE_REWARDED_VIDEO",
+        "label": "激励视频",
+        "value": "10"
+      }
+    ]
+  },
+  "scene_spec_qbsearch_scene": {
+    "desc": "QQ浏览器、应用宝流量场景",
+    "field_path": "scene_spec.qbsearch_scene",
+    "type": "string[]",
+    "category": "scene_spec",
+    "options": [
+      {
+        "key": "QBSEARCH_SCENE_MOBILE",
+        "label": "移动QQ浏览器、应用宝等",
+        "value": "2100173"
+      },
+      {
+        "key": "QBSEARCH_SCENE_PC",
+        "label": "PC QQ浏览器等",
+        "value": "2100174"
+      }
+    ]
+  },
+  "scene_spec_pc_scene": {
+    "desc": "PC端定投场景",
+    "field_path": "scene_spec.pc_scene",
+    "type": "string[]",
+    "category": "scene_spec",
+    "options": [
+      {
+        "key": "WECHAT_MOMENTS_PC",
+        "label": "微信朋友圈PC端",
+        "value": "2100682"
+      },
+      {
+        "key": "WECHAT_APP_REWARDED_PC",
+        "label": "小程序激励式广告PC端",
+        "value": "2100683"
+      },
+      {
+        "key": "WECHAT_MINI_PROGRAM_TABLE_PLAQUE_PC",
+        "label": "小程序插屏营销PC端",
+        "value": "2100684"
+      },
+      {
+        "key": "WECHAT_APP_COVER_PC",
+        "label": "小程序封面广告PC端",
+        "value": "2100685"
+      },
+      {
+        "key": "WECHAT_MINI_PROGRAM_NATIVE_TEMPLATE_PC",
+        "label": "小程序原生模版PC端",
+        "value": "2100686"
+      },
+      {
+        "key": "WECHAT_PUBLIC_ACCOUNT_ARTICLE_MIDDLE_PC",
+        "label": "公众号文章中部PC端",
+        "value": "2100687"
+      },
+      {
+        "key": "WECHAT_PUBLIC_ACCOUNT_ARTICLE_BOTTOM_PC",
+        "label": "公众号文章底部PC端",
+        "value": "2100688"
+      },
+      {
+        "key": "PCAD_PC",
+        "label": "腾讯平台与内容媒体PC端",
+        "value": "2100689"
+      },
+      {
+        "key": "UNION_PC",
+        "label": "腾讯广告联盟电脑端",
+        "value": "2100723"
+      },
+      {
+        "key": "WECHAT_CHANNELS_PC",
+        "label": "微信视频号电脑端",
+        "value": "2100801"
+      },
+      {
+        "key": "WECHAT_PUBLIC_ACCOUNT_BOX_PC",
+        "label": "订阅号消息列表电脑端",
+        "value": "2100829"
+      }
+    ]
+  },
+  "scene_spec_wechat_search_scene": {
+    "desc": "搜一搜流量场景",
+    "field_path": "scene_spec.wechat_search_scene",
+    "type": "string[]",
+    "category": "scene_spec",
+    "options": [
+      {
+        "key": "WECHAT_SEARCH_SCENE_MOBILE",
+        "label": "移动微信搜一搜",
+        "value": "2100698"
+      },
+      {
+        "key": "WECHAT_SEARCH_SCENE_PC",
+        "label": "PC微信搜一搜",
+        "value": "2100699"
+      }
+    ]
+  },
+  "bid_mode": {
+    "desc": "出价方式",
+    "field_path": "bid_mode",
+    "type": "string",
+    "category": "bid",
+    "options": [
+      {
+        "key": "BID_MODE_CPC",
+        "label": "cpc",
+        "value": "1"
+      },
+      {
+        "key": "BID_MODE_CPA",
+        "label": "cpa",
+        "value": "2"
+      },
+      {
+        "key": "BID_MODE_CPS",
+        "label": "cps",
+        "value": "3"
+      },
+      {
+        "key": "BID_MODE_CPM",
+        "label": "cpm",
+        "value": "4"
+      },
+      {
+        "key": "BID_MODE_OCPC",
+        "label": "ocpc",
+        "value": "101"
+      },
+      {
+        "key": "BID_MODE_OCPM",
+        "label": "ocpm",
+        "value": "103"
+      }
+    ]
+  },
+  "smart_bid_type": {
+    "desc": "出价类型",
+    "field_path": "smart_bid_type",
+    "type": "string",
+    "category": "bid",
+    "options": [
+      {
+        "key": "SMART_BID_TYPE_CUSTOM",
+        "label": "手动出价",
+        "value": "0"
+      },
+      {
+        "key": "SMART_BID_TYPE_SYSTEMATIC",
+        "label": "自动出价",
+        "value": "1"
+      }
+    ]
+  },
+  "conversion_behavior_list": {
+    "desc": "转化行为（优化目标）",
+    "field_path": "conversion_behavior_list",
+    "type": "string[]",
+    "category": "conversion",
+    "options": [
+      {
+        "key": "OPTIMIZATIONGOAL_NONE",
+        "label": "none",
+        "value": "0"
+      },
+      {
+        "key": "OPTIMIZATIONGOAL_BRAND_CONVERSION",
+        "label": "品牌转化",
+        "value": "3"
+      },
+      {
+        "key": "OPTIMIZATIONGOAL_FOLLOW",
+        "label": "关注",
+        "value": "6"
+      },
+      {
+        "key": "OPTIMIZATIONGOAL_CLICK",
+        "label": "点击",
+        "value": "7"
+      },
+      {
+        "key": "OPTIMIZATIONGOAL_IMPRESSION",
+        "label": "曝光",
+        "value": "8"
+      },
+      {
+        "key": "OPTIMIZATIONGOAL_APP_DOWNLOAD",
+        "label": "下载",
+        "value": "103"
+      },
+      {
+        "
+
+... [Content truncated, total 51,697 chars] ...

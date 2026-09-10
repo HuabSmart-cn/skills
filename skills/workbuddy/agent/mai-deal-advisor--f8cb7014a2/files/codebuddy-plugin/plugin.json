@@ -1,0 +1,61 @@
+{
+  "name": "mai-deal-advisor",
+  "version": "1.3.4",
+  "description": "MAI Lab M&A agent for project triage, structure diagrams, report drafting, and evidence and cap-table checks.",
+  "author": {
+    "name": "MAI Deal Inc.",
+    "email": "admin@maideal.com"
+  },
+  "expertType": "agent",
+  "agentName": "mai-deal-advisor",
+  "agents": [
+    "./agents/mai-deal-advisor.md"
+  ],
+  "displayName": {
+    "en": "MAI Lab M&A Deal Agent",
+    "zh": "MAI Lab并购交易Agent"
+  },
+  "profession": {
+    "en": "When a Deal Lands, Find the Path Forward",
+    "zh": "项目来了，先把路理清"
+  },
+  "displayDescription": {
+    "en": "Turn unstructured deal materials into a clear workplan, editable structure diagram, checked numbers and cap table, and a discussion-ready report draft.",
+    "zh": "接住真实并购项目：拆解资料、画交易结构、核数字与股权，也梳理买方、资金与推进路径。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "08-FinanceInvestment",
+  "defaultInitPrompt": {
+    "zh": "客户刚发来这些材料，帮我判断这单先从哪里下手",
+    "en": "A client just sent these materials. Help me decide where to start"
+  },
+  "tags": [
+    {
+      "en": "Project Triage",
+      "zh": "项目拆解"
+    },
+    {
+      "en": "Deal Structure Diagrams",
+      "zh": "交易结构图"
+    },
+    {
+      "en": "Buyer and Capital Access",
+      "zh": "买方与资金对接"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "A client just sent these materials. Help me decide where to start",
+      "zh": "客户刚发来这些材料，帮我判断这单先从哪里下手"
+    },
+    {
+      "en": "Draw this deal as a structure diagram and check the equity split",
+      "zh": "把这套交易安排画成结构图，并检查股权比例"
+    },
+    {
+      "en": "This deal needs a buyer. Help me define the buyer profile and path forward",
+      "zh": "这单需要找买方，帮我梳理买方画像和推进路径"
+    }
+  ],
+  "plugin": "mai-deal-advisor"
+}

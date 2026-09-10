@@ -1,0 +1,31 @@
+{
+  "name": "design-to-code",
+  "version": "1.1.0",
+  "description": "设计工具套件：Figma 设计转代码、无障碍审查、设计评审、设计交付、设计系统管理、用户研究、UX 文案。",
+  "description_zh": "设计工具套件：Figma 设计转代码、无障碍审查、设计评审、设计交付、设计系统管理、用户研究、UX 文案。",
+  "description_en": "A design toolkit for converting Figma designs to code, accessibility audits, design reviews, design handoff, design system management, user research, and UX writing.",
+  "author": {
+    "name": "CodeBuddy Teams"
+  },
+  "homepage": {
+    "url": "",
+    "type": "github"
+  },
+  "license": "MIT",
+  "keywords": [
+    "figma",
+    "design",
+    "code-generation",
+    "react",
+    "svelte",
+    "vue",
+    "a11y",
+    "mcp"
+  ],
+  "mcp": {
+    "server": "servers/design-converter.ts"
+  },
+  "skills": [
+    "./skills/design-to-code-workflows"
+  ]
+}

@@ -1,0 +1,37 @@
+# Drop into ~/.hermes/config.yaml — extend the top-level `providers:`
+# and `model_aliases:` blocks. See skill: hermes-custom-provider.
+#
+# Rules of thumb:
+#   1. The slug (<slug>) is what you pass as --provider <slug> in chat.
+#   2. Use key_env for credentials, never inline api_key (config.yaml is plaintext).
+#   3. Alias names under model_aliases MUST be dot-free (Hermes treats `.` as path).
+#   4. Discover_models true lets /model picker show the gateway's full catalog.
+
+providers:
+  my-provider-slug:                                   # unique slug
+    name: Human Readable Display Name                  # picker label
+    base_url: https://api.example.com/v1               # required
+    key_env: MY_PROVIDER_API_KEY                       # env var (set in ~/.hermes/.env)
+    api_mode: openai                                   # openai | anthropic_messages | codex_responses
+
+    # ---- Optional knobs ----
+    discover_models: true                              # live /models probe
+    default_model: some-default-model-id               # fallback when --model not given
+    extra_headers:                                     # vendor pass-through headers
+      X-Org-Id: my-org
+    extra_body:                                        # vendor pass-through body
+      thinking:
+        type: enabled
+        budgetTokens: ***REDACTED***
+
+model_aliases:
+  my-fav:                                              # /model my-fav → switch + remember
+    model: actual-model-id-from-catalog
+    provider: my-provider-slug
+  my-fav-vision:                                       # dedicated vision-capable alias
+    model: vision-model-id
+    provider: my-provider-slug
+
+# ---- To rotate multiple keys for the same provider ----
+# `hermes auth add my-provider-slug --type api-key --label "rotating pool"`
+# (the pool rotates; key_env above is the bootstrap)

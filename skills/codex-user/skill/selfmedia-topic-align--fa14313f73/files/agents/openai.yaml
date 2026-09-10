@@ -1,0 +1,4 @@
+interface:
+  display_name: "自媒体选题对齐"
+  short_description: "把素材和零散想法对齐为有依据的口播方向，减少写完后返工"
+  default_prompt: "使用 $selfmedia-topic-align 判断这个选题讲给谁、核心判断和切入点是什么，依据现有材料推进，不要求我填表。"

@@ -1,0 +1,13 @@
+huabsmart-skills-data.json
+.DS_Store
+__pycache__/
+sources/
+HANDOFF.md
+ASSET_MIGRATION.md
+migration-report.json
+botanical-demo/
+build-data.py
+migrate_assets.py
+watch-sync.py
+index.html
+jszip.min.js

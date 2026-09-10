@@ -1,0 +1,64 @@
+{
+  "name": "vibeknow-handdraw",
+  "version": "2.0.3",
+  "description": "Hand-drawn animation expert by vibeknow",
+  "author": {
+    "name": "vibeknow",
+    "email": "dev@vibeknow.com"
+  },
+  "expertType": "agent",
+  "agentName": "handdraw-artist",
+  "agents": [
+    "./agents/handdraw-artist.md"
+  ],
+  "skills": [
+    "./skills/handdraw"
+  ],
+  "displayName": {
+    "zh": "把专业内容画给外行看懂",
+    "en": "Makes expert content land with outsiders"
+  },
+  "profession": {
+    "zh": "VibeKnow 手绘视频专家",
+    "en": "VibeKnow hand-drawn explainer"
+  },
+  "displayDescription": {
+    "zh": "老师讲考点、医生讲术后护理、工程师讲原理，专业内容边画边讲成手绘科普视频，51种风格随选。",
+    "en": "For teachers, doctors and engineers — turn expert content into a hand-drawn explainer, drawn as it talks. 51 styles."
+  },
+  "avatar": "avatars/handdraw-artist.png",
+  "categoryId": "06-ContentCreative",
+  "defaultInitPrompt": {
+    "zh": "把这篇公众号文章做成 3 分钟手绘科普，边画边讲，旁白配好",
+    "en": "Turn this article into a 3-min hand-drawn explainer — drawn as it talks, voiceover included"
+  },
+  "tags": [
+    {
+      "zh": "手绘动画",
+      "en": "Hand-draw"
+    },
+    {
+      "zh": "知识科普",
+      "en": "Explainer"
+    },
+    {
+      "zh": "插画",
+      "en": "Illustration"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "zh": "把这篇公众号文章做成 3 分钟手绘科普，边画边讲，旁白配好",
+      "en": "Turn this article into a 3-min hand-drawn explainer — drawn as it talks, voiceover included"
+    },
+    {
+      "zh": "把术后护理规范画成手绘讲解，配上旁白，病人和家属都看得懂",
+      "en": "Draw post-op care guidelines into a narrated explainer patients and families can follow"
+    },
+    {
+      "zh": "用水墨风画一个溪山访茶的短片，出竖版，配好旁白",
+      "en": "An ink-wash short of a tea scene — vertical, with voiceover"
+    }
+  ],
+  "plugin": "vibeknow-handdraw"
+}

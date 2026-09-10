@@ -1,0 +1,454 @@
+HOUSEHOLDS AND THE PANDEMIC
+2019-2022
+THE STATE OF HOUSEHOLDS 2024
+
+--- PAGE BREAK ---
+
+HOUSEHOLDS AND THE
+PANDEMIC 2019-2022
+THE STATE OF HOUSEHOLDS 2024
+
+--- PAGE BREAK ---
+
+©2024 Khazanah Research Institute
+Households and the Pandemic 2019-2022: The State of Households 2024. – Kuala Lumpur, Malaysia: Khazanah Research
+Institute
+This work is available under the Creative Commons Attribution 3.0 Unported license (CC BY3.0)
+http://creativecommons.org/licenses/by/3.0/. Under the Creative Commons Attribution license, you are free to copy,
+distribute, transmit, and adapt this work, including for commercial purposes, under the following attributions:
+Attribution – Khazanah Research Institute. 2024. Households and the Pandemic 2019-2022: The State of Households 2024.
+2024. Kuala Lumpur: Khazanah Research Institute. License: Creative Commons Attribution CC BY 3.0.
+Translations – If you create a translation of this work, please add the following disclaimer along with the attribution: This
+translation was not created by Khazanah Research Institute and should not be considered an official Khazanah Research
+Institute translation. Khazanah Research Institute shall not be liable for any content or error in this translation.
+Published in September 2024. Published by Khazanah Research Institute at Level 17-1, Mercu UEM, Jalan Stesen Sentral 5,
+Kuala Lumpur Sentral 50470 Kuala Lumpur, Malaysia.
+Tel No: +603 2705 6100; email: enquiries@KRInstitute.org
+All queries on rights and licenses should be addressed to the Chairman’s Office, Khazanah Research Institute at the address
+stated above.
+Information on Khazanah Research Institute publications and digital products can be found at www.KRInstitute.org
+Cover photo by Nirmala Dutt (1941-2016). Used with kind permission from The Estate of Nirmala Dutt. Nirmala Dutt was
+a pioneer in Malaysian contemporary art. Born in George Town, Penang, her practice spanned documentary photography,
+painting, silkscreen, collage, and public art. Trained by figurative painter Mohd. Hoessein Enas, her works often brought
+issues surrounding the socio-economic conditions of the marginalised and environmental destruction to the forefront.
+https://www.nirmaladutt.com/
+
+--- PAGE BREAK ---
+
+This report was authored by the researchers of Khazanah Research Institute (KRI):
+Introduction – Yin Shao Loong.
+Chapter 1 Pandemic Shifts: How Covid-19 Reshaped Household Formation, Income
+Distribution, Inequality and Wealth in Malaysia – Dr Mohd Amirul Rafiq Abu Rahim, Muhammad
+Nazhan Kamaruzuki, Nik Syafiah Anis Nik Sharifulden, Shazrul Ariff Suhaimi and Wan Amirah Wan
+Usamah.
+Chapter 2 From Necessities to New Norms: How Covid-19 Reshaped Household Expenditure
+in Malaysia – Theebalakshmi Kunasekaran, Dr Teoh Ai Ni, Shazrul Ariff Suhaimi and Azfar Hanif
+Azizi.
+Chapter 3 From Blackboards to Broadband: Education Outcomes and Digital Learning during
+Covid-19 – Shereen Hazirah Hishamudin, Dr Teoh Ai Ni and Wan Amirah Wan Usamah.
+Chapter 4 Health and Digitalisation: Solutions for the Pandemic and Beyond – Ilyana Mukhriz,
+Dr Rachel Gong and Khoo Wei Yang.
+The project was led by Yin Shao Loong, with initial guidance from Nithiyananthan Muthusamy. This
+research was authorised for publication by the Board of Trustees of KRI.
+ACKNOWLEDGEMENTS
+We are grateful for the guidance provided by the Chairman of KRI, Dr Nungsari Ahmad Radhi, and
+members of KRI Board of Trustees: Dato’ Amirul Feisal Wan Zahir, Datuk Hisham Hamdan and
+Nicholas Khaw, as well as KRI Senior Research Advisor, Professor Dr Jomo Kwame Sundaram.
+We would like to extend our gratitude to the following, without whom this report would not have
+been possible;
+i. Department of Statistics Malaysia (DOS): Chief Statistician Dato’ Sri Dr Mohd Uzir Mahidin
+and his team from the Data Management & Integration Division, Malaysian Bureau of Labour
+Statistics, Prices, Income & Expenditure Statistics Division, and Strategic Communication &
+International Division;
+ii. Employee Provident Fund (EPF): Balqais Yusoff and her team from the Policy and Strategy
+Department;
+iii. Ministry of Education (MOE): Atiqah Syairah Shaharuddin, Political Secretary and Nazira
+Roslee, Special Officer to the Minister of Education Malaysia.
+We sincerely appreciate valuable feedback from external reviewers of this report: Associate
+Professor Dr Roza Hazli Zakaria (Universiti Malaya), Dr Tiong Ngee Derk (University of Nottingham,
+Malaysia), Ruchita Balasubramanian (UNU-IIGH) and Dr Muhammad Shameer Haqeem bin Omar
+(MOH).
+We would also like to thank our internal reviewers at KRI: Dr Suraya Ismail, Hawati Abd Hamid, Dr
+Rachel Gong, Dr Jun-E Tan, Gregory Ho Wai Son, Nur Sofea Hasmira Azahar, and Nik Syafiah Anis Nik
+Sharifulden.
+We thank all the interns attached to the SoH 2024 for their assistance: Goh Hao Yi, Najwa Iman Nazari,
+Nurdamia Qaisara Noh, Nurul Ezzah Ismail, Sara Dahiya, and Shukri Mohamed.
+In completing this project, we have benefited tremendously from the contributions of the people
+mentioned above and others whom we have not mentioned but provided valuable inputs. Their
+perspectives have played a pivotal role in enriching the contents of the report.
+This report has undergone multiple rounds of reviews and editing to ensure accuracy and clarity.
+However, any remaining errors lie with the authors.
+KHAZANAH RESEARCH INSTITUTE iii
+
+--- PAGE BREAK ---
+
+CONTENTS
+ABBREVIATIONS vi
+GLOSSARY viii
+EXECUTIVE SUMMARY x
+INTRODUCTION 1
+CHAPTER 1 CHAPTER 2
+PANDEMIC SHIFTS: HOW COVID-19 FROM NECESSITIES TO NEW NORMS:
+RESHAPED HOUSEHOLD FORMATION, HOW COVID-19 RESHAPED
+INCOME DISTRIBUTION, INEQUALITY HOUSEHOLD EXPENDITURE IN
+AND WEALTH IN MALAYSIA MALAYSIA
+1.1 Introduction 5 2.1 Introduction 58
+1.2 Household Distributions 6 2.2 Evolution of Household 58
+1.3 Household Income and Sources of 12 Consumption Expenses
+Household Income
+2.2.1 Spatial analysis of household 60
+1.3.1 Household income 12 consumption expenditure
+1.3.2 Household disposable income 13 2.2.2 Household consumption 61
+expenditure by income decile
+1.3.3 Changes in income distribution: A 15
+spatial insight 2.3 The shifting spending patterns of 62
+1.3.4 Sources of household income 23 Malaysian households
+1.3.5 Changes in sources of income 24 2.3.1 Trends in household consumption 63
+distributions: A spatial insight expenditures: From basic needs to
+1.4 Household Inequality 25 lifestyle choices
+1.4.1 Adjusted household income by 25 2.3.2 Urban-rural gap in selected 66
+district expenditure categories
+1.4.2 Inequality beyond the Gini 29 2.4 Unravelling Covid-19’s Impact on 70
+coefficient Household Spending
+1.4.3 Discussion: Measuring income 31 2.4.1 The shift in food expenditure 70
+inequality and welfare patterns
+1.4.4 Household poverty 31 2.4.2 The work from home (WFH) 76
+influence on household
+1.4.5 Spatial distribution of poverty in
+expenditure
+Malaysia 32
+2.4.3 The shift in health expenditure 85
+1.4.6 Beyond income poverty: A spatial 35
+2.5 Concluding Remarks 92
+analysis of access to selected basic
+amenities References 94
+1.4.7 Capturing poverty in Malaysia 40
+1.5 Household Savings and Wealth 41
+1.5.1 Housing and household equipment 41
+ownership
+1.5.2 Low savings and future 50
+considerations
+1.6 Concluding Remarks 51
+References 53
+iv KHAZANAH RESEARCH INSTITUTE
+
+--- PAGE BREAK ---
+
+CONTENTS
+CHAPTER 3 CHAPTER 4
+FROM BLACKBOARDS TO HEALTH AND DIGITALISATION:
+BROADBAND: EDUCATION SOLUTIONS FOR THE PANDEMIC AND
+OUTCOMES AND DIGITAL LEARNING BEYOND
+DURING COVID-19 4.1 Introduction 128
+4.2 Trends in Household Internet Use 129
+3.1 Introduction 97
+4.2.1 Overall increase in internet access 129
+3.2 Students’ Education Outcomes: A
+although mobile broadband
+Covid-19 Perspective 99
+outpaced fixed broadband
+3.2.1 SPM student performance 99
+4.2.2 Despite significant growth, the 131
+3.2.2 SPM absenteeism 101 urban-rural gap in all types of digital
+access persists
+3.2.3 Malaysia’s Programme for 101
+International Student Assessment 4.2.3 Digital use rose during the 133
+(PISA) performance pandemic, but this use was not
+sustained evenly
+3.3 Impact of School Closures on 103
+Education Outcomes: Global 4.2.4 Health-related internet activities 136
+Insights spiked during the pandemic but fell
+as endemicity was announced
+3.3.1 School disruptions and its impact 103
+on education attainment 4.3 Barriers to Digital Adoption in the 138
+Public Healthcare Sector
+3.3.2 Examining learning loss during the 104
+Covid-19 pandemic 4.3.1 Definitions of digitalisation and an 138
+introduction to electronic health
+3.3.3 After Covid-19: The risk of 111
+records
+compounding learning loss
+4.3.2 An overview of efforts to introduce 139
+3.4 The Role of ICT and Virtual 112
+digitalisation into the public
+Learning
+healthcare sector
+3.4.1 Introduction of home-based 113
+4.3.3 Challenges and lessons learned 140
+learning
+4.4 Moving Forward with the National 144
+3.4.2 Digital inequalities and unequal 116
+Digital Transformation Agenda
+learning
+4.4.1 Digital health transformation and its 144
+3.5 Concluding Remarks 122
+contribution towards tackling the
+References 123
+pandemic
+4.4.2 Malaysia is mobile-first: The 145
+introduction of MySejahtera during
+Covid-19
+4.4.3 Setting a strong digital foundation 146
+post-Covid
+4.4.4 Ways to move forward: Cross- 147
+country comparisons of healthcare
+record digitalisation
+4.5 Concluding Remarks 151
+References 152
+KHAZANAH RESEARCH INSTITUTE v
+
+--- PAGE BREAK ---
+
+ABBREVIATIONS
+BNM : Bank Negara Malaysia (the Central Bank of Malaysia)
+BNPL : Buy Now Pay Later
+BPR : Bantuan Prihatin Rakyat
+CAGR : Compound Annual Growth Rate
+CPI : Consumer Price Index
+DELIMa : Digital Educational Learning Initiative Malaysia
+DOS : Department of Statistics Malaysia
+EHR : Electronic health records
+EPF : Employees Provident Fund
+EPU : Economic Planning Unit
+FAH : Food at home
+FAFH : Food away from home
+GDP : Gross Domestic Product
+GFC : Global Financial Crisis
+GLC : Government-linked companies
+GLIC : Government-linked investment companies
+GOM : Government of Malaysia
+GPN : Gred Purata Nasional
+HIS : Household Income Survey
+HIS@KKM : Hospital Information System @ Kementerian Kesihatan Malaysia
+HES : Household Expenditure Survey
+HWP : Health White Paper
+ICT : Information and Communication Technology
+ICTHS : Information and Communication Technology Use and Access by
+Individuals and Households Survey
+JENDELA : Jalinan Digital Negara
+LAYS : Learning adjusted years of schooling
+LPM : Lembaga Peperiksaan Malaysia
+MCO : Movement Control Order
+MERS : Middle East Respiratory Syndrome
+MMC : Malaysian Medical Council
+MNC : Multinational Companies
+MOE : Ministry of Education Malaysia
+MOF : Ministry of Finance
+MOH : Ministry of Health
+MOHE : Ministry of Higher Education
+MPI : Multidimensional Poverty Index
+NAPIC : National Property Information Centre
+ODL : Open and Distance Learning
+vi KHAZANAH RESEARCH INSTITUTE
+
+--- PAGE BREAK ---
+
+ABBREVIATIONS
+OECD : Organisation for Economic Co-operation and Development
+PCIDA : Prevention and Control of Infectious Diseases Act 1988
+PDPA : Personal Data Protection Act 2010
+PdPR : Program Pengajaran dan Pembelajaran di Rumah
+PIK : Pusat Internet Komuniti
+PISA : Programme for International Student Assessment
+PLI : Poverty Line Income
+SARS : Severe Acute Respiratory Syndrome
+SARES : Sarawak Alternative Rural Electrification Scheme
+SEL : Socio-economic learning
+SoH : State of Households
+SPM : Sijil Pelajaran Malaysia
+SPP : Sistem Pengurusan Pesakit (Patient Management System)
+THIS : Total Hospital Information System
+UMMC : University Malaya Medical Centre
+UN : United Nations
+UNESCO : United Nations Educational, Scientific and Cultural Organisation
+UNCTAD : United Nations Trade and Development
+UNICEF : United Nations Children’s Fund
+UK : United Kingdom
+US : United States
+WFH : Work From Home
+WHO : World Health Organisation
+KHAZANAH RESEARCH INSTITUTE vii
+
+--- PAGE BREAK ---
+
+GLOSSARY
+Absolute poverty A condition characterised by severe deprivation of basic human needs,
+including food, safe drinking water, sanitation, health, shelter and education.
+Source: UN (1995)
+Consumer price A measure that tracks the changes in the weighted average of prices of a
+index (CPI) representative basket of goods and services purchased by consumers in an
+economy.
+Source: Hasell and Roser (2023)
+Compound annual An annualised growth rate derived from a geometric progression ratio which
+growth rate provides a constant growth rate over a specified period. The formula is: CAGR
+(CAGR) = [(Ending value/Beginning value)(1/Number of time periods) – 1] x 100
+Source: Anson, Fabozzi, and Jones (2010)
+Disposable income Refers to the amount of income after deducting current transfer payments
+including compulsory payments such as taxes, zakat and contributions to
+social security schemes.
+Source: DOS (2023b)
+Gini coefficient A measure of inequality in the extent to which the distribution of income (or,
+in some cases, consumption expenditure) among individuals or households
+within an economy deviates from a perfectly equal distribution. Values range
+between 0 and 1, where 0 denotes complete equality while 1 denotes
+complete inequality.
+Source: DOS (2020a)
+Learning adjusted A metric developed and updated by the World Bank in 2020 as a means of
+years of schooling standardising the learning quality and quantity of individual countries in a
+(LAYS) singular, comparable measurement.
+Source: Filmer et al. (2020)
+Multidimensional A measure that identifies multiple deprivations at the household and
+Poverty Index (MPI) individual level in health, education and standard of living. The MPI reflects
+both the incidence of multidimensional deprivation (a headcount of those in
+multidimensional poverty) and its intensity (the average deprivation score
+experienced by poor people).
+Source: UNDP (2024)
+P90/P10 dispersion Percentile ratios indicate the ratio of incomes of two persons who are at
+ratio different positions in the disposable income distribution. A P90/P10
+dispersion ratio compares the income at the 90th percentile to the one at the
+tenth percentile.
+Source: Schettino and Clementi (2022)
+Poverty Line Income A measure of income needed by a household to meet basic food and non-food
+(PLI) needs for each member. The Food PLI covers daily nutritional requirements
+as determined by the Ministry of Health (MOH), while the non-food PLI covers
+essentials like clothing, housing, transport, and other non-food needs based
+on the expenditure patterns of low-income households.
+Source: DOS (2020a)
+viii KHAZANAH RESEARCH INSTITUTE
+
+--- PAGE BREAK ---
+
+GLOSSARY
+Relative poverty A measure of deprivation based on a comparison with a certain standard of
+living. The threshold can be defined as a certain percentage under the median
+income. Individuals or households below that threshold are then categorised
+as being in relative poverty.
+Source: DOS (2020a)
+Socio-economic The process of obtaining a range of holistic skills and qualities such as the
+learning (SEL) capacity to regulate emotions and actions, resolve issues, make ethical
+decisions and other forms of non-cognitive skills.
+Source: Bayley et al. (2023)
+KHAZANAH RESEARCH INSTITUTE ix
+
+--- PAGE BREAK ---
+
+EXECUTIVE SUMMARY
+Background
+Since its independence, Malaysia has embarked on a remarkable journey of economic development
+and transformation. Moving away from an economy that was once heavily reliant on agriculture and
+commodities, it has successfully diversified into manufacturing and services, becoming one of the
+most dynamic economies in Southeast Asia. The fifth edition of the State of Households 2024 (SoH
+2024), termed the Covid-19 edition, specifically explores short-term trends and narratives influenced
+by the pandemic, tying these to spatial distributions that affect the state of households at district
+level. SoH 2024 delves into four parts — (i) household income; (ii) household expenditure; (iii)
+schooling and digital access; and (iv) health and digitalisation. As in past SoH reports, we used
+Household Income and Expenditure Survey data from DOS to analyse households, their income and
+expenditures during the pandemic. These constitute the first two parts of the report. The latter two
+parts look at two issues that had a major impact on households during the pandemic; schooling and
+health.
+Pandemic Shifts: How Covid-19 Reshaped Household Formation, Income Distribution,
+Inequality and Wealth in Malaysia
+Urbanisation, demographic trends, and changing family structures influenced the shift of
+household distribution in Malaysia. Mirroring the global trends in its household size, Malaysia’s
+average household size fell from 4.6 in 1995 to 3.8 in 2022. Large households declined, while one-
+person households increased. Nearly 80% of households were urban in 2022, increased by 10%
+compared to 2002. Increase in urbanisation trends, driven by economic opportunities, correlates
+with state gross domestic product (GDP) per capita. Highly urbanised states like Kuala Lumpur and
+Selangor have higher GDP per capita, while less urbanised states face economic challenges. Sarawak,
+for instance, despite a high GDP, remains predominantly rural.
+Malaysian household incomes showed modest growth but were slowed by the Covid-19
+pandemic. Despite the increase in household income in 2022, it grew at a much slower rate
+compared to the pre-pandemic trend, remaining significantly below potential projections.
+Specifically, median income was 12% below the pre-Covid-19 trajectory, and mean income was 13%
+below, indicating a substantial lag in recovery. Additionally, the widening gap between mean and
+median incomes suggests increasing income inequality, with higher earners benefiting more
+compared to the rest of the population.
+Selangor led household income growth, while urban areas like Putrajaya and Kuala Lumpur
+saw declines. From 2016 to 2019, all states except Sabah experienced positive real median
+household income growth. During 2019 – 2022, Putrajaya (-1.3%) and Kuala Lumpur (-2.5%) saw
+significant declines in real median household income. Conversely, Selangor outperformed other
+states with an average absolute increase of RM410 and a compound annual growth rate (CAGR) of
+5.1%. Districts in Selangor, except Klang and Petaling (-0.7% and 0.21% growth, respectively), were
+in the top quintile of CAGR growth in Malaysia. The highest growth districts in 2019 – 2022 were
+Kuala Langat (11%), Sepang (10%), and Ulu Langat (8%). Some districts in Sabah and Sarawak also
+demonstrated resilience during 2019 – 2022, positioning themselves in the top growth quintile.
+Interestingly, many districts in Sabah and Sarawak that showed low-quintile growth from 2016 –
+2019 showed vast improvement in the 2019 – 2022 period.
+x KHAZANAH RESEARCH INSTITUTE
+
+--- PAGE BREAK ---
+
+EXECUTIVE SUMMARY
+The national average real median household disposable income dropped significantly from
+RM110 during 2016 – 2019 (2.1%) to just RM16 (1.0%) in the 2019 – 2022 period. All states
+and federal territories across Malaysia had a positive growth and average absolute change during the
+2016/2019 period. Between 2019 and 2022, only five states showed an increase in disposable
+income growth: Selangor (4.6%), Sarawak (0.7%), Johor (0.7%), Pahang (0.4%), and Sabah (0.2%).
+Notably, Selangor was the standout, with an average absolute increase of RM303—where seven
+outperforming districts fell within the top highest growth of median household disposable income
+quintiles.
+Household income in 2022, when adjusted for inequality, grew more slowly, with 18 districts,
+primarily from Peninsular Malaysia, falling into the lowest growth group, resulting in
+decreased income and increased inequality. Adjusted household income only rose by 7.9% in
+2022 compared to the 12% in 2019, mainly due to the lower growth in household income in 2022.
+Several districts experienced a decrease in adjusted household income in 2022 while its drivers of
+growth were more diverse as they had multiple combinations in the change and magnitude of
+household income and Gini coefficient. However, the use of Gini coefficient alone in assessing
+inequality is not definitive, some states and strata showed a reduction in Gini but an increase in
+inequalities at the tail ends of the income distribution.
+The aftermath of the Covid-19 pandemic saw an increase of households in absolute poverty in
+contrast to the downward trend of poverty in the years before. While not all districts faced a rise
+in absolute poverty, urban households were the most affected with poverty rising from 3.8% in 2019
+to 4.5% in 2022. Additionally, districts with higher incidences of households in absolute poverty had
+households with relatively lower access to basic amenities such as access to piped clean water or
+garbage collection facilities, pointing to strong overlaps between monetary and non-monetary
+poverty.
+Household residual incomes have declined across income deciles, disproportionately
+affecting both lower- and middle-income households. In the bottom 10th decile, they experienced
+a -108.2% decline from RM200 (nominally) in 2019 to -RM16 in 2022. This trend is further
+exacerbated through the Covid-19 related EPF withdrawal schemes, that collectively resulted in over
+90% of EPF members under 30 not having enough in basic savings for retirement.
+From Necessities to New Norms: How Covid-19 Reshaped Household Expenditure in Malaysia
+Nationally, mean and median expenditure as a percentage of household income has continued
+to rise. This growth is attributed to increases in expenditure among urban households, with a
+CAGR of 5.6% compared to rural households at 3.6% between 2014 and 2022. During the
+pandemic period of 2019 – 2022, there has been a trend shift whereby lower-income households
+recorded a higher share of consumption expenditure than higher-income households.
+Households allocate the largest share of their monthly expenditures to three fundamental
+necessities: housing and utilities (23.2%), food at home (16.3%) and dining out (15.3%), and
+transportation (11.3%). Housing and utilities have become the largest expenditure category since
+2004, surpassing food consumed at home. The share of food to transportation expenses has declined,
+while spending on food away from home and communication services has increased significantly,
+reflecting changing consumption behaviours, lifestyles, and the impact of the Covid-19 pandemic.
+KHAZANAH RESEARCH INSTITUTE xi
+
+--- PAGE BREAK ---
+
+EXECUTIVE SUMMARY
+Food away from home (FAFH), once viewed as a discretionary household expense, is rapidly
+substituting food at home to become an essential part of the Malaysian diet. In 2022, Malaysian
+households spent 48% of their total food expenditure on FAFH—the highest share recorded. This
+shift from food at home to increased spending on food away from home was consistent across urban
+and rural households but was more pronounced in certain districts and among higher-income
+households.
+Work-from-home (WFH) related expenses surged during the pandemic years as households
+adapted to remote work and learning. Between 2019 and 2022, real expenditures on housing and
+utilities grew by 10%, while spending on furnishings and household maintenance increased by 14%.
+The surge was more pronounced among urban households, which saw a 12.5% increase in housing
+and utilities expenses and a 17.2% rise in furnishings and maintenance during the pandemic years.
+Most income deciles, particularly the highest, saw increased growth in housing and utilities
+expenditure. Meanwhile, lower-income deciles, especially Deciles 1 to 3, recorded higher growth in
+furnishings and maintenance, with CAGR exceeding 8%, indicating that these households were either
+striving to improve their living conditions or responding to new needs created by pandemic-induced
+lockdowns.
+Information and communication technology (ICT) related expenditure has steadily increased
+over the years, with the sharpest increase observed in 2022. This figure increased from RM266.8
+in real terms in 2019 to RM 397.4 in 2022. Between 2014 and 2022, there has been higher growth in
+ICT expenditure among rural households at 26.0% compared to urban households at 22.5% with the
+steepest increase in the 2019-2022 period. This may be attributed to rural households needing to
+accommodate for increased WFH and remote-learning policies during the pandemic. Lastly, between
+2019 and 2022, the bottom 10% of households had a CAGR of 3.5%, compared to -0.4% for the
+highest 10%, which shows a disproportionate percentage increase among lower-income households.
+The Covid-19 pandemic has significantly r
+
+... [Content truncated, total 437,956 chars] ...

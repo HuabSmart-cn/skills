@@ -1,0 +1,6 @@
+interface:
+  display_name: "Deep Research"
+  short_description: "Research complex questions and deliver cited DOCX reports"
+  default_prompt: "Use $deep-research. Run this at xhigh, create a dedicated subagent for the research, and return a cited, visually verified DOCX report."
+policy:
+  allow_implicit_invocation: true

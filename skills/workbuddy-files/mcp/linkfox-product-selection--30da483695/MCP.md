@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "LinkFox": {
+      "type": "streamableHttp",
+      "url": "https://mcp-tool-gateway.linkfox.com/mcp/any-tool"
+    }
+  }
+}

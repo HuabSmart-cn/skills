@@ -1,0 +1,64 @@
+{
+  "name": "omics-hpc-expert",
+  "version": "1.0.0",
+  "description": "Tencent Health Omics HPC Cluster Operations and Job Management Expert - specializing in SLURM job scheduling, cluster/node/queue/scale/filesystem management, and tophpc infrastructure operations via cloud APIs",
+  "author": {
+    "name": "Tencent Health Omics Team",
+    "email": "omics@tencent.com"
+  },
+  "expertType": "agent",
+  "agentName": "omics-hpc-expert",
+  "agents": [
+    "./agents/omics-hpc-expert.md"
+  ],
+  "skills": [
+    "./skills/omics-hpc-skill"
+  ],
+  "displayName": {
+    "en": "omics-expert",
+    "zh": "组小学"
+  },
+  "profession": {
+    "en": "Omics HPC Cluster Ops Expert",
+    "zh": "腾讯组学HPC集群运维与作业管理专家"
+  },
+  "displayDescription": {
+    "en": "Expert in omics HPC cluster management, providing SLURM job scheduling, cluster/node/queue/scale/filesystem monitoring and tophpc infrastructure operation services",
+    "zh": "远程组学HPC一站式运维，管控节点、队列、存储全生命周期，适配SLURM/SGE调度，自然语言交互降低门槛"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "02-Engineering",
+  "defaultInitPrompt": {
+    "zh": "帮我写一套 RNA-seq 分析流程的代码，先看看脚本怎么设计的",
+    "en": "Help me write a RNA-seq analysis pipeline code, let's first look at how the script is designed"
+  },
+  "tags": [
+    {
+      "zh": "HPC运维",
+      "en": "HPC Operations"
+    },
+    {
+      "zh": "作业管理",
+      "en": "Job Management"
+    },
+    {
+      "zh": "弹性伸缩",
+      "en": "Elastic Scaling"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "zh": "帮我写一套 RNA-seq 分析流程的代码，先看看脚本怎么设计的",
+      "en": "Help me write a RNA-seq analysis pipeline code, let's first look at how the script is designed"
+    },
+    {
+      "zh": "把 RNA-seq 流程投到集群上跑，给我一份好看的分析结果报告",
+      "en": "Submit the RNA-seq pipeline to the cluster for execution, and generate a beautiful analysis result report for me"
+    },
+    {
+      "zh": "帮我出一张任务跟踪 + 集群运维监控大盘",
+      "en": "Help me create a task tracking + HPC cluster operations monitoring dashboard"
+    }
+  ],
+  "plugin": "omics-hpc-expert"
+}

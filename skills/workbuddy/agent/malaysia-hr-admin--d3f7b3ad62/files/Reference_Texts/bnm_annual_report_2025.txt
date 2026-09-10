@@ -1,0 +1,344 @@
+BANK
+NEGARA
+MALAYSIA
+Annual
+Report
+Annual Report
+2025
+25
+
+--- PAGE BREAK ---
+
+Statutory Requirements
+In accordance with section 13 of the Central Bank of Malaysia Act 2009, Bank Negara
+Malaysia hereby publishes and has transmitted to the Minister of Finance a copy of this
+Annual Report 2025 together with a copy of its Financial Statements for the year ended
+31 December 2025, which have been examined and certified by the Auditor General.
+The Financial Statements will also be published in the Gazette.
+For the purposes of section 115 of the Development Financial Institutions Act 2002,
+the annual report on the administration of the Development Financial Institutions Act 2002
+and other related matters for the year ended 31 December 2025 is incorporated in this
+Annual Report.
+Abdul Rasheed Ghaffour
+Chairperson
+Board of Directors
+31 March 2026
+
+--- PAGE BREAK ---
+
+Contents
+Foreword
+Our Role
+Promoting Monetary Stability 11
+Feature Article: Beyond the Headline: Inflation through the Eyes of Households 19
+Promoting Financial Stability 25
+Feature Article: Bridging the Gap: The Path to Affordable and Accessible Basic
+Banking Services 33
+Promoting a Progressive and Inclusive Financial System 36
+Promoting a Progressive and Inclusive Islamic Financial System 54
+Feature Article: The Rise of Islamic Finance in ASEAN: Unlocking Its Growth
+Potential 62
+Promoting Safe and Efficient Payment and Remittance Services 69
+Feature Article: Fraud Resolution: Building Trust through Shared Accountability 81
+Issuing Currency 86
+Maintaining Financial Integrity 92
+Managing Bank Negara Malaysia
+People 100
+Towards a Greener Financial System 106
+Risk Management and Internal Controls 119
+Engaging Malaysians 126
+International Engagements 136
+Feature Article: Malaysia’s 2025 ASEAN/ASEAN+3 Chairmanship:
+Advancing Inclusive and Sustainable Economic Growth for
+ASEAN and Malaysia 140
+Governance
+Board of Directors, Senior Management and Statutory Committees of
+Bank Negara Malaysia 150
+Our Finances
+Statement of Financial Position as at 31 December 2025 179
+Income Statement for the Year Ended 31 December 2025 180
+Notes to the Financial Statements for the Year Ended 31 December 2025 181
+
+--- PAGE BREAK ---
+
+Abdul Rasheed Ghaffour
+Governor, Bank Negara Malaysia
+Foreword
+A year of contrasts
+The year 2025 reminded us that the world can change quickly and not always in ways that we expect.
+Globally, geopolitical tensions intensified and growing geoeconomic fragmentation reshaped trade
+relationships and unsettled financial markets. With supply chains tested and businesses lacking clarity,
+some investment decisions were put on hold. This uncertainty made the economy harder to read, as
+evidenced by multiple revisions to global growth forecasts. Yet, uncertainties and volatilities are not
+foreign to central banks. In fact, history reminds us that this is not an exception but a permanent feature
+of the economy. What matters is how we respond to it – with vigilance, pragmatism, perseverance and the
+ability to adapt – without losing sight of purpose.
+Against this backdrop, ASEAN offered the world a different story. When division became more common,
+the region chose cooperation and dialogue. This collective resolve mattered, as it anchored confidence,
+supported economic activity and provided a more stable regional environment.
+The Malaysian economy remained resilient, recording a growth of 5.2% (2024: 5.1%), despite a
+challenging external environment. Stable domestic economic, monetary and financial conditions helped
+cushion the impact of external shocks. This also paved the way for important reforms to take place and
+deliver the expected outcomes. As a result, the Malaysian economy stands in good stead to navigate
+future headwinds. This resilience was a result of deliberate design and the collective efforts of the public
+and private sectors, as well as the consistent work of institutions entrusted by the nation over the years.
+
+--- PAGE BREAK ---
+
+Throughout this episode, Bank Negara Malaysia (BNM) remained focused on promoting monetary and
+financial stability in support of sustainable economic growth. At its core, this mandate is about people,
+preserving livelihoods, safeguarding confidence, and ensuring that the financial system continues to
+effectively serve the needs of the real economy.
+Resilience amid headwinds
+Malaysia’s economic expansion continued to be anchored by resilient domestic demand. The year saw
+household spending benefitting from favourable employment and income prospects, as well as targeted
+policy measures to alleviate cost pressures. Investment activity remained firm, with continued capital
+expenditure across manufacturing and services sectors as well as infrastructure projects. This was also
+supported by the implementation of multi-year public projects and steady realisation of approved private
+investments. Importantly, these higher quality investments go beyond near-term growth – they also lift our
+productive capacity and create opportunities for future generations.
+While external demand was more challenging, exports by key sectors, including electrical and electronics
+(E&E) and selected services, continued to hold. This resilience is closely linked to Malaysia’s continued
+efforts to diversify its economic base, strengthen competitiveness and move up the global value chain.
+Decades of diversification reduces our reliance on any single sector or market, making the economy more
+resilient to shocks.
+Monetary policy remained responsive and forward-looking. Against rising global uncertainties, the
+Monetary Policy Committee pre-emptively reduced the Overnight Policy Rate from 3% to 2.75% to secure
+Malaysia’s growth path, and buffer against emerging downside risks emanating from global uncertainties.
+The decision reflected an intention to act early, guided by a forward assessment of evolving risks, and
+supported by a contained inflationary environment that provided the space for prompt action. Since then,
+the transmission of monetary policy has remained orderly and in line with expectations. This adjustment is
+expected to provide additional support to the economy into 2026.
+Complementary measures further ensured sufficient liquidity in the domestic financial system amid
+heightened global financial volatility. The reduction in the Statutory Reserve Requirement provided banks
+with greater flexibility to manage their liquidity, helping ensure that credit continued to flow to eligible
+households and businesses. Our policy actions serve to ensure stable borrowing conditions, continued
+access to financing and confidence that Malaysia’s financial system will continue to function smoothly,
+even in challenging times.
+Reforms for the people
+The conducive macro-environment provided space for the Government to advance critical structural
+reforms, despite external headwinds. Measures such as water and energy tariff adjustments as well as
+the rationalisation of the RON95 subsidy were implemented to partly address long-standing distortions,
+improve resource allocation and strengthen the foundations for long-term growth.
+These reforms are necessary, but they are not without pain. Recognising this, they were carefully
+designed and sequenced, with mitigating measures to manage transition costs, limit spillovers and
+safeguard vulnerable groups. These are important ingredients to give reform measures the best chance of
+success. Ultimately, reforms must strengthen resilience, without leaving any segment of society behind.
+At the same time, initiatives taken to drive industrial transformation and greater economic complexity
+continued to be advanced. Enhancing Malaysia’s value proposition to the world remained a critical
+development priority, as productivity-driven growth is essential to generate quality employment, raise
+wages and sustain income growth over time. After all, structural reforms are about securing a better
+future. Not just better numbers, but meaningful long-term outcomes for our households and businesses.
+
+--- PAGE BREAK ---
+
+A steady hand
+Despite bouts of volatility in the foreign exchange market, BNM remained steadfast in preserving stability.
+The ringgit strengthened steadily throughout the year, recording the largest appreciation among regional
+currencies on the back of sustained portfolio and foreign direct investment inflows. This reflected
+confidence in Malaysia’s economic fundamentals, our consistency and credibility in policy making as well
+as commitment to reforms. Efforts to encourage more balanced two-way foreign exchange flows in the
+onshore market also saw positive outcomes, with deeper participation from domestic and non-resident
+investors. The orderly financial markets provided stability, confidence and an environment in which
+households and businesses can plan with greater certainty.
+At the same time, BNM continued to bolster Malaysia’s external buffers, maintaining adequate international
+reserves to preserve policy space should global conditions turn. To this end, we saw the various initiatives
+lead to around USD10 billion of net inflows during the year, supporting an increase in gross international
+reserves to USD128 billion as at 13 March 2026 (2024: USD116 billion).
+Serving the real economy
+The financial sector maintained its effectiveness in mobilising funds between savers and borrowers.
+Financial institutions remained well capitalised and operationally resilient, supported by ample liquidity
+buffers and sound asset quality. This ensured continued access to financing for households and
+businesses, supporting consumption, investment and livelihoods.
+Malaysia’s payment and settlement systems remained reliable and secure, supporting increasing
+transaction volumes. Ongoing efforts to modernise financial market infrastructures, including the rollout
+of near real-time funds settlement (RENTAS+), will further strengthen the foundations for developments in
+digital finance.
+BNM also ensured that its regulatory and supervisory approaches remained pragmatic, proportionate
+and risk-based. Supervisory efforts focused on ensuring that financial institutions remained resilient to
+emerging risks, including those arising from digitalisation, cyber threats and climate change. Regulatory
+standards continued to be aligned with international best practices, while calibrated to Malaysia’s domestic
+context and priorities.
+Our role requires striking a delicate balance. While we want to preserve financial stability, fostering
+inclusion and responsible innovation are also key. Finance should create value, unlocking opportunities
+while managing risks to the real economy.
+Preserving trust and integrity
+Public confidence in the integrity of the financial system remains central to our mission. Efforts to combat
+financial fraud were intensified through enhanced supervisory expectations, industry-wide measures and
+public awareness campaigns. Earlier efforts by banks to reinforce malware defences since end-2024 are
+delivering results, with some banks reporting zero malware cases in 2025.
+Complementing this is the progress we made in strengthening anti-money laundering and counter-
+terrorism financing measures which was strongly recognised by the Financial Action Task Force (FATF).
+Results of the Mutual Evaluation exercise by FATF saw rating upgrades across several key areas that led
+to Malaysia being placed under the highest category of ‘Regular Monitoring’, an upgrade from ‘Enhanced
+Monitoring’ previously. On behalf of the National Coordination Committee (NCC), I would like to thank
+all stakeholders, including NCC members and financial institutions, for their unwavering commitment
+and efforts to deliver this hard-won achievement that will go a long way to shore up confidence in our
+economy and financial system.
+
+--- PAGE BREAK ---
+
+Building for the future
+2025 also marked the penultimate year of the Financial Sector Blueprint (FSBP) 2022–2026. Looking back,
+we have made inroads across several development priorities. On digitalisation, digital banks gradually
+expanded their offerings and reach to unserved and underserved communities, while initiatives such as
+electronic police reporting for minor accidents – now piloted on PLUS highways – reduced friction in the
+claims process and improved efficiency across the ecosystem.
+These advances were also accompanied by key reforms to strengthen consumer protection and financial
+resilience. This includes the enactment of the Consumer Credit Act, revisions to the Hire-Purchase Act,
+formulation of the National Financial Literacy Strategy 2026–30 and finalisation of the medical health
+insurance and takaful (MHIT) base product design. These reforms were made possible with the strong
+support and cooperation of government ministries and agencies as well as the financial industry.
+At the same time, we continued to accelerate responsible innovation. Platforms and initiatives such as the
+Digital Asset Innovation Hub, Climate Finance Innovation Lab and i-CITA programme were set up to support
+financial solutions that respond directly to the needs of our economy and society. Further progress has
+also been made to build climate resilience of financial institutions and their customers, with most financial
+institutions offering green products and solutions. Meanwhile, the expansion of the iTEKAD programme,
+going beyond entrepreneurship support and into risk protection and employability-related support, will lend
+further help to thousands of micro-entrepreneurs, many from vulnerable communities.
+Our whole-of-ecosystem approach also defines the strides made in Islamic finance. Value-based finance
+has become more entrenched, with Islamic financial institutions leading the way. New impact-driven pilots
+were rolled out, and the phased adoption of the transformative MYOR-i – the world’s first transaction-
+based Islamic benchmark rate – marks an important milestone in deepening Islamic financial markets.
+Looking ahead, we will harness our strength to provide global leadership and position Islamic finance
+as a catalyst for progressive and inclusive growth, from expanding social finance and boosting the halal
+ecosystem to enhancing integration across ASEAN. The formation of the MIFC Business Network is also
+expected to improve industry’s coordination and facilitation to secure more inward and outward business
+opportunities for the nation.
+Stronger together
+As the country’s central bank, our policies and actions affect millions of Malaysians, and such efforts
+can never be ours alone. To this end, we engaged widely and proactively with those that we serve
+and regulate. Good policy must be anchored not only in data, but also in on-the-ground realities.
+Engagements with businesses across Malaysia helped us better understand emerging risks and shifts
+in behaviour – often before they show up in the numbers. It brings real time insights from plantations in
+Tawau or households in Besut right to Kuala Lumpur.
+As a regulator, continuous dialogue with the broader industry and market participants sharpens our
+assessment of what matters most for Malaysia’s financial development, and how to calibrate reforms in a
+way that is effective and proportionate.
+Our stakeholders in the Parliament and across the Government keep us focused on outcomes, and
+ultimately on delivering for the rakyat. With each conversation, we strengthen the trust extended to our
+institution. Importantly, our collaborative approach to policy – fiscal, financial and monetary – builds
+coherence and amplifies potency. This has been long recognised as a strength by the global investment
+community, including key rating agencies.
+
+--- PAGE BREAK ---
+
+Progress through cooperation
+In an increasingly fragmented world, ASEAN can be a source of strength. Malaysia’s ASEAN
+Chairmanship was an opportunity to affirm and solidify the region’s core values and principles –
+a shared commitment and collective responsibility in enhancing regional peace, security and prosperity.
+Amid heightened global trade tensions, ASEAN’s unified commitment to a measured and constructive
+response reflected this. For Malaysia, being part of a region that values cooperation and stability has
+been an important anchor in navigating an increasingly complex global landscape. To this end, BNM
+led efforts to advance deeper regional financial and economic integration under the Finance Track.
+Regional payment connectivity was expanded, with 29 payment linkages now operational across
+ASEAN Member States. Now, a tourist making purchases or a small business selling products across
+borders can make and receive payments more quickly, securely and at lower cost. This reduces
+friction, expands opportunities and can support the livelihoods across ASEAN communities.
+We also mobilised investments into regional green projects, including the ASEAN Power Grid.
+Such initiatives are not only about climate goals; they are also about energy security, long term
+competitiveness, and creating the foundations for future growth and jobs. Malaysia also lent its
+experience through the Greening Value Chain initiative which is now being rolled out in two other
+ASEAN economies.
+At the same time, ASEAN’s capacity to respond collectively to external shocks was strengthened, including
+through enhancements to the Chiang Mai Initiative Multilateralisation and critical strategies under the
+ASEAN Geoeconomics Task Force. These measures reinforce ASEAN’s capacity to respond collectively to
+external shocks, creating an additional layer of resilience against global uncertainties.
+Looking ahead
+Uncertainties surrounding global trade and capital flow dynamics will continue to shape the 2026 outlook.
+Developments in the Middle East have added another layer of uncertainty with potentially far-reaching
+spillovers, given implications on commodity prices and financial market conditions. The extent of impact
+on growth and inflation is highly contingent on the duration, intensity and severity of the conflict. At the
+same time, while rapid advances in artificial intelligence present opportunities to raise productivity and
+efficiency, there are risks of inventory and market corrections as well as heightened financial market
+volatility given potential overvaluations.
+In this environment, Malaysia’s domestic resilience and diversified export structure provides us with a
+solid foundation to navigate current external headwinds. The Malaysian economy is projected to grow
+between 4% and 5%, supported by household spending, expansion in investments, sustained global
+demand – particularly for E&E exports, and steady tourism amid Visit Malaysia Year 2026. Our standing
+as a net energy exporter will also lend us some resilience against the increase in global commodity
+prices. Meanwhile, inflation is expected to remain moderate between 1.5% and 2.5%. While upside risks
+stemming from developments in global commodity and energy prices remain, targeted policies are in
+place to help cushion the impact on households and businesses.
+The ongoing geoeconomic shifts represent structural changes and continues to evolve with long lasting
+implications. At this juncture, we must recognise that the global landscape is becoming less predictable,
+as geopolitical considerations increasingly shape economic outcomes. Developments in the Middle East
+underscore that conflict can create ripples across the globe, while benefitting none. This underscores the
+urgency for Malaysia and ASEAN to deepen domestic and regional reforms. We must work closely together,
+including through the ASEAN Geoeconomics Task Force, to navigate this evolving environment. We also
+need to mindfully position ourselves to face the challenges and capitalise on opportunities to come.
+
+--- PAGE BREAK ---
+
+For Malaysia, it is important that we remain focused and committed to strengthening our economic
+fundamentals and policy buffers. By improving fiscal sustainability and attracting quality investments, we
+have created space to further advance much needed urgent reforms for social protection and the labour
+market. These reforms may involve some short-term adjustments, but they are necessary to ensure
+that growth is more inclusive and benefits the rakyat – including generations to come. Malaysia’s path
+to becoming a developed, high-income nation must be paved with shared prosperity. We must build an
+economy that creates better paying jobs, supports our households and businesses, and remains resilient
+for decades to come.
+For BNM, we will remain vigilant in ensuring that we are well-equipped to navigate the challenges ahead,
+without losing sight of longer-term priorities to enhance our economic prospects and preserve our
+resilience. The Monetary Policy Committee will continue to closely monitor developments and assess the
+balance of risks to the growth and inflation outlook. We also stand ready – as we have through successive
+periods of heightened uncertainty – to ensure orderly markets and manage risks of excessive volatility.
+As the FSBP 2022–2026 enters its final phase, implementation will be accelerated along with work
+to develop the next course for Malaysia’s financial sector. We will work to better facilitate innovation,
+including in emerging areas such as digital finance, stablecoins and climate adaption in a safe and
+responsible manner.
+What remains true
+While the environment continues to evolve, BNM’s commitment is certain. As an organisation, we will
+continue to faithfully discharge our mandate to build a brighter future for all Malaysians. We will continue
+to strengthen our capabilities to better serve the nation. This includes continuing to extend our ongoing
+efforts to optimise work processes, investing in the responsible use of technology, reviewing manpower
+needs and embedding sustainability more deeply into the organisation.
+What BNM has achieved was only made possible by the hard work, dedication and perseverance of our
+staff. I would like to express my heartfelt appreciation to our people for your professionalism, resilience
+and quiet commitment to public service. Your work, in the frontlines and behind the scenes, touches
+the lives of households, businesses, and communities across the country. I would also like to extend my
+gratitude to the Board of Directors for their guidance and steady stewardship. Beyond our organisation,
+my appreciation also goes to our partners across government ministries and agencies, financial sector,
+as well as peer central banks and regulators, whose shared purpose and collaboration have been
+instrumental in advancing our collective goals.
+With all the support, I am confident that BNM will continue to ensure that the financial sector remains a
+strong enabler of meaningful economic progress. As we press ahead, remember that we are stronger
+together in delivering our best for the 34 million Malaysians that we serve.
+Abdul Rasheed Ghaffour
+
+--- PAGE BREAK ---
+
+eloR
+ruO
+
+--- PAGE BREAK ---
+
+eloR
+ruO
+
+--- PAGE BREAK ---
+
+Our Role
+Bank Negara Malaysia (BNM) is Malaysia’s central bank. Our principal objective is
+to promote monetary stability and financial stability conducive to the sustainable
+growth of the Malaysian economy. BNM derives its mandate and powers from
+the Central Bank of Malaysia Act 2009 and other laws that it administers.1
+In our role to promote monetary stability, BNM progress. Our pursuit to develop and deepen
+formulates and conducts monetary policy to both the conventional and Islamic financial
+keep inflation low and stable, while ensuring that system also recognises that a well-developed
+it is supportive of sustainable economic growth. financial system is one that can help absorb
+We are also mandated to promote an exchange shocks, and therefore contributes to the
+rate regime consistent with the fundamentals of country’s resilience.
+the economy.
+BNM carries out a number of other important
+To promote financial stability, BNM regulates functions. These include issuing currency,
+and supervises financial institutions to promote and holding and managing the country’s
+their safety and soundness. We oversee money foreign reserves. BNM is also the financial
+and foreign exchange markets to promote adviser, banker and financial agent of the
+their integrity and orderly functioning. We Government. Together with other government
+also exercise oversight over payment systems and law enforcement agencies, we play a
+to foster safe, efficient and reliable payment role in helping to prevent the criminal abuse
+systems and payment instruments. In addition, of financial services. Additionally, BNM has
+we regulate the conduct of financial institutions been responding to climate risk, first
+
+... [Content truncated, total 510,708 chars] ...

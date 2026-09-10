@@ -1,0 +1,3 @@
+{
+  "name": "cherry-studio-skills"
+}

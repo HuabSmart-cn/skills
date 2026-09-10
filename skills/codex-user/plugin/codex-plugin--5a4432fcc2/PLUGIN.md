@@ -1,0 +1,54 @@
+{
+  "name": "posthog",
+  "version": "0.1.2",
+  "description": "Analyze product data and manage experiments",
+  "author": {
+    "name": "PostHog",
+    "url": "https://posthog.com"
+  },
+  "homepage": "https://posthog.com/docs",
+  "repository": "https://github.com/openai/plugins",
+  "license": "MIT",
+  "keywords": [
+    "posthog",
+    "analytics",
+    "product-analytics",
+    "feature-flags",
+    "experiments",
+    "error-tracking",
+    "session-replay",
+    "surveys",
+    "llm-analytics",
+    "hogql",
+    "developer-tools"
+  ],
+  "skills": "./skills/",
+  "apps": "./.app.json",
+  "interface": {
+    "displayName": "PostHog",
+    "shortDescription": "Analyze product data and manage experiments",
+    "longDescription": "PostHog gives your AI agent direct access to your product analytics, feature flags, experiments, error tracking, surveys, logs, and LLM analytics. Ask questions about your data, create insights, toggle feature flags, analyze errors, search docs, and more — all from chat.",
+    "developerName": "PostHog",
+    "category": "Data & Analytics",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://posthog.com",
+    "privacyPolicyURL": "https://posthog.com/privacy",
+    "termsOfServiceURL": "https://posthog.com/terms",
+    "defaultPrompt": [
+      "Show me signups this month",
+      "Create a feature flag for the new checkout",
+      "Why are users dropping off in onboarding?"
+    ],
+    "brandColor": "#1D4AFF",
+    "composerIcon": "./assets/app-icon.png",
+    "logo": "./assets/logo.png",
+    "screenshots": [
+      "./assets/screenshot-1.png",
+      "./assets/screenshot-2.png"
+    ]
+  }
+}

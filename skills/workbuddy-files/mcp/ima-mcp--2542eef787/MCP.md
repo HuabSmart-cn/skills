@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "ima-mcp": {
+      "url": "https://ima.qq.com/mcp",
+      "type": "streamableHttp",
+      "timeout": 20000
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "godot-mcp": {
+      "command": "node",
+      "args": [
+        "${CODEBUDDY_PLUGIN_ROOT}/server/dist/index.js"
+      ],
+      "env": {
+        "MCP_TRANSPORT": "stdio",
+        "GODOT_WS_PORT": "9080",
+        "GODOT_BACKEND_URL": "https://godot-test.gwb.qq.com/",
+        "GODOT_API_KEY": "***REDACTED***",
+        "NODE_ENV": "development"
+      }
+    }
+  }
+}

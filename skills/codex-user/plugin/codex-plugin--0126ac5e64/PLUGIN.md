@@ -1,0 +1,33 @@
+{
+  "name": "canva",
+  "version": "1.0.2",
+  "description": "Search, create, edit designs",
+  "author": {
+    "name": "Canva",
+    "url": "https://www.canva.com"
+  },
+  "homepage": "https://www.canva.com",
+  "repository": "https://github.com/openai/plugins",
+  "license": "MIT",
+  "keywords": [],
+  "skills": "./skills/",
+  "apps": "./.app.json",
+  "interface": {
+    "displayName": "Canva",
+    "developerName": "Canva",
+    "shortDescription": "Search, create, edit designs",
+    "longDescription": "Search, create, edit designs",
+    "category": "Creativity",
+    "capabilities": [],
+    "websiteURL": "https://www.canva.com",
+    "privacyPolicyURL": "https://www.canva.com/policies/privacy-policy/",
+    "termsOfServiceURL": "https://www.canva.com/policies/terms-of-use/",
+    "brandColor": "#00C4CC",
+    "defaultPrompt": [
+      "Create or adapt a Canva design for presentations, resized social variants, or translated versions"
+    ],
+    "screenshots": [],
+    "composerIcon": "./assets/app-icon.png",
+    "logo": "./assets/app-icon.png"
+  }
+}

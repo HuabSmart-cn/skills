@@ -1,0 +1,1205 @@
+[
+  {
+    "sex": "both",
+    "date": "2017-01-01",
+    "state": "Johor",
+    "prison": "Penjara Kluang",
+    "prisoners": 10003
+  },
+  {
+    "sex": "both",
+    "date": "2018-01-01",
+    "state": "Johor",
+    "prison": "Penjara Kluang",
+    "prisoners": 1070
+  },
+  {
+    "sex": "both",
+    "date": "2019-01-01",
+    "state": "Johor",
+    "prison": "Penjara Kluang",
+    "prisoners": 2138
+  },
+  {
+    "sex": "both",
+    "date": "2020-01-01",
+    "state": "Johor",
+    "prison": "Penjara Kluang",
+    "prisoners": 10802
+  },
+  {
+    "sex": "both",
+    "date": "2021-01-01",
+    "state": "Johor",
+    "prison": "Penjara Kluang",
+    "prisoners": 7486
+  },
+  {
+    "sex": "both",
+    "date": "2022-01-01",
+    "state": "Johor",
+    "prison": "Penjara Kluang",
+    "prisoners": 5923
+  },
+  {
+    "sex": "female",
+    "date": "2017-01-01",
+    "state": "Johor",
+    "prison": "Penjara Kluang",
+    "prisoners": 1792
+  },
+  {
+    "sex": "female",
+    "date": "2018-01-01",
+    "state": "Johor",
+    "prison": "Penjara Kluang",
+    "prisoners": 0
+  },
+  {
+    "sex": "female",
+    "date": "2019-01-01",
+    "state": "Johor",
+    "prison": "Penjara Kluang",
+    "prisoners": 1
+  },
+  {
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Johor",
+    "prison": "Penjara Kluang",
+    "prisoners": 1356
+  },
+  {
+    "sex": "female",
+    "date": "2021-01-01",
+    "state": "Johor",
+    "prison": "Penjara Kluang",
+    "prisoners": 717
+  },
+  {
+    "sex": "female",
+    "date": "2022-01-01",
+    "state": "Johor",
+    "prison": "Penjara Kluang",
+    "prisoners": 547
+  },
+  {
+    "sex": "male",
+    "date": "2017-01-01",
+    "state": "Johor",
+    "prison": "Penjara Kluang",
+    "prisoners": 8211
+  },
+  {
+    "sex": "male",
+    "date": "2018-01-01",
+    "state": "Johor",
+    "prison": "Penjara Kluang",
+    "prisoners": 1070
+  },
+  {
+    "sex": "male",
+    "date": "2019-01-01",
+    "state": "Johor",
+    "prison": "Penjara Kluang",
+    "prisoners": 2137
+  },
+  {
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Johor",
+    "prison": "Penjara Kluang",
+    "prisoners": 9446
+  },
+  {
+    "sex": "male",
+    "date": "2021-01-01",
+    "state": "Johor",
+    "prison": "Penjara Kluang",
+    "prisoners": 6769
+  },
+  {
+    "sex": "male",
+    "date": "2022-01-01",
+    "state": "Johor",
+    "prison": "Penjara Kluang",
+    "prisoners": 5376
+  },
+  {
+    "sex": "both",
+    "date": "2017-01-01",
+    "state": "Johor",
+    "prison": "Penjara Simpang Renggam",
+    "prisoners": 1290
+  },
+  {
+    "sex": "both",
+    "date": "2018-01-01",
+    "state": "Johor",
+    "prison": "Penjara Simpang Renggam",
+    "prisoners": 270
+  },
+  {
+    "sex": "both",
+    "date": "2019-01-01",
+    "state": "Johor",
+    "prison": "Penjara Simpang Renggam",
+    "prisoners": 321
+  },
+  {
+    "sex": "both",
+    "date": "2020-01-01",
+    "state": "Johor",
+    "prison": "Penjara Simpang Renggam",
+    "prisoners": 792
+  },
+  {
+    "sex": "both",
+    "date": "2021-01-01",
+    "state": "Johor",
+    "prison": "Penjara Simpang Renggam",
+    "prisoners": 439
+  },
+  {
+    "sex": "both",
+    "date": "2022-01-01",
+    "state": "Johor",
+    "prison": "Penjara Simpang Renggam",
+    "prisoners": 576
+  },
+  {
+    "sex": "female",
+    "date": "2017-01-01",
+    "state": "Johor",
+    "prison": "Penjara Simpang Renggam",
+    "prisoners": 0
+  },
+  {
+    "sex": "female",
+    "date": "2018-01-01",
+    "state": "Johor",
+    "prison": "Penjara Simpang Renggam",
+    "prisoners": 0
+  },
+  {
+    "sex": "female",
+    "date": "2019-01-01",
+    "state": "Johor",
+    "prison": "Penjara Simpang Renggam",
+    "prisoners": 0
+  },
+  {
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Johor",
+    "prison": "Penjara Simpang Renggam",
+    "prisoners": 10
+  },
+  {
+    "sex": "female",
+    "date": "2021-01-01",
+    "state": "Johor",
+    "prison": "Penjara Simpang Renggam",
+    "prisoners": 5
+  },
+  {
+    "sex": "female",
+    "date": "2022-01-01",
+    "state": "Johor",
+    "prison": "Penjara Simpang Renggam",
+    "prisoners": 2
+  },
+  {
+    "sex": "male",
+    "date": "2017-01-01",
+    "state": "Johor",
+    "prison": "Penjara Simpang Renggam",
+    "prisoners": 1290
+  },
+  {
+    "sex": "male",
+    "date": "2018-01-01",
+    "state": "Johor",
+    "prison": "Penjara Simpang Renggam",
+    "prisoners": 270
+  },
+  {
+    "sex": "male",
+    "date": "2019-01-01",
+    "state": "Johor",
+    "prison": "Penjara Simpang Renggam",
+    "prisoners": 321
+  },
+  {
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Johor",
+    "prison": "Penjara Simpang Renggam",
+    "prisoners": 782
+  },
+  {
+    "sex": "male",
+    "date": "2021-01-01",
+    "state": "Johor",
+    "prison": "Penjara Simpang Renggam",
+    "prisoners": 434
+  },
+  {
+    "sex": "male",
+    "date": "2022-01-01",
+    "state": "Johor",
+    "prison": "Penjara Simpang Renggam",
+    "prisoners": 574
+  },
+  {
+    "sex": "both",
+    "date": "2017-01-01",
+    "state": "Johor",
+    "prison": "Pusat Koreksional Johor Bahru",
+    "prisoners": 290
+  },
+  {
+    "sex": "both",
+    "date": "2018-01-01",
+    "state": "Johor",
+    "prison": "Pusat Koreksional Johor Bahru",
+    "prisoners": 10549
+  },
+  {
+    "sex": "both",
+    "date": "2019-01-01",
+    "state": "Johor",
+    "prison": "Pusat Koreksional Johor Bahru",
+    "prisoners": 11817
+  },
+  {
+    "sex": "both",
+    "date": "2020-01-01",
+    "state": "Johor",
+    "prison": "Pusat Koreksional Johor Bahru",
+    "prisoners": 297
+  },
+  {
+    "sex": "both",
+    "date": "2021-01-01",
+    "state": "Johor",
+    "prison": "Pusat Koreksional Johor Bahru",
+    "prisoners": 112
+  },
+  {
+    "sex": "both",
+    "date": "2022-01-01",
+    "state": "Johor",
+    "prison": "Pusat Koreksional Johor Bahru",
+    "prisoners": 229
+  },
+  {
+    "sex": "female",
+    "date": "2017-01-01",
+    "state": "Johor",
+    "prison": "Pusat Koreksional Johor Bahru",
+    "prisoners": 0
+  },
+  {
+    "sex": "female",
+    "date": "2018-01-01",
+    "state": "Johor",
+    "prison": "Pusat Koreksional Johor Bahru",
+    "prisoners": 1963
+  },
+  {
+    "sex": "female",
+    "date": "2019-01-01",
+    "state": "Johor",
+    "prison": "Pusat Koreksional Johor Bahru",
+    "prisoners": 1948
+  },
+  {
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Johor",
+    "prison": "Pusat Koreksional Johor Bahru",
+    "prisoners": 0
+  },
+  {
+    "sex": "female",
+    "date": "2021-01-01",
+    "state": "Johor",
+    "prison": "Pusat Koreksional Johor Bahru",
+    "prisoners": 0
+  },
+  {
+    "sex": "female",
+    "date": "2022-01-01",
+    "state": "Johor",
+    "prison": "Pusat Koreksional Johor Bahru",
+    "prisoners": 16
+  },
+  {
+    "sex": "male",
+    "date": "2017-01-01",
+    "state": "Johor",
+    "prison": "Pusat Koreksional Johor Bahru",
+    "prisoners": 290
+  },
+  {
+    "sex": "male",
+    "date": "2018-01-01",
+    "state": "Johor",
+    "prison": "Pusat Koreksional Johor Bahru",
+    "prisoners": 8586
+  },
+  {
+    "sex": "male",
+    "date": "2019-01-01",
+    "state": "Johor",
+    "prison": "Pusat Koreksional Johor Bahru",
+    "prisoners": 9869
+  },
+  {
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Johor",
+    "prison": "Pusat Koreksional Johor Bahru",
+    "prisoners": 297
+  },
+  {
+    "sex": "male",
+    "date": "2021-01-01",
+    "state": "Johor",
+    "prison": "Pusat Koreksional Johor Bahru",
+    "prisoners": 112
+  },
+  {
+    "sex": "male",
+    "date": "2022-01-01",
+    "state": "Johor",
+    "prison": "Pusat Koreksional Johor Bahru",
+    "prisoners": 213
+  },
+  {
+    "sex": "both",
+    "date": "2017-01-01",
+    "state": "Johor",
+    "prison": "Pusat Koreksional Muar",
+    "prisoners": 6
+  },
+  {
+    "sex": "both",
+    "date": "2018-01-01",
+    "state": "Johor",
+    "prison": "Pusat Koreksional Muar",
+    "prisoners": 13
+  },
+  {
+    "sex": "both",
+    "date": "2019-01-01",
+    "state": "Johor",
+    "prison": "Pusat Koreksional Muar",
+    "prisoners": 36
+  },
+  {
+    "sex": "both",
+    "date": "2020-01-01",
+    "state": "Johor",
+    "prison": "Pusat Koreksional Muar",
+    "prisoners": 267
+  },
+  {
+    "sex": "both",
+    "date": "2021-01-01",
+    "state": "Johor",
+    "prison": "Pusat Koreksional Muar",
+    "prisoners": 579
+  },
+  {
+    "sex": "both",
+    "date": "2022-01-01",
+    "state": "Johor",
+    "prison": "Pusat Koreksional Muar",
+    "prisoners": 1907
+  },
+  {
+    "sex": "female",
+    "date": "2017-01-01",
+    "state": "Johor",
+    "prison": "Pusat Koreksional Muar",
+    "prisoners": 0
+  },
+  {
+    "sex": "female",
+    "date": "2018-01-01",
+    "state": "Johor",
+    "prison": "Pusat Koreksional Muar",
+    "prisoners": 0
+  },
+  {
+    "sex": "female",
+    "date": "2019-01-01",
+    "state": "Johor",
+    "prison": "Pusat Koreksional Muar",
+    "prisoners": 0
+  },
+  {
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Johor",
+    "prison": "Pusat Koreksional Muar",
+    "prisoners": 0
+  },
+  {
+    "sex": "female",
+    "date": "2021-01-01",
+    "state": "Johor",
+    "prison": "Pusat Koreksional Muar",
+    "prisoners": 0
+  },
+  {
+    "sex": "female",
+    "date": "2022-01-01",
+    "state": "Johor",
+    "prison": "Pusat Koreksional Muar",
+    "prisoners": 0
+  },
+  {
+    "sex": "male",
+    "date": "2017-01-01",
+    "state": "Johor",
+    "prison": "Pusat Koreksional Muar",
+    "prisoners": 6
+  },
+  {
+    "sex": "male",
+    "date": "2018-01-01",
+    "state": "Johor",
+    "prison": "Pusat Koreksional Muar",
+    "prisoners": 13
+  },
+  {
+    "sex": "male",
+    "date": "2019-01-01",
+    "state": "Johor",
+    "prison": "Pusat Koreksional Muar",
+    "prisoners": 36
+  },
+  {
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Johor",
+    "prison": "Pusat Koreksional Muar",
+    "prisoners": 267
+  },
+  {
+    "sex": "male",
+    "date": "2021-01-01",
+    "state": "Johor",
+    "prison": "Pusat Koreksional Muar",
+    "prisoners": 579
+  },
+  {
+    "sex": "male",
+    "date": "2022-01-01",
+    "state": "Johor",
+    "prison": "Pusat Koreksional Muar",
+    "prisoners": 1907
+  },
+  {
+    "sex": "both",
+    "date": "2017-01-01",
+    "state": "Kedah",
+    "prison": "Penjara Alor Setar",
+    "prisoners": 136
+  },
+  {
+    "sex": "both",
+    "date": "2018-01-01",
+    "state": "Kedah",
+    "prison": "Penjara Alor Setar",
+    "prisoners": 5856
+  },
+  {
+    "sex": "both",
+    "date": "2019-01-01",
+    "state": "Kedah",
+    "prison": "Penjara Alor Setar",
+    "prisoners": 6251
+  },
+  {
+    "sex": "both",
+    "date": "2020-01-01",
+    "state": "Kedah",
+    "prison": "Penjara Alor Setar",
+    "prisoners": 60
+  },
+  {
+    "sex": "both",
+    "date": "2021-01-01",
+    "state": "Kedah",
+    "prison": "Penjara Alor Setar",
+    "prisoners": 468
+  },
+  {
+    "sex": "both",
+    "date": "2022-01-01",
+    "state": "Kedah",
+    "prison": "Penjara Alor Setar",
+    "prisoners": 482
+  },
+  {
+    "sex": "female",
+    "date": "2017-01-01",
+    "state": "Kedah",
+    "prison": "Penjara Alor Setar",
+    "prisoners": 67
+  },
+  {
+    "sex": "female",
+    "date": "2018-01-01",
+    "state": "Kedah",
+    "prison": "Penjara Alor Setar",
+    "prisoners": 588
+  },
+  {
+    "sex": "female",
+    "date": "2019-01-01",
+    "state": "Kedah",
+    "prison": "Penjara Alor Setar",
+    "prisoners": 631
+  },
+  {
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Kedah",
+    "prison": "Penjara Alor Setar",
+    "prisoners": 23
+  },
+  {
+    "sex": "female",
+    "date": "2021-01-01",
+    "state": "Kedah",
+    "prison": "Penjara Alor Setar",
+    "prisoners": 0
+  },
+  {
+    "sex": "female",
+    "date": "2022-01-01",
+    "state": "Kedah",
+    "prison": "Penjara Alor Setar",
+    "prisoners": 0
+  },
+  {
+    "sex": "male",
+    "date": "2017-01-01",
+    "state": "Kedah",
+    "prison": "Penjara Alor Setar",
+    "prisoners": 69
+  },
+  {
+    "sex": "male",
+    "date": "2018-01-01",
+    "state": "Kedah",
+    "prison": "Penjara Alor Setar",
+    "prisoners": 5268
+  },
+  {
+    "sex": "male",
+    "date": "2019-01-01",
+    "state": "Kedah",
+    "prison": "Penjara Alor Setar",
+    "prisoners": 5620
+  },
+  {
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Kedah",
+    "prison": "Penjara Alor Setar",
+    "prisoners": 37
+  },
+  {
+    "sex": "male",
+    "date": "2021-01-01",
+    "state": "Kedah",
+    "prison": "Penjara Alor Setar",
+    "prisoners": 468
+  },
+  {
+    "sex": "male",
+    "date": "2022-01-01",
+    "state": "Kedah",
+    "prison": "Penjara Alor Setar",
+    "prisoners": 482
+  },
+  {
+    "sex": "both",
+    "date": "2017-01-01",
+    "state": "Kedah",
+    "prison": "Penjara Pokok Sena",
+    "prisoners": 5726
+  },
+  {
+    "sex": "both",
+    "date": "2018-01-01",
+    "state": "Kedah",
+    "prison": "Penjara Pokok Sena",
+    "prisoners": 154
+  },
+  {
+    "sex": "both",
+    "date": "2019-01-01",
+    "state": "Kedah",
+    "prison": "Penjara Pokok Sena",
+    "prisoners": 178
+  },
+  {
+    "sex": "both",
+    "date": "2020-01-01",
+    "state": "Kedah",
+    "prison": "Penjara Pokok Sena",
+    "prisoners": 5405
+  },
+  {
+    "sex": "both",
+    "date": "2021-01-01",
+    "state": "Kedah",
+    "prison": "Penjara Pokok Sena",
+    "prisoners": 4820
+  },
+  {
+    "sex": "both",
+    "date": "2022-01-01",
+    "state": "Kedah",
+    "prison": "Penjara Pokok Sena",
+    "prisoners": 7572
+  },
+  {
+    "sex": "female",
+    "date": "2017-01-01",
+    "state": "Kedah",
+    "prison": "Penjara Pokok Sena",
+    "prisoners": 550
+  },
+  {
+    "sex": "female",
+    "date": "2018-01-01",
+    "state": "Kedah",
+    "prison": "Penjara Pokok Sena",
+    "prisoners": 94
+  },
+  {
+    "sex": "female",
+    "date": "2019-01-01",
+    "state": "Kedah",
+    "prison": "Penjara Pokok Sena",
+    "prisoners": 149
+  },
+  {
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Kedah",
+    "prison": "Penjara Pokok Sena",
+    "prisoners": 414
+  },
+  {
+    "sex": "female",
+    "date": "2021-01-01",
+    "state": "Kedah",
+    "prison": "Penjara Pokok Sena",
+    "prisoners": 158
+  },
+  {
+    "sex": "female",
+    "date": "2022-01-01",
+    "state": "Kedah",
+    "prison": "Penjara Pokok Sena",
+    "prisoners": 571
+  },
+  {
+    "sex": "male",
+    "date": "2017-01-01",
+    "state": "Kedah",
+    "prison": "Penjara Pokok Sena",
+    "prisoners": 5176
+  },
+  {
+    "sex": "male",
+    "date": "2018-01-01",
+    "state": "Kedah",
+    "prison": "Penjara Pokok Sena",
+    "prisoners": 60
+  },
+  {
+    "sex": "male",
+    "date": "2019-01-01",
+    "state": "Kedah",
+    "prison": "Penjara Pokok Sena",
+    "prisoners": 29
+  },
+  {
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Kedah",
+    "prison": "Penjara Pokok Sena",
+    "prisoners": 4991
+  },
+  {
+    "sex": "male",
+    "date": "2021-01-01",
+    "state": "Kedah",
+    "prison": "Penjara Pokok Sena",
+    "prisoners": 4662
+  },
+  {
+    "sex": "male",
+    "date": "2022-01-01",
+    "state": "Kedah",
+    "prison": "Penjara Pokok Sena",
+    "prisoners": 7001
+  },
+  {
+    "sex": "both",
+    "date": "2017-01-01",
+    "state": "Kedah",
+    "prison": "Penjara Sungai Petani",
+    "prisoners": 1183
+  },
+  {
+    "sex": "both",
+    "date": "2018-01-01",
+    "state": "Kedah",
+    "prison": "Penjara Sungai Petani",
+    "prisoners": 958
+  },
+  {
+    "sex": "both",
+    "date": "2019-01-01",
+    "state": "Kedah",
+    "prison": "Penjara Sungai Petani",
+    "prisoners": 1078
+  },
+  {
+    "sex": "both",
+    "date": "2020-01-01",
+    "state": "Kedah",
+    "prison": "Penjara Sungai Petani",
+    "prisoners": 1181
+  },
+  {
+    "sex": "both",
+    "date": "2021-01-01",
+    "state": "Kedah",
+    "prison": "Penjara Sungai Petani",
+    "prisoners": 1567
+  },
+  {
+    "sex": "both",
+    "date": "2022-01-01",
+    "state": "Kedah",
+    "prison": "Penjara Sungai Petani",
+    "prisoners": 926
+  },
+  {
+    "sex": "female",
+    "date": "2017-01-01",
+    "state": "Kedah",
+    "prison": "Penjara Sungai Petani",
+    "prisoners": 0
+  },
+  {
+    "sex": "female",
+    "date": "2018-01-01",
+    "state": "Kedah",
+    "prison": "Penjara Sungai Petani",
+    "prisoners": 0
+  },
+  {
+    "sex": "female",
+    "date": "2019-01-01",
+    "state": "Kedah",
+    "prison": "Penjara Sungai Petani",
+    "prisoners": 1
+  },
+  {
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Kedah",
+    "prison": "Penjara Sungai Petani",
+    "prisoners": 0
+  },
+  {
+    "sex": "female",
+    "date": "2021-01-01",
+    "state": "Kedah",
+    "prison": "Penjara Sungai Petani",
+    "prisoners": 110
+  },
+  {
+    "sex": "female",
+    "date": "2022-01-01",
+    "state": "Kedah",
+    "prison": "Penjara Sungai Petani",
+    "prisoners": 179
+  },
+  {
+    "sex": "male",
+    "date": "2017-01-01",
+    "state": "Kedah",
+    "prison": "Penjara Sungai Petani",
+    "prisoners": 1183
+  },
+  {
+    "sex": "male",
+    "date": "2018-01-01",
+    "state": "Kedah",
+    "prison": "Penjara Sungai Petani",
+    "prisoners": 958
+  },
+  {
+    "sex": "male",
+    "date": "2019-01-01",
+    "state": "Kedah",
+    "prison": "Penjara Sungai Petani",
+    "prisoners": 1077
+  },
+  {
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Kedah",
+    "prison": "Penjara Sungai Petani",
+    "prisoners": 1181
+  },
+  {
+    "sex": "male",
+    "date": "2021-01-01",
+    "state": "Kedah",
+    "prison": "Penjara Sungai Petani",
+    "prisoners": 1457
+  },
+  {
+    "sex": "male",
+    "date": "2022-01-01",
+    "state": "Kedah",
+    "prison": "Penjara Sungai Petani",
+    "prisoners": 747
+  },
+  {
+    "sex": "both",
+    "date": "2017-01-01",
+    "state": "Kelantan",
+    "prison": "Penjara Pengkalan Chepa",
+    "prisoners": 3461
+  },
+  {
+    "sex": "both",
+    "date": "2018-01-01",
+    "state": "Kelantan",
+    "prison": "Penjara Pengkalan Chepa",
+    "prisoners": 3599
+  },
+  {
+    "sex": "both",
+    "date": "2019-01-01",
+    "state": "Kelantan",
+    "prison": "Penjara Pengkalan Chepa",
+    "prisoners": 3490
+  },
+  {
+    "sex": "both",
+    "date": "2020-01-01",
+    "state": "Kelantan",
+    "prison": "Penjara Pengkalan Chepa",
+    "prisoners": 3247
+  },
+  {
+    "sex": "both",
+    "date": "2021-01-01",
+    "state": "Kelantan",
+    "prison": "Penjara Pengkalan Chepa",
+    "prisoners": 2707
+  },
+  {
+    "sex": "both",
+    "date": "2022-01-01",
+    "state": "Kelantan",
+    "prison": "Penjara Pengkalan Chepa",
+    "prisoners": 1351
+  },
+  {
+    "sex": "female",
+    "date": "2017-01-01",
+    "state": "Kelantan",
+    "prison": "Penjara Pengkalan Chepa",
+    "prisoners": 473
+  },
+  {
+    "sex": "female",
+    "date": "2018-01-01",
+    "state": "Kelantan",
+    "prison": "Penjara Pengkalan Chepa",
+    "prisoners": 482
+  },
+  {
+    "sex": "female",
+    "date": "2019-01-01",
+    "state": "Kelantan",
+    "prison": "Penjara Pengkalan Chepa",
+    "prisoners": 569
+  },
+  {
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Kelantan",
+    "prison": "Penjara Pengkalan Chepa",
+    "prisoners": 449
+  },
+  {
+    "sex": "female",
+    "date": "2021-01-01",
+    "state": "Kelantan",
+    "prison": "Penjara Pengkalan Chepa",
+    "prisoners": 349
+  },
+  {
+    "sex": "female",
+    "date": "2022-01-01",
+    "state": "Kelantan",
+    "prison": "Penjara Pengkalan Chepa",
+    "prisoners": 699
+  },
+  {
+    "sex": "male",
+    "date": "2017-01-01",
+    "state": "Kelantan",
+    "prison": "Penjara Pengkalan Chepa",
+    "prisoners": 2988
+  },
+  {
+    "sex": "male",
+    "date": "2018-01-01",
+    "state": "Kelantan",
+    "prison": "Penjara Pengkalan Chepa",
+    "prisoners": 3117
+  },
+  {
+    "sex": "male",
+    "date": "2019-01-01",
+    "state": "Kelantan",
+    "prison": "Penjara Pengkalan Chepa",
+    "prisoners": 2921
+  },
+  {
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Kelantan",
+    "prison": "Penjara Pengkalan Chepa",
+    "prisoners": 2798
+  },
+  {
+    "sex": "male",
+    "date": "2021-01-01",
+    "state": "Kelantan",
+    "prison": "Penjara Pengkalan Chepa",
+    "prisoners": 2358
+  },
+  {
+    "sex": "male",
+    "date": "2022-01-01",
+    "state": "Kelantan",
+    "prison": "Penjara Pengkalan Chepa",
+    "prisoners": 652
+  },
+  {
+    "sex": "both",
+    "date": "2017-01-01",
+    "state": "Kelantan",
+    "prison": "Pusat Koreksional Machang",
+    "prisoners": 3605
+  },
+  {
+    "sex": "both",
+    "date": "2018-01-01",
+    "state": "Kelantan",
+    "prison": "Pusat Koreksional Machang",
+    "prisoners": 3395
+  },
+  {
+    "sex": "both",
+    "date": "2019-01-01",
+    "state": "Kelantan",
+    "prison": "Pusat Koreksional Machang",
+    "prisoners": 3779
+  },
+  {
+    "sex": "both",
+    "date": "2020-01-01",
+    "state": "Kelantan",
+    "prison": "Pusat Koreksional Machang",
+    "prisoners": 3651
+  },
+  {
+    "sex": "both",
+    "date": "2021-01-01",
+    "state": "Kelantan",
+    "prison": "Pusat Koreksional Machang",
+    "prisoners": 3318
+  },
+  {
+    "sex": "both",
+    "date": "2022-01-01",
+    "state": "Kelantan",
+    "prison": "Pusat Koreksional Machang",
+    "prisoners": 6635
+  },
+  {
+    "sex": "female",
+    "date": "2017-01-01",
+    "state": "Kelantan",
+    "prison": "Pusat Koreksional Machang",
+    "prisoners": 0
+  },
+  {
+    "sex": "female",
+    "date": "2018-01-01",
+    "state": "Kelantan",
+    "prison": "Pusat Koreksional Machang",
+    "prisoners": 1
+  },
+  {
+    "sex": "female",
+    "date": "2019-01-01",
+    "state": "Kelantan",
+    "prison": "Pusat Koreksional Machang",
+    "prisoners": 0
+  },
+  {
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Kelantan",
+    "prison": "Pusat Koreksional Machang",
+    "prisoners": 0
+  },
+  {
+    "sex": "female",
+    "date": "2021-01-01",
+    "state": "Kelantan",
+    "prison": "Pusat Koreksional Machang",
+    "prisoners": 0
+  },
+  {
+    "sex": "female",
+    "date": "2022-01-01",
+    "state": "Kelantan",
+    "prison": "Pusat Koreksional Machang",
+    "prisoners": 0
+  },
+  {
+    "sex": "male",
+    "date": "2017-01-01",
+    "state": "Kelantan",
+    "prison": "Pusat Koreksional Machang",
+    "prisoners": 3605
+  },
+  {
+    "sex": "male",
+    "date": "2018-01-01",
+    "state": "Kelantan",
+    "prison": "Pusat Koreksional Machang",
+    "prisoners": 3394
+  },
+  {
+    "sex": "male",
+    "date": "2019-01-01",
+    "state": "Kelantan",
+    "prison": "Pusat Koreksional Machang",
+    "prisoners": 3779
+  },
+  {
+    "sex": "male",
+    "date": "2020-01-01",
+    "state": "Kelantan",
+    "prison": "Pusat Koreksional Machang",
+    "prisoners": 3651
+  },
+  {
+    "sex": "male",
+    "date": "2021-01-01",
+    "state": "Kelantan",
+    "prison": "Pusat Koreksional Machang",
+    "prisoners": 3318
+  },
+  {
+    "sex": "male",
+    "date": "2022-01-01",
+    "state": "Kelantan",
+    "prison": "Pusat Koreksional Machang",
+    "prisoners": 6635
+  },
+  {
+    "sex": "both",
+    "date": "2017-01-01",
+    "state": "Melaka",
+    "prison": "Penjara Pra Bebas Dusun Dato Murad",
+    "prisoners": 460
+  },
+  {
+    "sex": "both",
+    "date": "2018-01-01",
+    "state": "Melaka",
+    "prison": "Penjara Pra Bebas Dusun Dato Murad",
+    "prisoners": 5398
+  },
+  {
+    "sex": "both",
+    "date": "2019-01-01",
+    "state": "Melaka",
+    "prison": "Penjara Pra Bebas Dusun Dato Murad",
+    "prisoners": 6869
+  },
+  {
+    "sex": "both",
+    "date": "2020-01-01",
+    "state": "Melaka",
+    "prison": "Penjara Pra Bebas Dusun Dato Murad",
+    "prisoners": 21
+  },
+  {
+    "sex": "both",
+    "date": "2021-01-01",
+    "state": "Melaka",
+    "prison": "Penjara Pra Bebas Dusun Dato Murad",
+    "prisoners": 62
+  },
+  {
+    "sex": "both",
+    "date": "2022-01-01",
+    "state": "Melaka",
+    "prison": "Penjara Pra Bebas Dusun Dato Murad",
+    "prisoners": 77
+  },
+  {
+    "sex": "female",
+    "date": "2017-01-01",
+    "state": "Melaka",
+    "prison": "Penjara Pra Bebas Dusun Dato Murad",
+    "prisoners": 0
+  },
+  {
+    "sex": "female",
+    "date": "2018-01-01",
+    "state": "Melaka",
+    "prison": "Penjara Pra Bebas Dusun Dato Murad",
+    "prisoners": 478
+  },
+  {
+    "sex": "female",
+    "date": "2019-01-01",
+    "state": "Melaka",
+    "prison": "Penjara Pra Bebas Dusun Dato Murad",
+    "prisoners": 772
+  },
+  {
+    "sex": "female",
+    "date": "2020-01-01",
+    "state": "Melaka",
+    "prison": "Penjara Pra Bebas Dusun Dato Murad",
+
+... [Content truncated, total 93,888 chars] ...

@@ -1,0 +1,713 @@
+{
+  "version": 1,
+  "source": "manual snapshot of supported spaceengine agent APIs",
+  "apis": [
+    {
+      "name": "space.workspace.list-node",
+      "method": "POST",
+      "path": "/space/api/agent/v1/list-node",
+      "args": [
+        {
+          "name": "spaceId",
+          "type": "string"
+        },
+        {
+          "name": "parentNodeId",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "space.workspace.node-info",
+      "method": "POST",
+      "path": "/space/api/agent/v1/node-info",
+      "args": [
+        {
+          "name": "nodeId",
+          "type": "string"
+        },
+        {
+          "name": "url",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "space.workspace.list-user-spaces",
+      "method": "POST",
+      "path": "/space/api/agent/v1/list-user-spaces",
+      "args": []
+    },
+    {
+      "name": "space.workspace.create-space",
+      "title": "创建团队空间",
+      "method": "POST",
+      "path": "/space/api/agent/v1/create-space",
+      "tags": [
+        "workspace",
+        "write"
+      ],
+      "args": [
+        {
+          "name": "title",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "space.permission.collaborators",
+      "title": "查询协作成员列表",
+      "method": "POST",
+      "path": "/space/api/agent/v1/collaborators",
+      "tags": [
+        "permission",
+        "readonly"
+      ],
+      "args": [
+        {
+          "name": "spaceId",
+          "type": "string"
+        },
+        {
+          "name": "nodeId",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "space.searcher.search-nodes",
+      "method": "POST",
+      "path": "/space/api/agent/v1/search-nodes",
+      "args": [
+        {
+          "name": "query",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "size",
+          "type": "uint32"
+        },
+        {
+          "name": "num",
+          "type": "uint32"
+        },
+        {
+          "name": "highlight",
+          "type": "bool"
+        }
+      ]
+    },
+    {
+      "name": "space.workspace.get-doc-review",
+      "method": "POST",
+      "path": "/space/api/agent/v1/get-doc-review",
+      "args": [
+        {
+          "name": "spaceId",
+          "type": "string"
+        },
+        {
+          "name": "pageId",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "outputMode",
+          "type": "string"
+        },
+        {
+          "name": "pageType",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "space.workspace.submit-review-edit",
+      "method": "POST",
+      "path": "/space/api/agent/v1/submit-review-edit",
+      "args": [
+        {
+          "name": "spaceId",
+          "type": "string"
+        },
+        {
+          "name": "pageId",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "createReviewCard",
+          "type": "bool"
+        },
+        {
+          "name": "summary",
+          "type": "string"
+        },
+        {
+          "name": "actions",
+          "type": "[]ReviewAction",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "space.workspace.submit-doc-edit",
+      "method": "POST",
+      "path": "/space/api/agent/v1/submit-doc-edit",
+      "args": [
+        {
+          "name": "spaceId",
+          "type": "string"
+        },
+        {
+          "name": "pageId",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "actions",
+          "type": "[]ReviewAction",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "space.workspace.get-node-comments",
+      "method": "POST",
+      "path": "/space/api/agent/v1/get-node-comments",
+      "args": [
+        {
+          "name": "nodeId",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "discussionId",
+          "type": "string"
+        },
+        {
+          "name": "includeResolved",
+          "type": "bool"
+        }
+      ]
+    },
+    {
+      "name": "space.importer.create-doc",
+      "method": "POST",
+      "path": "/space/api/agent/v1/create-doc",
+      "args": [
+        {
+          "name": "spaceId",
+          "type": "string"
+        },
+        {
+          "name": "parentId",
+          "type": "string"
+        },
+        {
+          "name": "nodeBlockId",
+          "type": "string"
+        },
+        {
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "name": "markdown",
+          "type": "string",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "space.importer.get-upload-credential",
+      "method": "POST",
+      "path": "/space/api/agent/v1/get-upload-credential",
+      "args": [
+        {
+          "name": "fileName",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "fileSize",
+          "type": "int64",
+          "required": true
+        },
+        {
+          "name": "parentId",
+          "type": "string"
+        },
+        {
+          "name": "nodeBlockId",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "space.importer.import-local-file",
+      "method": "POST",
+      "path": "/space/api/agent/v1/import-local-file",
+      "args": [
+        {
+          "name": "spaceId",
+          "type": "string"
+        },
+        {
+          "name": "parentId",
+          "type": "string"
+        },
+        {
+          "name": "nodeBlockId",
+          "type": "string"
+        },
+        {
+          "name": "cosKey",
+          "type": "string"
+        },
+        {
+          "name": "fileName",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "name": "databaseRef",
+          "type": "DatabaseRef"
+        },
+        {
+          "name": "confirmKey",
+          "type": "string"
+        },
+        {
+          "name": "taskId",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "space.importer.url-to-md",
+      "method": "POST",
+      "path": "/space/api/agent/v1/url-to-md",
+      "args": [
+        {
+          "name": "url",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "spaceId",
+          "type": "string"
+        },
+        {
+          "name": "parentId",
+          "type": "string"
+        },
+        {
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "name": "mode",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "space.importer.query-url-to-md-progress",
+      "method": "GET",
+      "path": "/space/api/agent/v1/query-url-to-md-progress",
+      "args": [
+        {
+          "name": "taskId",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "url",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "spaceId",
+          "type": "string"
+        },
+        {
+          "name": "parentId",
+          "type": "string"
+        },
+        {
+          "name": "title",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "doc.create-link",
+      "method": "POST",
+      "path": "/space/api/agent/v1/create-link",
+      "args": [
+        {
+          "name": "url",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "title",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "doc.get-link-content",
+      "method": "POST",
+      "path": "/space/api/agent/v1/get-link-content",
+      "args": [
+        {
+          "name": "nodeId",
+          "type": "string",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "space.database.create-database",
+      "method": "POST",
+      "path": "/space/api/agent/v1/create-database",
+      "args": [
+        {
+          "name": "spaceId",
+          "type": "string"
+        },
+        {
+          "name": "parentId",
+          "type": "string"
+        },
+        {
+          "name": "title",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "properties",
+          "type": "[]Property",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "space.database.add-field",
+      "method": "POST",
+      "path": "/space/api/agent/v1/add-field",
+      "args": [
+        {
+          "name": "databaseId",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "property",
+          "type": "Property",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "space.database.update-field",
+      "method": "POST",
+      "path": "/space/api/agent/v1/update-field",
+      "args": [
+        {
+          "name": "databaseId",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "fieldId",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "property",
+          "type": "Property",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "space.database.delete-field",
+      "method": "POST",
+      "path": "/space/api/agent/v1/delete-field",
+      "args": [
+        {
+          "name": "databaseId",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "fieldId",
+          "type": "string",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "space.database.get-database",
+      "method": "POST",
+      "path": "/space/api/agent/v1/get-database",
+      "args": [
+        {
+          "name": "databaseId",
+          "type": "string",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "space.database.query-database",
+      "method": "POST",
+      "path": "/space/api/agent/v1/query-database",
+      "args": [
+        {
+          "name": "databaseId",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "filter",
+          "type": "Filter"
+        },
+        {
+          "name": "sorts",
+          "type": "[]Sort"
+        },
+        {
+          "name": "fields",
+          "type": "[]string"
+        },
+        {
+          "name": "startCursor",
+          "type": "string"
+        },
+        {
+          "name": "pageSize",
+          "type": "int32"
+        }
+      ]
+    },
+    {
+      "name": "space.database.batch-add-records",
+      "method": "POST",
+      "path": "/space/api/agent/v1/batch-add-records",
+      "args": [
+        {
+          "name": "databaseId",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "records",
+          "type": "[]map[string]PropertyValue",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "space.database.batch-update-records",
+      "method": "POST",
+      "path": "/space/api/agent/v1/batch-update-records",
+      "args": [
+        {
+          "name": "databaseId",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "records",
+          "type": "[]BatchUpdateRecord",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "space.database.batch-delete-records",
+      "method": "POST",
+      "path": "/space/api/agent/v1/batch-delete-records",
+      "args": [
+        {
+          "name": "databaseId",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "recordIds",
+          "type": "[]string",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "space.database.get-record",
+      "method": "POST",
+      "path": "/space/api/agent/v1/get-record",
+      "args": [
+        {
+          "name": "databaseId",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "recordId",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "fields",
+          "type": "[]string"
+        }
+      ]
+    },
+    {
+      "name": "space.database.get-database-content",
+      "method": "POST",
+      "path": "/space/api/agent/v1/get-database-content",
+      "args": [
+        {
+          "name": "databaseId",
+          "type": "string",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "space.searcher.search-chunks",
+      "method": "POST",
+      "path": "/space/api/agent/v1/search-chunks",
+      "args": [
+        {
+          "name": "query",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "spaceIds",
+          "type": "[]string"
+        },
+        {
+          "name": "nodeIds",
+          "type": "[]string"
+        },
+        {
+          "name": "limit",
+          "type": "uint32"
+        },
+        {
+          "name": "driveLimit",
+          "type": "int32"
+        }
+      ]
+    },
+    {
+      "name": "space.workspace.move-node",
+      "title": "移动节点（同空间换父）",
+      "method": "POST",
+      "path": "/space/api/agent/v1/move-node",
+      "tags": [
+        "workspace",
+        "write"
+      ],
+      "args": [
+        {
+          "name": "nodeId",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "targetParentId",
+          "type": "string"
+        },
+        {
+          "name": "afterNodeId",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "space.workspace.rename-node",
+      "title": "重命名节点",
+      "method": "POST",
+      "path": "/space/api/agent/v1/rename-node",
+      "tags": [
+        "workspace",
+        "write"
+      ],
+      "args": [
+        {
+          "name": "nodeId",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "title",
+          "type": "string",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "space.page.publish-page",
+      "title": "发布 Page",
+      "method": "POST",
+      "path": "/space/api/agent/v1/publish-page",
+      "tags": [
+        "page",
+        "write"
+      ],
+      "args": [
+        {
+          "name": "nodeId",
+          "type": "string",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "space.page.list-page-publish-artifacts",
+      "title": "获取 Page 发布态产物列表",
+      "method": "POST",
+      "path": "/space/api/agent/v1/list-page-publish-artifacts",
+      "tags": [
+        "page",
+        "readonly"
+      ],
+      "args": [
+        {
+          "name": "nodeId",
+          "type": "string",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "space.page.unpublish-page",
+      "title": "取消发布 Page",
+      "method": "POST",
+      "path": "/space/api/agent/v1/unpublish-page",
+      "tags": [
+        "page",
+        "write"
+      ],
+      "args": [
+        {
+          "name": "nodeId",
+          "type": "string",
+          "required": true
+        }
+      ]
+    }
+  ]
+}

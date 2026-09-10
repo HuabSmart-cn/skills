@@ -1,0 +1,1715 @@
+{
+  "meta": {
+    "schemaVersion": 1,
+    "sourceFile": "工1作簿1_追加北大核心.xlsx",
+    "sourceSheet": "Sheet1",
+    "sourceColumns": [
+      "期刊名称",
+      "2025分区"
+    ],
+    "rankingYear": 2025,
+    "recordCount": 23727,
+    "labels": [
+      "中科院 1 区",
+      "中科院 2 区",
+      "中科院 3 区",
+      "中科院 4 区",
+      "北大核心"
+    ],
+    "generatedAt": "2026-08-03T12:59:16.294Z"
+  },
+  "records": [
+    [
+      "20 Et 21-Revue D Histoire",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "2D Materials",
+      [
+        "中科院 3 区"
+      ]
+    ],
+    [
+      "3 Biotech",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "3C Empresa",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "3c Tecnologia",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "3C Tic",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "3D Printing and Additive Manufacturing",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "3D Printing in Medicine",
+      [
+        "中科院 3 区"
+      ]
+    ],
+    [
+      "3L-Language Linguistics Literature-The Southeast Asian Journal of English Language Studies",
+      [
+        "中科院 3 区"
+      ]
+    ],
+    [
+      "452 F-Revista de Teoria de la Literatura y Literatura Comparada",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "4OR-A Quarterly Journal of Operations Research",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "A & A Practice",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "A + U-ARCHITECTURE AND URBANISM",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "A&C-Revista de Direito Administrativo & Constitucional",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "AAA-ARBEITEN AUS ANGLISTIK UND AMERIKANISTIK",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "AACN Advanced Critical Care",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "AAPG BULLETIN",
+      [
+        "中科院 3 区"
+      ]
+    ],
+    [
+      "AAPS Journal",
+      [
+        "中科院 3 区"
+      ]
+    ],
+    [
+      "AAPS PHARMSCITECH",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "AATCC Journal of Research",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "AATCC REVIEW",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "Ab Imperio-Studies of New Imperial History and Nationalism in the Post-Soviet Space",
+      [
+        "中科院 3 区"
+      ]
+    ],
+    [
+      "Abacus-A Journal of Accounting Finance and Business Studies",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "Abakos",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "Abanico Veterinario",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "ABCD-Arquivos Brasileiros de Cirurgia Digestiva-Brazilian Archives of Digestive Surgery",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "Abdominal Radiology",
+      [
+        "中科院 3 区"
+      ]
+    ],
+    [
+      "ABE Journal",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "ABHANDLUNGEN AUS DEM MATHEMATISCHEN SEMINAR DER UNIVERSITAT HAMBURG",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "aBIOTECH",
+      [
+        "中科院 2 区"
+      ]
+    ],
+    [
+      "Aboriginal History",
+      [
+        "中科院 3 区"
+      ]
+    ],
+    [
+      "Abriu-Estudos de Textualidade do Brasil Galicia e Portugal",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "Academia y Virtualidad",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "Academia-Revista Latinoamericana de Administracion",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "ACADEMIC EMERGENCY MEDICINE",
+      [
+        "中科院 3 区"
+      ]
+    ],
+    [
+      "Academic Journal of Modern Philology",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "ACADEMIC MEDICINE",
+      [
+        "中科院 1 区"
+      ]
+    ],
+    [
+      "Academic Pathology",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "Academic Pediatrics",
+      [
+        "中科院 3 区"
+      ]
+    ],
+    [
+      "ACADEMIC PSYCHIATRY",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "ACADEMIC RADIOLOGY",
+      [
+        "中科院 2 区"
+      ]
+    ],
+    [
+      "Academy of Management Annals",
+      [
+        "中科院 1 区"
+      ]
+    ],
+    [
+      "Academy of Management Discoveries",
+      [
+        "中科院 2 区"
+      ]
+    ],
+    [
+      "ACADEMY OF MANAGEMENT JOURNAL",
+      [
+        "中科院 1 区"
+      ]
+    ],
+    [
+      "Academy of Management Learning & Education",
+      [
+        "中科院 2 区"
+      ]
+    ],
+    [
+      "Academy of Management Perspectives",
+      [
+        "中科院 2 区"
+      ]
+    ],
+    [
+      "ACADEMY OF MANAGEMENT REVIEW",
+      [
+        "中科院 1 区"
+      ]
+    ],
+    [
+      "Academy Review",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "ACADIENSIS",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "ACAROLOGIA",
+      [
+        "中科院 3 区"
+      ]
+    ],
+    [
+      "Access to Justice in Eastern Europe",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "ACCESS-Access to science business innovation in the digital economy",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "ACCIDENT ANALYSIS AND PREVENTION",
+      [
+        "中科院 1 区"
+      ]
+    ],
+    [
+      "Accion Psicologica",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "Acciones e Investigaciones Sociales",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "Accountability in Research-Ethics Integrity and Policy",
+      [
+        "中科院 2 区"
+      ]
+    ],
+    [
+      "ACCOUNTING AND BUSINESS RESEARCH",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "Accounting and Finance",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "Accounting Auditing & Accountability Journal",
+      [
+        "中科院 2 区"
+      ]
+    ],
+    [
+      "Accounting Economics and Law-A Convivium",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "Accounting Education",
+      [
+        "中科院 3 区"
+      ]
+    ],
+    [
+      "Accounting Forum",
+      [
+        "中科院 3 区"
+      ]
+    ],
+    [
+      "Accounting Historians Journal",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "Accounting History",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "Accounting History Review",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "Accounting Horizons",
+      [
+        "中科院 3 区"
+      ]
+    ],
+    [
+      "Accounting in Europe",
+      [
+        "中科院 3 区"
+      ]
+    ],
+    [
+      "ACCOUNTING ORGANIZATIONS AND SOCIETY",
+      [
+        "中科院 2 区"
+      ]
+    ],
+    [
+      "Accounting Perspectives",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "Accounting Research Journal",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "ACCOUNTING REVIEW",
+      [
+        "中科院 2 区"
+      ]
+    ],
+    [
+      "ACCOUNTS OF CHEMICAL RESEARCH",
+      [
+        "中科院 1 区"
+      ]
+    ],
+    [
+      "Accounts of Materials Research",
+      [
+        "中科院 1 区"
+      ]
+    ],
+    [
+      "ACCREDITATION AND QUALITY ASSURANCE",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "ACE-Architecture City and Environment",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "ACG Case Reports Journal",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "ACI MATERIALS JOURNAL",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "ACI STRUCTURAL JOURNAL",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "ACM Communications in Computer Algebra",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "ACM COMPUTING SURVEYS",
+      [
+        "中科院 1 区"
+      ]
+    ],
+    [
+      "ACM Journal of Data and Information Quality",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "ACM Journal on Computing and Cultural Heritage",
+      [
+        "中科院 3 区"
+      ]
+    ],
+    [
+      "ACM Journal on Emerging Technologies in Computing Systems",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "ACM SIGCOMM Computer Communication Review",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "ACM SIGecom Exchanges",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "ACM Transactions on Accessible Computing",
+      [
+        "中科院 2 区"
+      ]
+    ],
+    [
+      "ACM Transactions on Algorithms",
+      [
+        "中科院 3 区"
+      ]
+    ],
+    [
+      "ACM Transactions on Applied Perception",
+      [
+        "中科院 3 区"
+      ]
+    ],
+    [
+      "ACM Transactions on Architecture and Code Optimization",
+      [
+        "中科院 3 区"
+      ]
+    ],
+    [
+      "ACM Transactions on Asian and Low-Resource Language Information Processing",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "ACM Transactions on Autonomous and Adaptive Systems",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "ACM Transactions on Computation Theory",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "ACM Transactions on Computational Logic",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "ACM TRANSACTIONS ON COMPUTER SYSTEMS",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "ACM Transactions on Computer-Human Interaction",
+      [
+        "中科院 1 区"
+      ]
+    ],
+    [
+      "ACM Transactions on Computing Education",
+      [
+        "中科院 3 区"
+      ]
+    ],
+    [
+      "ACM Transactions on Cyber-Physical Systems",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "ACM TRANSACTIONS ON DATABASE SYSTEMS",
+      [
+        "中科院 2 区"
+      ]
+    ],
+    [
+      "ACM TRANSACTIONS ON DESIGN AUTOMATION OF ELECTRONIC SYSTEMS",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "ACM Transactions on Economics and Computation",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "ACM Transactions on Embedded Computing Systems",
+      [
+        "中科院 3 区"
+      ]
+    ],
+    [
+      "ACM TRANSACTIONS ON GRAPHICS",
+      [
+        "中科院 1 区"
+      ]
+    ],
+    [
+      "ACM Transactions on Human-Robot Interaction",
+      [
+        "中科院 2 区"
+      ]
+    ],
+    [
+      "ACM TRANSACTIONS ON INFORMATION SYSTEMS",
+      [
+        "中科院 2 区"
+      ]
+    ],
+    [
+      "ACM Transactions on Intelligent Systems and Technology",
+      [
+        "中科院 3 区"
+      ]
+    ],
+    [
+      "ACM Transactions on Interactive Intelligent Systems",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "ACM Transactions on Internet of Things",
+      [
+        "中科院 3 区"
+      ]
+    ],
+    [
+      "ACM Transactions on Internet Technology",
+      [
+        "中科院 3 区"
+      ]
+    ],
+    [
+      "ACM Transactions on Knowledge Discovery from Data",
+      [
+        "中科院 3 区"
+      ]
+    ],
+    [
+      "ACM Transactions on Management Information Systems",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "ACM TRANSACTIONS ON MATHEMATICAL SOFTWARE",
+      [
+        "中科院 2 区"
+      ]
+    ],
+    [
+      "ACM Transactions on Modeling and Computer Simulation",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "ACM Transactions on Modeling and Performance Evaluation of Computing Systems",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "ACM Transactions on Multimedia Computing Communications and Applications",
+      [
+        "中科院 3 区"
+      ]
+    ],
+    [
+      "ACM Transactions on Parallel Computing",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "ACM Transactions on Privacy and Security",
+      [
+        "中科院 3 区"
+      ]
+    ],
+    [
+      "ACM TRANSACTIONS ON PROGRAMMING LANGUAGES AND SYSTEMS",
+      [
+        "中科院 2 区"
+      ]
+    ],
+    [
+      "ACM Transactions on Quantum Computing",
+      [
+        "中科院 3 区"
+      ]
+    ],
+    [
+      "ACM Transactions on Reconfigurable Technology and Systems",
+      [
+        "中科院 3 区"
+      ]
+    ],
+    [
+      "ACM Transactions on Sensor Networks",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "ACM TRANSACTIONS ON SOFTWARE ENGINEERING AND METHODOLOGY",
+      [
+        "中科院 1 区"
+      ]
+    ],
+    [
+      "ACM Transactions on Spatial Algorithms and Systems",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "ACM Transactions on Storage",
+      [
+        "中科院 3 区"
+      ]
+    ],
+    [
+      "ACM Transactions on the Web",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "ACME-Annali della Facolta di Studi Umanistici dell Universita degli Studi di Milano",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "ACOUSTICAL PHYSICS",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "Acoustical Science and Technology",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "Acoustics",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "Acoustics Australia",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "Acque Sotterranee-Italian Journal of Groundwater",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "ACR Open Rheumatology",
+      [
+        "中科院 3 区"
+      ]
+    ],
+    [
+      "Across Languages and Cultures",
+      [
+        "中科院 1 区"
+      ]
+    ],
+    [
+      "ACS Agricultural Science & Technology",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "ACS Applied Bio Materials",
+      [
+        "中科院 3 区"
+      ]
+    ],
+    [
+      "ACS Applied Electronic Materials",
+      [
+        "中科院 3 区"
+      ]
+    ],
+    [
+      "ACS Applied Energy Materials",
+      [
+        "中科院 3 区"
+      ]
+    ],
+    [
+      "ACS Applied Materials & Interfaces",
+      [
+        "中科院 2 区"
+      ]
+    ],
+    [
+      "ACS Applied Nano Materials",
+      [
+        "中科院 3 区"
+      ]
+    ],
+    [
+      "ACS Applied Polymer Materials",
+      [
+        "中科院 2 区"
+      ]
+    ],
+    [
+      "ACS Bio & Med Chem Au",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "ACS Biomaterials Science & Engineering",
+      [
+        "中科院 3 区"
+      ]
+    ],
+    [
+      "ACS Catalysis",
+      [
+        "中科院 1 区"
+      ]
+    ],
+    [
+      "ACS Central Science",
+      [
+        "中科院 1 区"
+      ]
+    ],
+    [
+      "ACS Chemical Biology",
+      [
+        "中科院 2 区"
+      ]
+    ],
+    [
+      "ACS Chemical Health & Safety",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "ACS Chemical Neuroscience",
+      [
+        "中科院 3 区"
+      ]
+    ],
+    [
+      "ACS Earth and Space Chemistry",
+      [
+        "中科院 3 区"
+      ]
+    ],
+    [
+      "ACS Energy Letters",
+      [
+        "中科院 1 区"
+      ]
+    ],
+    [
+      "ACS Engineering Au",
+      [
+        "中科院 3 区"
+      ]
+    ],
+    [
+      "ACS Environmental Au",
+      [
+        "中科院 2 区"
+      ]
+    ],
+    [
+      "ACS ES&T Engineering",
+      [
+        "中科院 3 区"
+      ]
+    ],
+    [
+      "ACS ES&T Water",
+      [
+        "中科院 3 区"
+      ]
+    ],
+    [
+      "ACS Food Science & Technology",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "ACS Infectious Diseases",
+      [
+        "中科院 2 区"
+      ]
+    ],
+    [
+      "ACS Macro Letters",
+      [
+        "中科院 1 区"
+      ]
+    ],
+    [
+      "ACS Materials Au",
+      [
+        "中科院 3 区"
+      ]
+    ],
+    [
+      "ACS Materials Letters",
+      [
+        "中科院 2 区"
+      ]
+    ],
+    [
+      "ACS Measurement Science Au",
+      [
+        "中科院 2 区"
+      ]
+    ],
+    [
+      "ACS Medicinal Chemistry Letters",
+      [
+        "中科院 3 区"
+      ]
+    ],
+    [
+      "ACS Nano",
+      [
+        "中科院 1 区"
+      ]
+    ],
+    [
+      "ACS Nanoscience Au",
+      [
+        "中科院 3 区"
+      ]
+    ],
+    [
+      "ACS Omega",
+      [
+        "中科院 3 区"
+      ]
+    ],
+    [
+      "ACS Organic & Inorganic Au",
+      [
+        "中科院 3 区"
+      ]
+    ],
+    [
+      "ACS Pharmacology & Translational Science",
+      [
+        "中科院 3 区"
+      ]
+    ],
+    [
+      "ACS Photonics",
+      [
+        "中科院 1 区"
+      ]
+    ],
+    [
+      "ACS Physical Chemistry Au",
+      [
+        "中科院 3 区"
+      ]
+    ],
+    [
+      "ACS Polymers Au",
+      [
+        "中科院 2 区"
+      ]
+    ],
+    [
+      "ACS Sensors",
+      [
+        "中科院 1 区"
+      ]
+    ],
+    [
+      "ACS Sustainable Chemistry & Engineering",
+      [
+        "中科院 1 区"
+      ]
+    ],
+    [
+      "ACS Synthetic Biology",
+      [
+        "中科院 2 区"
+      ]
+    ],
+    [
+      "ACSMS HEALTH & FITNESS JOURNAL",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "ACTA ACUSTICA",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "ACTA ADRIATICA",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "ACTA AGRICULTURAE SCANDINAVICA SECTION A-ANIMAL SCIENCE",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "ACTA AGRICULTURAE SCANDINAVICA SECTION B-SOIL AND PLANT SCIENCE",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "ACTA AGROBOTANICA",
+      [
+        "中科院 3 区"
+      ]
+    ],
+    [
+      "ACTA ALIMENTARIA",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "ACTA AMAZONICA",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "ACTA ANAESTHESIOLOGICA BELGICA",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "ACTA ANAESTHESIOLOGICA SCANDINAVICA",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "Acta Analytica-International Periodical for Philosophy in the Analytical Tradition",
+      [
+        "中科院 3 区"
+      ]
+    ],
+    [
+      "Acta Angiologica",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "ACTA APPLICANDAE MATHEMATICAE",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "ACTA ARCHAEOLOGICA",
+      [
+        "中科院 3 区"
+      ]
+    ],
+    [
+      "ACTA ARITHMETICA",
+      [
+        "中科院 3 区"
+      ]
+    ],
+    [
+      "ACTA ASTRONAUTICA",
+      [
+        "中科院 2 区"
+      ]
+    ],
+    [
+      "ACTA ASTRONOMICA",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "Acta Balneologica",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "Acta Baltico-Slavica",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "ACTA BIOCHIMICA ET BIOPHYSICA SINICA",
+      [
+        "中科院 2 区"
+      ]
+    ],
+    [
+      "ACTA BIOCHIMICA POLONICA",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "Acta Bioclinica",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "Acta Bioethica",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "ACTA BIOLOGICA COLOMBIANA",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "ACTA BIOLOGICA CRACOVIENSIA SERIES BOTANICA",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "Acta Biomaterialia",
+      [
+        "中科院 1 区"
+      ]
+    ],
+    [
+      "ACTA BIOQUIMICA CLINICA LATINOAMERICANA",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "ACTA BIOTHEORETICA",
+      [
+        "中科院 3 区"
+      ]
+    ],
+    [
+      "Acta Borealia",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "Acta Botanica Brasilica",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "ACTA BOTANICA CROATICA",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "Acta Botanica Mexicana",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "Acta Brasiliensis",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "ACTA CARDIOLOGICA",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "Acta Cardiologica Sinica",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "ACTA CARSOLOGICA",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "Acta Chemica Iasi",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "ACTA CHIMICA SINICA",
+      [
+        "中科院 2 区"
+      ]
+    ],
+    [
+      "Acta Chimica Slovaca",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "ACTA CHIMICA SLOVENICA",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "ACTA CHIROPTEROLOGICA",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "Acta Chirurgiae Orthopaedicae et Traumatologiae Cechoslovaca",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "ACTA CHIRURGICA BELGICA",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "ACTA CHROMATOGRAPHICA",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "Acta Cirurgica Brasileira",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "Acta Classica",
+      [
+        "中科院 3 区"
+      ]
+    ],
+    [
+      "ACTA CLINICA BELGICA",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "Acta Clinica Croatica",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "Acta Colombiana de Psicologia",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "Acta Crystallographica A-Foundation and Advances",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "Acta Crystallographica Section B-Structural Science Crystal Engineering and Materials",
+      [
+        "中科院 3 区"
+      ]
+    ],
+    [
+      "ACTA CRYSTALLOGRAPHICA SECTION C-STRUCTURAL CHEMISTRY",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "Acta Crystallographica Section D-Structural Biology",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "Acta Crystallographica Section E-Crystallographic Communications",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "Acta Crystallographica Section F-Structural Biology Communications",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "Acta Cybernetica",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "ACTA CYTOLOGICA",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "ACTA DERMATO-VENEREOLOGICA",
+      [
+        "中科院 3 区"
+      ]
+    ],
+    [
+      "Acta Dermatovenerologica Alpina Pannonica et Adriatica",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "Acta Dermatovenerologica Croatica",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "ACTA DIABETOLOGICA",
+      [
+        "中科院 3 区"
+      ]
+    ],
+    [
+      "Acta Endocrinologica-Bucharest",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "ACTA ENTOMOLOGICA MUSEI NATIONALIS PRAGAE",
+      [
+        "中科院 3 区"
+      ]
+    ],
+    [
+      "Acta Epileptologica",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "Acta et Commentationes Universitatis Tartuensis de Mathematica",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "ACTA ETHOLOGICA",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "Acta Facultatis Medicae Naissensis",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "Acta Facultatis Xylologiae Zvolen",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "ACTA GASTRO-ENTEROLOGICA BELGICA",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "Acta Geochimica",
+      [
+        "中科院 3 区"
+      ]
+    ],
+    [
+      "Acta Geodaetica et Geophysica",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "Acta Geodynamica et Geomaterialia",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "Acta Geographica Slovenica-Geografski Zbornik",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "ACTA GEOLOGICA POLONICA",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "ACTA GEOLOGICA SINICA-ENGLISH EDITION",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "Acta Geophysica",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "Acta Geotechnica",
+      [
+        "中科院 1 区"
+      ]
+    ],
+    [
+      "Acta Geotechnica Slovenica",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "Acta Germanica-German studies in Africa",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "Acta Gymnica",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "ACTA HAEMATOLOGICA",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "Acta Herpetologica",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "ACTA HISTOCHEMICA",
+      [
+        "中科院 3 区"
+      ]
+    ],
+    [
+      "ACTA HISTOCHEMICA ET CYTOCHEMICA",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "Acta Historica Tallinnensia",
+      [
+        "中科院 3 区"
+      ]
+    ],
+    [
+      "Acta Historica Universitatis Klaipedensis",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "Acta Histriae",
+      [
+        "中科院 2 区"
+      ]
+    ],
+    [
+      "ACTA ICHTHYOLOGICA ET PISCATORIA",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "ACTA INFORMATICA",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "Acta Informatica Pragensia",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "Acta Kinesiologica",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "Acta Koreana",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "Acta Linguistica Academica",
+      [
+        "中科院 3 区"
+      ]
+    ],
+    [
+      "Acta Literaria",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "Acta Logistica",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "ACTA MATERIALIA",
+      [
+        "中科院 1 区"
+      ]
+    ],
+    [
+      "ACTA MATHEMATICA",
+      [
+        "中科院 1 区"
+      ]
+    ],
+    [
+      "ACTA MATHEMATICA HUNGARICA",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "ACTA MATHEMATICA SCIENTIA",
+      [
+        "中科院 3 区"
+      ]
+    ],
+    [
+      "ACTA MATHEMATICA SINICA-ENGLISH SERIES",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "Acta Mathematica Universitatis Comenianae",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "Acta Mathematica Vietnamica",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "Acta Mathematicae Applicatae Sinica-English Series",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "ACTA MECHANICA",
+      [
+        "中科院 3 区"
+      ]
+    ],
+    [
+      "Acta Mechanica et Automatica",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "ACTA MECHANICA SINICA",
+      [
+        "中科院 2 区"
+      ]
+    ],
+    [
+      "ACTA MECHANICA SOLIDA SINICA",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "Acta Medica Indonesiana",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "ACTA MEDICA OKAYAMA",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "Acta Medica Portuguesa",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "Acta Medico-Historica Adriatica",
+      [
+        "中科院 4 区"
+      ]
+    ],
+    [
+      "ACTA METALLURGICA SINICA",
+      [
+        "中科院 2 区"
+      ]
+ 
+
+... [Content truncated, total 3,078,710 chars] ...

@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "codex-security": {
+      "command": "node",
+      "args": [
+        "./mcp/server.mjs",
+        "--stdio"
+      ],
+      "cwd": ".",
+      "env_vars": [
+        "CODEX_HOME"
+      ],
+      "tool_timeout_sec": 900
+    }
+  }
+}

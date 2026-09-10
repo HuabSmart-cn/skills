@@ -1,0 +1,1518 @@
+{
+  "156": {
+    "name": "中国未知",
+    "parent": 1156,
+    "city_level": 4,
+    "level": "province"
+  },
+  "1000": {
+    "name": "亚洲",
+    "parent": 9000,
+    "city_level": 4,
+    "level": "province"
+  },
+  "1004": {
+    "name": "阿富汗",
+    "parent": 1000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "1031": {
+    "name": "阿塞拜疆",
+    "parent": 1000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "1048": {
+    "name": "巴林",
+    "parent": 1000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "1050": {
+    "name": "孟加拉",
+    "parent": 1000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "1051": {
+    "name": "亚美尼亚",
+    "parent": 1000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "1064": {
+    "name": "不丹",
+    "parent": 1000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "1096": {
+    "name": "文莱",
+    "parent": 1000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "1104": {
+    "name": "缅甸",
+    "parent": 1000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "1116": {
+    "name": "柬埔寨",
+    "parent": 1000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "1144": {
+    "name": "斯里兰卡",
+    "parent": 1000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "1156": {
+    "name": "中国",
+    "level": "country"
+  },
+  "1268": {
+    "name": "格鲁吉亚",
+    "parent": 1000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "1275": {
+    "name": "巴勒斯坦",
+    "parent": 1000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "1356": {
+    "name": "印度",
+    "parent": 1000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "1360": {
+    "name": "印度尼西亚",
+    "parent": 1000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "1368": {
+    "name": "伊拉克",
+    "parent": 1000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "1376": {
+    "name": "以色列",
+    "parent": 1000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "1392": {
+    "name": "日本",
+    "parent": 1000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "1398": {
+    "name": "哈萨克斯坦",
+    "parent": 1000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "1400": {
+    "name": "约旦",
+    "parent": 1000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "1410": {
+    "name": "韩国",
+    "parent": 1000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "1414": {
+    "name": "科威特",
+    "parent": 1000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "1417": {
+    "name": "吉尔吉斯斯坦",
+    "parent": 1000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "1418": {
+    "name": "老挝",
+    "parent": 1000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "1422": {
+    "name": "黎巴嫩",
+    "parent": 1000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "1458": {
+    "name": "马来西亚",
+    "parent": 1000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "1462": {
+    "name": "马尔代夫",
+    "parent": 1000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "1496": {
+    "name": "蒙古国",
+    "parent": 1000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "1512": {
+    "name": "阿曼",
+    "parent": 1000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "1524": {
+    "name": "尼泊尔",
+    "parent": 1000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "1586": {
+    "name": "巴基斯坦",
+    "parent": 1000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "1608": {
+    "name": "菲律宾",
+    "parent": 1000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "1626": {
+    "name": "东帝汶",
+    "parent": 1000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "1634": {
+    "name": "卡塔尔",
+    "parent": 1000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "1682": {
+    "name": "沙特阿拉伯",
+    "parent": 1000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "1702": {
+    "name": "新加坡",
+    "parent": 1000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "1704": {
+    "name": "越南",
+    "parent": 1000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "1762": {
+    "name": "塔吉克斯坦",
+    "parent": 1000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "1764": {
+    "name": "泰国",
+    "parent": 1000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "1784": {
+    "name": "阿联酋",
+    "parent": 1000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "1795": {
+    "name": "土库曼斯坦",
+    "parent": 1000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "1860": {
+    "name": "乌兹别克斯坦",
+    "parent": 1000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "1887": {
+    "name": "也门",
+    "parent": 1000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "2000": {
+    "name": "非洲",
+    "parent": 9000,
+    "city_level": 4,
+    "level": "province"
+  },
+  "2012": {
+    "name": "阿尔及利亚",
+    "parent": 2000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "2024": {
+    "name": "安哥拉",
+    "parent": 2000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "2072": {
+    "name": "博茨瓦纳",
+    "parent": 2000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "2108": {
+    "name": "布隆迪",
+    "parent": 2000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "2120": {
+    "name": "喀麦隆",
+    "parent": 2000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "2132": {
+    "name": "佛得角",
+    "parent": 2000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "2140": {
+    "name": "中非",
+    "parent": 2000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "2148": {
+    "name": "乍得",
+    "parent": 2000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "2174": {
+    "name": "科摩罗",
+    "parent": 2000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "2178": {
+    "name": "刚果（布）",
+    "parent": 2000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "2180": {
+    "name": "刚果（金）",
+    "parent": 2000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "2204": {
+    "name": "贝宁",
+    "parent": 2000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "2226": {
+    "name": "赤道几内亚",
+    "parent": 2000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "2231": {
+    "name": "埃塞俄比亚",
+    "parent": 2000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "2232": {
+    "name": "厄立特里亚",
+    "parent": 2000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "2262": {
+    "name": "吉布提",
+    "parent": 2000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "2266": {
+    "name": "加蓬",
+    "parent": 2000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "2270": {
+    "name": "冈比亚",
+    "parent": 2000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "2288": {
+    "name": "加纳",
+    "parent": 2000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "2324": {
+    "name": "几内亚",
+    "parent": 2000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "2384": {
+    "name": "科特迪瓦",
+    "parent": 2000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "2404": {
+    "name": "肯尼亚",
+    "parent": 2000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "2426": {
+    "name": "莱索托",
+    "parent": 2000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "2430": {
+    "name": "利比里亚",
+    "parent": 2000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "2434": {
+    "name": "利比亚",
+    "parent": 2000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "2450": {
+    "name": "马达加斯加",
+    "parent": 2000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "2454": {
+    "name": "马拉维",
+    "parent": 2000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "2466": {
+    "name": "马里",
+    "parent": 2000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "2478": {
+    "name": "毛里塔尼亚",
+    "parent": 2000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "2480": {
+    "name": "毛里求斯",
+    "parent": 2000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "2504": {
+    "name": "摩洛哥",
+    "parent": 2000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "2508": {
+    "name": "莫桑比克",
+    "parent": 2000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "2516": {
+    "name": "纳米比亚",
+    "parent": 2000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "2562": {
+    "name": "尼日尔",
+    "parent": 2000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "2566": {
+    "name": "尼日利亚",
+    "parent": 2000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "2624": {
+    "name": "几内亚比绍",
+    "parent": 2000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "2646": {
+    "name": "卢旺达",
+    "parent": 2000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "2678": {
+    "name": "圣多美和普林西比",
+    "parent": 2000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "2686": {
+    "name": "塞内加尔",
+    "parent": 2000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "2690": {
+    "name": "塞舌尔",
+    "parent": 2000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "2694": {
+    "name": "塞拉利昂",
+    "parent": 2000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "2706": {
+    "name": "索马里",
+    "parent": 2000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "2710": {
+    "name": "南非",
+    "parent": 2000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "2716": {
+    "name": "津巴布韦",
+    "parent": 2000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "2728": {
+    "name": "南苏丹",
+    "parent": 2000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "2729": {
+    "name": "苏丹",
+    "parent": 2000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "2748": {
+    "name": "斯威士兰",
+    "parent": 2000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "2768": {
+    "name": "多哥",
+    "parent": 2000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "2788": {
+    "name": "突尼斯",
+    "parent": 2000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "2800": {
+    "name": "乌干达",
+    "parent": 2000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "2818": {
+    "name": "埃及",
+    "parent": 2000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "2834": {
+    "name": "坦桑尼亚",
+    "parent": 2000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "2854": {
+    "name": "布基纳法索",
+    "parent": 2000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "2894": {
+    "name": "赞比亚",
+    "parent": 2000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "3000": {
+    "name": "北美洲",
+    "parent": 9000,
+    "city_level": 4,
+    "level": "province"
+  },
+  "3028": {
+    "name": "安提瓜和巴布达",
+    "parent": 3000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "3044": {
+    "name": "巴哈马",
+    "parent": 3000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "3052": {
+    "name": "巴巴多斯",
+    "parent": 3000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "3084": {
+    "name": "伯利兹",
+    "parent": 3000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "3124": {
+    "name": "加拿大",
+    "parent": 3000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "3188": {
+    "name": "哥斯达黎加",
+    "parent": 3000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "3212": {
+    "name": "多米尼克",
+    "parent": 3000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "3214": {
+    "name": "多米尼加",
+    "parent": 3000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "3222": {
+    "name": "萨尔瓦多",
+    "parent": 3000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "3308": {
+    "name": "格林纳达",
+    "parent": 3000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "3320": {
+    "name": "危地马拉",
+    "parent": 3000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "3332": {
+    "name": "海地",
+    "parent": 3000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "3340": {
+    "name": "洪都拉斯",
+    "parent": 3000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "3388": {
+    "name": "牙买加",
+    "parent": 3000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "3484": {
+    "name": "墨西哥",
+    "parent": 3000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "3558": {
+    "name": "尼加拉瓜",
+    "parent": 3000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "3591": {
+    "name": "巴拿马",
+    "parent": 3000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "3659": {
+    "name": "圣基茨和尼维斯",
+    "parent": 3000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "3662": {
+    "name": "圣卢西亚",
+    "parent": 3000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "3670": {
+    "name": "圣文森特和格林纳丁斯",
+    "parent": 3000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "3780": {
+    "name": "特立尼达和多巴哥",
+    "parent": 3000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "3840": {
+    "name": "美国",
+    "parent": 3000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "5000": {
+    "name": "南美洲",
+    "parent": 9000,
+    "city_level": 4,
+    "level": "province"
+  },
+  "5032": {
+    "name": "阿根廷",
+    "parent": 5000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "5068": {
+    "name": "玻利维亚",
+    "parent": 5000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "5076": {
+    "name": "巴西",
+    "parent": 5000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "5152": {
+    "name": "智利",
+    "parent": 5000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "5170": {
+    "name": "哥伦比亚",
+    "parent": 5000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "5218": {
+    "name": "厄瓜多尔",
+    "parent": 5000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "5328": {
+    "name": "圭亚那",
+    "parent": 5000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "5600": {
+    "name": "巴拉圭",
+    "parent": 5000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "5604": {
+    "name": "秘鲁",
+    "parent": 5000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "5740": {
+    "name": "苏里南",
+    "parent": 5000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "5858": {
+    "name": "乌拉圭",
+    "parent": 5000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "5862": {
+    "name": "委内瑞拉",
+    "parent": 5000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "6000": {
+    "name": "欧洲",
+    "parent": 9000,
+    "city_level": 4,
+    "level": "province"
+  },
+  "6008": {
+    "name": "阿尔巴尼亚",
+    "parent": 6000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "6020": {
+    "name": "安道尔",
+    "parent": 6000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "6040": {
+    "name": "奥地利",
+    "parent": 6000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "6056": {
+    "name": "比利时",
+    "parent": 6000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "6070": {
+    "name": "波黑",
+    "parent": 6000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "6100": {
+    "name": "保加利亚",
+    "parent": 6000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "6112": {
+    "name": "白俄罗斯",
+    "parent": 6000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "6191": {
+    "name": "克罗地亚",
+    "parent": 6000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "6196": {
+    "name": "塞浦路斯",
+    "parent": 6000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "6203": {
+    "name": "捷克",
+    "parent": 6000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "6208": {
+    "name": "丹麦",
+    "parent": 6000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "6233": {
+    "name": "爱沙尼亚",
+    "parent": 6000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "6246": {
+    "name": "芬兰",
+    "parent": 6000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "6250": {
+    "name": "法国",
+    "parent": 6000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "6276": {
+    "name": "德国",
+    "parent": 6000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "6300": {
+    "name": "希腊",
+    "parent": 6000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "6336": {
+    "name": "梵蒂冈",
+    "parent": 6000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "6348": {
+    "name": "匈牙利",
+    "parent": 6000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "6352": {
+    "name": "冰岛",
+    "parent": 6000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "6372": {
+    "name": "爱尔兰",
+    "parent": 6000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "6380": {
+    "name": "意大利",
+    "parent": 6000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "6428": {
+    "name": "拉脱维亚",
+    "parent": 6000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "6438": {
+    "name": "列支敦士登",
+    "parent": 6000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "6440": {
+    "name": "立陶宛",
+    "parent": 6000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "6442": {
+    "name": "卢森堡",
+    "parent": 6000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "6470": {
+    "name": "马耳他",
+    "parent": 6000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "6492": {
+    "name": "摩纳哥",
+    "parent": 6000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "6498": {
+    "name": "摩尔多瓦",
+    "parent": 6000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "6499": {
+    "name": "黑山",
+    "parent": 6000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "6528": {
+    "name": "荷兰",
+    "parent": 6000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "6578": {
+    "name": "挪威",
+    "parent": 6000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "6616": {
+    "name": "波兰",
+    "parent": 6000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "6620": {
+    "name": "葡萄牙",
+    "parent": 6000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "6642": {
+    "name": "罗马尼亚",
+    "parent": 6000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "6643": {
+    "name": "俄罗斯",
+    "parent": 6000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "6674": {
+    "name": "圣马力诺",
+    "parent": 6000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "6688": {
+    "name": "塞尔维亚",
+    "parent": 6000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "6703": {
+    "name": "斯洛伐克",
+    "parent": 6000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "6705": {
+    "name": "斯洛文尼亚",
+    "parent": 6000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "6724": {
+    "name": "西班牙",
+    "parent": 6000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "6752": {
+    "name": "瑞典",
+    "parent": 6000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "6756": {
+    "name": "瑞士",
+    "parent": 6000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "6792": {
+    "name": "土耳其",
+    "parent": 6000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "6804": {
+    "name": "乌克兰",
+    "parent": 6000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "6807": {
+    "name": "马其顿",
+    "parent": 6000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "6826": {
+    "name": "英国",
+    "parent": 6000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "7000": {
+    "name": "大洋洲",
+    "parent": 9000,
+    "city_level": 4,
+    "level": "province"
+  },
+  "7036": {
+    "name": "澳大利亚",
+    "parent": 7000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "7090": {
+    "name": "所罗门群岛",
+    "parent": 7000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "7242": {
+    "name": "斐济",
+    "parent": 7000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "7296": {
+    "name": "基里巴斯",
+    "parent": 7000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "7520": {
+    "name": "瑙鲁",
+    "parent": 7000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "7548": {
+    "name": "瓦努阿图",
+    "parent": 7000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "7554": {
+    "name": "新西兰",
+    "parent": 7000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "7583": {
+    "name": "密克罗尼西亚联邦",
+    "parent": 7000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "7584": {
+    "name": "马绍尔群岛",
+    "parent": 7000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "7585": {
+    "name": "帕劳",
+    "parent": 7000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "7598": {
+    "name": "巴布亚新几内亚",
+    "parent": 7000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "7776": {
+    "name": "汤加",
+    "parent": 7000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "7798": {
+    "name": "图瓦卢",
+    "parent": 7000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "7882": {
+    "name": "萨摩亚",
+    "parent": 7000,
+    "city_level": 4,
+    "level": "city"
+  },
+  "9000": {
+    "name": "国外",
+    "level": "country"
+  },
+  "110000": {
+    "name": "北京市",
+    "city_level": 1,
+    "level": "province"
+  },
+  "110101": {
+    "name": "东城区",
+    "parent": 110000,
+    "city_level": 1,
+    "level": "district"
+  },
+  "110102": {
+    "name": "西城区",
+    "parent": 110000,
+    "city_level": 1,
+    "level": "district"
+  },
+  "110105": {
+    "name": "朝阳区",
+    "parent": 110000,
+    "city_level": 1,
+    "level": "district"
+  },
+  "110106": {
+    "name": "丰台区",
+    "parent": 110000,
+    "city_level": 1,
+    "level": "district"
+  },
+  "110107": {
+    "name": "石景山区",
+    "parent": 110000,
+    "city_level": 1,
+    "level": "district"
+  },
+  "110108": {
+    "name": "海淀区",
+    "parent": 110000,
+    "city_level": 1,
+    "level": "district"
+  },
+  "110109": {
+    "name": "门头沟区",
+    "parent": 110000,
+    "city_level": 1,
+    "level": "district"
+  },
+  "110111": {
+    "name": "房山区",
+    "parent": 110000,
+    "city_level": 1,
+    "level": "district"
+  },
+  "110112": {
+    "name": "通州区",
+    "parent": 110000,
+    "city_level": 1,
+    "level": "district"
+  },
+  "110113": {
+    "name": "顺义区",
+    "parent": 110000,
+    "city_level": 1,
+    "level": "district"
+  },
+  "110114": {
+    "name": "昌平区",
+    "parent": 110000,
+    "city_level": 1,
+    "level": "district"
+  },
+  "110115": {
+    "name": "大兴区",
+    "parent": 110000,
+    "city_level": 1,
+    "level": "district"
+  },
+  "110116": {
+    "name": "怀柔区",
+    "parent": 110000,
+    "city_level": 1,
+    "level": "district"
+  },
+  "110117": {
+    "name": "平谷区",
+    "parent": 110000,
+    "city_level": 1,
+    "level": "district"
+  },
+  "110228": {
+    "name": "密云区",
+    "parent": 110000,
+    "city_level": 1,
+    "level": "district"
+  },
+  "110229": {
+    "name": "延庆区",
+    "parent": 110000,
+    "city_level": 1,
+    "level": "district"
+  },
+  "119900": {
+    "name": "北京市未知",
+    "parent": 110000,
+    "city_level": 1,
+    "level": "city"
+  },
+  "120000": {
+    "name": "天津市",
+    "city_level": 2,
+    "level": "province"
+  },
+  "120101": {
+    "name": "和平区",
+    "parent": 120000,
+    "city_level": 2,
+    "level": "district"
+  },
+  "120102": {
+    "name": "河东区",
+    "parent": 120000,
+    "city_level": 2,
+    "level": "district"
+  },
+  "120103": {
+    "name": "河西区",
+    "parent": 120000,
+    "city_level": 2,
+    "level": "district"
+  },
+  "120104": {
+    "name": "南开区",
+    "parent": 120000,
+    "city_level": 2,
+    "level": "district"
+  },
+  "120105": {
+    "name": "河北区",
+    "parent": 120000,
+    "city_level": 2,
+    "level": "district"
+  },
+  "120106": {
+    "name": "红桥区",
+    "parent": 120000,
+    "city_level": 2,
+    "level": "district"
+  },
+  "120110": {
+    "name": "东丽区",
+    "parent": 120000,
+    "city_level": 2,
+    "level": "district"
+  },
+  "120111": {
+    "name": "西青区",
+    "parent": 120000,
+    "city_level": 2,
+    "level": "district"
+  },
+  "120112": {
+    "name": "津南区",
+    "parent": 120000,
+    "city_level": 2,
+    "level": "district"
+  },
+  "120113": {
+    "name": "北辰区",
+    "parent": 120000,
+    "city_level": 2,
+    "level": "district"
+  },
+  "120114": {
+    "name": "武清区",
+    "parent": 120000,
+    "city_level": 2,
+    "level": "district"
+  },
+  "120115": {
+    "name": "宝坻区",
+    "parent": 120000,
+    "city_level": 2,
+    "level": "district"
+  },
+  "120116": {
+    "name": "滨海新区",
+    "parent": 120000,
+    "city_level": 2,
+    "level": "district"
+  },
+  "120221": {
+    "name": "宁河区",
+    "parent": 120000,
+    "city_level": 2,
+    "level": "district"
+  },
+  "120223": {
+    "name": "静海区",
+    "parent": 120000,
+    "city_level": 2,
+    "level": "district"
+  },
+  "120225": {
+    "name": "蓟州区",
+    "parent": 120000,
+    "city_level": 2,
+    "level": "district"
+  },
+  "129900": {
+    "name": "天津市未知",
+    "parent": 120000,
+    "city_level": 2,
+    "level": "city"
+  },
+  "130000": {
+    "name": "河北省",
+    "city_level": 4,
+    "level": "province"
+  },
+  "130100": {
+    "name": "石家庄市",
+    "parent": 130000,
+    "city_level": 3,
+    "level": "city"
+  },
+  "130102": {
+    "name": "长安区",
+    "parent": 130100,
+    "city_level": 3,
+    "level": "district"
+  },
+  "130104": {
+    "name": "桥西区",
+    "parent": 130100,
+    "city_level": 3,
+    "level": "district"
+  },
+  "130105": {
+    "name": "新华区",
+    "parent": 130100,
+    "city_level": 3,
+    "level": "district"
+  },
+  "130107": {
+    "name": "井陉矿区",
+    "parent": 130100,
+    "city_level": 3,
+    "level": "district"
+  },
+  "130108": {
+    "name": "裕华区",
+    "parent": 130100,
+    "city_level": 3,
+    "level": "district"
+  },
+  "130109": {
+    "name": "藁城区",
+    "parent": 130100,
+    "city_level": 3,
+    "level": "district"
+  },
+  "130110": {
+    "name": "鹿泉区",
+    "parent": 130100,
+    "city_level": 3,
+    "level": "district"
+  },
+  "130111": {
+    "name": "栾城区",
+    "parent": 130100,
+    "city_level": 3,
+    "level": "district"
+  },
+  "130121": {
+    "name": "井陉县",
+    "parent": 130100,
+    "city_level": 3,
+    "level": "district"
+  },
+  "130123": {
+    "name": "正定县",
+    "parent": 130100,
+    "city_level": 3,
+    "level": "district"
+  },
+  "130125": {
+    "name": "行唐县",
+    "parent": 130100,
+    "city_level": 3,
+    "level": "district"
+  },
+  "130126": {
+    "name": "灵寿县",
+    "parent": 130100,
+    "city_level": 3,
+    "level": "district"
+  },
+  "130127": {
+    "name": "高邑县",
+    "parent": 130100,
+    "city_level": 3,
+    "level": "district"
+  },
+  "130128": {
+    "name": "深泽县",
+    "parent": 130100,
+    "city_level": 3,
+    "level": "district"
+  },
+  "130129": {
+    "name": "赞皇县",
+    "parent": 130100,
+    "city_level": 3,
+    "level": "district"
+  },
+  "130130": {
+    "name": "无极县",
+    "parent": 130100,
+    "city_level": 3,
+    "level": "district"
+  },
+  "130131": {
+    "name": "平山县",
+    "parent": 130100,
+    "city_
+
+... [Content truncated, total 367,099 chars] ...

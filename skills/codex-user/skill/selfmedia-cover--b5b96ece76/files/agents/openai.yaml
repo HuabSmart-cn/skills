@@ -1,0 +1,7 @@
+interface:
+  display_name: "自媒体封面"
+  short_description: "跨平台自媒体封面设计、风格选择和精准生成提示词助手"
+  default_prompt: "Use $selfmedia-cover to create a polished cross-platform self-media cover with the user’s exact title text."
+
+policy:
+  allow_implicit_invocation: true

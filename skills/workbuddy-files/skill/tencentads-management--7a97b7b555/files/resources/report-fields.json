@@ -1,0 +1,1142 @@
+[
+  {
+    "field": "date",
+    "type": "string",
+    "label": "日期",
+    "category": "基础指标"
+  },
+  {
+    "field": "account_id",
+    "type": "integer",
+    "label": "账号ID",
+    "category": "基础指标"
+  },
+  {
+    "field": "view_count",
+    "type": "integer",
+    "label": "曝光次数",
+    "category": "基础指标",
+    "description": "广告被展示给用户的次数"
+  },
+  {
+    "field": "view_user_count",
+    "type": "integer",
+    "label": "曝光人数",
+    "category": "基础指标",
+    "description": "产生曝光的独立用户数，当天数据存在数小时延迟，请以隔天数据为准"
+  },
+  {
+    "field": "avg_view_per_user",
+    "type": "float",
+    "label": "人均曝光次数",
+    "category": "基础指标",
+    "description": "计算公式：曝光次数/曝光人数"
+  },
+  {
+    "field": "valid_click_count",
+    "type": "integer",
+    "label": "点击次数",
+    "category": "基础指标",
+    "description": "广告被用户点击的次数"
+  },
+  {
+    "field": "click_user_count",
+    "type": "integer",
+    "label": "点击人数",
+    "category": "基础指标",
+    "description": "点击广告的独立用户数，当天数据存在数小时延迟，请以隔天数据为准"
+  },
+  {
+    "field": "cpc",
+    "type": "integer",
+    "label": "点击均价",
+    "category": "基础指标",
+    "description": "计算公式：花费/点击次数"
+  },
+  {
+    "field": "ctr",
+    "type": "float",
+    "label": "点击率",
+    "category": "基础指标",
+    "description": "计算公式：点击次数/曝光次数×100%"
+  },
+  {
+    "field": "valuable_click_count",
+    "type": "integer",
+    "label": "可转化点击次数",
+    "category": "基础指标",
+    "description": "仅微信流量可统计"
+  },
+  {
+    "field": "valuable_click_cost",
+    "type": "integer",
+    "label": "可转化点击成本",
+    "category": "基础指标",
+    "description": "计算公式：花费/可转化点击次数"
+  },
+  {
+    "field": "valuable_click_rate",
+    "type": "float",
+    "label": "可转化点击率",
+    "category": "基础指标",
+    "description": "计算公式：可转化点击次数/曝光次数×100%"
+  },
+  {
+    "field": "cost",
+    "type": "integer",
+    "label": "花费/消耗",
+    "category": "基础指标",
+    "description": "广告主为广告投放总共付出的费用成本，实际花费请以财务记录为准"
+  },
+  {
+    "field": "acquisition_cost",
+    "type": "integer",
+    "label": "一键起量消耗",
+    "category": "基础指标",
+    "description": "广告在一键起量过程中产生的消耗"
+  },
+  {
+    "field": "thousand_display_price",
+    "type": "integer",
+    "label": "千次展现均价",
+    "category": "基础指标",
+    "description": "计算公式：花费/曝光次数×1000"
+  },
+  {
+    "field": "conversions_count",
+    "type": "integer",
+    "label": "目标转化量",
+    "category": "基础指标",
+    "description": "优化目标的转化量"
+  },
+  {
+    "field": "conversions_rate",
+    "type": "float",
+    "label": "目标转化率",
+    "category": "基础指标",
+    "description": "计算公式：目标转化量/点击次数×100%"
+  },
+  {
+    "field": "conversions_cost",
+    "type": "integer",
+    "label": "目标转化成本",
+    "category": "基础指标",
+    "description": "计算公式：花费/目标转化量"
+  },
+  {
+    "field": "deep_conversions_count",
+    "type": "integer",
+    "label": "深度目标转化量",
+    "category": "基础指标",
+    "description": "深度优化目标的转化量（无深度转化优化功能时可能为空）"
+  },
+  {
+    "field": "deep_conversions_rate",
+    "type": "float",
+    "label": "深度目标转化率",
+    "category": "基础指标",
+    "description": "计算公式：深度目标转化量/点击次数×100%"
+  },
+  {
+    "field": "deep_conversions_cost",
+    "type": "integer",
+    "label": "深度转化成本",
+    "category": "基础指标",
+    "description": "计算公式：花费/深度目标转化量"
+  },
+  {
+    "field": "conversions_by_display_count",
+    "type": "integer",
+    "label": "目标转化量（曝光归因）",
+    "category": "基础指标",
+    "description": "仅统计曝光归因部分"
+  },
+  {
+    "field": "conversions_by_display_rate",
+    "type": "float",
+    "label": "目标转化率（曝光归因）",
+    "category": "基础指标",
+    "description": "计算公式：目标转化量（曝光归因）/点击次数×100%"
+  },
+  {
+    "field": "conversions_by_display_cost",
+    "type": "integer",
+    "label": "目标转化成本（曝光归因）",
+    "category": "基础指标",
+    "description": "计算公式：花费/目标转化量（曝光归因）"
+  },
+  {
+    "field": "conversions_by_click_count",
+    "type": "integer",
+    "label": "目标转化量（点击归因）",
+    "category": "基础指标",
+    "description": "仅统计点击归因部分"
+  },
+  {
+    "field": "conversions_by_click_rate",
+    "type": "float",
+    "label": "目标转化率（点击归因）",
+    "category": "基础指标",
+    "description": "计算公式：目标转化量（点击归因）/点击次数×100%"
+  },
+  {
+    "field": "conversions_by_click_cost",
+    "type": "integer",
+    "label": "目标转化成本（点击归因）",
+    "category": "基础指标",
+    "description": "计算公式：花费/目标转化量（点击归因）"
+  },
+  {
+    "field": "preview_conversions_count",
+    "type": "integer",
+    "label": "目标转化量（在线预览）",
+    "category": "基础指标",
+    "description": "通过广告线上预览功能，带来的广告优化目标达成量"
+  },
+  {
+    "field": "preview_deep_conversions_count",
+    "type": "integer",
+    "label": "深度目标转化量（在线预览）",
+    "category": "基础指标",
+    "description": "通过广告线上预览功能，带来的广告深度优化目标达成量"
+  },
+  {
+    "field": "video_outer_play_count",
+    "type": "integer",
+    "label": "视频有效播放次数",
+    "category": "视频指标",
+    "description": "在广告有效曝光前提下产生的视频有效播放数量"
+  },
+  {
+    "field": "video_outer_play_user_count",
+    "type": "integer",
+    "label": "视频有效播放人数",
+    "category": "视频指标",
+    "description": "在广告有效曝光前提下产生的视频有效播放用户数"
+  },
+  {
+    "field": "avg_user_play_count",
+    "type": "float",
+    "label": "人均播放次数",
+    "category": "视频指标",
+    "description": "计算公式：视频有效播放次数/视频有效播放人数"
+  },
+  {
+    "field": "video_outer_play_time_count",
+    "type": "float",
+    "label": "平均有效播放时长",
+    "category": "视频指标",
+    "description": "计算公式：视频有效播放总时长/视频有效播放次数"
+  },
+  {
+    "field": "video_outer_play_time_avg_rate",
+    "type": "float",
+    "label": "平均有效播放进度",
+    "category": "视频指标",
+    "description": "计算公式：视频有效播放总时长/视频播放总时长"
+  },
+  {
+    "field": "video_outer_play_rate",
+    "type": "float",
+    "label": "有效播放率",
+    "category": "视频指标",
+    "description": "计算公式：视频有效播放次数/曝光次数×100%"
+  },
+  {
+    "field": "video_outer_play_cost",
+    "type": "integer",
+    "label": "有效播放成本",
+    "category": "视频指标",
+    "description": "计算公式：花费/视频有效播放次数"
+  },
+  {
+    "field": "video_outer_play10_count",
+    "type": "integer",
+    "label": "10%进度播放次数",
+    "category": "视频指标",
+    "description": "播放进度≥10%的有效播放量"
+  },
+  {
+    "field": "video_outer_play25_count",
+    "type": "integer",
+    "label": "25%进度播放次数",
+    "category": "视频指标",
+    "description": "播放进度≥25%的有效播放量"
+  },
+  {
+    "field": "video_outer_play50_count",
+    "type": "integer",
+    "label": "50%进度播放次数",
+    "category": "视频指标",
+    "description": "播放进度≥50%的有效播放量"
+  },
+  {
+    "field": "video_outer_play75_count",
+    "type": "integer",
+    "label": "75%进度播放次数",
+    "category": "视频指标",
+    "description": "播放进度≥75%的有效播放量"
+  },
+  {
+    "field": "video_outer_play90_count",
+    "type": "integer",
+    "label": "90%进度播放次数",
+    "category": "视频指标",
+    "description": "播放进度≥90%的有效播放量"
+  },
+  {
+    "field": "video_outer_play95_count",
+    "type": "integer",
+    "label": "95%进度播放次数",
+    "category": "视频指标",
+    "description": "播放进度≥95%的有效播放量"
+  },
+  {
+    "field": "video_outer_play100_count",
+    "type": "integer",
+    "label": "100%进度播放次数",
+    "category": "视频指标",
+    "description": "播放进度100%的有效播放量"
+  },
+  {
+    "field": "video_outer_play3s_count",
+    "type": "integer",
+    "label": "3s播放完成次数",
+    "category": "视频指标",
+    "description": "播放进度≥3s的有效播放量"
+  },
+  {
+    "field": "video_outer_play3s_rate",
+    "type": "float",
+    "label": "3s播放完成率",
+    "category": "视频指标",
+    "description": "计算公式：3s播放完成次数/曝光次数"
+  },
+  {
+    "field": "video_outer_play5s_count",
+    "type": "integer",
+    "label": "5s播放完成次数",
+    "category": "视频指标",
+    "description": "播放进度≥5s的有效播放量"
+  },
+  {
+    "field": "video_outer_play7s_count",
+    "type": "integer",
+    "label": "7s播放完成次数",
+    "category": "视频指标",
+    "description": "播放进度≥7s的有效播放量"
+  },
+  {
+    "field": "video_outer_play5s_rate",
+    "type": "float",
+    "label": "5s播放完成率",
+    "category": "视频指标",
+    "description": "计算公式：5s播放完成次数/曝光次数"
+  },
+  {
+    "field": "read_count",
+    "type": "integer",
+    "label": "阅读次数",
+    "category": "互动指标",
+    "description": "广告被受众阅读的数量"
+  },
+  {
+    "field": "read_cost",
+    "type": "integer",
+    "label": "阅读成本",
+    "category": "互动指标",
+    "description": "计算公式：花费/阅读次数"
+  },
+  {
+    "field": "comment_count",
+    "type": "integer",
+    "label": "评论次数",
+    "category": "互动指标",
+    "description": "广告被受众评论的数量"
+  },
+  {
+    "field": "comment_cost",
+    "type": "integer",
+    "label": "评论成本",
+    "category": "互动指标",
+    "description": "计算公式：花费/评论次数"
+  },
+  {
+    "field": "praise_count",
+    "type": "integer",
+    "label": "点赞次数",
+    "category": "互动指标",
+    "description": "广告被受众点赞的数量（微信视频号版位下点赞量=喜欢+推荐+私密赞）"
+  },
+  {
+    "field": "praise_cost",
+    "type": "integer",
+    "label": "点赞成本",
+    "category": "互动指标",
+    "description": "计算公式：花费/点赞次数"
+  },
+  {
+    "field": "forward_count",
+    "type": "integer",
+    "label": "分享次数",
+    "category": "互动指标",
+    "description": "广告被受众转发分享的数量"
+  },
+  {
+    "field": "forward_cost",
+    "type": "integer",
+    "label": "分享成本",
+    "category": "互动指标",
+    "description": "计算公式：花费/分享次数"
+  },
+  {
+    "field": "no_interest_count",
+    "type": "integer",
+    "label": "不感兴趣点击次数",
+    "category": "互动指标",
+    "description": "目前仅朋友圈流量可统计"
+  },
+  {
+    "field": "live_stream_crt_click_cnt",
+    "type": "integer",
+    "label": "素材点击次数",
+    "category": "广告组件点击指标",
+    "description": "广告素材的总点击次数"
+  },
+  {
+    "field": "click_image_count",
+    "type": "integer",
+    "label": "外层图片点击次数",
+    "category": "广告组件点击指标",
+    "description": "目前仅朋友圈流量可统计"
+  },
+  {
+    "field": "click_head_count",
+    "type": "integer",
+    "label": "头像点击次数",
+    "category": "广告组件点击指标",
+    "description": "用户点击朋友圈及视频号广告外层\"头像\"位置的次数"
+  },
+  {
+    "field": "click_detail_count",
+    "type": "integer",
+    "label": "文字链点击次数",
+    "category": "广告组件点击指标",
+    "description": "用户点击朋友圈广告外层\"文字链\"位置的次数"
+  },
+  {
+    "field": "click_poi_count",
+    "type": "integer",
+    "label": "本地门店点击次数",
+    "category": "广告组件点击指标",
+    "description": "用户点击朋友圈广告外层\"门店\"位置的总次数"
+  },
+  {
+    "field": "zone_header_click_count",
+    "type": "integer",
+    "label": "顶部运营位点击次数",
+    "category": "广告组件点击指标",
+    "description": "包括品牌背景、行动按钮"
+  },
+  {
+    "field": "basic_info_client_count",
+    "type": "integer",
+    "label": "官方信息区/PC左侧标题-点击次数",
+    "category": "官方信息区指标",
+    "description": "移动品专点击官方信息区任意位置、PC品专点击PC左侧标题的总次数"
+  },
+  {
+    "field": "account_info_click_count",
+    "type": "integer",
+    "label": "官方账号区-点击次数（旧）",
+    "category": "官方信息区指标",
+    "description": "包括小程序组件、视频号组件、公众号组件、进店组件、更多官方账号"
+  },
+  {
+    "field": "clk_account_living_status_pv",
+    "type": "integer",
+    "label": "官方账号区-直播中头像点击次数（旧）",
+    "category": "官方信息区指标"
+  },
+  {
+    "field": "clk_accountinfo_weapp_pv",
+    "type": "integer",
+    "label": "官方账号区-小程序组件点击次数（旧）",
+    "category": "官方信息区指标"
+  },
+  {
+    "field": "clk_accountinfo_finder_pv",
+    "type": "integer",
+    "label": "官方账号区-视频号组件点击次数（旧）",
+    "category": "官方信息区指标"
+  },
+  {
+    "field": "clk_accountinfo_biz_pv",
+    "type": "integer",
+    "label": "官方账号区-公众号组件点击次数（旧）",
+    "category": "官方信息区指标"
+  },
+  {
+    "field": "clk_account_info_producttab_pv",
+    "type": "integer",
+    "label": "官方账号区-系列tab总点击次数（旧）",
+    "category": "官方信息区指标"
+  },
+  {
+    "field": "clk_account_info_productdetail_pv",
+    "type": "integer",
+    "label": "官方账号区-商品卡总点击次数（旧）",
+    "category": "官方信息区指标"
+  },
+  {
+    "field": "activity_info_click_count",
+    "type": "integer",
+    "label": "热门活动区-点击次数（旧）",
+    "category": "官方信息区指标"
+  },
+  {
+    "field": "clk_bheader_pv",
+    "type": "integer",
+    "label": "官方信息区-点击次数（新）",
+    "category": "官方信息区指标",
+    "description": "包含品牌名称、门店地址、在线客服、联系电话"
+  },
+  {
+    "field": "clk_bh_name_pv",
+    "type": "integer",
+    "label": "官方信息区-品牌名称点击次数（新）",
+    "category": "官方信息区指标"
+  },
+  {
+    "field": "clk_bh_store_pv",
+    "type": "integer",
+    "label": "官方信息区-门店地址点击次数（新）",
+    "category": "官方信息区指标"
+  },
+  {
+    "field": "clk_bh_service_pv",
+    "type": "integer",
+    "label": "官方信息区-在线客服点击次数（新）",
+    "category": "官方信息区指标"
+  },
+  {
+    "field": "clk_bh_phone_pv",
+    "type": "integer",
+    "label": "官方信息区-联系电话点击次数（新）",
+    "category": "官方信息区指标"
+  },
+  {
+    "field": "clk_baccount_pv",
+    "type": "integer",
+    "label": "官方账号区-点击次数（新）",
+    "category": "官方信息区指标",
+    "description": "包括直播中头像、公众号、小程序、视频号组件"
+  },
+  {
+    "field": "clk_ba_livetag_pv",
+    "type": "integer",
+    "label": "官方账号-直播中头像点击次数（新）",
+    "category": "官方信息区指标"
+  },
+  {
+    "field": "clk_ba_biz_pv",
+    "type": "integer",
+    "label": "官方账号区-公众号点击次数（新）",
+    "category": "官方信息区指标"
+  },
+  {
+    "field": "clk_ba_finder_pv",
+    "type": "integer",
+    "label": "官方账号区-视频号点击次数（新）",
+    "category": "官方信息区指标"
+  },
+  {
+    "field": "clk_ba_weapp_pv",
+    "type": "integer",
+    "label": "官方账号区-小程序点击次数（新）",
+    "category": "官方信息区指标"
+  },
+  {
+    "field": "clk_ba_more_pv",
+    "type": "integer",
+    "label": "官方账号-更多点击次数（新）",
+    "category": "官方信息区指标"
+  },
+  {
+    "field": "clk_ba_wegame_pv",
+    "type": "integer",
+    "label": "官方账号区-小游戏点击次数（新）",
+    "category": "官方信息区指标"
+  },
+  {
+    "field": "clk_bmarketing_pv",
+    "type": "integer",
+    "label": "营销信息区-点击次数（新）",
+    "category": "官方信息区指标",
+    "description": "包括系列tab、商品卡组件"
+  },
+  {
+    "field": "clk_bm_tab_pv",
+    "type": "integer",
+    "label": "营销信息区-官方商品系列tab点击次数（新）",
+    "category": "官方信息区指标"
+  },
+  {
+    "field": "clk_bm_product_pv",
+    "type": "integer",
+    "label": "营销信息区-官方商品商品卡点击次数（新）",
+    "category": "官方信息区指标"
+  },
+  {
+    "field": "clk_bm_activity_pv",
+    "type": "integer",
+    "label": "营销信息区-热门活动点击次数（新）",
+    "category": "官方信息区指标"
+  },
+  {
+    "field": "clk_bm_vertical_pv",
+    "type": "integer",
+    "label": "营销信息区-相关视频点击次数（新）",
+    "category": "官方信息区指标"
+  },
+  {
+    "field": "clk_bm_privilege_pv",
+    "type": "integer",
+    "label": "营销信息区-官方权益点击次数（新）",
+    "category": "官方信息区指标"
+  },
+  {
+    "field": "clk_bm_series_pv",
+    "type": "integer",
+    "label": "营销信息区-小店商品系列tab点击次数（新）",
+    "category": "官方信息区指标"
+  },
+  {
+    "field": "clk_bm_detail_pv",
+    "type": "integer",
+    "label": "营销信息区-小店商品商品卡点击次数（新）",
+    "category": "官方信息区指标"
+  },
+  {
+    "field": "clk_bm_live_pv",
+    "type": "integer",
+    "label": "营销信息区-官方直播点击次数（新）",
+    "category": "官方信息区指标"
+  },
+  {
+    "field": "clk_bapp_pv",
+    "type": "integer",
+    "label": "应用服务组件-点击次数（新）",
+    "category": "官方信息区指标",
+    "description": "包括立即下载/立即预约按钮"
+  },
+  {
+    "field": "clk_bquick_pv",
+    "type": "integer",
+    "label": "快捷功能-点击次数（新）",
+    "category": "官方信息区指标"
+  },
+  {
+    "field": "clk_bacount_pv",
+    "type": "integer",
+    "label": "官方服务区-点击次数（新）",
+    "category": "官方信息区指标"
+  },
+  {
+    "field": "overall_leads_purchase_count",
+    "type": "integer",
+    "label": "综合销售线索人数",
+    "category": "线索指标",
+    "description": "包含在线咨询、电话直拨、表单预约"
+  },
+  {
+    "field": "effective_leads_count",
+    "type": "integer",
+    "label": "有效线索次数",
+    "category": "线索指标",
+    "description": "广告主投放网页内，产生有效线索的次数"
+  },
+  {
+    "field": "effective_cost",
+    "type": "integer",
+    "label": "有效线索成本",
+    "category": "线索指标",
+    "description": "计算公式：花费/有效线索次数"
+  },
+  {
+    "field": "effect_leads_purchase_count",
+    "type": "integer",
+    "label": "有效线索人数",
+    "category": "线索指标",
+    "description": "产生有效线索的独立用户数"
+  },
+  {
+    "field": "effect_leads_purchase_cost",
+    "type": "integer",
+    "label": "有效线索成本（人数）",
+    "category": "线索指标",
+    "description": "计算公式：花费/有效线索人数"
+  },
+  {
+    "field": "potential_consult_count",
+    "type": "integer",
+    "label": "潜在客户线索次数-咨询",
+    "category": "线索指标"
+  },
+  {
+    "field": "effective_consult_count",
+    "type": "integer",
+    "label": "有效线索次数-咨询",
+    "category": "线索指标"
+  },
+  {
+    "field": "tool_consult_count",
+    "type": "integer",
+    "label": "附加创意智能咨询次数",
+    "category": "线索指标",
+    "description": "用户点击创意下方咨询组件的次数"
+  },
+  {
+    "field": "potential_reserve_count",
+    "type": "integer",
+    "label": "潜在客户线索次数-表单",
+    "category": "线索指标"
+  },
+  {
+    "field": "effective_reserve_count",
+    "type": "integer",
+    "label": "有效线索次数-表单",
+    "category": "线索指标"
+  },
+  {
+    "field": "valid_leads_uv",
+    "type": "integer",
+    "label": "有效线索人数-表单",
+    "category": "线索指标",
+    "description": "产生表单有效线索的独立用户数"
+  },
+  {
+    "field": "potential_phone_count",
+    "type": "integer",
+    "label": "潜在客户线索次数-电话",
+    "category": "线索指标"
+  },
+  {
+    "field": "potential_customer_phone_uv",
+    "type": "integer",
+    "label": "潜在客户人数-电话",
+    "category": "线索指标"
+  },
+  {
+    "field": "effective_phone_count",
+    "type": "integer",
+    "label": "有效线索次数-电话",
+    "category": "线索指标"
+  },
+  {
+    "field": "valid_phone_uv",
+    "type": "integer",
+    "label": "有效线索人数-电话",
+    "category": "线索指标"
+  },
+  {
+    "field": "ineffective_leads_uv",
+    "type": "integer",
+    "label": "无效线索人数",
+    "category": "线索指标",
+    "description": "通过电话外呼，确认无效的线索用户"
+  },
+  {
+    "field": "reservation_check_uv",
+    "type": "integer",
+    "label": "意向表单人数",
+    "category": "线索指标"
+  },
+  {
+    "field": "reservation_check_uv_cost",
+    "type": "integer",
+    "label": "意向表单成本（人数）",
+    "category": "线索指标",
+    "description": "计算公式：花费/意向表单人数"
+  },
+  {
+    "field": "reservation_check_uv_rate",
+    "type": "float",
+    "label": "意向表单率（人数）",
+    "category": "线索指标",
+    "description": "计算公式：意向表单人数/点击次数"
+  },
+  {
+    "field": "platform_page_view_count",
+    "type": "integer",
+    "label": "落地页曝光次数",
+    "category": "落地页指标",
+    "description": "原名称【落地页内曝光次数】"
+  },
+  {
+    "field": "platform_page_view_rate",
+    "type": "float",
+    "label": "落地页曝光率",
+    "category": "落地页指标",
+    "description": "计算公式：落地页曝光次数/曝光次数×100%"
+  },
+  {
+    "field": "platform_page_view_user_count",
+    "type": "integer",
+    "label": "落地页曝光人数",
+    "category": "落地页指标",
+    "description": "原名称【落地页内曝光人数】"
+  },
+  {
+    "field": "lan_button_click_count",
+    "type": "integer",
+    "label": "落地页组件点击次数",
+    "category": "落地页指标",
+    "description": "原名称【落地页内点击次数】"
+  },
+  {
+    "field": "lan_jump_button_clickers",
+    "type": "integer",
+    "label": "落地页组件点击人数",
+    "category": "落地页指标",
+    "description": "原名称【落地页内点击人数】"
+  },
+  {
+    "field": "lan_button_click_cost",
+    "type": "integer",
+    "label": "落地页点击成本",
+    "category": "落地页指标",
+    "description": "计算公式：花费/落地页组件点击次数"
+  },
+  {
+    "field": "lan_jump_button_ctr",
+    "type": "float",
+    "label": "落地页点击率（人数）",
+    "category": "落地页指标",
+    "description": "计算公式：落地页组件点击人数/点击次数×100%"
+  },
+  {
+    "field": "lan_jump_button_click_cost",
+    "type": "integer",
+    "label": "落地页点击成本（人数）",
+    "category": "落地页指标",
+    "description": "计算公式：花费/落地页组件点击人数"
+  },
+  {
+    "field": "lan_jump_button_rate",
+    "type": "float",
+    "label": "落地页转化率",
+    "category": "落地页指标",
+    "description": "计算公式：落地页组件点击人数/落地页曝光人数×100%"
+  },
+  {
+    "field": "key_page_view_count",
+    "type": "integer",
+    "label": "关键页面访问次数",
+    "category": "落地页指标"
+  },
+  {
+    "field": "key_page_view_by_display_count",
+    "type": "integer",
+    "label": "关键页面访问次数（曝光归因）",
+    "category": "落地页指标"
+  },
+  {
+    "field": "key_page_view_by_click_count",
+    "type": "integer",
+    "label": "关键页面访问次数（点击归因）",
+    "category": "落地页指标"
+  },
+  {
+    "field": "key_page_uv",
+    "type": "integer",
+    "label": "关键页面访问人数",
+    "category": "落地页指标"
+  },
+  {
+    "field": "key_page_view_cost",
+    "type": "integer",
+    "label": "关键页面访问成本",
+    "category": "落地页指标",
+    "description": "计算公式：花费/关键页面访问次数"
+  },
+  {
+    "field": "key_page_view_rate",
+    "type": "float",
+    "label": "关键页面访问率",
+    "category": "落地页指标",
+    "description": "计算公式：关键页面访问次数/点击次数×100%"
+  },
+  {
+    "field": "app_key_page_retention_rate",
+    "type": "float",
+    "label": "关键页面次日留存率",
+    "category": "落地页指标",
+    "description": "计算公式：次日留存次数/关键页面访问次数×100%"
+  },
+  {
+    "field": "landing_commodity_detail_exp_pv",
+    "type": "integer",
+    "label": "商品页浏览次数",
+    "category": "商品页指标"
+  },
+  {
+    "field": "app_commodity_page_view_by_display_count",
+    "type": "integer",
+    "label": "商品页浏览次数（曝光归因）",
+    "category": "商品页指标"
+  },
+  {
+    "field": "app_commodity_page_view_by_click_count",
+    "type": "integer",
+    "label": "商品页浏览次数（点击归因）",
+    "category": "商品页指标"
+  },
+  {
+    "field": "view_commodity_page_uv",
+    "type": "integer",
+    "label": "商品页浏览人数",
+    "category": "商品页指标"
+  },
+  {
+    "field": "web_commodity_page_view_rate",
+    "type": "float",
+    "label": "商品页浏览率",
+    "category": "商品页指标",
+    "description": "计算公式：商品页浏览次数/点击次数×100%"
+  },
+  {
+    "field": "web_commodity_page_view_cost",
+    "type": "integer",
+    "label": "商品页浏览成本",
+    "category": "商品页指标",
+    "description": "计算公式：花费/商品页浏览次数"
+  },
+  {
+    "field": "own_page_navigation_count",
+    "type": "integer",
+    "label": "自有页导航次数",
+    "category": "商品页指标"
+  },
+  {
+    "field": "own_page_navi_cost",
+    "type": "integer",
+    "label": "自有页导航成本",
+    "category": "商品页指标",
+    "description": "计算公式：花费/自有页导航次数"
+  },
+  {
+    "field": "platform_page_navigation_count",
+    "type": "integer",
+    "label": "平台页导航次数",
+    "category": "商品页指标"
+  },
+  {
+    "field": "platform_page_navigation_cost",
+    "type": "integer",
+    "label": "平台页导航成本",
+    "category": "商品页指标",
+    "description": "计算公式：花费/平台页导航次数"
+  },
+  {
+    "field": "platform_shop_navigation_count",
+    "type": "integer",
+    "label": "平台页门店点击次数",
+    "category": "商品页指标"
+  },
+  {
+    "field": "platform_shop_navigation_cost",
+    "type": "integer",
+    "label": "平台页门店页导航成本",
+    "category": "商品页指标",
+    "description": "计算公式：花费/平台页门店点击次数"
+  },
+  {
+    "field": "page_consult_count",
+    "type": "integer",
+    "label": "在线咨询次数（客户+平台）",
+    "category": "在线咨询指标"
+  },
+  {
+    "field": "consult_uv_count",
+    "type": "integer",
+    "label": "在线咨询人数",
+    "category": "在线咨询指标",
+    "description": "包含客户上报与平台上报的合并去重"
+  },
+  {
+    "field": "page_consult_rate",
+    "type": "float",
+    "label": "在线咨询率",
+    "category": "在线咨询指标",
+    "description": "计算公式：在线咨询人数（客户+平台）/点击次数×100%"
+  },
+  {
+    "field": "page_consult_cost",
+    "type": "integer",
+    "label": "在线咨询成本",
+    "category": "在线咨询指标",
+    "description": "计算公式：花费/在线咨询次数(客户+平台)"
+  },
+  {
+    "field": "consult_leave_info_users",
+    "type": "integer",
+    "label": "咨询留资人数",
+    "category": "在线咨询指标"
+  },
+  {
+    "field": "consult_leave_info_cost",
+    "type": "integer",
+    "label": "咨询留咨成本",
+    "category": "在线咨询指标",
+    "description": "计算公式：花费/咨询留资人数"
+  },
+  {
+    "field": "page_reservation_count",
+    "type": "integer",
+    "label": "表单预约次数",
+    "category": "表单预约指标"
+  },
+  {
+    "field": "page_reservation_by_display_count",
+    "type": "integer",
+    "label": "表单预约次数（曝光归因）",
+    "category": "表单预约指标"
+  },
+  {
+    "field": "page_reservation_by_click_count",
+    "type": "integer",
+    "label": "表单预约次数（点击归因）",
+    "category": "表单预约指标"
+  },
+  {
+    "field": "reservation_uv",
+    "type": "integer",
+    "label": "表单预约人数",
+    "category": "表单预约指标"
+  },
+  {
+    "field": "reservation_amount",
+    "type": "integer",
+    "label": "表单预约金额",
+    "category": "表单预约指标"
+  },
+  {
+    "field": "page_reservation_cost",
+    "type": "integer",
+    "label": "表单预约成本",
+    "category": "表单预约指标",
+    "description": "计算公式：花费/表单预约次数"
+  },
+  {
+    "field": "page_reservation_cost_with_people",
+    "type": "integer",
+    "label": "表单预约成本（人数）",
+    "category": "表单预约指标",
+    "description": "计算公式：花费/表单预约人数"
+  },
+  {
+    "field": "page_reservation_rate",
+    "type": "float",
+    "label": "表单预约率",
+    "category": "表单预约指标",
+    "description": "计算公式：表单预约次数/点击次数"
+  },
+  {
+    "field": "page_reservation_roi",
+    "type": "float",
+    "label": "表单预约ROI",
+    "category": "表单预约指标",
+    "description": "计算公式：表单预约金额/花费"
+  },
+  {
+    "field": "biz_reservation_uv",
+    "type": "integer",
+    "label": "公众号内表单预约人数",
+    "category": "表单预约指标"
+  },
+  {
+    "field": "biz_reservation_follow_rate",
+    "type": "float",
+    "label": "公众号内表单预约率",
+    "category": "表单预约指标",
+    "description": "计算公式：公众号内表单预约人数/公众号关注人数(平台上报)"
+  },
+  {
+    "field": "external_form_reservation_count",
+    "type": "integer",
+    "label": "附加创意表单预约次数",
+    "category": "表单预约指标"
+  },
+  {
+    "field": "try_out_intention_uv",
+    "type": "integer",
+    "label": "排程人数",
+    "category": "表单预约指标",
+    "description": "通过电话外呼，确认用户到店试驾时间的人数"
+  },
+  {
+    "field": "page_phone_call_direct_count",
+    "type": "integer",
+    "label": "电话直拨次数",
+    "category": "电话直拨指标"
+  },
+  {
+    "field": "page_phone_call_direct_rate",
+    "type": "float",
+    "label": "电话直拨率",
+    "category": "电话直拨指标",
+    "description": "计算公式：电话直拨次数/点击次数×100%"
+  },
+  {
+    "field": "page_phone_call_direct_cost",
+    "type": "integer",
+    "label": "电话直拨成本",
+    "category": "电话直拨指标",
+    "description": "计算公式：花费/电话直拨次数"
+  },
+  {
+    "field": "coupon_get_pv",
+    "type": "integer",
+    "label": "领券次数",
+    "category": "优惠券指标"
+  },
+  {
+    "field": "coupon_get_cost",
+    "type": "integer",
+    "label": "领券成本",
+    "category": "优惠券指标",
+    "description": "计算公式：花费/领券次数"
+  },
+  {
+    "field": "coupon_get_rate",
+    "type": "float",
+    "label": "领券率",
+    "category": "优惠券指标",
+    "description": "计算公式：领券次数/点击次数×100%"
+  },
+  {
+    "field": "platform_coupon_click_count",
+    "type": "integer",
+    "label": "平台页卡券点击次数",
+    "category": "优惠券指标",
+    "description": "极速版投放端适用"
+  },
+  {
+    "field": "purchase_amount_with_coupon",
+    "type": "integer",
+    "label": "平台页卡券购买次数",
+    "category": "优惠券指标",
+    "description": "极速版投放端适用"
+  },
+  {
+    "field": "coupon_purchase_rate",
+    "type": "float",
+    "label": "平台页卡券购买率",
+    "category": "优惠券指标",
+    "description": "计算公式：平台页卡券购买次数/点击次数×100%"
+  },
+  {
+    "field": "purchase_amoun
+
+... [Content truncated, total 117,123 chars] ...

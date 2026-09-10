@@ -1,0 +1,648 @@
+
+========== PAGE 1 ==========
+1
+Brazil Systematic Country Diagnostic - Update
+JULY
+2023
+Brazil 
+Systematic 
+Country 
+Diagnostic 
+Update
+Public Disclosure Authorized
+Public Disclosure Authorized
+Public Disclosure Authorized
+Public Disclosure Authorized
+
+========== PAGE 2 ==========
+Brazil Systematic Country Diagnostic - Update
+2
+
+========== PAGE 3 ==========
+3
+Brazil Systematic Country Diagnostic - Update
+Brazil 
+Systematic 
+Country 
+Diagnostic 
+Update
+
+========== PAGE 4 ==========
+Brazil Systematic Country Diagnostic - Update
+4
+© 2023 International Bank for Reconstruction and 
+Development / The World Bank 
+1818 H Street NW, Washington DC 20433 
+Telephone: 202-473-1000 
+Internet: www.worldbank.org 
+This work is a product of the staff of The World Bank 
+with external contributions. The findings, interpreta-
+tions, and conclusions expressed in this work do not 
+necessarily reflect the views of The World Bank, its 
+Board of Executive Directors, or the governments they 
+represent. 
+The World Bank does not guarantee the accuracy, 
+completeness, or currency of the data included in 
+this work and does not assume responsibility for any 
+errors, omissions, or discrepancies in the information, 
+or liability with respect to the use of or failure to use 
+the information, methods, processes, or conclusions 
+set forth. The boundaries, colors, denominations, and 
+other information shown on any map in this work do 
+not imply any judgment on the part of The World Bank 
+concerning the legal status of any territory or the 
+endorsement or acceptance of such boundaries. 
+Nothing herein shall constitute or be construed or 
+considered to be a limitation upon or waiver of the pri-
+vileges and immunities of The World Bank, all of which 
+are specifically reserved.
+Rights and Permissions 
+The material in this work is subject to copyright. Becau-
+se The World Bank encourages dissemination of its kno-
+wledge, this work may be reproduced, in whole or in part, 
+for noncommercial purposes as long as full attribution 
+to this work is given. 
+Attribution – The World Bank. 2023. Brazil Systematic 
+Country Diagnostic Update. Washington D.C.: World Bank.
+Any queries on rights and licenses, including subsidiary 
+rights, should be addressed to World Bank Publications, 
+The World Bank Group, 1818 H Street NW, Washington, 
+DC 20433, USA; fax: 202-522-2625; e-mail: pubrights@
+worldbank.org. 
+Cover photos: Freepik and Shutterstock®
+Cover and Graphic Design: doublecom.com.br
+
+========== PAGE 5 ==========
+5
+Brazil Systematic Country Diagnostic - Update
+Acknowledgements	
+ii
+Abbreviations and Acronyms	
+iii
+Executive Summary	
+1
+1.	
+Growth and welfare in the last decade	
+6
+1.1 	 Growth and macroeconomic trends	
+7
+1.2 	 Poverty, shared prosperity and welfare	
+10
+1.3 	 A sustainable path will require policies to become a greener and resilient economy	
+13
+2.	 Development challenges	
+16
+2.1 	 Challenge 1: Creating opportunities for all Brazilians through a focus on  
+	
+productivity-led growth and a competitive economy	
+19
+IC1: 	Institutional constraints to boost productivity and a competitive economy	
+24
+2.2	 Challenge 2: Developing a people-centric strategy that increases the income  
+	
+generating capacity of the poor	
+25
+IC2:	Institutional constraints to promote inclusion	
+29
+2.3	 Challenge 3: Unlocking the country’s potential as a green economy	
+30
+IC3:	Institutional constraints to pursue a greener economy	
+32
+2.4	 Challenge 4: Financing the country’s inclusive growth needs through a  
+	
+sustainable framework based on efficient fiscal policies	
+33
+IC4:	Institutional constraints for fiscal sustainability	
+35
+3.	 Priorities and High-Level Outcomes	
+37
+References	
+40
+Appendix 1. A profile of the poor in Brazil	
+44
+Appendix 2. Analytical foundations of the Systematic Country Diagnostic Update	
+48
+Appendix 3. Reforms adopted by the Brazilian government after 2016, by chronological order	
+49
+Appendix 4. Governance and Institutions in Brazil after SCD1	
+51
+Appendix 5. Data and knowledge gaps about Brazil	
+56
+Contents
+
+========== PAGE 6 ==========
+Brazil Systematic Country Diagnostic - Update
+6
+Acknowledgements
+We would like to thank the members of the World Bank Group’s Global Practices, the staff of the 
+International Finance Corporation (IFC), and the Brazilian authorities, and other partners who 
+contributed to the preparation of this Systematic Country Diagnostic (SCD) Update. 
+This report has been prepared by a team led by Gabriel Lara Ibarra (Senior Economist), Ana Guer-
+rini (Senior Transport Economist) and Josefina Posadas (Senior Economist) under the leadership 
+of Carlos Felipe Jaramillo (Regional Vice President), Johannes Zutt (Country Director) and Robert 
+Taliercio (Regional Director), and the guidance of Carlos Rodriguez Castelan (Practice Manager), 
+Bianca Bianchi Alves (Practice Manager), Pablo Gottret (Practice Manager), Doerte Doemeland 
+(Practice Manager), and Sophie Naudeau (Operations Manager). Additional guidance was provi-
+ded by Manuel Reyes-Retana (Director, IFC) and Hiroyuki Hatashima (Chief Evaluation Officer, 
+MIGA). The team thanks Pablo Acosta (Program Leader) and Luis Alberto Andres (Sector Leader) 
+for their comments and contributions. Special recognition goes to Shireen Mahdi as the lead au-
+thor of the Brazil Policy Notes that served as testing grounds for the prioritization exercise that 
+informed this update.
+Sector-specific knowledge, inputs and contributions were provided by Arthur Braganca (Senior 
+Economist), Werner Kornexl (Senior Natural Resources Management Specialist), Carolina L. Vaira 
+(Senior Governance Specialist), Gustavo Covolan (ET Consultant), Renzo Lavin (Consultant), Bru-
+no Perdigao (ET Consultant), Diogo Bardal (Associate Operations Officer), Marcos Vaena (Senior 
+Strategy Officer), Fabiano Colbano (Senior Economist), Raphael Fernandes (Consultant), Marek 
+Hanusch (Lead Economist), Luigi Calderon (Economist), Michael Weber (Senior Economist), Clau-
+dia Tufani (Consultant), Otavio Conceição (ET Consultant) and Ricardo Campante Vale (ET Con-
+sultant). This Update strongly benefited from the evidence collected by other colleagues’ analyti-
+cal reports on various development-related areas in the past year. Their findings and availability 
+to answer our queries were important inputs to this Update. We thus would like to thank Gabriel 
+Zaourak (Senior Economist), Ildo Lautharte (Economist), Matteo Morgandi (Senior Economist), 
+Tiago Falcao Silva (Senior Social Protection Specialist), Diji Chandrasekharan Behr (Lead Environ-
+mental Economist), Stephane Hallegatte (Senior Climate Change Adviser), Anna Luisa Paffhausen 
+(Economist) and Rita D. Costa (Consultant).
+The team would like to thank the peer reviewers Antonio Nucifora (Practice Manager), Rafael 
+Muñoz Moreno (Lead Country Economist) and Samuel Freije (Lead Economist) for their insightful 
+comments and suggestions. 
+The team is grateful to Desiree Gonzalez (Program Assistant), Mirela Catuneanu (Operations 
+Analyst) and the Country Office Administrative and Client Support staff for all the assistance and 
+support in the preparation of this SCD Update. 
+
+========== PAGE 7 ==========
+7
+Brazil Systematic Country Diagnostic - Update
+ABC plan	
+Plano de Agricultura de Baixa Emissão de Carbono (Low-Carbon Emissions Agriculture Plan)
+ABEMA	
+Associação Brasileira de Entidades Estaduais de Meio Ambiente (Brazilian Association of 	State 
+Environmental Entities)
+AE	
+Auxilio Emergencial (Emergency Aid)
+ALMP	
+Active labor market programs
+B40	
+Bottom 40 percent
+BCB	
+Banco Central do Brasil (Central Bank of Brasil)
+BPC	
+Benefício de Prestação Continuada (Continuous Cash Benefit)
+BRIC	
+Brazil, Russia, India, China
+BRL	
+Brazilian Reais (the official currency of Brazil)
+BTI	
+Bertelsmann Stiftung’s Transformation Index
+CADE	
+Conselho Administrativo de Defesa Econômica (Administrative Council for Economic Defense) 
+CAR	
+Cadastro Ambiental Rural (Rural Environmental Registry)
+CGU	
+Controladoria Geral da União (Office of the Comptroller General)
+CICC	
+Comitê Interministerial de Combate à Corrupção (Inter-ministerial Committee of Corruption Fight)
+CO2	
+Carbon dioxide
+COFINS	
+Contribuição para o Financiamento da Seguridade Social (Contribution for the Financing of 
+Social Security)
+CPI	
+Consumer Price Index
+DETER	
+Real-Time Deforestation Detection System
+Embrapa	
+Empresa Brasileira de Pesquisa Agropecuária (Brazilian Agricultural Research Corporation)
+FGV-IBRE	 Fundação Getúlio Vargas – Instituto Brasileiro de Economia (Getulio Vargas Foundation – 
+Brazilian Institute of Economics)
+FPE	
+Fundo de Participação dos Estados (State Participation Fund)
+FPM	
+Fundo de Participação dos Municípios (Municipal Participation Fund)
+GDP	
+Gross domestic product
+GHG	
+Greenhouse gas
+GtCO2	
+One billion tonnes of carbon dioxide
+HLO	
+High-level outcomes
+HRM	
+Human Resource Management
+IADB	
+Inter-American Development Bank
+IBGE	
+Instituto Brasileiro de Geografia e Estatística (Brazilian Institute of Geography and Statistics)
+ICMS	
+Imposto sobre Operações relativas à Circulação de Mercadorias e sobre Prestações de 
+Serviços de Transporte Interestadual e Intermunicipal e de Comunicação (Tax on Interstate and 
+Intermunicipality Transactions of Goods, Provisions of Services and Communication)
+ICT	
+Information and communication technology
+IDEB	
+Índice de Desenvolvimento da Educação Básica (Basic Education Development Index)
+IMF	
+International Monetary Fund
+INPE	
+Instituto Nacional de Pesquisas Espaciais (National Institute of Spatial Research)
+Abbreviations  
+and Acronyms
+
+========== PAGE 8 ==========
+Brazil Systematic Country Diagnostic - Update
+8
+IP	
+Indigenous people
+IPI	
+Imposto sobre Produtos Industrializados (Tax on industrialized products)
+IPR	
+Intellectual Property Rights
+ISS	
+Imposto sobre Serviços (Tax on services)
+LAC	
+Latin America and the Caribbean
+LPI	
+Logistics Performance Index
+MEI	
+Microempreendedor Individual (Individual microentrepreneur)
+MSME	
+Micro, Small and Medium Enterprises
+Mt	
+Megatonne
+NDC	
+Nationally determined contributions
+NTM	
+Non-tariff measures
+OECD	
+Organization for Economic Cooperation and Development
+PBF	
+Programa Bolsa Familia (Bolsa Familia Program)
+PIM	
+Public Investment Management
+PIMA	
+Public Investment Management Assessment
+PIS	
+Programa de Integração Social (Contribution to the Social Integration Program)
+PISA	
+Program for International Student Assessment
+PJ	
+Pessoa Jurídica (Legal person)
+PNL	
+Plano Nacional de Logística (National Logistics Plan)
+PNMC	
+Plano Nacional sobre Mudança Climática (National Plan about Climate Change)
+PPCDAm	
+Plano de Ação para Prevenção e Controle do Desmatamento na Amazônia Legal (Plan for 
+the Prevention and Control of Deforestation in the Legal Amazon)
+PPP	
+Purchasing power parity
+PRODES	
+Projeto de Monitoramento do Desmatamento na Amazônia Legal por Satélite (Project for 
+Monitoring Deforestation in the Legal Amazon by Satellite)
+PTA	
+Preferential Trade Agreement
+R&D	
+Research and Development
+REDD+	
+Reducing Emissions from Deforestation and Forest Degradation in Developing Countries, 
+and the Role of Conservation, Sustainable Management of Forests, and Enhancement of 
+Forest Carbon Stocks in Developing Countries
+SCD	
+World Bank Systematic Country Diagnostic
+SCD1	
+World Bank Systematic Country Diagnostic 2016
+SEBRAE	
+Serviço Brasileiro de Apoio às Micro e Pequenas Empresas (Brazilian Micro and Small 
+Enterprises Support Service)
+SINE	
+Sistema Nacional do Emprego (National Employment Service Office)
+SME	
+Small and medium enterprises
+SOE	
+State-owned enterprises
+SUS	
+Sistema Único de Saúde (Unified Health System)
+TFP	
+Total factor productivity
+TVET	
+Technical and vocational education and training
+USD	
+United States Dollars (currency)
+VAT	
+Value-added tax
+WEF	
+World Economic Forum
+
+========== PAGE 9 ==========
+1
+Brazil Systematic Country Diagnostic - Update
+After rebounding from an average 
+negative growth in 2014-2019 and 
+the pandemic, Brazil’s economic 
+growth remains far below its peers. 
+Brazil’s gross domestic product (GDP) grew on 
+average by 3.3 percent annually in real terms 
+between 2001 and 2014 propelled by the inter-
+national commodities boom and the domestic 
+expansion of social programs, among other 
+things. However, falling commodity prices, po-
+litical instability, and unaddressed structural 
+challenges led to an economic recession that 
+began in 2014 and from which the country has 
+yet to recover. Real GDP growth fell to an ave-
+rage of -0.3 percent between 2014 and 2019. 
+Productivity has remained stagnant in the ma-
+nufacturing and many services sectors, where 
+over 90 percent of the workforce is employed. 
+The COVID-19 pandemic further impacted the 
+economy, causing a contraction of 4.1 percent 
+in 2020. Growth turned positive in 2021 and 
+2022, but potential growth is expected to re-
+main at a low 2.1 percenti, far below peers such 
+as China, India, Türkiye, and Russia.
+Poverty rates in 2022 are projected 
+to be at the same level as in 2014, 
+which contrasts with a significant 
+progress in poverty reduction ob-
+served until 2013. Income inequality 
+is also highly persistent. From 2001 to 
+2012, poverty was cut in half, and around 27 
+million Brazilians were lifted out of poverty 
+thanks to economic growth, increased labor 
+formalization, and the expansion of social poli-
+cies. However, after 2014, the crisis led to stag-
+nant income growth among the poorest and 
+little progress in poverty reduction. COVID-19 
+emergency measures cushioned the effects 
+of the pandemic on poverty, but by 2021 po-
+verty rates were still higher than in 2019 (28.4 
+percent and 26.2 percent, respectively). Brazil 
+is still one of the most unequal countries in 
+the world. With a Gini coefficient of 0.529 in 
+2021, Brazil’s income inequality is as high as it 
+was in 2011. At the same time, the wealthiest 
+1 percent own almost half of the country’s 
+household wealth. Disparities across regions, 
+particularly between the poorer North and the 
+richer South, are evident. Female-headed hou-
+seholds, Afro-Braziliansii, and Indigenous peo-
+ple (IP) are overrepresented among the poor, 
+and they face worse labor market outcomes 
+and enduring wage gaps (even within compa-
+rable sectors and skills).
+Executive 
+Summary
+
+========== PAGE 10 ==========
+Brazil Systematic Country Diagnostic - Update
+2
+Brazil needs to revisit its develop-
+ment model to halt deforestation 
+and be able to confront environmen-
+tal challenges due to the high risks 
+posed by climate change. Similar to 
+other countries in the Latin America and the 
+Caribbean (LAC) region, land use change is the 
+key driver of greenhouse gas (GHG) emissions 
+in Brazil. However, the magnitude of deforesta-
+tion significantly surpasses that of other coun-
+tries, reaching 11,568 km2 in 2022. The Amazon 
+rainforest alone, of which about 60 percent lies 
+in Brazil, delivers ecosystem services valued at 
+a minimum of USD 317 billion a year to Brazil 
+and the world. Deforestation puts these servi-
+ces at risk, especially if a tipping point is trigge-
+red and results in the permanent dieback of the 
+Amazon. The country also faces significant, 
+recurring, and increasing losses from climate
+-related events: in 2019, reported losses were 
+over BRL 22 billion, almost twice the long-term 
+average of BRL 13.3 billion. Droughts are the 
+costliest hazard, followed by flash floods and 
+riverine floods. These events impact agribusi-
+ness, the energy sector (substantially relying 
+on hydro energy), and rural areas, but also dis-
+proportionately affect the rural poor, who have 
+few options to protect themselves from natural 
+hazards, and the urban poor, particularly those 
+living in informal settlements.
+Brazil’s structural challenges to era-
+dicate poverty and boost shared 
+prosperity identified in the World 
+Bank Systematic Country Diagnos-
+tic 2016 (SCD1) came to bear with 
+the end of the commodity boom. 
+SCD1 showed how the drivers of socioeconomic 
+progress in the 2000s had gone in reverse by 
+2015. With commodity prices trending down, 
+Brazil found itself in great need of adjusting its 
+fiscal policy and growth model if the country 
+was to sustain the gains of previous years.iii 
+The country’s fundamental weaknesses relate 
+to its struggle to generate strong and sustai-
+ned broad-based productivity growth across 
+sectors and the (un)sustainability of public 
+spending commitments. Given the intrinsic 
+linkages of the bottom 40 percent to natural 
+assets, SCD1 also highlighted the need to im-
+prove Brazil’s environmental impact, including 
+the management of land and water resources.
+This SCD update argues that the 
+development challenges identified 
+in SCD1 remain relevant. Moreover, 
+there is a renewed urgency to build 
+the capacity of individuals to gene-
+rate income and a reinforced need 
+for timely action in a transition to a 
+greener economy. SCD1 identified three 
+key requirements for Brazil to achieve the twin 
+goals: i) creation of sufficient productive and 
+well remunerated jobs to provide opportunities 
+for all Brazilians; ii) smarter management of 
+Brazil’s natural resources and better mitigation 
+of environmental pollution and the risk of natu-
+ral disasters; and iii) more efficient and better 
+targeted government spending. The Update 
+builds on the evidence collected in a long se-
+ries of recently published analytical reports to 
+review the challenges identified in SCD1 and in-
+form the definition of the Update’s challenges. 
+The first requirement is complemented by the 
+definition of another challenge so that not only 
+the need to have productive jobs is highlighted, 
+but also the poverty-reduction prerequisite of 
+building the income-generating capacity of all 
+individuals (through human, natural, and finan-
+cial capital) is explicitly stated. The third requi-
+rement is also expanded to underscore Brazil’s 
+need to address increased exposure to climate 
+change risks in a timely manner.
+
+========== PAGE 11 ==========
+3
+Brazil Systematic Country Diagnostic - Update
+The SCD1 documented that the pri-
+mary obstacle to increasing Brazi-
+lians’ incomes is the country’s lo-
+w-productivity economic model in 
+non-agricultural sectors. This challenge, 
+reflected in Brazil’s bias in employment crea-
+tion in low-productivity services and low gro-
+wth in total factor productivity (TFP) (1.3 per-
+cent per year on average between 2006 and 
+2014)IV, had several underlying causes. Among 
+them, SCD1 documented the high costs of 
+doing business, the poor state of physical in-
+frastructure, and the limits to competition due 
+to heavy regulation and relatively high tariff 
+and non-tariff barriers against imports.
+As Brazil’s factor accumulation-ba-
+sed growth model reaches its limits, 
+the country stands a lot to gain from 
+boosting productivity growth. Brazil 
+reached its upper-middle income status on the 
+back of factor accumulation. Currently, this 
+approach delivers only limited growth, as de-
+mographic tailwinds are fading, low domestic 
+savings constrain capital formation, and land 
+accumulation manifests in deforestation. Bra-
+zil needs higher savings and investment rates, 
+and its future prosperity will hinge on its ability 
+to raise productivity growth. Yet, total factor 
+productivity has been falling by 0.8 percent 
+between 2014 and 2022, especially in the non-
+commodities sectors. While in the past agri-
+culture and mining achieved high productivity 
+gains, other sectors, especially manufacturing, 
+fared much worse, reflecting a model where 
+primary sectors are export-oriented while ma-
+nufacturing is inward-oriented. 
+With a fifth of the population in chro-
+nic poverty before the pandemic, the 
+COVID-19 crisis further exposed the 
+vulnerability of Brazilian households 
+to shocks. The gains of earlier years in hou-
+seholds’ income-generating capacity have not 
+been reproduced. SCD1 highlighted key achie-
+vements in widening access to public services 
+for the poor and deprived: completion rates 
+of basic (primary plus lower secondary) edu-
+cation increased by 20 percentage points to 
+close to 70 percent, infant and maternal mor-
+tality decreased significantly (70 and 50 per-
+cent, respectively) in the previous two decades 
+and access to power supply, drinking water 
+and sanitation improved. Limited gains have 
+occurred since then. In 2019, one-fifth of Bra-
+zilians are classified as chronically poor due 
+to their lack of basic assets to leverage their 
+income – this share was 23 percent in 2012. 
+While access to education improved, its qua-
+lity remains a concern, as the average student 
+has low performance in both national and in-
+ternational assessments. The pandemic fur-
+ther worsened learning outcomes and inequa-
+lity due to school closures and higher dropout 
+rates, which will have long-lasting consequen-
+ces on the future productivity of children. It is 
+now estimated that it may take up to 13 years 
+to recover the human capital losses caused by 
+the pandemic. Access to relevant skills for the 
+job market, especially in science, engineering, 
+and technology fields, is limited, and there are 
+gender gaps in these areas. Higher education 
+enrollment is still highly dependent on family 
+income, reinforcing inequality. There are still 
+gaps in basic access to health services and 
+sanitation. Land tenure is unequally distribu-
+ted, with high insecurity affecting low-income 
+individuals. While financial inclusion has im-
+proved, certain groups still struggle to access 
+financial assets.
+
+========== PAGE 12 ==========
+Brazil Systematic Country Diagnostic - Update
+4
+Deforestation and agriculture are the 
+main contributors to Brazil’s emis-
+sions. The country must confront 
+head-on the challenge of curbing de-
+forestation. When SCD1 was completed, 
+Brazil stood out for its contribution to climate 
+change mitigation due to its success in reducing 
+deforestation: yearly deforestation dropped 82 
+percent between 2004 and 2014, before in-
+creasing again after the end of the commodity 
+super-cycle. Political pressure on environmental 
+protection mechanisms intensified, and some 
+interest groups were effective in lobbying to 
+the easing of regulations on environmental pro-
+tection. The lack of law enforcement in remo-
+te areas has exacerbated the issue, and weak 
+governance and financial constraints have hin-
+dered climate action efforts. Brazil’s institutio-
+nal capacity for climate policies has gaps, and 
+there is a need of better coordination between 
+government agencies and more enforcement 
+of environmental laws.V Weak management of 
+natural resources had been flagged by SCD1 
+as a challenge. Today, modernization of land 
+registration practices and incentives for more 
+sustainable land use are crucial to address the 
+country’s environmental needs.
+Structural fiscal reforms, including 
+addressing 
+persistent 
+structural 
+spending issues and improving the 
+tax system, will be critical for the 
+country to find ways of creating 
+space to support higher and more 
+inclusive growth. SCD1’s assessment of 
+public finances remains valid today: “revenues 
+[have a] high reliance on indirect taxes… [and] 
+the share of truly discretionary spending… is 
+very low… [while] the bulk of spending is tied up 
+in social commitments... many of which do not 
+go to the poor”. SCD1 documented that less 
+than 15 percent of expenditure was discretio-
+nary in BrazilVI while recent estimates suggest 
+it is now closer to 10 percent. Factors such as 
+public sector pay and pensions, and increased 
+demand for social protection spending, con-
+tinue to strain public finances, leaving limited 
+space for discretionary and much-needed in-
+vestment spending. The country’s tax sys-
+tem, highly reliant on consumption of goods 
+and services, offers opportunities for more 
+progressive taxation and increased efficiency. 
+The highly complex tax system is also an im-
+portant contributor to the high costs of doing 
+business in Brazil known as “Custo Brasil”. The 
+intergovernmental transfer system needs re-
+vamping to address horizontal gaps between 
+states. Several subnational governments are 
+facing a fiscal crisis, yet states and municipali-
+ties are responsible for the front-end provision 
+of basic services to the population, such as 
+education and health. Comprehensive admi-
+nistrative reform is needed, focusing on fiscal 
+aspects, governance, and the quality of public 
+service delivery.
+Tackling these challenges must be 
+accompanied 
+by 
+improvements 
+in governance and a complemen-
+tary removal of institutional cons-
+traints. Key legislation has been adopted 
+in recent years, including the state-owned 
+enterprises statute (2016), aimed at aligning 
+state ownership practices with international 
+standards, the fiscal rule (2016), the labor le-
+gislation reform (2017), the political reform 
+(2017), which gradually established more ri-
+gorous criteria for political parties to have 
+access to electoral party funds, form coali-
+tions and achieve a “performance clause”
+
+... [Content truncated, total 178,912 chars] ...

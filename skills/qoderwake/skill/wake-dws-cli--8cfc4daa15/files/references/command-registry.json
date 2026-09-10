@@ -1,0 +1,1187 @@
+{
+  "schemaVersion": 1,
+  "revision": "dws-effective-v2:e268e2bcf76c2ff7e0d6b550a8a5b7766e58abe79afa8a4bc1a48462dc77ef04",
+  "argumentSchemas": {
+    "aitable.base.create": {
+      "requiredOptions": [
+        "--name",
+        "--format"
+      ],
+      "options": {
+        "--name": {
+          "valueType": "string"
+        },
+        "--folder-id": {
+          "valueType": "identifier"
+        },
+        "--template-id": {
+          "valueType": "identifier"
+        },
+        "--format": {
+          "valueType": "enum",
+          "enumValues": [
+            "json"
+          ]
+        },
+        "--profile": {
+          "valueType": "string"
+        }
+      }
+    },
+    "aitable.base.get": {
+      "requiredOptions": [
+        "--base-id",
+        "--format"
+      ],
+      "options": {
+        "--base-id": {
+          "valueType": "identifier"
+        },
+        "--format": {
+          "valueType": "enum",
+          "enumValues": [
+            "json"
+          ]
+        },
+        "--profile": {
+          "valueType": "string"
+        }
+      }
+    },
+    "aitable.base.list": {
+      "requiredOptions": [
+        "--format"
+      ],
+      "options": {
+        "--cursor": {
+          "valueType": "identifier"
+        },
+        "--limit": {
+          "valueType": "integer",
+          "min": 1,
+          "max": 100
+        },
+        "--format": {
+          "valueType": "enum",
+          "enumValues": [
+            "json"
+          ]
+        },
+        "--profile": {
+          "valueType": "string"
+        }
+      }
+    },
+    "aitable.base.search": {
+      "requiredOptions": [
+        "--query",
+        "--format"
+      ],
+      "options": {
+        "--query": {
+          "valueType": "string"
+        },
+        "--cursor": {
+          "valueType": "identifier"
+        },
+        "--format": {
+          "valueType": "enum",
+          "enumValues": [
+            "json"
+          ]
+        },
+        "--profile": {
+          "valueType": "string"
+        }
+      }
+    },
+    "aitable.field.create": {
+      "requiredOptions": [
+        "--base-id",
+        "--table-id",
+        "--format"
+      ],
+      "atLeastOneOf": [
+        [
+          "--fields",
+          "--name"
+        ]
+      ],
+      "allOrNone": [
+        [
+          "--name",
+          "--type"
+        ]
+      ],
+      "options": {
+        "--base-id": {
+          "valueType": "identifier"
+        },
+        "--table-id": {
+          "valueType": "identifier"
+        },
+        "--fields": {
+          "valueType": "string"
+        },
+        "--name": {
+          "valueType": "string"
+        },
+        "--type": {
+          "valueType": "identifier"
+        },
+        "--config": {
+          "valueType": "string"
+        },
+        "--ai-config": {
+          "valueType": "string"
+        },
+        "--format": {
+          "valueType": "enum",
+          "enumValues": [
+            "json"
+          ]
+        },
+        "--profile": {
+          "valueType": "string"
+        }
+      }
+    },
+    "aitable.field.get": {
+      "requiredOptions": [
+        "--base-id",
+        "--table-id",
+        "--format"
+      ],
+      "options": {
+        "--base-id": {
+          "valueType": "identifier"
+        },
+        "--table-id": {
+          "valueType": "identifier"
+        },
+        "--field-ids": {
+          "valueType": "csv-identifiers"
+        },
+        "--format": {
+          "valueType": "enum",
+          "enumValues": [
+            "json"
+          ]
+        },
+        "--profile": {
+          "valueType": "string"
+        }
+      }
+    },
+    "aitable.record.create": {
+      "requiredOptions": [
+        "--base-id",
+        "--table-id",
+        "--format"
+      ],
+      "exactlyOneOf": [
+        [
+          "--records",
+          "--records-file"
+        ]
+      ],
+      "options": {
+        "--base-id": {
+          "valueType": "identifier"
+        },
+        "--table-id": {
+          "valueType": "identifier"
+        },
+        "--records": {
+          "valueType": "string"
+        },
+        "--records-file": {
+          "valueType": "textInputFileRef"
+        },
+        "--format": {
+          "valueType": "enum",
+          "enumValues": [
+            "json"
+          ]
+        },
+        "--profile": {
+          "valueType": "string"
+        }
+      }
+    },
+    "aitable.record.delete": {
+      "requiredOptions": [
+        "-y",
+        "--base-id",
+        "--table-id",
+        "--record-ids",
+        "--format"
+      ],
+      "options": {
+        "-y": {
+          "kind": "flag"
+        },
+        "--base-id": {
+          "valueType": "identifier"
+        },
+        "--table-id": {
+          "valueType": "identifier"
+        },
+        "--record-ids": {
+          "valueType": "csv-identifiers"
+        },
+        "--format": {
+          "valueType": "enum",
+          "enumValues": [
+            "json"
+          ]
+        },
+        "--profile": {
+          "valueType": "string"
+        }
+      }
+    },
+    "aitable.record.get": {
+      "requiredOptions": [
+        "--base-id",
+        "--table-id",
+        "--record-ids",
+        "--format"
+      ],
+      "options": {
+        "--base-id": {
+          "valueType": "identifier"
+        },
+        "--table-id": {
+          "valueType": "identifier"
+        },
+        "--record-ids": {
+          "valueType": "csv-identifiers"
+        },
+        "--field-ids": {
+          "valueType": "csv-identifiers"
+        },
+        "--format": {
+          "valueType": "enum",
+          "enumValues": [
+            "json"
+          ]
+        },
+        "--profile": {
+          "valueType": "string"
+        }
+      }
+    },
+    "aitable.record.query": {
+      "requiredOptions": [
+        "--base-id",
+        "--table-id",
+        "--format"
+      ],
+      "options": {
+        "--base-id": {
+          "valueType": "identifier"
+        },
+        "--table-id": {
+          "valueType": "identifier"
+        },
+        "--record-ids": {
+          "valueType": "csv-identifiers"
+        },
+        "--field-ids": {
+          "valueType": "csv-identifiers"
+        },
+        "--query": {
+          "valueType": "string"
+        },
+        "--filters": {
+          "valueType": "string"
+        },
+        "--sort": {
+          "valueType": "string"
+        },
+        "--cursor": {
+          "valueType": "identifier"
+        },
+        "--limit": {
+          "valueType": "integer",
+          "min": 1,
+          "max": 100
+        },
+        "--all": {
+          "kind": "flag"
+        },
+        "--page-limit": {
+          "valueType": "integer",
+          "min": 0,
+          "max": 9007199254740991
+        },
+        "--format": {
+          "valueType": "enum",
+          "enumValues": [
+            "json"
+          ]
+        },
+        "--profile": {
+          "valueType": "string"
+        }
+      }
+    },
+    "aitable.record.update": {
+      "requiredOptions": [
+        "--base-id",
+        "--table-id",
+        "--format"
+      ],
+      "exactlyOneOf": [
+        [
+          "--records",
+          "--records-file"
+        ]
+      ],
+      "options": {
+        "--base-id": {
+          "valueType": "identifier"
+        },
+        "--table-id": {
+          "valueType": "identifier"
+        },
+        "--records": {
+          "valueType": "string"
+        },
+        "--records-file": {
+          "valueType": "textInputFileRef"
+        },
+        "--format": {
+          "valueType": "enum",
+          "enumValues": [
+            "json"
+          ]
+        },
+        "--profile": {
+          "valueType": "string"
+        }
+      }
+    },
+    "aitable.record.upsert": {
+      "requiredOptions": [
+        "--base-id",
+        "--table-id",
+        "--format"
+      ],
+      "exactlyOneOf": [
+        [
+          "--records",
+          "--records-file"
+        ]
+      ],
+      "options": {
+        "--base-id": {
+          "valueType": "identifier"
+        },
+        "--table-id": {
+          "valueType": "identifier"
+        },
+        "--records": {
+          "valueType": "string"
+        },
+        "--records-file": {
+          "valueType": "textInputFileRef"
+        },
+        "--format": {
+          "valueType": "enum",
+          "enumValues": [
+            "json"
+          ]
+        },
+        "--profile": {
+          "valueType": "string"
+        }
+      }
+    },
+    "aitable.table.create": {
+      "requiredOptions": [
+        "--base-id",
+        "--name",
+        "--format"
+      ],
+      "options": {
+        "--base-id": {
+          "valueType": "identifier"
+        },
+        "--name": {
+          "valueType": "string"
+        },
+        "--fields": {
+          "valueType": "string"
+        },
+        "--format": {
+          "valueType": "enum",
+          "enumValues": [
+            "json"
+          ]
+        },
+        "--profile": {
+          "valueType": "string"
+        }
+      }
+    },
+    "aitable.table.get": {
+      "requiredOptions": [
+        "--base-id",
+        "--format"
+      ],
+      "options": {
+        "--base-id": {
+          "valueType": "identifier"
+        },
+        "--table-ids": {
+          "valueType": "csv-identifiers"
+        },
+        "--format": {
+          "valueType": "enum",
+          "enumValues": [
+            "json"
+          ]
+        },
+        "--profile": {
+          "valueType": "string"
+        }
+      }
+    },
+    "aitable.view.get": {
+      "requiredOptions": [
+        "--base-id",
+        "--table-id",
+        "--format"
+      ],
+      "options": {
+        "--base-id": {
+          "valueType": "identifier"
+        },
+        "--table-id": {
+          "valueType": "identifier"
+        },
+        "--view-ids": {
+          "valueType": "csv-identifiers"
+        },
+        "--format": {
+          "valueType": "enum",
+          "enumValues": [
+            "json"
+          ]
+        },
+        "--profile": {
+          "valueType": "string"
+        }
+      }
+    },
+    "attendance.group.get": {
+      "requiredOptions": [
+        "--group-id",
+        "--format"
+      ],
+      "options": {
+        "--group-id": {
+          "valueType": "integer",
+          "min": 1,
+          "max": 9007199254740991
+        },
+        "--format": {
+          "valueType": "enum",
+          "enumValues": [
+            "json"
+          ]
+        },
+        "--profile": {
+          "valueType": "string"
+        }
+      }
+    },
+    "attendance.record.get": {
+      "requiredOptions": [
+        "--user",
+        "--date",
+        "--format"
+      ],
+      "options": {
+        "--user": {
+          "valueType": "identifier"
+        },
+        "--date": {
+          "valueType": "string"
+        },
+        "--format": {
+          "valueType": "enum",
+          "enumValues": [
+            "json"
+          ]
+        },
+        "--profile": {
+          "valueType": "string"
+        }
+      }
+    },
+    "attendance.summary": {
+      "requiredOptions": [
+        "--user",
+        "--date",
+        "--stats-type",
+        "--format"
+      ],
+      "options": {
+        "--user": {
+          "valueType": "identifier"
+        },
+        "--date": {
+          "valueType": "string"
+        },
+        "--stats-type": {
+          "valueType": "enum",
+          "enumValues": [
+            "week",
+            "month"
+          ]
+        },
+        "--format": {
+          "valueType": "enum",
+          "enumValues": [
+            "json"
+          ]
+        },
+        "--profile": {
+          "valueType": "string"
+        }
+      }
+    },
+    "attendance.vacation.balance": {
+      "requiredOptions": [
+        "--users",
+        "--format"
+      ],
+      "options": {
+        "--users": {
+          "valueType": "csv-identifiers"
+        },
+        "--leave-code": {
+          "valueType": "identifier"
+        },
+        "--format": {
+          "valueType": "enum",
+          "enumValues": [
+            "json"
+          ]
+        },
+        "--profile": {
+          "valueType": "string"
+        }
+      }
+    },
+    "calendar.event.create": {
+      "requiredOptions": [
+        "--title",
+        "--start",
+        "--end",
+        "--format"
+      ],
+      "options": {
+        "--title": {
+          "valueType": "string",
+          "maxCodePoints": 100
+        },
+        "--start": {
+          "valueType": "string"
+        },
+        "--end": {
+          "valueType": "string"
+        },
+        "--desc": {
+          "valueType": "string"
+        },
+        "--timezone": {
+          "valueType": "identifier"
+        },
+        "--attendees": {
+          "valueType": "csv-identifiers"
+        },
+        "--open-dingtalk-ids": {
+          "valueType": "csv-identifiers"
+        },
+        "--calendar-id": {
+          "valueType": "identifier"
+        },
+        "--free-busy": {
+          "valueType": "enum",
+          "enumValues": [
+            "busy",
+            "free"
+          ]
+        },
+        "--location": {
+          "valueType": "string"
+        },
+        "--rich-text-desc": {
+          "valueType": "string"
+        },
+        "--remind-minutes": {
+          "valueType": "csv-identifiers"
+        },
+        "--rooms": {
+          "valueType": "csv-identifiers"
+        },
+        "--recurrence-type": {
+          "valueType": "enum",
+          "enumValues": [
+            "daily",
+            "weekly",
+            "absoluteMonthly",
+            "relativeMonthly",
+            "absoluteYearly"
+          ]
+        },
+        "--recurrence-interval": {
+          "valueType": "integer",
+          "min": 1,
+          "max": 9007199254740991
+        },
+        "--recurrence-days-of-week": {
+          "valueType": "csv-identifiers"
+        },
+        "--recurrence-day-of-month": {
+          "valueType": "integer",
+          "min": 1,
+          "max": 31
+        },
+        "--recurrence-index": {
+          "valueType": "enum",
+          "enumValues": [
+            "first",
+            "second",
+            "third",
+            "fourth",
+            "last"
+          ]
+        },
+        "--recurrence-first-day-of-week": {
+          "valueType": "enum",
+          "enumValues": [
+            "sunday",
+            "monday",
+            "tuesday",
+            "wednesday",
+            "thursday",
+            "friday",
+            "saturday"
+          ]
+        },
+        "--recurrence-range-type": {
+          "valueType": "enum",
+          "enumValues": [
+            "noEnd",
+            "endDate",
+            "numbered"
+          ]
+        },
+        "--recurrence-end-date": {
+          "valueType": "string"
+        },
+        "--recurrence-count": {
+          "valueType": "integer",
+          "min": 1,
+          "max": 9007199254740991
+        },
+        "--format": {
+          "valueType": "enum",
+          "enumValues": [
+            "json"
+          ]
+        },
+        "--profile": {
+          "valueType": "string"
+        }
+      }
+    },
+    "calendar.event.delete": {
+      "requiredOptions": [
+        "-y",
+        "--id",
+        "--format"
+      ],
+      "options": {
+        "-y": {
+          "kind": "flag"
+        },
+        "--calendar-id": {
+          "valueType": "identifier"
+        },
+        "--id": {
+          "valueType": "identifier"
+        },
+        "--format": {
+          "valueType": "enum",
+          "enumValues": [
+            "json"
+          ]
+        },
+        "--profile": {
+          "valueType": "string"
+        }
+      }
+    },
+    "calendar.event.get": {
+      "requiredOptions": [
+        "--id",
+        "--format"
+      ],
+      "options": {
+        "--calendar-id": {
+          "valueType": "identifier"
+        },
+        "--id": {
+          "valueType": "identifier"
+        },
+        "--format": {
+          "valueType": "enum",
+          "enumValues": [
+            "json"
+          ]
+        },
+        "--profile": {
+          "valueType": "string"
+        }
+      }
+    },
+    "calendar.event.list": {
+      "requiredOptions": [
+        "--format"
+      ],
+      "options": {
+        "--calendar-id": {
+          "valueType": "identifier"
+        },
+        "--start": {
+          "valueType": "string"
+        },
+        "--end": {
+          "valueType": "string"
+        },
+        "--cursor": {
+          "valueType": "identifier"
+        },
+        "--limit": {
+          "valueType": "integer",
+          "min": 1,
+          "max": 100
+        },
+        "--format": {
+          "valueType": "enum",
+          "enumValues": [
+            "json"
+          ]
+        },
+        "--profile": {
+          "valueType": "string"
+        }
+      }
+    },
+    "calendar.event.respond": {
+      "requiredOptions": [
+        "--id",
+        "--status",
+        "--format"
+      ],
+      "options": {
+        "--id": {
+          "valueType": "identifier"
+        },
+        "--calendar-id": {
+          "valueType": "identifier"
+        },
+        "--status": {
+          "valueType": "enum",
+          "enumValues": [
+            "needsAction",
+            "accepted",
+            "declined",
+            "tentative"
+          ]
+        },
+        "--format": {
+          "valueType": "enum",
+          "enumValues": [
+            "json"
+          ]
+        },
+        "--profile": {
+          "valueType": "string"
+        }
+      }
+    },
+    "calendar.event.update": {
+      "requiredOptions": [
+        "--id",
+        "--format"
+      ],
+      "atLeastOneOf": [
+        [
+          "--title",
+          "--start",
+          "--end",
+          "--desc",
+          "--rich-text-desc",
+          "--timezone",
+          "--location",
+          "--free-busy"
+        ]
+      ],
+      "options": {
+        "--id": {
+          "valueType": "identifier"
+        },
+        "--title": {
+          "valueType": "string",
+          "maxCodePoints": 100
+        },
+        "--start": {
+          "valueType": "string"
+        },
+        "--end": {
+          "valueType": "string"
+        },
+        "--desc": {
+          "valueType": "string"
+        },
+        "--rich-text-desc": {
+          "valueType": "string"
+        },
+        "--timezone": {
+          "valueType": "identifier"
+        },
+        "--location": {
+          "valueType": "string"
+        },
+        "--free-busy": {
+          "valueType": "enum",
+          "enumValues": [
+            "busy",
+            "free"
+          ]
+        },
+        "--calendar-id": {
+          "valueType": "identifier"
+        },
+        "--recurrence-type": {
+          "valueType": "enum",
+          "enumValues": [
+            "daily",
+            "weekly",
+            "absoluteMonthly",
+            "relativeMonthly",
+            "absoluteYearly"
+          ]
+        },
+        "--recurrence-interval": {
+          "valueType": "integer",
+          "min": 1,
+          "max": 9007199254740991
+        },
+        "--recurrence-days-of-week": {
+          "valueType": "csv-identifiers"
+        },
+        "--recurrence-day-of-month": {
+          "valueType": "integer",
+          "min": 1,
+          "max": 31
+        },
+        "--recurrence-index": {
+          "valueType": "enum",
+          "enumValues": [
+            "first",
+            "second",
+            "third",
+            "fourth",
+            "last"
+          ]
+        },
+        "--recurrence-first-day-of-week": {
+          "valueType": "enum",
+          "enumValues": [
+            "sunday",
+            "monday",
+            "tuesday",
+            "wednesday",
+            "thursday",
+            "friday",
+            "saturday"
+          ]
+        },
+        "--recurrence-range-type": {
+          "valueType": "enum",
+          "enumValues": [
+            "noEnd",
+            "endDate",
+            "numbered"
+          ]
+        },
+        "--recurrence-end-date": {
+          "valueType": "string"
+        },
+        "--recurrence-count": {
+          "valueType": "integer",
+          "min": 1,
+          "max": 9007199254740991
+        },
+        "--format": {
+          "valueType": "enum",
+          "enumValues": [
+            "json"
+          ]
+        },
+        "--profile": {
+          "valueType": "string"
+        }
+      }
+    },
+    "calendar.participant.add": {
+      "requiredOptions": [
+        "--event",
+        "--attendees",
+        "--format"
+      ],
+      "options": {
+        "--calendar-id": {
+          "valueType": "identifier"
+        },
+        "--event": {
+          "valueType": "identifier"
+        },
+        "--attendees": {
+          "valueType": "csv-identifiers"
+        },
+        "--optional": {
+          "kind": "flag"
+        },
+        "--format": {
+          "valueType": "enum",
+          "enumValues": [
+            "json"
+          ]
+        },
+        "--profile": {
+          "valueType": "string"
+        }
+      }
+    },
+    "calendar.participant.delete": {
+      "requiredOptions": [
+        "-y",
+        "--event",
+        "--attendees",
+        "--format"
+      ],
+      "options": {
+        "-y": {
+          "kind": "flag"
+        },
+        "--calendar-id": {
+          "valueType": "identifier"
+        },
+        "--event": {
+          "valueType": "identifier"
+        },
+        "--attendees": {
+          "valueType": "csv-identifiers"
+        },
+        "--format": {
+          "valueType": "enum",
+          "enumValues": [
+            "json"
+          ]
+        },
+        "--profile": {
+          "valueType": "string"
+        }
+      }
+    },
+    "calendar.participant.list": {
+      "requiredOptions": [
+        "--event",
+        "--format"
+      ],
+      "options": {
+        "--calendar-id": {
+          "valueType": "identifier"
+        },
+        "--event": {
+          "valueType": "identifier"
+        },
+        "--format": {
+          "valueType": "enum",
+          "enumValues": [
+            "json"
+          ]
+        },
+        "--profile": {
+          "valueType": "string"
+        }
+      }
+    },
+    "calendar.room.add": {
+      "requiredOptions": [
+        "--event",
+        "--rooms",
+        "--format"
+      ],
+      "options": {
+        "--calendar-id": {
+          "valueType": "identifier"
+        },
+        "--event": {
+          "valueType": "identifier"
+        },
+        "--rooms": {
+          "valueType": "csv-identifiers"
+        },
+        "--format": {
+          "valueType": "enum",
+          "enumValues": [
+            "json"
+          ]
+        },
+        "--profile": {
+          "valueType": "string"
+        }
+      }
+    },
+    "calendar.room.search": {
+      "requiredOptions": [
+        "--format"
+      ],
+      "options": {
+        "--start": {
+          "valueType": "string"
+        },
+        "--end": {
+          "valueType": "string"
+        },
+        "--group-id": {
+          "valueType": "identifier"
+        },
+        "--room-name": {
+          "valueType": "string"
+        },
+        "--page": {
+          "valueType": "integer",
+          "min": 0,
+          "max": 9007199254740991
+        },
+        "--limit": {
+          "valueType": "integer",
+          "min": 1,
+          "max": 100
+        },
+        "--format": {
+          "valueType": "enum",
+          "enumValues": [
+            "json"
+          ]
+        },
+        "--profile": {
+          "valueType": "string"
+        }
+      }
+    },
+    "chat.group.members": {
+      "requiredOptions": [
+        "--id",
+        "--format"
+      ],
+      "options": {
+        "--id": {
+          "valueType": "identifier"
+        },
+        "--cursor": {
+          "valueType": "identifier"
+        },
+        "--format": {
+          "valueType": "enum",
+          "enumValues": [
+            "json"
+          ]
+        },
+        "--profile": {
+          "valueType": "string"
+        }
+      }
+    },
+    "chat.message.download-media": {
+      "requiredOptions": [
+        "--message-id",
+        "--open-conversation-id",
+        "--output",
+        "--resource-id",
+        "--type",
+        "--format"
+      ],
+      "options": {
+        "--message-id": {
+          "valueType": "identifier"
+        },
+        "--open-conversation-id": {
+          "valueType": "identifier"
+        },
+        "--resource-id": {
+          "valueType": "identifier"
+        },
+        "--type": {
+          "valueType": "string"
+        },
+        "--output": {
+          "valueType": "outputPath"
+        },
+        "--format": {
+          "valueType": "enum",
+          "enumValues": [
+            "json"
+          ]
+        },
+        "--profile": {
+          "valueType": "string"
+        }
+      }
+    },
+    "chat.message.list": {
+      "requiredOptions": [
+        "--time",
+        "--format"
+      ],
+      "exactlyOneOf": [
+        [
+          "--conversation-id",
+          "--user",
+          "--open-dingtalk-id"
+        ]
+      ],
+      "options": {
+        "--conversation-id": {
+          "valueType": "identifier"
+        },
+        "--user": {
+          "valueType": "identifier"
+        },
+        "--open-dingtalk-id": {
+          "valueType": "identifier"
+        },
+        "--time": {
+          "valueType": "string"
+        },
+        "--direction": {
+          "valueType": "enum",
+          "enumValues": [
+            "newer",
+            "older"
+          ]
+        },
+     
+
+... [Content truncated, total 125,200 chars] ...

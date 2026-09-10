@@ -1,0 +1,96 @@
+# Multi-VPS Clash subscription template
+# Merge VLESS-REALITY nodes from multiple VPSs into a single subscription file.
+# Each VPS deploys independently (see references/3x-ui-install.md).
+# The subscription lives on ONE VPS (the user's "primary") — clients fetch
+# from that one URL and see all nodes.
+
+port: 7890
+socks-port: 7891
+allow-lan: false
+mode: rule
+log-level: info
+dns:
+  enable: true
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  nameserver:
+    - https://dns.alidns.com/dns-query
+    - https://doh.pub/dns-query
+  fallback:
+    - https://1.1.1.1/dns-query
+    - https://dns.google/dns-query
+  fallback-filter:
+    geoip: true
+    geoip-code: CN
+
+proxies:
+  # === VPS #1 (e.g. UK London) ===
+  - name: "UK-London"
+    type: vless
+    server: VPS1_IP
+    port: 443
+    uuid: VPS1_UUID
+    network: tcp
+    udp: true
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    servername: www.samsung.com
+    reality-opts:
+      public-key: VPS1_PUB_KEY
+      short-id: VPS1_SHORT_ID
+
+  # === VPS #2 (e.g. US Oregon) ===
+  - name: "US-Oregon"
+    type: vless
+    server: VPS2_IP
+    port: 443
+    uuid: VPS2_UUID
+    network: tcp
+    udp: true
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    servername: www.samsung.com
+    reality-opts:
+      public-key: VPS2_PUB_KEY
+      short-id: VPS2_SHORT_ID
+
+  # === To add more VPSs: copy a node block above, fill in values ===
+
+proxy-groups:
+  # Manual selection (recommended for low-latency-sensitive work)
+  - name: "PROXY"
+    type: select
+    proxies:
+      - UK-London
+      - US-Oregon
+
+  # Auto-select by latency (Clash/mihomo probes periodically)
+  - name: "AUTO"
+    type: url-test
+    proxies:
+      - UK-London
+      - US-Oregon
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+
+  # Domestic traffic bypasses proxy
+  - name: "DIRECT"
+    type: select
+    proxies:
+      - DIRECT
+
+rules:
+  - GEOIP,CN,DIRECT
+  - MATCH,PROXY
+
+# === Update procedure when adding/removing a VPS ===
+# 1. Deploy new VPS per references/3x-ui-install.md, capture: IP, UUID,
+#    publicKey, shortId
+# 2. SSH to PRIMARY VPS (where subscription is hosted)
+# 3. Edit /var/www/sub/clash.yaml — add/remove proxy block, update PROXY/AUTO lists
+# 4. No nginx restart needed (file-based); clients update subscription URL
+# 5. Don't forget AWS Lightsail firewall on new VPS:
+#    TCP 22, 80, 443, <panel-https-port> (e.g. 19910)

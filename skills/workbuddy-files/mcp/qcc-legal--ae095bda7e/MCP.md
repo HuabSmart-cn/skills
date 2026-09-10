@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "qcc-legal": {
+      "type": "streamableHttp",
+      "url": "https://agent.qcc.com/mcp/legal/stream"
+    }
+  }
+}

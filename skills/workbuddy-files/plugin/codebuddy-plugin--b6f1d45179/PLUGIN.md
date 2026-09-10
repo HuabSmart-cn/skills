@@ -1,0 +1,26 @@
+{
+  "name": "finance",
+  "version": "1.0.0",
+  "description": "财务与会计插件，支持月末结账、日记账分录、账户核对、财务报表生成、差异分析和 SOX 审计支持。",
+  "description_zh": "财务与会计插件，支持月末结账、日记账分录、账户核对、财务报表生成、差异分析和 SOX 审计支持。",
+  "description_en": "A finance and accounting plugin for month-end close, journal entries, account reconciliation, financial statement generation, variance analysis, and SOX audit support.",
+  "author": {
+    "name": "CodeBuddy Teams"
+  },
+  "homepage": {
+    "url": "",
+    "type": "github"
+  },
+  "license": "",
+  "skills": [
+    "./skills/finance-workflows",
+    "./skills/journal-entry-prep",
+    "./skills/reconciliation",
+    "./skills/financial-statements",
+    "./skills/variance-analysis",
+    "./skills/close-management",
+    "./skills/audit-support",
+    "./skills/journal-entry",
+    "./skills/sox-testing"
+  ]
+}

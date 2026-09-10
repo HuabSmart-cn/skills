@@ -1,0 +1,67 @@
+# ClashMi / mihomo — VLESS-REALITY 节点配置模板
+# 替换 <PLACEHOLDER> 值后导入 ClashMi
+
+mixed-port: 7890
+allow-lan: false
+mode: rule
+log-level: info
+
+dns:
+  enable: true
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  nameserver:
+    - https://dns.google/dns-query
+    - https://cloudflare-dns.com/dns-query
+  fallback:
+    - https://1.1.1.1/dns-query
+    - tls://8.8.4.4:853
+  fallback-filter:
+    geoip: true
+    geoip-code: CN
+
+proxies:
+  - name: "🇬🇧 VLESS-REALITY"
+    type: vless
+    server: <SERVER_IP>
+    port: 443
+    uuid: <UUID>
+    network: tcp
+    udp: true
+    tls: true
+    flow: xtls-rprx-vision
+    servername: <SNI>              # must match server's realitySettings.serverNames
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: <PUBLIC_KEY>     # from xray x25519 output ("Password" field)
+      short-id: <SHORT_ID>         # hex string, e.g. e1ae0b7fba11ea14
+
+proxy-groups:
+  - name: "🚀 节点选择"
+    type: select
+    proxies:
+      - "🇬🇧 VLESS-REALITY"
+      - DIRECT
+
+  - name: "🎯 全球直连"
+    type: select
+    proxies:
+      - DIRECT
+      - "🚀 节点选择"
+
+  - name: "🛑 广告拦截"
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+
+rules:
+  - GEOIP,CN,🎯 全球直连
+  - DOMAIN-SUFFIX,cn,🎯 全球直连
+  - DOMAIN-SUFFIX,baidu.com,🎯 全球直连
+  - DOMAIN-SUFFIX,aliyun.com,🎯 全球直连
+  - DOMAIN-SUFFIX,qq.com,🎯 全球直连
+  - DOMAIN-SUFFIX,taobao.com,🎯 全球直连
+  - DOMAIN-SUFFIX,jd.com,🎯 全球直连
+  - DOMAIN-SUFFIX,bilibili.com,🎯 全球直连
+  - MATCH,🚀 节点选择

@@ -1,0 +1,13 @@
+{
+  "name": "team-rubric",
+  "version": "1.0.0",
+  "supportedTargetKinds": [
+    "skill",
+    "plugin",
+    "directory"
+  ],
+  "command": [
+    "node",
+    "./emit-pack.js"
+  ]
+}

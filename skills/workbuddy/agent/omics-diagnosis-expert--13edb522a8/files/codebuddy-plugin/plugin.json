@@ -1,0 +1,64 @@
+{
+  "name": "omics-diagnosis-expert",
+  "version": "1.0.0",
+  "description": "Tencent Health Omics Task Analysis Intelligent Diagnosis Expert - specializing in automated failure diagnosis for omics workflow tasks using JSON-RPC API and built-in troubleshooting knowledge base covering 11 error categories",
+  "author": {
+    "name": "Tencent Health Omics Team",
+    "email": "omics@tencent.com"
+  },
+  "expertType": "agent",
+  "agentName": "omics-diagnosis-expert",
+  "agents": [
+    "./agents/omics-diagnosis-expert.md"
+  ],
+  "skills": [
+    "./skills/omics-run-diagnosis"
+  ],
+  "displayName": {
+    "en": "omics-expert",
+    "zh": "组小学"
+  },
+  "profession": {
+    "en": "Omics Task Intelligent Diagnosis Expert",
+    "zh": "腾讯组学任务分析智能诊断专家"
+  },
+  "displayDescription": {
+    "en": "Expert in omics task intelligent diagnosis, providing automated log analysis, root cause identification, and repair guidance covering 11 major error categories",
+    "zh": "生物信息分析智能诊断，解析任务日志、拆解错误堆栈、快速定位OOM、磁盘满载等故障根源，提升分析效率"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "04-DataAI",
+  "defaultInitPrompt": {
+    "zh": "我的组学任务 runId: xxx 跑失败了，帮我拉取日志做根因分析，输出一份结构化诊断报告（HTML）",
+    "en": "My omics task runId: xxx failed, help me pull the logs for root cause analysis and output a structured diagnostic report (HTML)"
+  },
+  "tags": [
+    {
+      "zh": "任务诊断",
+      "en": "Task Diagnosis"
+    },
+    {
+      "zh": "根因定位",
+      "en": "Root Cause Analysis"
+    },
+    {
+      "zh": "修复方案",
+      "en": "Fix Solutions"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "zh": "我的组学任务 runId: xxx 跑失败了，帮我拉取日志做根因分析，输出一份结构化诊断报告（HTML）",
+      "en": "My omics task runId: xxx failed, help me pull the logs for root cause analysis and output a structured diagnostic report (HTML)"
+    },
+    {
+      "zh": "帮我盘点当前项目所有失败的任务，逐个诊断根因，输出一份批量汇总诊断报告（HTML）",
+      "en": "Help me review all failed tasks in the current project, diagnose root causes one by one, and output a batch summary diagnostic report (HTML)"
+    },
+    {
+      "zh": "我的任务 runId: xxx 跑了 3 小时还没结束，帮我在线查看运行状态和实时日志，判断是卡住了还是资源瓶颈",
+      "en": "My task runId: xxx has been running for 3 hours without finishing, help me check the running status and real-time logs online to determine if it's stuck or facing resource bottlenecks"
+    }
+  ],
+  "plugin": "omics-diagnosis-expert"
+}

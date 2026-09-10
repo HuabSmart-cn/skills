@@ -1,0 +1,1260 @@
+[
+  {
+    "jumlah": 3,
+    "tarikh": "2021-01-01",
+    "cawangan": "Gua Musang",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 8,
+    "tarikh": "2021-01-01",
+    "cawangan": "Gua Musang",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 18,
+    "tarikh": "2021-01-01",
+    "cawangan": "Ibu Pejabat",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 6,
+    "tarikh": "2021-01-01",
+    "cawangan": "Ibu Pejabat",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 84,
+    "tarikh": "2021-01-01",
+    "cawangan": "Johor",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 104,
+    "tarikh": "2021-01-01",
+    "cawangan": "Johor",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 20,
+    "tarikh": "2021-01-01",
+    "cawangan": "Kedah",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 69,
+    "tarikh": "2021-01-01",
+    "cawangan": "Kedah",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 42,
+    "tarikh": "2021-01-01",
+    "cawangan": "Kelantan",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 85,
+    "tarikh": "2021-01-01",
+    "cawangan": "Kelantan",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2021-01-01",
+    "cawangan": "Kelantan",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 13,
+    "tarikh": "2021-01-01",
+    "cawangan": "Kelantan",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 58,
+    "tarikh": "2021-01-01",
+    "cawangan": "Kuala Lumpur",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 63,
+    "tarikh": "2021-01-01",
+    "cawangan": "Kuala Lumpur",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 2,
+    "tarikh": "2021-01-01",
+    "cawangan": "Labuan",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 9,
+    "tarikh": "2021-01-01",
+    "cawangan": "Labuan",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 10,
+    "tarikh": "2021-01-01",
+    "cawangan": "Langkawi",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 9,
+    "tarikh": "2021-01-01",
+    "cawangan": "Langkawi",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 9,
+    "tarikh": "2021-01-01",
+    "cawangan": "Langkawi",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 13,
+    "tarikh": "2021-01-01",
+    "cawangan": "Melaka",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 25,
+    "tarikh": "2021-01-01",
+    "cawangan": "Melaka",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2021-01-01",
+    "cawangan": "Melaka",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 38,
+    "tarikh": "2021-01-01",
+    "cawangan": "Miri",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 21,
+    "tarikh": "2021-01-01",
+    "cawangan": "Miri",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 7,
+    "tarikh": "2021-01-01",
+    "cawangan": "Muar",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 12,
+    "tarikh": "2021-01-01",
+    "cawangan": "Muar",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 38,
+    "tarikh": "2021-01-01",
+    "cawangan": "Negeri Sembilan",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 14,
+    "tarikh": "2021-01-01",
+    "cawangan": "Negeri Sembilan",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 3,
+    "tarikh": "2021-01-01",
+    "cawangan": "Pahang",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 26,
+    "tarikh": "2021-01-01",
+    "cawangan": "Pahang",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 12,
+    "tarikh": "2021-01-01",
+    "cawangan": "Pahang ",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 96,
+    "tarikh": "2021-01-01",
+    "cawangan": "Perak",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 55,
+    "tarikh": "2021-01-01",
+    "cawangan": "Perak",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 24,
+    "tarikh": "2021-01-01",
+    "cawangan": "Perlis",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 30,
+    "tarikh": "2021-01-01",
+    "cawangan": "Perlis",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 54,
+    "tarikh": "2021-01-01",
+    "cawangan": "Pulau Pinang",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 32,
+    "tarikh": "2021-01-01",
+    "cawangan": "Pulau Pinang",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 6,
+    "tarikh": "2021-01-01",
+    "cawangan": "Raub",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 8,
+    "tarikh": "2021-01-01",
+    "cawangan": "Raub",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 6,
+    "tarikh": "2021-01-01",
+    "cawangan": "Raub",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 66,
+    "tarikh": "2021-01-01",
+    "cawangan": "Sabah",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 14,
+    "tarikh": "2021-01-01",
+    "cawangan": "Sabah",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 68,
+    "tarikh": "2021-01-01",
+    "cawangan": "Sarawak",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 47,
+    "tarikh": "2021-01-01",
+    "cawangan": "Sarawak",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2021-01-01",
+    "cawangan": "Sarawak",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 73,
+    "tarikh": "2021-01-01",
+    "cawangan": "Selangor",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 33,
+    "tarikh": "2021-01-01",
+    "cawangan": "Selangor",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 19,
+    "tarikh": "2021-01-01",
+    "cawangan": "Sibu",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 17,
+    "tarikh": "2021-01-01",
+    "cawangan": "Sibu",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 32,
+    "tarikh": "2021-01-01",
+    "cawangan": "Taiping",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 33,
+    "tarikh": "2021-01-01",
+    "cawangan": "Taiping",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 8,
+    "tarikh": "2021-01-01",
+    "cawangan": "Taiping ",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2021-01-01",
+    "cawangan": "Taiping ",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 4,
+    "tarikh": "2021-01-01",
+    "cawangan": "Terengganu",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 53,
+    "tarikh": "2021-01-01",
+    "cawangan": "Terengganu",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 5,
+    "tarikh": "2021-02-01",
+    "cawangan": "Gua Musang",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 11,
+    "tarikh": "2021-02-01",
+    "cawangan": "Gua Musang",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 27,
+    "tarikh": "2021-02-01",
+    "cawangan": "Ibu Pejabat",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 8,
+    "tarikh": "2021-02-01",
+    "cawangan": "Ibu Pejabat",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 16,
+    "tarikh": "2021-02-01",
+    "cawangan": "Johor",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 48,
+    "tarikh": "2021-02-01",
+    "cawangan": "Johor",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 67,
+    "tarikh": "2021-02-01",
+    "cawangan": "Johor",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 60,
+    "tarikh": "2021-02-01",
+    "cawangan": "Johor",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 20,
+    "tarikh": "2021-02-01",
+    "cawangan": "Kedah",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 42,
+    "tarikh": "2021-02-01",
+    "cawangan": "Kedah",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 24,
+    "tarikh": "2021-02-01",
+    "cawangan": "Kelantan",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 80,
+    "tarikh": "2021-02-01",
+    "cawangan": "Kelantan",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 27,
+    "tarikh": "2021-02-01",
+    "cawangan": "Kelantan",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 69,
+    "tarikh": "2021-02-01",
+    "cawangan": "Kuala Lumpur",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 96,
+    "tarikh": "2021-02-01",
+    "cawangan": "Kuala Lumpur",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 4,
+    "tarikh": "2021-02-01",
+    "cawangan": "Labuan",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 6,
+    "tarikh": "2021-02-01",
+    "cawangan": "Labuan ",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 8,
+    "tarikh": "2021-02-01",
+    "cawangan": "Langkawi",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 12,
+    "tarikh": "2021-02-01",
+    "cawangan": "Langkawi",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 29,
+    "tarikh": "2021-02-01",
+    "cawangan": "Melaka",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 19,
+    "tarikh": "2021-02-01",
+    "cawangan": "Melaka",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2021-02-01",
+    "cawangan": "Melaka ",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 28,
+    "tarikh": "2021-02-01",
+    "cawangan": "Miri",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 15,
+    "tarikh": "2021-02-01",
+    "cawangan": "Miri",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 5,
+    "tarikh": "2021-02-01",
+    "cawangan": "Miri ",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 16,
+    "tarikh": "2021-02-01",
+    "cawangan": "Muar",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 16,
+    "tarikh": "2021-02-01",
+    "cawangan": "Muar",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 35,
+    "tarikh": "2021-02-01",
+    "cawangan": "Negeri Sembilan",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 30,
+    "tarikh": "2021-02-01",
+    "cawangan": "Negeri Sembilan",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 2,
+    "tarikh": "2021-02-01",
+    "cawangan": "Pahang",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 12,
+    "tarikh": "2021-02-01",
+    "cawangan": "Pahang",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 143,
+    "tarikh": "2021-02-01",
+    "cawangan": "Perak",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 41,
+    "tarikh": "2021-02-01",
+    "cawangan": "Perak",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 29,
+    "tarikh": "2021-02-01",
+    "cawangan": "Perlis",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 9,
+    "tarikh": "2021-02-01",
+    "cawangan": "Perlis",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 34,
+    "tarikh": "2021-02-01",
+    "cawangan": "Pulau Pinang",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 19,
+    "tarikh": "2021-02-01",
+    "cawangan": "Pulau Pinang",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 4,
+    "tarikh": "2021-02-01",
+    "cawangan": "Raub",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 2,
+    "tarikh": "2021-02-01",
+    "cawangan": "Raub",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2021-02-01",
+    "cawangan": "Raub ",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 42,
+    "tarikh": "2021-02-01",
+    "cawangan": "Sabah",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 11,
+    "tarikh": "2021-02-01",
+    "cawangan": "Sabah",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 2,
+    "tarikh": "2021-02-01",
+    "cawangan": "Sabah ",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 62,
+    "tarikh": "2021-02-01",
+    "cawangan": "Sarawak",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 23,
+    "tarikh": "2021-02-01",
+    "cawangan": "Sarawak",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 4,
+    "tarikh": "2021-02-01",
+    "cawangan": "Sarawak ",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 173,
+    "tarikh": "2021-02-01",
+    "cawangan": "Selangor",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 75,
+    "tarikh": "2021-02-01",
+    "cawangan": "Selangor",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 10,
+    "tarikh": "2021-02-01",
+    "cawangan": "Sibu",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 8,
+    "tarikh": "2021-02-01",
+    "cawangan": "Sibu",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 3,
+    "tarikh": "2021-02-01",
+    "cawangan": "Sibu ",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2021-02-01",
+    "cawangan": "Sibu ",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 21,
+    "tarikh": "2021-02-01",
+    "cawangan": "Taiping",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 21,
+    "tarikh": "2021-02-01",
+    "cawangan": "Taiping",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 2,
+    "tarikh": "2021-02-01",
+    "cawangan": "Terengganu",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 21,
+    "tarikh": "2021-02-01",
+    "cawangan": "Terengganu",
+    "kategori utama": "Syariah "
+  },
+  {
+    "jumlah": 9,
+    "tarikh": "2021-03-01",
+    "cawangan": "Gua Musang",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 24,
+    "tarikh": "2021-03-01",
+    "cawangan": "Gua Musang",
+    "kategori utama": "Syariah"
+  },
+  {
+    "jumlah": 42,
+    "tarikh": "2021-03-01",
+    "cawangan": "Ibu Pejabat",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 20,
+    "tarikh": "2021-03-01",
+    "cawangan": "Ibu Pejabat",
+    "kategori utama": "Syariah"
+  },
+  {
+    "jumlah": 86,
+    "tarikh": "2021-03-01",
+    "cawangan": "Johor",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 350,
+    "tarikh": "2021-03-01",
+    "cawangan": "Johor",
+    "kategori utama": "Syariah"
+  },
+  {
+    "jumlah": 137,
+    "tarikh": "2021-03-01",
+    "cawangan": "Johor ",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 21,
+    "tarikh": "2021-03-01",
+    "cawangan": "Kedah",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 125,
+    "tarikh": "2021-03-01",
+    "cawangan": "Kedah",
+    "kategori utama": "Syariah"
+  },
+  {
+    "jumlah": 45,
+    "tarikh": "2021-03-01",
+    "cawangan": "Kelantan",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 193,
+    "tarikh": "2021-03-01",
+    "cawangan": "Kelantan",
+    "kategori utama": "Syariah"
+  },
+  {
+    "jumlah": 79,
+    "tarikh": "2021-03-01",
+    "cawangan": "Kuala Lumpur",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 123,
+    "tarikh": "2021-03-01",
+    "cawangan": "Kuala Lumpur",
+    "kategori utama": "Syariah"
+  },
+  {
+    "jumlah": 7,
+    "tarikh": "2021-03-01",
+    "cawangan": "Labuan",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 25,
+    "tarikh": "2021-03-01",
+    "cawangan": "Labuan",
+    "kategori utama": "Syariah"
+  },
+  {
+    "jumlah": 5,
+    "tarikh": "2021-03-01",
+    "cawangan": "Labuan ",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 12,
+    "tarikh": "2021-03-01",
+    "cawangan": "Langkawi",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 34,
+    "tarikh": "2021-03-01",
+    "cawangan": "Langkawi",
+    "kategori utama": "Syariah"
+  },
+  {
+    "jumlah": 63,
+    "tarikh": "2021-03-01",
+    "cawangan": "Melaka",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 72,
+    "tarikh": "2021-03-01",
+    "cawangan": "Melaka",
+    "kategori utama": "Syariah"
+  },
+  {
+    "jumlah": 34,
+    "tarikh": "2021-03-01",
+    "cawangan": "Miri",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 11,
+    "tarikh": "2021-03-01",
+    "cawangan": "Miri",
+    "kategori utama": "Syariah"
+  },
+  {
+    "jumlah": 33,
+    "tarikh": "2021-03-01",
+    "cawangan": "Muar",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 32,
+    "tarikh": "2021-03-01",
+    "cawangan": "Muar",
+    "kategori utama": "Syariah"
+  },
+  {
+    "jumlah": 42,
+    "tarikh": "2021-03-01",
+    "cawangan": "Negeri Sembilan",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 15,
+    "tarikh": "2021-03-01",
+    "cawangan": "Negeri Sembilan",
+    "kategori utama": "Syariah"
+  },
+  {
+    "jumlah": 15,
+    "tarikh": "2021-03-01",
+    "cawangan": "Pahang",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 58,
+    "tarikh": "2021-03-01",
+    "cawangan": "Pahang",
+    "kategori utama": "Syariah"
+  },
+  {
+    "jumlah": 166,
+    "tarikh": "2021-03-01",
+    "cawangan": "Perak",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 72,
+    "tarikh": "2021-03-01",
+    "cawangan": "Perak",
+    "kategori utama": "Syariah"
+  },
+  {
+    "jumlah": 22,
+    "tarikh": "2021-03-01",
+    "cawangan": "Perlis",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 32,
+    "tarikh": "2021-03-01",
+    "cawangan": "Perlis",
+    "kategori utama": "Syariah"
+  },
+  {
+    "jumlah": 93,
+    "tarikh": "2021-03-01",
+    "cawangan": "Pulau Pinang",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 70,
+    "tarikh": "2021-03-01",
+    "cawangan": "Pulau Pinang",
+    "kategori utama": "Syariah"
+  },
+  {
+    "jumlah": 11,
+    "tarikh": "2021-03-01",
+    "cawangan": "Raub",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 23,
+    "tarikh": "2021-03-01",
+    "cawangan": "Raub",
+    "kategori utama": "Syariah"
+  },
+  {
+    "jumlah": 136,
+    "tarikh": "2021-03-01",
+    "cawangan": "Sabah",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 64,
+    "tarikh": "2021-03-01",
+    "cawangan": "Sabah",
+    "kategori utama": "Syariah"
+  },
+  {
+    "jumlah": 140,
+    "tarikh": "2021-03-01",
+    "cawangan": "Sarawak",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 70,
+    "tarikh": "2021-03-01",
+    "cawangan": "Sarawak",
+    "kategori utama": "Syariah"
+  },
+  {
+    "jumlah": 292,
+    "tarikh": "2021-03-01",
+    "cawangan": "Selangor",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 145,
+    "tarikh": "2021-03-01",
+    "cawangan": "Selangor",
+    "kategori utama": "Syariah"
+  },
+  {
+    "jumlah": 30,
+    "tarikh": "2021-03-01",
+    "cawangan": "Sibu",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 17,
+    "tarikh": "2021-03-01",
+    "cawangan": "Sibu",
+    "kategori utama": "Syariah"
+  },
+  {
+    "jumlah": 35,
+    "tarikh": "2021-03-01",
+    "cawangan": "Taiping",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 31,
+    "tarikh": "2021-03-01",
+    "cawangan": "Taiping",
+    "kategori utama": "Syariah"
+  },
+  {
+    "jumlah": 16,
+    "tarikh": "2021-03-01",
+    "cawangan": "Terengganu",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 103,
+    "tarikh": "2021-03-01",
+    "cawangan": "Terengganu",
+    "kategori utama": "Syariah"
+  },
+  {
+    "jumlah": 7,
+    "tarikh": "2021-04-01",
+    "cawangan": "Gua Musang",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 23,
+    "tarikh": "2021-04-01",
+    "cawangan": "Gua Musang",
+    "kategori utama": "Syariah"
+  },
+  {
+    "jumlah": 23,
+    "tarikh": "2021-04-01",
+    "cawangan": "Ibu Pejabat",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 17,
+    "tarikh": "2021-04-01",
+    "cawangan": "Ibu Pejabat",
+    "kategori utama": "Syariah"
+  },
+  {
+    "jumlah": 117,
+    "tarikh": "2021-04-01",
+    "cawangan": "Johor",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 182,
+    "tarikh": "2021-04-01",
+    "cawangan": "Johor",
+    "kategori utama": "Syariah"
+  },
+  {
+    "jumlah": 4,
+    "tarikh": "2021-04-01",
+    "cawangan": "Johor ",
+    "kategori utama": "Syariah"
+  },
+  {
+    "jumlah": 42,
+    "tarikh": "2021-04-01",
+    "cawangan": "Kedah",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 123,
+    "tarikh": "2021-04-01",
+    "cawangan": "Kedah",
+    "kategori utama": "Syariah"
+  },
+  {
+    "jumlah": 33,
+    "tarikh": "2021-04-01",
+    "cawangan": "Kelantan",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 131,
+    "tarikh": "2021-04-01",
+    "cawangan": "Kelantan",
+    "kategori utama": "Syariah"
+  },
+  {
+    "jumlah": 79,
+    "tarikh": "2021-04-01",
+    "cawangan": "Kuala Lumpur",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 92,
+    "tarikh": "2021-04-01",
+    "cawangan": "Kuala Lumpur",
+    "kategori utama": "Syariah"
+  },
+  {
+    "jumlah": 3,
+    "tarikh": "2021-04-01",
+    "cawangan": "Labuan",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 15,
+    "tarikh": "2021-04-01",
+    "cawangan": "Labuan",
+    "kategori utama": "Syariah"
+  },
+  {
+    "jumlah": 8,
+    "tarikh": "2021-04-01",
+    "cawangan": "Labuan ",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 7,
+    "tarikh": "2021-04-01",
+    "cawangan": "Labuan ",
+    "kategori utama": "Syariah"
+  },
+  {
+    "jumlah": 15,
+    "tarikh": "2021-04-01",
+    "cawangan": "Langkawi",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 18,
+    "tarikh": "2021-04-01",
+    "cawangan": "Langkawi",
+    "kategori utama": "Syariah"
+  },
+  {
+    "jumlah": 41,
+    "tarikh": "2021-04-01",
+    "cawangan": "Melaka",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 59,
+    "tarikh": "2021-04-01",
+    "cawangan": "Melaka",
+    "kategori utama": "Syariah"
+  },
+  {
+    "jumlah": 48,
+    "tarikh": "2021-04-01",
+    "cawangan": "Miri",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 14,
+    "tarikh": "2021-04-01",
+    "cawangan": "Miri",
+    "kategori utama": "Syariah"
+  },
+  {
+    "jumlah": 41,
+    "tarikh": "2021-04-01",
+    "cawangan": "Muar",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 49,
+    "tarikh": "2021-04-01",
+    "cawangan": "Muar",
+    "kategori utama": "Syariah"
+  },
+  {
+    "jumlah": 29,
+    "tarikh": "2021-04-01",
+    "cawangan": "Negeri Sembilan",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 28,
+    "tarikh": "2021-04-01",
+    "cawangan": "Negeri Sembilan",
+    "kategori utama": "Syariah"
+  },
+  {
+    "jumlah": 13,
+    "tarikh": "2021-04-01",
+    "cawangan": "Pahang",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 57,
+    "tarikh": "2021-04-01",
+    "cawangan": "Pahang ",
+    "kategori utama": "Syariah"
+  },
+  {
+    "jumlah": 149,
+    "tarikh": "2021-04-01",
+    "cawangan": "Perak",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 59,
+    "tarikh": "2021-04-01",
+    "cawangan": "Perak",
+    "kategori utama": "Syariah"
+  },
+  {
+    "jumlah": 22,
+    "tarikh": "2021-04-01",
+    "cawangan": "Perlis",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 25,
+    "tarikh": "2021-04-01",
+    "cawangan": "Perlis",
+    "kategori utama": "Syariah"
+  },
+  {
+    "jumlah": 79,
+    "tarikh": "2021-04-01",
+    "cawangan": "Pulau Pinang",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 68,
+    "tarikh": "2021-04-01",
+    "cawangan": "Pulau Pinang",
+    "kategori utama": "Syariah"
+  },
+  {
+    "jumlah": 5,
+    "tarikh": "2021-04-01",
+    "cawangan": "Raub",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 1,
+    "tarikh": "2021-04-01",
+    "cawangan": "Raub ",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 16,
+    "tarikh": "2021-04-01",
+    "cawangan": "Raub ",
+    "kategori utama": "Syariah"
+  },
+  {
+    "jumlah": 100,
+    "tarikh": "2021-04-01",
+    "cawangan": "Sabah",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 53,
+    "tarikh": "2021-04-01",
+    "cawangan": "Sabah",
+    "kategori utama": "Syariah"
+  },
+  {
+    "jumlah": 5,
+    "tarikh": "2021-04-01",
+    "cawangan": "Sabah ",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 88,
+    "tarikh": "2021-04-01",
+    "cawangan": "Sarawak",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 36,
+    "tarikh": "2021-04-01",
+    "cawangan": "Sarawak",
+    "kategori utama": "Syariah"
+  },
+  {
+    "jumlah": 227,
+    "tarikh": "2021-04-01",
+    "cawangan": "Selangor",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 200,
+    "tarikh": "2021-04-01",
+    "cawangan": "Selangor",
+    "kategori utama": "Syariah"
+  },
+  {
+    "jumlah": 34,
+    "tarikh": "2021-04-01",
+    "cawangan": "Sibu",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 13,
+    "tarikh": "2021-04-01",
+    "cawangan": "Sibu",
+    "kategori utama": "Syariah"
+  },
+  {
+    "jumlah": 34,
+    "tarikh": "2021-04-01",
+    "cawangan": "Taiping",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 16,
+    "tarikh": "2021-04-01",
+    "cawangan": "Taiping ",
+    "kategori utama": "Syariah"
+  },
+  {
+    "jumlah": 8,
+    "tarikh": "2021-04-01",
+    "cawangan": "Terengganu",
+    "kategori utama": "Sivil"
+  },
+  {
+    "jumlah": 107,
+    "tarikh": "20
+
+... [Content truncated, total 338,730 chars] ...

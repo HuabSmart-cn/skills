@@ -1,0 +1,4 @@
+interface:
+  display_name: "飞书口播稿"
+  short_description: "生成可录制口播稿，临时稿与正式稿分目录存入飞书知识库"
+  default_prompt: "使用 $feishu-koubo 生成一篇可直接录制的第一人称中文口播稿，并按意图暂存或正式入库。"

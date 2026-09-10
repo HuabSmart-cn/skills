@@ -1,0 +1,369 @@
+B-BBEE FINANCIAL SECTOR CODE (Dec 2017)
+Specific to: banks, insurers, asset managers, financial services
+FULL TEXT:/n
+=== PAGE 1 ===
+CODES OF GOOD PRACTICE ON BROAD BASED BLACK ECONOMICEMPOWERMENT
+Dr Rob Davies Minister of Trade and ndustry, hereby issue the Amended FinancialServices Sector Code in terms of section 9(1) of the Broad -Based Black EconomicEmpowerment Act, (Act No. 53 of 2003) as amended by the B -BBEE Act 46 of 2013.and determine that these Codes come into effect on the date of this publication
+Dr Rob Davies, MP
+Minister of Trade and IndustryNovember 2017
+  STAATSKOERANT, 1 DESEMBER 2017 No. 41287  183
+DEPARTMENT OF TRADE AND INDUSTRY
+NO. 1325   01 DECEMBER 2017
+1325 Broad-Based Black Economic Empowerment Act (53/2003) as amended by B-BBEE Act (46/2013): Codes of Good Practice on Broad Based Black Economic Empowerment  41287
+
+=== PAGE 2 ===
+ 184  No. 41287 GOVERNMENT GAZETTE, 1 DECEMBER 2017
+ 
+  
+ 
+Broad -Based Black Economic Empowerment Act 53 of 
+2003 as amended by Act 46 of 2013  
+ 
+ 
+ 
+AMENDED FINANCIAL SECTOR CODE  
+2017  
+ 
+ 
+ 
+Revised in terms of Code 000, Statement 003  
+of the Amended Codes of Good Practice  
+ 
+   
+ 
+ 
+  
+=== PAGE 3 ===
+  STAATSKOERANT, 1 DESEMBER 2017 No. 41287  185
+2 
+ Acronyms  
+ABSIP  Association of Black Securities and Investment Professionals  
+ASISA  Association for Savings and Investment South Africa  
+BASA  Banking Association of South Africa  
+B-BBEE                                     Broad -Based Black Economic Empowerment  
+CE Consumer Education  
+CoGP                                                        Codes of Good Practice  
+DBSA  Development Bank of Southern Africa  
+DTI                                Department of Trade and Industry  
+EAP  Economically Active Population  
+EME                           Exempted Micro Enterprise  
+ESOP  Employee Share Ownership Programme  
+FIA Financial Intermediaries Association  
+FSC Financial Sector Code  
+IBA International Bankers’ Associations  
+INCA  Infrastructure Investment Corporation  
+NPAT  Net Profit After Tax  . 
+NPBT                                                          Net Profit Before Tax  
+PEF                                                            Private Equity Fund   
+PBO                                                         Public Benefit Organisation  
+PFMA  Public Financial Management Act 1 of 1999  
+QSFI  Qualifying Small Financial Institution  
+SAIA  South African Insurance Association  
+SAVCA  South African Venture Capital Association  
+SDA                Skills Development Act of 1998  
+SDLA                Skills Development Levies Act of 1999  
+SED Socio -Economic Development  
+SETA                             Sector Education and Training Authority  
+SME  Small and Medium Enterprises  
+SMME  Small, Medium and Micro Enterprises  
+TCTA  Trans Caledon Tunnel Authority  
+UJV Unincorporated Joint Venture  
+WSP  Workplace Skills Plan  
+ 
+ 
+=== PAGE 4 ===
+ 186  No. 41287 GOVERNMENT GAZETTE, 1 DECEMBER 2017
+3 
+ AMENDED FSC FOR  BLACK ECONOMIC EMPOWERMENT  
+ 
+Preamble  
+This Amended Financial Sector Code (FSC) has been prepared in terms of Broad -Based Black Economic Empowerment Act of 
+2003 as amended by Act 46 of 2013 . It is based on a harmonisation of the Department of Trade and Industry Amended Codes of 
+Good Practice (CoGP) and the Financial Sector Code published in the Government Gazette in terms of Section 9  (1) of the Act on 
+26 November 2012.  
+The Financial Sector Charter (the Charter) came into effect in January 2004 as a result of a voluntary offer to develop an industry 
+transformation Charter by the financial sector at the National Economic Development and Labour Council (Nedlac) Financial Sec tor 
+Summit. Nedlac i s the multilateral social dialogue forum which brings together the government, business, labour and community 
+constituencies to approve social, economic and labour market policy.  
+Following the Summit, the Charter was drafted by the financial sector trade a ssociations1 and the Association of Black Securities 
+and Investment Professionals (ABSIP2), with government3 acting as observers. Although the labour4 and community5 
+constituencies were not included in the drafting of the Charter, they agreed to participat e in its governing structure, the Financial 
+Sector Charter Council (the Council), alongside  government, business and ABSIP to finalise outstanding elements of the Charter 
+and to participate in overseeing the implementation of the Charter and in the process  of aligning the Charter with the CoGP.  
+In the alignment process to produce this revised Code, all the Council participants committed to developing a sector transfor mation 
+code aligned to the CoGP, noting that:  
+• Notwithstanding significant progress since th e establishment of a democratic government in 1994, South African society 
+remains characterised by racially income and social services inequalities. This is not only unjust, but inhibits the country’ s 
+ability to achieve its full economic potential. Broad -Based Black Economic Empowerment (B -BBEE) is a mechanism aimed 
+at addressing inequalities and mobilising the energy of all South Africans to contribute to sustained economic growth, 
+development and social transformation in South Africa.  
+• Inequalities also ma nifest themselves in the country’s fi nancial sector. A positive and proactive response from the sector 
+through the implementation of B -BBEE will f urther unlock the sector’s potential, promote its global competitiveness and 
+enhance its world class status.  
+• Equally, the financial stability and soundness of the financial sector and its capacity to facilitate domestic and international 
+commerce is central to the successful implementation of B -BBEE.  
+                                                
+1 The Association for Savings and Investment South Africa (ASISA); South African Insurance Association (SAIA); International 
+Banking Association (IBA); Banking Association of South Africa (BASA), JSE Limited  
+2 ABSIP representing Black professional  organisations  
+3 The Presidency, National T reasury and Department of Trade and Industry  
+4 Congress of South African Trade Unions (Cosatu); National Council of Trade Unions (Nactu); Federation of Unions of South Afri ca 
+(Fedusa)  
+5 Financial Sector Campaign Coalition; Disabled People South Africa; Nat ional Co -operatives Association; The Women’s National 
+Coalition; SA Youth Council; SA Civics Organisation.  
+=== PAGE 5 ===
+  STAATSKOERANT, 1 DESEMBER 2017 No. 41287  187
+4 
+ The Financial Sector Code (FSC) commits all participants to act ively promoting a transformed, vibrant and globally competitive 
+financial sector that reflects the demographics of South Africa, which contributes to the establishment of an equitable socie ty by 
+providing accessible financial services to black people and b y directing investment into targeted sectors of the economy.  
+The FSC is the product of the interaction between the financial sector trade associations, ABSIP , labour, community and 
+government. The FSC reflects the accord reached by all of the stakeholders regarding their joint commitment to fostering B -BBEE 
+in the financial sector and in the South African economy.  
+ 
+Key aspects of the Financial Sector Code  
+Recognising the unique position that financial institutions hold in the development of South Africa, tw o unique elements exist in the 
+FSC scorecard over and above the five elements in the CoGP. These are Empowerment Financing and Access to Financial Services. These elements are intended to broaden and hasten the transformation process as they focus on makin g financial 
+services accessible t o the previously unbanked and under -served. They empower the previously disenfranchised through the 
+provision of affordable housing, financing of black Small, Medium and Micro Enterprises (SMMEs) and agricultural activities , and 
+investing in various types of transformational infrastructure that help to create the necessary platform to grow the economy on an 
+equitable basis.  
+The unique elements of the Code are derived from similar initiatives which were at the core of the or iginal Charter. It is recognised 
+that the sector can better play a role in the creation of sustai nable wealth across a broad base through leveraging its unique position 
+in the allocation of resources from savers to borrowers in the economy. In addition to achieving equity ownership targets by means 
+of sales of shares, as contemplated in Code FS100, Statement 100 and Sales of Assets as contemplated in Code FS100, Statement 102, measured entities are also entitled to achieve equity ownership points through eq uity equivalent programmes as 
+contemplated in Code FS100, Statement 103.  
+These equity equivalent contributions represent the commitment of further resources to key developmental and national focus 
+areas including , but not limited to , National Development Plan (N DP) aligned initiatives, growth of black business , enterprise 
+development, empowerment financing and access to financial services.  
+ Scope of Application  
+This Amended FSC applies  to any natural or juristic person conducting a business, trade or profession in the South African financial 
+sector including, but not limited to, the following:  
+1. Banking;  
+2. Long -term insurance;  
+3. Short -term insurance;  
+4. Re-insurance;  
+5. Retirement fund administrati on; 
+6. The management of collective investment scheme assets;  
+7. Financial services intermediation and brokerage;  
+8. Public entities involved in the financial sector e.g. DBSA, Land Bank ; 
+9. Asset management, consulting and administration;  
+=== PAGE 6 ===
+ 188  No. 41287 GOVERNMENT GAZETTE, 1 DECEMBER 2017
+5 
+ 10. Private equity, venture capi talist and impact investors;  
+11. Management of investments on behalf  of the public, including, but not limited to, private equity, members of any exchange 
+licensed to trade equities or financial instruments in South Africa and entities listed as part of the fi nancial index of a licensed 
+exchange;   
+12. Underwriting management agents ; and 
+13. Industry Trade Associations operating in the sector.  
+This Amended FSC does  not apply to:  
+1. Natural or juristic persons who do not have trading operations in the Republic of South Africa;  
+2. The trading operations of natural or juristic persons  outside the Republic of South Africa; and  
+3. Managers of investments on behalf of the public who are not subject to regulation by the Financial Services Board, such as 
+lawyers who hold money in intermediate trusts.  
+ 
+Status of this Code 
+It is recorded that the Minister of Trade and Industry has previously gazetted the Financial Sector Code as a Sector Code in terms 
+of Section 9 (1) of the Broad -Based Black Economic Empowerment Act (the Act) .  
+The Financial Sector Charter Council (the Council) is of the opinion that this Amended Financial Sector Code  (Amended FSC)  
+meets all of the requirements of paragraph 3 of Code 000, Statement 003 of the amended  CoGP. The Council has applied to the 
+Minister of Trade and Industry to publish the Amended FSC in  terms of Section 9(5 ) of the Act for public comment and to publish 
+the Amended FSC in  terms of Section 9(1) of the Act in the Government Gazette.  
+In conceptualising, implementing and measuring any B -BBEE initiatives, financial institutions and other interested parties must 
+apply this Amended  FSC,  read together with the CoGP gazetted on 11 October 2013 in Section 9(1) of the Act.  The gazetting of 
+this Code in Section 9(1) of the Act means that it is bindin g and takes precedence over any other Code, including the CoGP. The 
+CoGP is applicable only to the extent that this Amended FSC is silent on a particular aspect of B -BBEE that is covered in the 
+CoGP.   
+Once published as a Sector Code in the Government Gaze tte in terms of Section 9(1) of the Act, the Code will remain in effect 
+until amended, substituted or repealed . The Amended FSC will come into effect from the date of gazetting (implementation date) 
+and will be applicable for all measurement s after the dat e of implementation. There will be no transitional period for the 
+implementation of the FSC.  
+The Council shall periodically review and amend the gazetted FSC. The first review shall commence 12 months from the date of 
+gazette.  
+ 
+  
+=== PAGE 7 ===
+  STAATSKOERANT, 1 DESEMBER 2017 No. 41287  189
+6 
+ INDEX FOR THE AMENDED FSC  
+ 
+Financial Sector 
+Code Series  Code Title  Page  
+FS000  Framework for measuring Broad -Based Black Economic Empowerment  8 
+FS100  Measurement of the Ownership Element of Broad -Based Black Economic 
+Empowerment  19 
+FS200  Measurement of the Management  Control Element of Broad -Based Black 
+Economic Empowerment  47 
+FS300  Measurement of the Skills Development Element of Broad -Based Black 
+Economic Empowerment  52 
+FS400  Measurement of the Procurement, Enterprise and Supplier Development 
+Element of Broad -Based Black Economic Empowerment  61 
+FS500  Measurement of the Socio -Economic Development and Consumer 
+Education Element of Broad -Based Black Economic Empowerment  76 
+FS600  Measurement of the Empowerment Financing, Enterprise and Supplier 
+Development Element of Broad -Based Black Economic Empowerment  82 
+FS700  Measurement of the Access to Financial Services Element of Broad -based 
+Black Economic Empowerment  96 
+FS800  Measurement of the Qualifying Small Financial Institutions of Broad -Based 
+Black Economic  Empowerment  110 
+FS900  Measurement of the Specialised Entities  of Broad -Based Black Economic 
+Empowerment  117 
+Schedule 1   Voluntary Dispensation for Top 100 Retirement Funds Including Umbrella 
+Funds  136 
+Schedule 2  Interpretation and Definitions  138 
+ 
+=== PAGE 8 ===
+ 190  No. 41287 GOVERNMENT GAZETTE, 1 DECEMBER 2017
+7 
+ Index for Statements  
+Statement 
+Number  Financial Sector Code 
+Series  Statement Title  Page  
+000 Code Series FS000  General principles and the Scorecard  8 
+100 Code Series FS100  The General principles for measuring Ownership  19 
+102 Code Series FS100  Recognition of the Sale of Assets  36 
+103 Code Series FS100  The recognition of Equity Equivalents  39 
+200 Code Series FS200  The general principles for measuring Management Control  47 
+300 Code Series FS300  The general principles for measuring Skills Development  52 
+400 Code Series FS400  The general principles for measuring Procurement, Enterprise 
+and Supplier Development  61 
+500 Code Series FS500  The general principles for Socio -economic Development and 
+Consumer Education  76 
+600 Code Series FS600  The general principles for measuring Empowerment Financing  82 
+700 Code Series FS700  The General Principles for measuring Access to Financial 
+Services  96 
+701 Code Series FS700  The general principles for measuring Access  to Financial services 
+as it relates to Banks  97 
+702 Code Series FS700  The general principles for measuring Access  to Financial services 
+as it relates to Long- term Assurers  103 
+703 Code Series FS700  The general principles for measuring Access  to Financial services 
+as it relates to Short -term Insurers  106 
+800 Code Series FS800  General principles and the Qualifying Small Financial Institution 
+(QSFI) Scorecard  110 
+801 Code Series FS800  The General principles for measuring Ownership for QSFIs   112 
+802 Code Series FS800  The general principles for measuring Management Control for 
+QSFI’s  113 
+803 Code Series FS800  The general principles for measuring Skills Development for 
+QSFIs  114 
+804 Code Series FS800  The general principles for measuring  Enterprise and Supplier 
+Development for QSFIs  115 
+805 Code Series FS800  The General Principles for measuring Socio -economic 
+Development for QSFIs  116 
+ 
+  
+=== PAGE 9 ===
+  STAATSKOERANT, 1 DESEMBER 2017 No. 41287  191
+8 
+ AMENDED FSC SERIES  FS000: FRAMEWORK FOR MEASURING BROAD -BASED BLACK ECONOMIC EMPOWERMENT  
+STATEMENT 000: GENERAL PRINCIPLES AND THE SCORECARD  
+ 
+Issued under section 9 ( 1) of the Broad -Based Black Economic Empowerment Act of  
+2003 as amended by Act 46 of 2013  
+Arrangement of Statement 000  
+Paragraph  Subject  Page  
+1  OBJECTIVES OF STATEMENT 000  9 
+2  KEY PRINCIPLES                                                                                                                   9 
+3  APPLICATION OF THE FINANCIAL SECTOR CODE                                                                          10 
+4  ELIGIBILITY AS AN EXEMPTED MICRO ENTERPRIS E (EME)                                                          12 
+5  ELIGIBILITY AS A QUALIFYING SMALL FINANCIAL INSTITUTIONS (QSFI)                                            13 
+6  START -UP ENTERPRISES                                                                                                          13 
+7  THE ELEMENTS OF B -BBEE IN TERMS OF THE SCORECARD                                                        13 
+8  THE  AMENDED FSC  SCORECARD                                                                                                          14 
+9  ENHANCED RECOGNITION FOR CERTAIN CATEGORIE S OF BLACK PEOPLE                                         16 
+10 TRANSITIONAL ARRANGEMENTS  16 
+11  ADJUSTMENT OF THRESHOLDS  17 
+12  DURATION OF THE AMENDED FSC                                                                                                         17 
+13  INTERPRETIVE GUIDES, GUIDANCE NOTES, PRACTICE DIRECTIV ES AND 
+STANDARDS DOCUMENTS   18 
+ 
+ 
+  
+=== PAGE 10 ===
+ 192  No. 41287 GOVERNMENT GAZETTE, 1 DECEMBER 2017
+9 
+ 1 OBJECTIVES OF STATEMENT 000  
+  The objectives of this Statement are to:  
+1.1  Specify the interpretative principals of B -BBEE as they relate to the financial sector;  
+1.2 Specify the application of the Amended FSC and  the basis for measurement in terms of the Amended FSC;  
+1.3 Indicate the qualifying threshold for measured entities to qualify as Exempted Micro Enterprises (EMEs) or Qualifying 
+Small Financial Institutions (QSFIs);  
+1.4 Specify the method of measuring Star t-up Enterprises;  
+1.5 Specify the elements of B -BBEE measurable in the Generic Scorecard and QSFI Scorecard;  
+1.6 Specify the Generic Scorecard and QSFI Scorecard;  
+1.7 Specify the basis for determining compliance by measured entities with the Amended  FSC; and 
+1.8  Give the Financial Sector Charter Council the  power to provide interpretive guidance and practice directives as well 
+as standar d documents with regard to the application or intention of the Amended FSC in  consultation with the DTI.  
+ 
+2 KEY PRINCIPLES  
+2.1  The fundamental principle for measuring B -BBEE compliance is that substance takes precedence over legal 
+form.  
+2.2 In interpreting the provisions of the Co GP and this Amended FSC , any reasonable interpretation consistent with the 
+objectives of the  Act and the B -BBEE Strategy in Section 11 of the Act must take precedence . 
+2.3  This formula for measuring B -BBEE initiatives in the Amended FSC is: 
+2.3.1  for the ownership and management control elements,  the B -BBEE compliance of the measured entity at the 
+measurement date; and  
+2.3.2   for the skills development, enterprise and supplier development, access, empowerment financing and socio -economic 
+development elements, the B -BBEE compliance of the measured entity over the measurement p eriod.   
+2.4  Any misrepresentation or attempt to misrepresent an entity’s true  B-BBEE status will be dealt with in accordance with 
+the provisions set out in the Act, and may lead to the disqualification of the entire scorecard of the entity concerned.  
+2.5  Initiatives which separate or divide enterprises solely as a means of ensuring eligibility as an EME, a QSFI or a start -
+up enterprise may constitute an offence and will be dealt with in accordance with the provisions as set out in the B -B-
+BEE Act as amend ed. 
+2.6 When determining eligibility as an EME, a QSFI or a Large  (Generic)  Enterprise, which is  defined as an entity with an 
+annual turnover of R50 million or more, only the South African  revenue will be considered, unless the entity is seeking 
+a consolidated verification inclusive of its subsidiaries. The aggregate revenue of related enterprises will only be 
+considered in terms of paragraphs 17.15 and 17.16 of Appendix 2 of the Verification Manual gazetted on 18 July 2008 (as amended) where:  
+2.6.1      the intent to defraud described in 2.5 above is present; or  
+2.6.2   a holding entity that does not house the operations of the group is measured separately . 
+2.7  Any representation made by an entity about its B -BBEE compliance must be supported by suitable evidence or 
+documentation. An entity that does not provide suitable evidence or documentation must not receive any recognition 
+=== PAGE 11 ===
+  STAATSKOERANT, 1 DESEMBER 2017 No. 41287  193
+10 
+ for that initiative. This requirem ent does not apply to divisions or subsidiaries that submit reports in terms of paragraph 
+8.3 of Code series FS000. For these entities, B -BBEE compliance must be supported by appropriate evidence or 
+documentation.   
+2.8  Wherever a standard valuation metho d applies to measuring an indicator, the same standard should apply, as far as 
+reasonably possible, consistently in all other applicable calculations in this Amended FSC.     
+2.9 The measurement of Unincorporated Joint Ventures will be done as follows:  
+2.9.1     Unincorporated Joint Ventures (U JVs) are required to compile a consolidated verification certificate. This certificate 
+consolidates the verified compliance data of the joint venture partners in accordance with paragraph 2.9.2 below as if 
+those measured entities were a single entity.  
+2.9.2    The consolidation of compliance data shall be based on a weighting in accordance with the relevant joint venture agreement. Therefore, if two companies enter into a UJV, their respective scores in terms of the Amended FSC will  be 
+weighted according to thei r proportionate share in the joint venture and added together for a combined score out of 
+100. 
+2.9.3    Where all the partners in the joint venture are defined  as empowering suppliers, the UJV will also qualify as an 
+empowering supplier.  If they are not, the compliance of the UJV with the empowering supplier requirements must be 
+measured as though it is a single measured entity. Each partner will c ontribute to the categories of measurement for 
+empowering supplier status, in proportion to its share in the j oint venture.  
+2.10           Where the Amended FSC is  silent, the provisions of the generic codes apply.  
+2.11   In general, a financial institution that is a local subsidiary of a multinational or external company (as defined in Section 
+1 of the Companies Act), or a branch of a multinational or external company that is precluded in terms of a g lobal policy 
+from accommodating domestic ownership participation, will be exempt from t he ownership provisions of Code FS100.  
+The exemption from ownership  by the multinational  and the compliance thereof with Equity Equivalent Investment 
+Programme (EEIP) in lieu of ownership shall be granted by the Minister of Trade and Industry. The requirement for 
+exemption from Ownership to be granted by the Minister of T rade and Industry will not apply to companies measured 
+against the Specialist Entity Scorecard, that are not required to be measured for Ownership.  
+2.12   The B -BBEE compliance level of an instituti on which has been exempted from compliance with any elemen t or sub -
+element must be determined by adding the points it earned for each of the remaining scorecard elemen ts. The B -BBEE 
+compliance level shall be the sum of the points earned, divided by the total  points available . 
+2.13   All scores achieved by financi al institutions according to the scorecards in paragraph 8.1 of Code FS000, Code FS800  
+and Code FS900 , must be used to determine the compliance level in line with paragraph 8.3 of Code FS000.   
+2.14   The verification of B -BBEE compliance of financial institutions will be undertaken by B-BBEE verification professionals 
+as determined by the Act.  All verification agencies verifying a financial institution must submit the financial institution’s 
+B-BBEE certificate and the full verification report to the Fi nancial Sector Charter Council within 30 days of the certificate 
+issue.  
+ 
+3  APPLICATION  OF THE AMENDED FSC  
+3.1 This Amended FSC is  applicable to all entities as defined in the paragraph titled, “Scope of Application in the 
+=== PAGE 12 ===
+ 194  No. 41287 GOVERNMENT GAZETTE, 1 DECEMBER 2017
+11 
+ Preamble section of this document.  
+3.2 The basis for measuring the B -BBEE compliance of an e ntity in terms of paragraph 3.1 is as follows:  
+3.2.1  Paragraph 4, in the case of an EME . 
+3.2.2  The generic scorecard and QSFI scorecard in paragraph 8 in the case of other entities.  
+3.2.3  A measured entity in a sector in respect of which a sector code has been issu
+
+... [Content truncated, total 330,612 chars] ...

@@ -1,0 +1,742 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no" />
+<title>NOUS · pretext</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@400;500&display=block" rel="stylesheet">
+<style>
+  :root { color-scheme: dark; }
+
+  :root {
+    --background:       color-mix(in srgb, #041C1C 100%, transparent);
+    --background-base:  #041C1C;
+    --background-alpha: 1;
+    --background-blend: difference;
+    --midground:        color-mix(in srgb, #ffe6cb 100%, transparent);
+    --midground-base:   #ffe6cb;
+    --midground-alpha:  1;
+    --foreground:       color-mix(in srgb, #ffffff 0%, transparent);
+    --foreground-base:  #ffffff;
+    --foreground-alpha: 0;
+    --foreground-blend: difference;
+  }
+
+  html, body {
+    margin: 0;
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    background: #000;
+  }
+
+  /* literally center the composition in 100vh */
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #stage {
+    position: relative;
+    z-index: 2;
+    width: min(1240px, 100vw);
+    height: min(720px, 100vh);
+    cursor: grab;
+    overflow: visible;
+  }
+  #stage:active { cursor: grabbing; }
+
+  #c,
+  #orbCanvas {
+    display: block;
+    position: absolute;
+    left: calc((100vw - min(1240px, 100vw)) / -2);
+    top: calc((100vh - min(720px, 100vh)) / -2);
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none;
+  }
+  #c { z-index: 3; }
+  #orbCanvas {
+    z-index: 4;
+    opacity: 1;
+  }
+  #noiseCanvas {
+    display: block;
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+  }
+  #textLayer {
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+    color: var(--midground-base);
+    font: 400 10px/15px "Geist Mono", "JetBrains Mono", "SF Mono", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    pointer-events: auto;
+    user-select: text;
+    -webkit-user-select: text;
+  }
+  #textLayer *::selection {
+    background: var(--selection-bg, var(--midground));
+    color: var(--background-base);
+  }
+  .flow-line {
+    position: absolute;
+    height: 20px;
+    white-space: pre;
+    overflow: visible;
+    color: var(--midground-base);
+  }
+  #annotationLayer {
+    position: absolute;
+    inset: 0;
+    z-index: 4;
+    pointer-events: none;
+    overflow: visible;
+  }
+  .annot {
+    position: absolute;
+    pointer-events: none;
+    will-change: opacity, transform;
+  }
+  .tok-keyword { color: color-mix(in srgb, var(--midground-base) 54%, #ff174d); }
+  .tok-string  { color: color-mix(in srgb, var(--midground-base) 52%, #ff6b3d); }
+  .tok-comment { color: color-mix(in srgb, var(--midground-base) 42%, #7f1d1d); }
+  .tok-number  { color: color-mix(in srgb, var(--midground-base) 50%, #ff2a6d); }
+  .tok-const   { color: color-mix(in srgb, var(--midground-base) 48%, #ff003c); }
+
+  .layer { position: fixed; inset: 0; pointer-events: none; }
+  .bg-lens   { z-index: 1; background-color: var(--background); mix-blend-mode: var(--background-blend); }
+  .vignette  { z-index: 99; background: radial-gradient(ellipse at 0% 0%, rgba(255,189,56,0) 60%, rgba(255,189,56,0.35) 100%); mix-blend-mode: lighten; opacity: 0.22; }
+  .fg-lens   { z-index: 100; background-color: var(--foreground); mix-blend-mode: var(--foreground-blend); }
+  .noise {
+    z-index: 101;
+    mix-blend-mode: difference;
+  }
+  #noiseCanvas {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+  .terminal-cursor {
+    position: absolute;
+    width: 0.6em;
+    height: 1em;
+    background: #fff;
+    z-index: 6;
+    pointer-events: none;
+    mix-blend-mode: difference;
+    animation: term-blink 1s steps(1, end) infinite;
+  }
+  @keyframes term-blink {
+    0%, 60% { opacity: 1; }
+    60.01%, 100% { opacity: 0; }
+  }
+  .cursor-anchor {
+    display: inline-block;
+    width: 0;
+    height: 1em;
+    vertical-align: text-top;
+    pointer-events: none;
+  }
+
+  @font-face {
+    font-family: "Mondwest";
+    src: url("https://esm.sh/@nous-research/ui@0.4.0/dist/fonts/Mondwest-Regular.woff2") format("woff2");
+    font-weight: 400; font-style: normal; font-display: block;
+  }
+  @font-face {
+    font-family: "Geist Mono";
+    src: url("https://cdn.jsdelivr.net/npm/@fontsource/geist-mono@5.2.5/files/geist-mono-latin-400-normal.woff2") format("woff2");
+    font-weight: 400; font-style: normal; font-display: block;
+  }
+  @font-face {
+    font-family: "JetBrains Mono";
+    src: url("https://cdn.jsdelivr.net/npm/@fontsource/jetbrains-mono@5.2.5/files/jetbrains-mono-latin-400-normal.woff2") format("woff2");
+    font-weight: 400; font-style: normal; font-display: block;
+  }
+
+  .font-primer { position: fixed; left: -9999px; top: -9999px; font: 400 26px "Mondwest", serif; }
+</style>
+</head>
+<body>
+<div id="stage"><div id="textLayer" aria-label="self-learning source stream"></div><div id="terminalCursor" class="terminal-cursor" hidden></div><canvas id="c"></canvas><canvas id="orbCanvas"></canvas></div>
+<div class="layer bg-lens"></div>
+<div class="layer vignette"></div>
+<div class="layer fg-lens"></div>
+<div class="layer noise"><canvas id="noiseCanvas"></canvas></div>
+<div class="font-primer" aria-hidden="true">Aa Mondwest priming glyphs 0123456789</div>
+
+<script type="module">
+import {
+  prepareWithSegments,
+  layoutNextLineRange,
+  materializeLineRange,
+} from "https://esm.sh/@chenglou/pretext@0.0.6";
+import gsap from "https://esm.sh/gsap@3.12.5";
+import GUI from "https://esm.sh/lil-gui@0.19.2";
+
+const SELF_LEARNING_SOURCE = String.raw`
+type ToolId=u16; type FeatureId=u32; type W=f32;
+struct Obs{tool:ToolId,reward:f32,lat:u32,feat:&'static[FeatureId],tok:u16}
+struct Belief{prior:W,conf:W,last:u64,uses:u32}
+
+#[inline] fn sig(x:f32)->f32{1.0/(1.0+(-x).exp())}
+#[inline] fn decay(now:u64,last:u64)->f32{1.0-((now-last)as f32/900.0).min(1.0)*0.22}
+#[inline] fn clamp8(x:f32)->f32{x.clamp(-8.0,8.0)}
+
+fn score(theta:&[W],b:&[Belief],o:&Obs)->f32{
+    let sparse=o.feat.iter().fold(0.0,|a,id|a+theta[*id as usize]);
+    let belief=b[o.tool as usize].prior*b[o.tool as usize].conf.max(0.15);
+    sparse+belief-(o.lat as f32*0.00072)-(o.tok as f32*0.00009)
+}
+
+fn update(theta:&mut[W],b:&mut[Belief],o:&Obs,now:u64,eta:f32){
+    let p=sig(score(theta,b,o));
+    let e=(o.reward-p).clamp(-1.0,1.0);
+    let step=eta*e/(o.feat.len().max(1)as f32).sqrt();
+
+    for id in o.feat{
+        let w=&mut theta[*id as usize];
+        *w=clamp8(*w+step-0.0003*w.signum());
+    }
+
+    let slot=&mut b[o.tool as usize];
+    let d=decay(now,slot.last);
+    let r=(o.reward-o.lat as f32*0.00035).clamp(-1.0,1.0);
+    slot.prior=slot.prior*d+r*0.14+e*0.06;
+    slot.conf=(slot.conf*0.93+r.abs()*0.07).min(1.0);
+    slot.uses=slot.uses.saturating_add(1);
+    slot.last=now;
+}
+
+fn consolidate(trace:&[Obs],theta:&mut[W],b:&mut[Belief],now:u64){
+    let eta=0.042/(1.0+(trace.len()as f32*0.003));
+    let mut credit=1.0;
+    for o in trace.iter().rev(){
+        update(theta,b,o,now,eta*credit);
+        credit*=0.985;
+    }
+}
+
+fn choose<'a>(theta:&[W],b:&[Belief],xs:&'a[Obs],temp:f32)->&'a Obs{
+    xs.iter().max_by(|a,bx|{
+        let sa=score(theta,b,a)/temp.max(0.05);
+        let sb=score(theta,b,bx)/temp.max(0.05);
+        sa.partial_cmp(&sb).unwrap()
+    }).unwrap()
+}
+`;
+const CODE_CHUNK = SELF_LEARNING_SOURCE
+  .trim()
+  .replace(/\t/g, "  ")
+  .replace(/\n{3,}/g, "\n\n");
+const STREAM_REPEAT_COUNT = 6;
+const streamCorpus = Array.from({ length: STREAM_REPEAT_COUNT }, () => CODE_CHUNK).join("\n\n");
+
+const stage = document.getElementById("stage");
+const textLayer = document.getElementById("textLayer");
+const canvas = document.getElementById("c");
+const orbCanvas = document.getElementById("orbCanvas");
+const ctx = canvas.getContext("2d", { alpha: true });
+const orbCtx = orbCanvas.getContext("2d", { alpha: true });
+let W = 0, H = 0, DPR = 1;
+let canvasLeft = 0, canvasTop = 0, canvasW = 0, canvasH = 0;
+
+let BODY_FONT = '400 10px "Geist Mono", "JetBrains Mono", "SF Mono", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace';
+let BODY_LINE_H = 15;
+let ASCII_FONT = '8px monospace';
+let CELL_W = 4.8;
+let CELL_H = 8;
+const CHARS = ' ·:;+=░▒▓█';
+const EMPTY = 0;
+const CHARS_LAST = CHARS.length - 1;
+
+const LOGO = ['N', 'O', 'U', 'S'].map((letter, i) => ({
+  letter,
+  rows: [
+    i === 0
+      ? '██░░░██,██░░░██,███░░██,█░██░██,█░░████,█░░░███,██░░░██,██░░░██,██░░░██'
+      : i === 1
+        ? '░█████░,██░░░██,██░░░██,██░░░██,██░░░██,██░░░██,██░░░██,██░░░██,░█████░'
+        : i === 2
+          ? '██░░░██,██░░░██,██░░░██,██░░░██,██░░░██,██░░░██,██░░░██,██░░░██,░█████░'
+          : '░█████░,██░░░██,██░░░░░,░████░░,░░░░██░,░░░░░██,██░░░██,██░░░██,░█████░'
+  ][0].split(',')
+}));
+
+function hash(x, y) {
+  const n = Math.sin(x * 127.1 + y * 311.7) * 43758.5453;
+  return n - Math.floor(n);
+}
+function charAt(t) {
+  return CHARS[Math.min(CHARS.length - 1, Math.max(0, Math.floor(t * CHARS.length)))];
+}
+function gridDist(v, step) {
+  return Math.abs(v / step - Math.round(v / step)) * step;
+}
+function rot(a, b, angle) {
+  const c = Math.cos(angle), s = Math.sin(angle);
+  return [a * c - b * s, a * s + b * c];
+}
+function hexToRGB(h) {
+  const v = parseInt(h.slice(1), 16);
+  return [(v >> 16) & 255, (v >> 8) & 255, v & 255];
+}
+
+let fontsReady = false;
+let bodyPrepared = null;
+function rebuildLayouts() {
+  bodyPrepared = prepareWithSegments(streamCorpus, BODY_FONT, { whiteSpace: "pre-wrap" });
+}
+
+const LENS_0 = { bgBlend: "difference", bgColor: "#041C1C", bgOpacity: 1, mgColor: "#ffe6cb", mgOpacity: 1, fgBlend: "difference", fgColor: "#FFFFFF", fgOpacity: 0 };
+const LENS_5I = { bgBlend: "multiply", bgColor: "#ffffff", bgOpacity: 1, mgColor: "#fffff5", mgOpacity: 1, fgBlend: "difference", fgColor: "#041a1f", fgOpacity: 1 };
+const LENS = { current: null, mgBase: null, depthColors: null };
+function colorMix(color, alpha) { return `color-mix(in srgb, ${color} ${Math.round(alpha * 100)}%, transparent)`; }
+function precomputeDepthColors(mgColor) {
+  const [r, g, b] = hexToRGB(mgColor);
+  return Array.from({ length: 64 }, (_, i) => {
+    const depth = i / 63;
+    const m = 0.4 + depth * 0.6;
+    return `rgba(${(r * m) | 0},${(g * m) | 0},${(b * m) | 0},${depth})`;
+  });
+}
+function applyLens(preset) {
+  LENS.current = preset;
+  LENS.mgBase = preset.mgColor;
+  LENS.depthColors = precomputeDepthColors(preset.mgColor);
+  const s = document.documentElement.style;
+  for (const [name, color, alpha] of [["foreground", preset.fgColor, preset.fgOpacity], ["midground", preset.mgColor, preset.mgOpacity], ["background", preset.bgColor, preset.bgOpacity]]) {
+    s.setProperty(`--${name}`, colorMix(color, alpha));
+    s.setProperty(`--${name}-base`, color);
+    s.setProperty(`--${name}-alpha`, `${alpha}`);
+  }
+  s.setProperty("--background-blend", preset.bgBlend);
+  s.setProperty("--foreground-blend", preset.fgBlend);
+}
+applyLens(LENS_0);
+addEventListener("keydown", e => { if (e.key === "x" || e.key === "X") applyLens(LENS.current === LENS_0 ? LENS_5I : LENS_0); });
+const SELECTION_COLORS = [
+  "oklch(85% 0.12 330)",
+  "oklch(85% 0.12 300)",
+  "oklch(85% 0.12 270)",
+  "oklch(85% 0.12 230)",
+  "oklch(85% 0.12 180)",
+  "oklch(85% 0.12 150)",
+  "oklch(85% 0.12 120)",
+  "oklch(85% 0.12 90)",
+  "oklch(85% 0.12 60)",
+  "oklch(85% 0.12 30)",
+  "oklch(88% 0.10 80)",
+];
+let selectionIdx = 0;
+function cycleSelectionColor() {
+  requestAnimationFrame(() => {
+    document.documentElement.style.setProperty("--selection-bg", SELECTION_COLORS[(selectionIdx = (selectionIdx + 1) % SELECTION_COLORS.length)]);
+  });
+}
+document.addEventListener("selectstart", cycleSelectionColor);
+addEventListener("keydown", e => {
+  if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === "a") {
+    cycleSelectionColor();
+    e.preventDefault();
+    const selection = getSelection();
+    const range = document.createRange();
+    range.selectNodeContents(textLayer);
+    selection.removeAllRanges();
+    selection.addRange(range);
+  }
+});
+
+let asciiMask, asciiChar, asciiGlyph, orbMask, orbChar, orbGlyph, obstacleRows, intervals;
+let cols = 0, rows = 0;
+let canvasCols = 0, canvasRows = 0;
+let lastFrameTime = 0;
+const drawnLines = { x: [], y: [], w: [], text: [], count: 0 };
+let lineNodes = [];
+let terminalAnchorEl = null;
+let terminalLineEl = null;
+let orbShapeControl = null;
+let autoCubeCall = null;
+let lastTextSignature = "";
+const ORB = {
+  panX: 0, panY: 0,
+  orbitX: -1.42, orbitY: 0,
+  radius: 0.135,
+  zoom: 3,
+  cubeScale: 1.8,
+  autoSpin: 0.18,
+  lat: 19,
+  lon: 30,
+  wire: 0.2,
+  shape: "sphere",
+  shapeMix: 0,
+  drag: null,
+  positioned: false,
+  staged: false,
+};
+const SCENE = {
+  orbBuildDuration: 1.45,
+};
+
+let nousStartTime = null;
+const AUTO_CUBE_AFTER_NOUS_RESOLVE = 0.0;
+function setOrbShape(shape, { reveal = false, syncControl = true } = {}) {
+  ORB.shape = shape;
+  if (syncControl) {
+    ctrls.orbShape = shape;
+    orbShapeControl?.updateDisplay();
+  }
+  if (reveal) {
+    gsap.killTweensOf(orbCanvas);
+    orbCanvas.style.opacity = "1";
+  }
+  gsap.killTweensOf(ORB, "shapeMix");
+  gsap.to(ORB, {
+    shapeMix: shape === "cube" ? 1 : 0,
+    duration: Math.max(0.01, ctrls.shapeMorphDuration ?? 0.65),
+    ease: "power2.inOut",
+    onUpdate: () => { lastTextSignature = ""; },
+  });
+  lastTextSignature = "";
+}
+function sceneTimeNow() {
+  return (typeof performance !== "undefined" ? performance.now() : Date.now()) * 0.001 - sceneEpoch;
+}
+function armNous(atTime = sceneTimeNow()) {
+  if (nousStartTime !== null) return;
+  const startAt = Math.max(0, atTime);
+  nousStartTime = startAt;
+  const delay = Math.max(0, startAt - sceneTimeNow()) + Math.max(0, ctrls.orbContainNous ?? 1.0);
+  gsap.killTweensOf(orbCanvas);
+  gsap.to(orbCanvas, {
+    opacity: 0,
+    duration: Math.max(0.05, ctrls.orbFadeDuration ?? 0.7),
+    delay,
+    ease: "power2.out",
+  });
+  autoCubeCall?.kill();
+  const nousResolveAt = startAt + (LOGO.length - 1) * 0.4 + 1.0;
+  const cubeAt = nousResolveAt + AUTO_CUBE_AFTER_NOUS_RESOLVE;
+  autoCubeCall = gsap.delayedCall(Math.max(0, cubeAt - sceneTimeNow()), () => {
+    setOrbShape("cube", { reveal: true, syncControl: false });
+  });
+}
+function orbBuildStartTime() {
+  return Math.max(0, ctrls.orbLead ?? 0);
+}
+function codeTypingStartTime() {
+  return Math.max(0, orbBuildStartTime() + SCENE.orbBuildDuration * 0.62 - 0.3);
+}
+
+function logoCenterPan() {
+  const aspect = cols / rows / 2;
+  const h = 0.38;
+  const w = h * 2.6 * 0.55;
+  const halfStageX = (w / 2 / aspect) * W;
+  const centerX = W * 0.5;
+  const centerY = H * 0.5;
+  return {
+    panX: centerX / W - 0.5,
+    panY: centerY / H - 0.5,
+    left: centerX - halfStageX,
+    right: centerX + halfStageX,
+  };
+}
+
+function startSceneTimeline() {
+  if (ORB.staged || !cols || !rows || !W || !H) return;
+  ORB.staged = true;
+  const now = sceneTimeNow();
+  const startAt = Math.max(0, orbBuildStartTime() + SCENE.orbBuildDuration * 0.72 - now);
+  gsap.timeline({ delay: startAt })
+    .to(ORB, {
+      orbitX: 0.55,
+      orbitY: `+=${Math.PI * 1.85}`,
+      duration: 2.4,
+      ease: "power3.inOut",
+      onUpdate: () => { lastTextSignature = ""; },
+    }, "<")
+    .to(ORB, {
+      radius: 0.125,
+      duration: 2.4,
+      ease: "power3.inOut",
+      onUpdate: () => { lastTextSignature = ""; },
+    }, "<")
+    .to(ORB, {
+      wire: ctrls.orbWireLow,
+      duration: ctrls.wireDropDuration,
+      ease: "power2.inOut",
+      onUpdate: () => { lastTextSignature = ""; },
+      onComplete: () => {
+        armNous(sceneTimeNow() + Math.max(0, ctrls.nousAfterWire));
+      },
+    });
+}
+
+function resize() {
+  const r = stage.getBoundingClientRect();
+  W = Math.max(1, Math.floor(r.width));
+  H = Math.max(1, Math.floor(r.height));
+  canvasLeft = r.left;
+  canvasTop = r.top;
+  canvasW = Math.max(1, window.innerWidth);
+  canvasH = Math.max(1, window.innerHeight);
+  DPR = Math.min(window.devicePixelRatio || 1, 2);
+  canvas.width = Math.floor(canvasW * DPR);
+  canvas.height = Math.floor(canvasH * DPR);
+  orbCanvas.width = Math.floor(canvasW * DPR);
+  orbCanvas.height = Math.floor(canvasH * DPR);
+  ctx.setTransform(DPR, 0, 0, DPR, 0, 0);
+  orbCtx.setTransform(DPR, 0, 0, DPR, 0, 0);
+  ctx.font = ASCII_FONT;
+  orbCtx.font = ASCII_FONT;
+  CELL_W = ctx.measureText("M").width || CELL_W;
+  cols = Math.ceil(W / CELL_W);
+  rows = Math.ceil(H / CELL_H);
+  canvasCols = Math.ceil(canvasW / CELL_W);
+  canvasRows = Math.ceil(canvasH / CELL_H);
+  asciiMask = new Uint8Array(canvasCols * canvasRows);
+  asciiChar = new Uint8Array(canvasCols * canvasRows);
+  asciiGlyph = new Array(canvasCols * canvasRows);
+  orbMask = new Uint8Array(canvasCols * canvasRows);
+  orbChar = new Uint8Array(canvasCols * canvasRows);
+  orbGlyph = new Array(canvasCols * canvasRows);
+  obstacleRows = Array.from({ length: rows }, () => []);
+  intervals = new Float32Array(64);
+  if (!ORB.positioned && W > 100 && H > 100) {
+    ORB.panX = 0;
+    ORB.panY = 0;
+    ORB.positioned = true;
+  }
+  startSceneTimeline();
+}
+addEventListener("resize", () => { lastTextSignature = ""; resize(); });
+function orbCenter() {
+  const rNorm = ORB.radius * ORB.zoom;
+  return {
+    x: (0.5 + ORB.panX) * W,
+    y: (0.5 + ORB.panY) * H,
+    canvasX: (0.5 + ORB.panX) * W + canvasLeft,
+    canvasY: (0.5 + ORB.panY) * H + canvasTop,
+    r: rNorm * H,
+    rNorm,
+  };
+}
+
+stage.addEventListener("pointerdown", e => {
+  const rect = stage.getBoundingClientRect();
+  const center = orbCenter();
+  const hitScale = ORB.shape === "cube" ? ORB.cubeScale : 1;
+  const dx = e.clientX - rect.left - center.x;
+  const dy = e.clientY - rect.top - center.y;
+  if (Math.hypot(dx, dy) > center.r * 1.35 * hitScale) return;
+  e.preventDefault();
+  stage.setPointerCapture(e.pointerId);
+  ORB.drag = {
+    id: e.pointerId,
+    mode: (e.ctrlKey || e.metaKey) ? "rotate" : "move",
+    dx,
+    dy,
+    lastX: e.clientX,
+    lastY: e.clientY,
+  };
+});
+stage.addEventListener("pointermove", e => {
+  if (!ORB.drag || ORB.drag.id !== e.pointerId) return;
+  if (ORB.drag.mode === "rotate" || e.ctrlKey || e.metaKey) {
+    const deltaX = e.clientX - ORB.drag.lastX;
+    const deltaY = e.clientY - ORB.drag.lastY;
+    ORB.orbitY += (deltaX / Math.max(1, W)) * Math.PI * 2;
+    ORB.orbitX = Math.max(-1.5, Math.min(1.5, ORB.orbitX + (deltaY / Math.max(1, H)) * 4));
+    ORB.drag.mode = "rotate";
+    ORB.drag.lastX = e.clientX;
+    ORB.drag.lastY = e.clientY;
+    return;
+  }
+  const rect = stage.getBoundingClientRect();
+  const cx = e.clientX - rect.left - ORB.drag.dx;
+  const cy = e.clientY - rect.top - ORB.drag.dy;
+  ORB.panX = cx / W - 0.5;
+  ORB.panY = cy / H - 0.5;
+  lastTextSignature = "";
+});
+stage.addEventListener("wheel", e => {
+  const rect = stage.getBoundingClientRect();
+  const center = orbCenter();
+  const hitScale = ORB.shape === "cube" ? ORB.cubeScale : 1;
+  const dx = e.clientX - rect.left - center.x;
+  const dy = e.clientY - rect.top - center.y;
+  if (Math.hypot(dx, dy) > center.r * 1.5 * hitScale) return;
+  e.preventDefault();
+  ORB.zoom *= Math.exp(-e.deltaY * 0.0012);
+  ORB.zoom = Math.max(0.25, Math.min(12, ORB.zoom));
+  lastTextSignature = "";
+}, { passive: false });
+stage.addEventListener("pointerup", e => {
+  if (ORB.drag?.id === e.pointerId) ORB.drag = null;
+});
+stage.addEventListener("pointercancel", e => {
+  if (ORB.drag?.id === e.pointerId) ORB.drag = null;
+});
+stage.addEventListener("dblclick", e => {
+  const rect = stage.getBoundingClientRect();
+  const center = orbCenter();
+  const hitScale = ORB.shape === "cube" ? ORB.cubeScale : 1;
+  const dx = e.clientX - rect.left - center.x;
+  const dy = e.clientY - rect.top - center.y;
+  if (Math.hypot(dx, dy) > center.r * 1.45 * hitScale) return;
+  e.preventDefault();
+  setOrbShape(ORB.shape === "sphere" ? "cube" : "sphere", { reveal: true });
+});
+
+function rasterizeNOUS(time) {
+  asciiMask.fill(0);
+  asciiGlyph.fill("");
+  for (const r of obstacleRows) r.length = 0;
+
+  // NOUS uses the same cell-shader/reveal language as bb-ascii's source logo.
+  if (nousStartTime === null || time < nousStartTime) {
+    mergeObstacleRows();
+    return;
+  }
+  const t = Math.max(0, time - nousStartTime);
+  const aspect = cols / rows / 2;
+  const h = 0.38;
+  const baseW = h * 2.6 * 0.55;
+  const letterWidth = 7;
+  const baseLetterPitch = 7.6;
+  const letterGap = Math.max(0, ctrls.nousLetterSpacing ?? 0);
+  const letterAdvance = baseLetterPitch + letterGap;
+  const baseLogoUnits = LOGO.length * baseLetterPitch - 0.6;
+  const logoUnits = LOGO.length * baseLetterPitch + (LOGO.length - 1) * letterGap - 0.6;
+  const w = baseW * (logoUnits / baseLogoUnits);
+  const nousRowMin = new Float32Array(rows);
+  const nousRowMax = new Float32Array(rows);
+  nousRowMin.fill(Infinity);
+  nousRowMax.fill(-Infinity);
+
+  for (let y = 0; y < rows; y++) {
+    const ny = y / rows - 0.5;
+    if (Math.abs(ny) > h / 2) continue;
+
+    for (let x = 0; x < cols; x++) {
+      const nx = (x / cols - 0.5) * aspect;
+      if (Math.abs(nx) > w / 2) continue;
+
+      const lx = (nx + w / 2) / w;
+      const ly = (ny + h / 2) / h;
+      const tx = lx * logoUnits;
+      const idx = Math.floor(tx / letterAdvance);
+      const cx = Math.floor(tx - idx * letterAdvance);
+      const cy = Math.floor(ly * 9);
+
+      if (idx < 0 || idx >= LOGO.length || cx >= letterWidth) continue;
+
+      const { letter, rows: glyphRows } = LOGO[idx];
+      const row = glyphRows[cy];
+      if (!row || cx >= row.length || row[cx] !== '█') continue;
+
+      const localT = Math.max(0, t - idx * 0.4);
+      const phase1 = Math.min(1, localT);
+      const phase2 = Math.min(1, Math.max(0, localT - 1));
+      const reveal = phase1 * 1.5 - hash(cx, cy + idx * 10) * 0.5;
+
+      if (phase1 < 1 && reveal <= 0) continue;
+
+      const morph = phase2 + hash(cx, cy) * 0.3;
+      const ch = phase1 < 1
+        ? (reveal >= 1 ? letter : charAt(reveal))
+        : charAt(morph);
+      const drawC = Math.floor((canvasLeft + x * CELL_W + CELL_W * 0.5) / CELL_W);
+      const drawR = Math.floor((canvasTop + y * CELL_H + CELL_H * 0.5) / CELL_H);
+      let cellIdx = -1;
+      if (drawR >= 0 && drawR < canvasRows && drawC >= 0 && drawC < canvasCols) {
+        cellIdx = drawR * canvasCols + drawC;
+        asciiMask[cellIdx] = 1;
+        asciiChar[cellIdx] = Math.max(0, CHARS.indexOf(ch));
+        if (CHARS.indexOf(ch) < 0) asciiGlyph[cellIdx] = ch;
+      }
+      const x0 = x * CELL_W;
+      const x1 = x0 + CELL_W;
+      if (x0 < nousRowMin[y]) nousRowMin[y] = x0;
+      if (x1 > nousRowMax[y]) nousRowMax[y] = x1;
+      // bb-ascii turns late morph cells into solid dark cell backgrounds. In
+      // this transparent/lensed canvas, a full-block char carries that punch.
+      if (cellIdx >= 0 && phase1 >= 1 && morph > 0.8) asciiChar[cellIdx] = CHARS.length - 1;
+    }
+  }
+
+  // Slightly dilate/smooth the measured NOUS silhouette so surrounding text
+  // does not visually "kiss" sharp letter corners (notably on the S).
+  const smoothMin = new Float32Array(rows);
+  const smoothMax = new Float32Array(rows);
+  smoothMin.fill(Infinity);
+  smoothMax.fill(-Infinity);
+  for (let y = 0; y < rows; y++) {
+    if (!Number.isFinite(nousRowMin[y])) continue;
+    for (let oy = -1; oy <= 1; oy++) {
+      const yy = y + oy;
+      if (yy < 0 || yy >= rows) continue;
+      if (!Number.isFinite(nousRowMin[yy])) continue;
+      if (nousRowMin[yy] < smoothMin[y]) smoothMin[y] = nousRowMin[yy];
+      if (nousRowMax[yy] > smoothMax[y]) smoothMax[y] = nousRowMax[yy];
+    }
+  }
+
+  const pad = Math.max(4, CELL_W * 1.25);
+  const bleedRows = 2;
+  for (let y = 0; y < rows; y++) {
+    if (!Number.isFinite(smoothMin[y])) continue;
+    for (let oy = -bleedRows; oy <= bleedRows; oy++) {
+      const row = y + oy;
+      if (row < 0 || row >= rows) continue;
+      const bleedPad = pad + Math.abs(oy) * CELL_W * 0.28;
+      obstacleRows[row].push([
+        Math.max(0, smoothMin[y] - bleedPad),
+        Math.min(W, smoothMax[y] + bleedPad),
+      ]);
+    }
+  }
+
+  mergeObstacleRows();
+}
+
+function mergeObstacleRows() {
+  for (const spans of obstacleRows) {
+    if (spans.length < 2) continue;
+    spans.sort((a, b) => a[0] - b[0]);
+    let w = 0;
+    for (let i = 1; i < spans.length; i++) {
+      const last = spans[w], cur = spans[i];
+      if (cur[0] <= last[1] + CELL_W * 3.1) last[1] = Math.max(last[1], cur[1]);
+      else spans[++w] = cur;
+    }
+    spans.length = w + 1;
+  }
+}
+
+const CUBE_VERTS = [
+  [-1, -1, -1], [1, -1, -1], [1, 1, -1], [-1, 1, -1],
+  [-1, -1, 1], [1, -1, 1], [1, 1, 1], [-1, 1, 1],
+];
+const CUBE_EDGES = [
+  [0, 1], [1, 2], [2, 3], [3, 0],
+  [4, 5], [5, 6], [6, 7], [7, 4],
+  [0, 4], [1, 5], [2, 6], [3, 7],
+];
+function projectCubeVerts(center, radiusPx, orbitX, orbitY, scale = 1) {
+  const camZ = 3.3;
+  const projScale = radiusPx * 1.34 * scale;
+  return CUBE_VERTS.map(([vx, vy, vz]) => {
+    const [rx, ry, rz] = rotateOrbVec(vx, vy, vz, orbitX, orbitY);
+    const inv = 1 / (camZ +
+
+... [Content truncated, total 52,695 chars] ...

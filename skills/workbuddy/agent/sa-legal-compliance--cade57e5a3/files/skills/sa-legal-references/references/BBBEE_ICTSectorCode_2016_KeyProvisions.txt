@@ -1,0 +1,444 @@
+B-BBEE ICT SECTOR CODE (GG 40407, Nov 2016)
+ICT-specific B-BBEE scoring: telecoms, IT services, broadcasting
+FULL TEXT:/n
+=== PAGE 1 ===
+GENERAL NOTICENOTICEOF 2016DEPARTMENT OF TRADE AND INDUSTRYCODES OF GOOD PRACTICE ON BROAD BASED BLACK ECONOMICEMPOWERMENT
+L Or Rob Davies, Minister of Trade and Industry, hereby issue the AmendedInformation and Communication Technology Sector Code (the ICT Sector Coder) interres of section 9 (1) of the Broad -rased Black Economic Empowerment Act,(Act No 53 of 2003) as amended by. B -BBEE Act 46 of 2013, and determine thatthese Codes come into effect on the dale of this publication.
+ÉDr Rob Davies, MPMinister of Trade and Industry3 November 2016
+This gazette is also available free online at www.gpwonline.co.za4  No. 40407 GOVERNMENT GAZETTE, 7 NOVEMBER 2016
+Government  notices  • G oewermentskennisGewinGs
+Telecommunications and Postal Services, Department of/ Telekommunikasie en Posdienste, Departement van
+DEPARTMENT OF TELECOMMUNICATIONS AND POSTAL SERVICES
+NO. 1387   07 NOVEMBER 2016
+1387 Broad-Based Black Economic Empowerment Act (53/2003) as amended by B-BBEE Act (46/2013): Codes of good practice on broad based black economic empowerment  40407
+
+=== PAGE 2 ===
+B-BBEE ICTSECTORCOUNCI L
+This gazette is also available free online at www.gpwonline.co.za STAATSKOERANT, 7 NOVEMBER 2016 No. 40407  5  
+ 
+ 
+ 
+ 
+ 
+ 
+AMENDED BROAD -BASED BLACK ECONOMIC EMPOWERMENT  
+(B-BBEE)  ICT SECTOR CODE  
+ 
+ 
+ 
+  
+
+=== PAGE 3 ===
+This gazette is also available free online at www.gpwonline.co.za6  No. 40407 GOVERNMENT GAZETTE, 7 NOVEMBER 2016
+AICT -20160909v20 AMENDED B -BBEE ICT SECTOR CODE  PREAMBLE   ii  
+PREAMBLE 
+ 
+Introduction 
+ 
+The ICT Sector stakeholders comprising the Broadcasting, Electronics, Information 
+Technology and Telecommunications sub -sectors; together with participants from the social 
+partners, namely Government, Labour, Community, and ICASA, initiated a process of 
+developing a Black Economic Empowerment Code for the ICT Sector.  
+ The Need for Economic Empowerment  
+● Under the previous apartheid system, a plethora of policies and legislation was promulgated with the sole objective of denying black people, including black women, 
+access to and control of South Africa’s economic productive resources and skills 
+based purely on race and gender considerations;  
+● More than two decades after the demise of this apartheid system, and in spite of the 
+promulgation of a broad range of po licy and legislative instruments introduced by the 
+democratic Government aimed at redressing the imbalances of the past, the majority 
+of South Africans are still excluded from ownership and control of economically 
+productive assets and possession of strategic skills to the detriment of economic 
+development, employment creation and poverty eradication;  
+● Growth and prosperity in South Africa’s economy has not been realized to its full potential due to a lack of meaningful participation by the majority of black  South 
+Africans, including black women, in the national economy, and particularly in the ICT sector; 
+● The Broad Based Black Economic Empowerment Act 53 of 2003 (B -BBEE Act) as 
+amended by B-BBEE Act 46 of 2013 and Government’s Amended Black Economic 
+Empowerment Codes of Good Practice, aim to address inequities resulting from the systematic exclusion of black people from meaningful participation in the economy. 
+The Amended ICT Sector Code aims to do this for the ICT sector. 
+  
+=== PAGE 4 ===
+This gazette is also available free online at www.gpwonline.co.za STAATSKOERANT, 7 NOVEMBER 2016 No. 40407  7
+AICT -20160909v20 AMENDED B -BBEE ICT SECTOR CODE  PREAMBLE   iii ICT Sector Resolution 
+ 
+Recognising the cross-cutting nature of ICTs and their role in the social and economic 
+development of our country;  
+ 
+Therefore, we, the ICT Sector stakeholders, resolve and commit to:  
+ 
+● The objectives of the B-BBEE Act as amended 
+● Promote the effective implementation of B-BBEE in the ICT sector; 
+● Bridge the “digital divide” by actively promoting access to ICTs;  
+● Stimulate and support growth in the ICT sector;  
+● Advance economic and social transformation in the ICT sector;  
+● Contribute towards the reduction of unemployment and poverty alleviation;  
+● Support skills development and training initiatives;  
+● Foster equity and address the legitimate economic aspiration of all South Africans;  
+● Provide an enabling environment conducive to transparency, fairness, and 
+consistency when adjudicating on matters related to B-BBEE in the ICT sector; and 
+● Comply with the requirements of the ICT Sector Code as defined hereunder and where possible meet and exceed targets across the sector.  
+ Having initiated the process of amending the B-BBEE ICT Sector Code of 06 June 2012 , we 
+therefore gazette this Amended ICT Sector Code as a Code of Good Practice for the ICT 
+Sector in terms of Section 9(1) of the B-BBEE Act 53 of 2003 as amended. 
+ 
+B-BBEE ICT Sector Code shall remain in effect until amended, subst ituted or repealed under 
+Section 9 of the B-BBEE Act 53 of 2003 as amended.  
+ 
+  
+=== PAGE 5 ===
+This gazette is also available free online at www.gpwonline.co.za8  No. 40407 GOVERNMENT GAZETTE, 7 NOVEMBER 2016
+AICT -20160909v20 AMENDED B -BBEE ICT SECTOR CODE  PREAMBLE   iv  
+INDEX FOR THE AMENDED B-BBEE ICT SECTOR CODE (AICT) 
+ 
+Index of Code Series  
+ 
+Code Series  Code Title  
+AICT000 Framework for measuring Broad-Based Black Economic Empowerment  
+AICT100 Measurement of the Ownership Element of Broad -Based Black Economic 
+Empowerment 
+AICT200 Measurement of the Management Control Element of Broad -Based Black 
+Economic Empowerment  
+AICT300 Measurement of the Skills Development Element of Broad -Based Black 
+Economic Empowerment  
+AICT400 Measurement of the Enterprise and Supplier Development Element of 
+Broad-Based Black Economic Empowerment  
+AICT500 Measurement of the Socio-Economic Development Element of Broad - 
+Based Black Economic Empowerment  
+AICT600 Measurement of Qualifying Small Enterprises of Broad -Based Black 
+Economic Empowerment  
+ 
+ 
+ 
+Index for Statements 
+ 
+Statement 
+Number               Code Series Statement Title 
+AICT000 Code Series AICT000          General principles and the Scorecard  
+AICT004 Code Series AICT000           Scorecards for specialised Enterprises  
+AICT100 Code Series AICT100          The general principles for measuring Ownership  
+AICT102 Code Series AICT100           Recognition of the Sale of Assets 
+AICT103 Code Series AICT100           The recognition of Equity Equivalents for 
+Multinationals 
+AICT200 Code Series AICT200           The general principles for measuring Management 
+Control 
+AICT300 Code Series AICT300          The general principles for measur ing Skills 
+Development  
+AICT400 Code Series AICT400         The general principles for measuring Enterprise 
+and Supplier Development  
+AICT500 Code Series AICT500        The general principles for measuring Socio -
+Economic Development  
+  
+=== PAGE 6 ===
+This gazette is also available free online at www.gpwonline.co.za STAATSKOERANT, 7 NOVEMBER 2016 No. 40407  9
+AICT -20160909v20 AMENDED B -BBEE ICT SECTOR CODE  PREAMBLE   v  
+Index for Qualifying Small Enterprises  
+ 
+Statement 
+Number               Code Series Statement Title 
+AICT600  Code Series AICT600          The Qualifying Small Enterprises Scorecard and 
+Exempted Micro-Enterprises 
+AICT601  Code Series AICT601           Ownership for Qualifying Small Enterprises  
+AICT602 Code Series AICT602           Management Control for Qualifying Small Enterprises 
+AICT603 Code Series AICT603         Skills Development for Qualifying Small Enterprises  
+AICT604 Code Series AICT604          Enterprise and Supplier Development for Qualifying 
+Small Enterprises 
+AICT605 Code Series AICT605        Socio-Economic Development for Qualifying Small 
+Enterprises 
+ 
+ 
+ 
+   
+ 
+  
+ 
+ 
+  
+=== PAGE 7 ===
+This gazette is also available free online at www.gpwonline.co.za10  No. 40407 GOVERNMENT GAZETTE, 7 NOVEMBER 2016
+AICT -&'()'*'*v&'  AMENDED B-BBEE ICT SECTOR CODE SERIES AICT''' 
+STTAICT'''  ( - 5 AMENDED B-BBEE ICT SECTOR CODE SERIES AICT///: FRAMEWORK 
+FOR MEASURING BROAD-BASED BLACK ECONOMIC EMPOWERMENT 
+ 
+STATEMENT AICT''': GENERAL PRINCIPLES AND THE SCORECARD 
+ Issued under section * (() of the Broad-Based Black Economic Empowerment 
+(B-BBEE) Act OP of &''P as amended.  
+ Arrangement of this statement  
+ 
+(.  Objectives of this statement ................................ ................................ ........ & 
+&.  Key principles ................................ ................................ ..............................  & 
+P.  Application of the Amended B -BBEE ICT Sector Code ..............................  P 
+W.  The Elements of B-BBEE in terms of the Scorecard ................................ ... W 
+O. The Amended ICT Sector Scorecard ................................ ..........................  O 
+).  Enhanced recognition for certain categories of Black People  ..................... X 
+X.  Framework for Reporting by Measured entities and  B -BBEE Verification 
+Professionals ................................ ................................ ................................ ....... X 
+5.  Adjustment of Thresholds ................................ ................................ ........... X 
+*.  Amendments and Duration of the Amended B -BBEE ICT Sector Code ..... X 
+	
+  
+=== PAGE 8 ===
+This gazette is also available free online at www.gpwonline.co.za STAATSKOERANT, 7 NOVEMBER 2016 No. 40407  11
+AICT -&'()'*'*v&'  AMENDED B-BBEE ICT SECTOR CODE SERIES AICT''' 
+STTAICT'''  & - 5  
+8.  Objectives of this statement 
+The objectives of this statement are to: 
+(.(  Specify interpretative principles of B -BBEE: 
+(.&  Specify the application of the Amended B-BBEE ICT Sector Code and the 
+basis for measurement under the Amended B-BBEE ICT Sector Code; 
+(.P  Specify the qualifying thresholds for businesses to qualify as Exempted 
+Micro-Enterprises (EME) or Qualifying Small Enterprises (QSE);  
+(.W  Specify the method of measuring Start-up Enterprises; 
+(.O  Specify the elements of B-BBEE measurable under the Scorecard;  
+(.)  Specify the Scorecard;  
+(.X  Specify the basis for determining compliance by entities with the Amended 
+B-BBEE ICT Sector Code; 
+(.5  Define the duration for t he applicability of the Amended B-BBEE ICT 
+Sector Code. 
+H.  Key principles 
+&.(  The fundamental principle for measuring B -BBEE compliance is that 
+substance takes precedence over legal form.  
+&.&  In interpreting the provisions of the Amended B-BBEE ICT Sector Code 
+any reasonable interpretation consistent with the objectives of the Act and 
+the B-BBEE Strategy must take precedence. 
+&.P  The basis for measuring B-BBEE initiatives under the Amended B-BBEE 
+ICT Sector Code is the B-BBEE compliance of the measured entities at 
+the time of measurement. 
+&.W  Any misrepresentation or attempt to misrepresent any enterprise’s true B-BBEE Status may lead to the disqualification of the entire scorecard of 
+that enterprise. 
+&.O  Initiatives which split, separate or divide enterprises as a means of 
+ensuring eligibility as an Exempted Micro -Enterprise, a Qualifying Small 
+Enterprise or a Start-Up Enterprise are a circumvention of the Act and may 
+=== PAGE 9 ===
+This gazette is also available free online at www.gpwonline.co.za12  No. 40407 GOVERNMENT GAZETTE, 7 NOVEMBER 2016
+AICT -&'()'*'*v&'  AMENDED B-BBEE ICT SECTOR CODE SERIES AICT''' 
+STTAICT'''  P - 5 lead to the disqualification of the en tire scorecard of those enterprises 
+concerned. 
+&.)  Any representation made by an e ntity about its B-BBEE compliance must 
+be supported by suitable  evidence or documentation. An e ntity that does 
+not provide evidence or documentation supporting any initiativ e, must not 
+receive any recognition for that initiative.  
+&.X  Wherever a Standard Valuation Method applies to measuring an indicator, 
+the same standard should apply, as far as reasonably possible, consistently in all other applicable calculations in this s tatement. 
+&.5 Where the Amended B-BBEE ICT Sector Code is silent on certain 
+provisions, the provisions of the Amended Generic Code shall take 
+precedence.  
+M.  Application of the Amended B -BBEE ICT Sector Code 
+P.(  The following entities are measurable under  the Amended B-BBEE ICT 
+Sector Code: 
+P.(.(  All persons, organisations and entities operating in the ICT Sector in South Africa; 
+P.(.& All public entities in terms of the B -BBEE Act OP of &''P as amended 
+including those listed in schedule (, schedule & or schedule P (Parts A, B and C) of the Public Finance Management Act that fall within the ICT sector; 
+P.(.P  Any public entity listed in schedule P (Parts B and D) which are trading entities which undertak e any business with any organ of sta te, public entity 
+or any other enterprise that falls within the ICT Sector; and 
+P.&  The basis for measuring the B -BBEE compliance of an entity in terms of 
+paragraph P.( is- 
+P.&.(  Paragraph W of the Amended Codes of Goo d Practice, in the case of an 
+Exempted Micro-Enterprise (EME); 
+P.&.&  The QSE statements in Code Series AICT)'', in the case of a Qualifying 
+Small Enterprise (QSE); 
+P.&.P  The Generic Scorecard, in the case of other enterprises.  
+ 
+=== PAGE 10 ===
+This gazette is also available free online at www.gpwonline.co.za STAATSKOERANT, 7 NOVEMBER 2016 No. 40407  13
+AICT -&'()'*'*v&'  AMENDED B-BBEE ICT SECTOR CODE SERIES AICT''' 
+STTAICT'''  W - 5 M.M  Priority Elements, Subminimum and Discounting Principle  
+The Priority Elements are as follows:  
+P.P.(  Ownership 
+The subminimum requirement for Ownership is W'% of Net Value (W'%) 
+of the 5 points) based on the Time Based Graduation factor as provided in 
+Annexure (''(E) 
+P.P.&  Skills Development  
+A Measured Entity must achieve a minimum of W'% of the total targets set out in each of paragraphs &.(.( and &.(.& of the Skills Development Element of Code Series AICTP'' Statement AICT P''. 
+Non-compliance with this  subminimum requirement will result in the 
+achieved B-BBEE status level being discounted.  
+P.P.P  Enterprise Supplier development  
+A Measured Entity must achieve a minimum of W'% of each of the targets 
+set out in &.( (i.e. (' of &O points), &.& (i.e. W of (' points) and &.P (i.e. ) of 
+(O points) excluding bonus points of the Enterprise and Supplier 
+Development Scorecard Code Series AICTW'' and Statement AICTW''.  
+ 
+R.  The Elements of B-BBEE in terms of the Scorecard 
+W.(  The Ownership Element, as set out in Code Series AICT('', measures 
+the effective ownership of enterprises by Black People. 
+W.&  The Management Control Element, as set out in Code Series AICT&'', 
+measures the effective control of enterprises by Black People. 
+W.P  The Skills Development Element, as set out in Code Series AICTP'', 
+measures the extent to which employers carry out initiatives designed to 
+develop the competencies of Black People. 
+W.W  The Enterprise and Supplier Development Element, as set o ut in Code 
+Series AICTW'', measures the extent to which Enterprises carry out 
+=== PAGE 11 ===
+This gazette is also available free online at www.gpwonline.co.za14  No. 40407 GOVERNMENT GAZETTE, 7 NOVEMBER 2016
+AICT -&'()'*'*v&'  AMENDED B-BBEE ICT SECTOR CODE SERIES AICT''' 
+STTAICT'''  O - 5 initiatives intended to assist and accelerate the development and 
+sustainability of other enterprises that are at least O(% Black Owned. 
+W.O  The Socio-Economic Development (SED) and Sector Specific 
+Contributions Element, as set out in Code Series AICTO'', measures the 
+extent to which enterprises carry out general and ICT sector specific 
+initiatives that contribute towards SED and that promote access to the 
+economy for black peopl e. All SED spend must be on ICT Sector Specific 
+Initiatives. 
+S. The Amended ICT Sector Scorecard 
+O.(  The following table represents the Amended B-BBEE ICT Sector 
+Scorecard and contains the:  
+O.(.(  Elements of the Scorecard: 
+O.(.&  Weightings, and 
+O.(.P  Code Series reference that specify the mechanisms for measurement and 
+calculation of each of the Elements of the Scorecard (Code Series 
+AICT(('' – O'')) 
+  
+=== PAGE 12 ===
+This gazette is also available free online at www.gpwonline.co.za STAATSKOERANT, 7 NOVEMBER 2016 No. 40407  15
+AICT -&'()'*'*v&'  AMENDED B-BBEE ICT SECTOR CODE SERIES AICT''' 
+STTAICT'''  ) - 5  
+Element Weighting points  Code series 
+reference 
+Ownership &O AICT('' 
+Management Control &P AICT&'' 
+Skills Development  &' AICTP'' 
+Enterprise and Supplier Development   AICTW'' 
+Preferential Procurement &O  
+Supplier Development  ('  
+Enterprise Development  (O  
+Socio-Economic Development 
+initiatives (& AICTO'' 
+ 
+O.&  Based on the overall performance of a Measured Entity using the 
+Scorecard, it receives one of the following B -BBEE Status-: 
+B-BBEE Status Qualification B-BBEE 
+recognition 
+level 
+Level One Contributor ≥(&' points on the ICT Scorecard   (PO% 
+Level Two Contributor ≥((O but <(&' points on the ICT Scorecard (&O% 
+Level Three Contributor ≥((' but < ((O on the ICT Scorecard (('% 
+Level Four Contributor ≥('' but < ((' on the ICT Scorecard (''%  
+Level Five Contributor ≥*O but <('' on the ICT Scorecard 5'% 
+Level Six Contributor ≥*' but <*O on the ICT Scorecard )'% 
+Level Seven Contributor  ≥XO but <*' on the ICT Scorecard O'%  
+Level Eight Contributor ≥OO but <XO on the ICT Scorecard ('%  
+Non-Compliant Contributor  <OO on the ICT Scorecard '%  
+=== PAGE 13 ===
+This gazette is also available free online at www.gpwonline.co.za16  No. 40407 GOVERNMENT GAZETTE, 7 NOVEMBER 2016
+AICT -&'()'*'*v&'  AMENDED B-BBEE ICT SECTOR CODE SERIES AICT''' 
+STTAICT'''  X - 5  
+T.  Enhanced recognition for certain categories of Black People 
+Throughout the Amended B-BBEE ICT Sector Code, various criteria 
+appear which advance the interests of certain categories of Black People. 
+These include:  
+).(  Black Women who should form between W' % and O'% of the beneficiaries 
+of all Elements of the Scorecard: and 
+).&  Black People with disabilities, Black Youth, Black People living in rural 
+areas and Black Unemployed People who should form between & % and 
+P% of the beneficiaries of all Elements of the Scorecard. 
+V.  Framework for Reporting by Measured entities and  B-BBEE 
+Verification Professionals 
+The verification of B-BBEE compliance is encouraged and to this end, the 
+B-BBEE ICT Sector Council will from time to time issue guidelines on the 
+Framework for Reporting by Measured Entities and Verification 
+Professionals. 
+Y.  Adjustment of Thresholds 
+The B-BBEE ICT Sector Council may adjust the thresholds in paragraphs 
+W to ) of the Amended B-BBEE ICT Sector Code in consultation with the 
+Line Minister and the Minister of Trade and Industry .  
+Z.  Amendments and Duration of the Amended B -BBEE ICT Sector Code 
+*.( The Amended B-BBEE ICT Sector Code shall be effective and legally 
+binding from the date of gazette until amended, substituted or repealed 
+under the Act. 
+*.&  The process for the amendment of the Amended B-BBEE ICT Sector Code 
+will follow the process set out in the Amended Generic Codes for the 
+development of the Amended B-BBEE ICT Sector Code. Any 
+amendments to the Amended Generic Codes of Good Practice must result 
+in a review of the Amended B-BBEE ICT Sector Code for purposes of 
+harmonisation.  
+*.P  The Amended B-BBEE ICT Sector Code is effective from the date of 
+publication in the government gazette and applies to entities listed under paragraph P above. All verifications in the ICT Sector conducted from the 
+=== PAGE 14 ===
+This gazette is also available free online at www.gpwonline.co.za STAATSKOERANT, 7 NOVEMBER 2016 No. 40407  17
+AICT -&'()'*'*v&'  AMENDED B-BBEE ICT SECTOR CODE SERIES AICT''' 
+STTAICT'''  5 - 5 date of publication must be done in terms of the Amended ICT Sector 
+Code. Certificates issued in terms of the &'(& ICT Sector Code prior to the 
+publication of this Amended ICT Sector Code, are valid for (& months and should be accepted.   
+=== PAGE 15 ===
+This gazette is also available free online at www.gpwonline.co.za18  No. 40407 GOVERNMENT GAZETTE, 7 NOVEMBER 2016
+AICT -&'()'*'*v&'  AMENDED B -BBEE ICT SECTOR CODE SERIES AICT''' 
+STT AICT ''5   ( - 6 
+ AMENDED B-BBEE ICT SECTOR CODE SERIES AICT///: FRAMEWORK 
+FOR MEASURING BROAD-BASED BLACK ECONOMIC EMPOWERMENT 
+ 
+STATEMENT AICT''5: SCORECARDS FOR SPECIALISED ENTERPRISES 
+ Issued under section * (() of the Broad-Based Black Economic Empowerment 
+(B-BBEE) Act OP of &''P as amended.  
+ 
+Arrangement of this statement  
+  
+(. Objective of this statement ................................ ................................ ........... & 
+& General Principles ................................ ................................ ........................  & 
+P The Specialised Generic Scorecard ................................ .............................  5 
+5  Management Control Specialised Scorecard  ................................ ............... O 
+O  Skills Development Specialised Scorecard  ................................ .................. O 
+)  Enterprise and Supplier Development Specialised Scorecard  ..................... O 
+6 Socio-Economic Specialised Scorecard ................................ ...................... 6 
+ 
+  
+=== PAGE 16 ===
+This gazette is also available free online at www.gpwonline.co.za STAATSKOERANT, 7 NOVEMBER 2016 No. 40407  19
+AICT -&'()'*'*v&'  AMENDED B -BBEE ICT SECTOR CODE SERIES AICT''' 
+STT AICT ''5   & - 6 
+ 8. Objective of this statement 
+ The objectives of this statement are to: 
+(.( Provide guidance about the treatment of Ownership for  the following 
+Specialised Enterprises for Broad-Based Black Economic Empowerment 
+(B-BBEE) purposes: 
+(.(.( Companies limited by guarantee;  
+(.(.& Higher Education Institutions;  
+(.(.P Non-Profit Companies;  
+(.(.5 Public entities and other e nterprises exclusively owned by organs of State; 
+and 
+(.(.O Public Benefit Schemes or Public Benefit Organisations.  
+(.& Specify scorecards applicable to Measured Entities subject to this statement. 
+H General Principles 
+&.( Every organ of State and public entity operating in the ICT Sector  must 
+apply the Amended B-BBEE ICT Sector Code issued in terms of the B-
+BBEE Act OP of &''P as amended when:  
+&.(.( Determining qualification criteria for the issuing of licences, concessions 
+or other authorisations in respect of economic activity in terms  of any law; 
+&.(.& Developing and implementing a preferential procurement policy;  
+&.(.P Determining qualification criteria for the sale of state -owned enterprises;  
+&.(.5 Developing criteria for entering into partnerships with the private sector; 
+and 
+&.(.O Determining criteria for the awarding of incentives, grants and investment schemes in support of B-BBEE. 
+&.& Public entities and other enterprises exclusively owned by organs of State 
+are not capable of evaluation of Black ownership under Code Series 
+AICT(''. 
+=== PAGE 17 ===
+This gazette is also available free online at www.gpwonline.co.za20  No. 40407 GOVERNMENT GAZETTE, 7 NOVEMBER 2016
+AICT -&'()'*'*v&'  AMENDED B -BBEE ICT SECTOR CODE SERIES AICT''' 
+STT AICT ''5   P - 6 
+ &.P Higher Education Institutions are not public entities under the Public 
+Finance Management Act of (***. They are incapable of evaluation of 
+Black ownership under Code Series AICT(''. 
+&.5 Companies limited by guarantee have no shareholding. They are  not 
+capable of evaluation of Black ownership under Code Series AICT(''.  
+This does not imply that companies limited by guarantee and sharing in the ownership of other enterprises cannot contribute towards Black 
+ownership to such enterprises as provided fo r in Statement AICT(''. 
+&.O Non-Profit Companies and Public Benefit Organisations generally do not 
+have any beneficial ownership and are incapable of evaluation of Black 
+ownership under Code Series AICT(''. This does not imply that Non -Profit 
+Companies and Public Benefit Organisations sharing in the ownership of 
+other enterprises as Broad-Based Ownership Schemes cannot contribute 
+towards Black ownership to such enterprises as provided for in Statement 
+AICT(''. 
+&.) Wherever any of the entities listed in para graphs ( and & require evidence 
+of their own B-BBEE compliance, they will use the Scorecard in this 
+Statement. If those entities are also Qualifying Small Enterprises, they will 
+use the Specialised Qualifying Small Enterprises Scorecard  in this 
+Statement. 
+&.6 Entities that are Exempted Micro Enterprises (EME) under this Statement 
+are deemed to have a B -BBEE status of “level four”, having a B -BBEE 
+recognition level of (''%.  
+&.a Enhanced B-BBEE recognition level for an EME:  
+&.a.( Despite paragraph &.6, an EM E that has at least 6O% Black people as 
+beneficiaries qualifies for elevation to “Level One Contributor”, having a B -
+BBEE recognition level of (PO%; and  
+&.a.& Despite paragraph &.6 and &.a.(
+
+... [Content truncated, total 140,565 chars] ...

@@ -1,0 +1,7 @@
+interface:
+  display_name: "飞书知识库写入"
+  short_description: "把资料整理成文章并安全写入指定的飞书知识库文档"
+  default_prompt: "使用 $feishu-knowledge-writer，把这批内容整理后写入指定飞书知识库。"
+
+policy:
+  allow_implicit_invocation: true

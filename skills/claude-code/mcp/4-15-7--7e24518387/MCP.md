@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "t": {
+      "command": "node",
+      "args": [
+        "${CLAUDE_PLUGIN_ROOT}/bridge/mcp-server.cjs"
+      ]
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "name": "ngo-challenge-advisor",
+  "version": "1.3.0",
+  "description": "Guides NGOs through a click-first adaptive interview to publish structured WorkBuddy co-creation cards.",
+  "author": {
+    "name": "Lucas",
+    "email": "lucasjsdeng@tencent.com"
+  },
+  "expertType": "agent",
+  "agentName": "ngo-challenge-advisor",
+  "agents": [
+    "./agents/ngo-challenge-advisor.md"
+  ],
+  "skills": [
+    "./skills/ngo-challenge-designer"
+  ],
+  "displayName": {
+    "en": "Kaazai",
+    "zh": "卡仔"
+  },
+  "profession": {
+    "en": "NGO Co-creation Card Design Advisor",
+    "zh": "NGO 共創卡設計助手"
+  },
+  "displayDescription": {
+    "en": "Turns real NGO work pain points into clear, actionable co-creation cards through adaptive, click-first interviews and publication checks.",
+    "zh": "通過點擊式訪談梳理 NGO 真實工作痛點，生成清晰可執行的共創卡，並在發佈前完成適配、邊界與質量檢查。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "01-ProductDesign",
+  "defaultInitPrompt": {
+    "zh": "我想把 NGO 的一個真實工作痛點整理成共創卡",
+    "en": "Help me turn an NGO work pain point into a co-creation card"
+  },
+  "tags": [
+    {
+      "en": "Co-creation Card Design",
+      "zh": "共創卡設計"
+    },
+    {
+      "en": "NGO Needs",
+      "zh": "NGO 需求"
+    },
+    {
+      "en": "Guided Interview",
+      "zh": "引導訪談"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Help me turn an NGO work pain point into a co-creation card",
+      "zh": "我想把 NGO 的一個真實工作痛點整理成共創卡"
+    },
+    {
+      "en": "Help me clarify which NGO pain point should become the card",
+      "zh": "幫我從幾個 NGO 痛點中選出最適合發佈的一張"
+    },
+    {
+      "en": "Review whether this NGO co-creation card is ready to publish",
+      "zh": "幫我檢查這張 NGO 共創卡是否已經適合發佈"
+    }
+  ],
+  "plugin": "ngo-challenge-advisor"
+}

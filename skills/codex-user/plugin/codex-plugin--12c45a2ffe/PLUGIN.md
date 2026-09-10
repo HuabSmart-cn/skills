@@ -1,0 +1,33 @@
+{
+  "name": "stripe",
+  "version": "1.0.2",
+  "description": "Payments and business tools",
+  "author": {
+    "name": "Stripe",
+    "url": "https://stripe.com"
+  },
+  "homepage": "https://stripe.com",
+  "repository": "https://github.com/openai/plugins",
+  "license": "MIT",
+  "keywords": [],
+  "skills": "./skills/",
+  "apps": "./.app.json",
+  "interface": {
+    "displayName": "Stripe",
+    "developerName": "Stripe",
+    "shortDescription": "Payments and business tools",
+    "longDescription": "Payments and business tools",
+    "category": "Finance",
+    "capabilities": [],
+    "websiteURL": "https://stripe.com",
+    "privacyPolicyURL": "https://stripe.com/privacy",
+    "termsOfServiceURL": "https://stripe.com/legal/ssa",
+    "brandColor": "#635BFF",
+    "defaultPrompt": [
+      "Use Stripe to help with this task"
+    ],
+    "screenshots": [],
+    "composerIcon": "./assets/app-icon.png",
+    "logo": "./assets/app-icon.png"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "name": "omics-ori-expert",
+  "version": "1.0.0",
+  "description": "Covers sequence de novo design, USMFold structure prediction, solubility and thermostability, bridging key decisions from design to producible proteins.",
+  "author": {
+    "name": "Tencent Health Omics Team",
+    "email": "omics@tencent.com"
+  },
+  "expertType": "agent",
+  "agentName": "omics-ori-expert",
+  "agents": [
+    "./agents/omics-ori-expert.md"
+  ],
+  "skills": [
+    "./skills/ori-collection-skill",
+    "./skills/pdb-viewer-skill"
+  ],
+  "displayName": {
+    "en": "omics-expert",
+    "zh": "组小学"
+  },
+  "profession": {
+    "en": "Tencent ORI Multifunctional Enzyme Design Expert",
+    "zh": "腾讯ORI多功能酶设计专家"
+  },
+  "displayDescription": {
+    "en": "Covers sequence de novo design, USMFold structure prediction, solubility and thermostability, bridging key decisions from design to producible proteins.",
+    "zh": "覆盖序列从头设计、USMFold结构预测与溶解性、热稳定性，打通从设计到可生产蛋白的关键决策"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "04-DataAI",
+  "defaultInitPrompt": {
+    "zh": "用 USMFold 默认参数预测一下示例蛋白的结构，3D 展示给我，顺便给个 pLDDT 评价",
+    "en": "Predict the structure of the example protein with USMFold default parameters, show me in 3D, and give a pLDDT evaluation"
+  },
+  "tags": [
+    {
+      "zh": "蛋白质设计",
+      "en": "Protein Design"
+    },
+    {
+      "zh": "结构预测",
+      "en": "Structure Prediction"
+    },
+    {
+      "zh": "溶解性/热稳定性",
+      "en": "Solubility/Thermostability"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "zh": "用 USMFold 默认参数预测一下示例蛋白的结构，3D 展示给我，顺便给个 pLDDT 评价",
+      "en": "Predict the structure of the example protein with USMFold default parameters, show me in 3D, and give a pLDDT evaluation"
+    },
+    {
+      "zh": "按默认参数从头设计一批耐 60℃ 的双功能酶，候选排个序，最优那个做下结构预测",
+      "en": "De novo design a batch of bifunctional enzymes resistant to 60°C with default parameters, rank the candidates, and perform structure prediction on the best one"
+    },
+    {
+      "zh": "用默认参数评估示例蛋白的热稳定性，Tm 能过 60℃ 吗？给我一份验证报告",
+      "en": "Evaluate the thermostability of the example protein with default parameters, can Tm exceed 60°C? Give me a validation report"
+    }
+  ],
+  "plugin": "omics-ori-expert"
+}

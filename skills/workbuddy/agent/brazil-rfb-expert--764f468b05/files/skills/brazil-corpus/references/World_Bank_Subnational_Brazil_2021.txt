@@ -1,0 +1,849 @@
+
+========== PAGE 1 ==========
+Subnational 
+Doing Business 
+in Brazil 2021
+Comparing Business Regulation 
+for Domestic Firms in 27 Brazilian 
+Locations with 190 Other Economies
+Public Disclosure Authorized
+Public Disclosure Authorized
+Public Disclosure Authorized
+Public Disclosure Authorized
+
+========== PAGE 2 ==========
+© 2021 International Bank for Reconstruction and Development/The World Bank
+1818 H Street NW, Washington, DC 20433
+Telephone: 202-473-1000; Internet: www.worldbank.org
+Some rights reserved
+1 2 3 4 19 18 17 16
+This work is a product of the staff of The World Bank with external contributions. The findings, 
+interpretations, and conclusions expressed in this work do not necessarily reflect the views of The World 
+Bank, its Board of Executive Directors, or the governments they represent. The World Bank does not 
+guarantee the accuracy of the data included in this work. The boundaries, colors, denominations, and 
+other information shown on any map in this work do not imply any judgment on the part of The World 
+Bank concerning the legal status of any territory or the endorsement or acceptance of such boundaries. 
+Nothing herein shall constitute or be considered to be a limitation upon or waiver of the privileges and 
+immunities of The World Bank, all of which are specifically reserved.
+Rights and Permissions
+This work is available under the Creative Commons Attribution 3.0 IGO license (CC BY 3.0 IGO)  
+http://creativecommons.org/licenses/by/3.0/igo. Under the Creative Commons Attribution license, you 
+are free to copy, distribute, transmit, and adapt this work, including for commercial purposes, under the 
+following conditions:
+Attribution—Please cite the work as follows: World Bank. 2021. Subnational Doing Business in Brazil 2021. 
+Washington, DC: World Bank. License: Creative Commons Attribution CC BY 3.0 IGO
+Translations—If you create a translation of this work, please add the following disclaimer along with the 
+attribution: This translation was not created by The World Bank and should not be considered an official World 
+Bank translation. The World Bank shall not be liable for any content or error in this translation.
+Adaptations—If you create an adaptation of this work, please add the following disclaimer along with 
+the attribution: This is an adaptation of an original work by The World Bank. Views and opinions expressed in 
+the adaptation are the sole responsibility of the author or authors of the adaptation and are not endorsed by The 
+World Bank.
+Third-party content—The World Bank does not necessarily own each component of the content 
+contained within the work. The World Bank therefore does not warrant that the use of any third-
+party-owned individual component or part contained in the work will not infringe on the rights of 
+those third parties. The risk of claims resulting from such infringement rests solely with you. If you 
+wish to re-use a component of the work, it is your responsibility to determine whether permission is 
+needed for that re-use and to obtain permission from the copyright owner. Examples of components 
+can include, but are not limited to, tables, figures, or images.
+All queries on rights and licenses should be addressed to World Bank Publications, The World Bank 
+Group, 1818 H Street NW, Washington, DC 20433, USA; e-mail: pubrights@worldbank.org.
+
+========== PAGE 3 ==========
+Comparing Business Regulation 
+for Domestic Firms in 27 Brazilian 
+Locations with 190 Other Economies
+
+========== PAGE 4 ==========
+ii
+Subnational Doing Business in Brazil 2021
+http://www.doingbusiness.org/brazil
+Current features
+News on the Doing Business project 
+http://www.doingbusiness.org
+Ease of doing business score
+Data benchmarking 191 economies to the best 
+regulatory performance and the ease of doing 
+business score 
+https://www.doingbusiness.org/data/doing-business 
+-score
+Data
+All the data for 191 economies—topic scores, 
+indicator values, lists of regulatory procedures and 
+details underlying indicators 
+http://www.doingbusiness.org/data 
+Reports
+Access to Doing Business reports as well as subnational 
+and regional reports, case studies and customized 
+economy and regional profiles 
+http://www.doingbusiness.org/reports 
+Methodology 
+The methodologies and research papers underlying 
+Doing Business 
+http://www.doingbusiness.org/methodology
+Research
+Abstracts of papers on Doing Business topics and 
+related policy issues 
+http://www.doingbusiness.org/research
+Doing Business reforms 
+Short summaries of business regulation reforms and 
+lists of reforms since Doing Business 2008 
+http://www.doingbusiness.org/reforms
+Subnational and regional projects 
+Differences in business regulations at the subnational 
+and regional level  
+http://www.doingbusiness.org/subnational
+Historical data
+Customized data sets since Doing Business 2004  
+http://www.doingbusiness.org/custom-query
+Law library
+Online collection of business laws and regulations 
+http://www.doingbusiness.org/law-library
+Entrepreneurship data
+Data on new business density (number of newly 
+registered companies per 1,000 working-age people) 
+for 155 economies  
+http://www.doingbusiness.org/data​/exploretopics 
+/entrepreneurship
+Resources on the 
+Doing Business website
+
+========== PAGE 5 ==========
+iii
+    1	 Overview
+  20	 About Doing Business and Subnational Doing Business in Brazil 2021
+  31	 Starting a business
+  50	 Dealing with construction permits
+  68	 Registering property
+  88	 Paying taxes
+105	 Enforcing contracts
+123	 Additional research: Registering as an Individual Microbusiness Owner (MEI)
+132	 Additional research: Paying taxes under the Simples Nacional tax regime
+144	 Data notes
+181	 State profiles
+336	 Acknowledgments
+Contents
+
+========== PAGE 6 ==========
+DOING BUSINESS IN CHONGQING 2020
+iv
+
+========== PAGE 7 ==========
+v
+Subnational Doing Business in Brazil 2021
+AT A GLANCE
+Focus on the law and practice
+Makes the indicators “actionable” 
+because the law is what policy makers 
+can change.
+Use of standardized case scenarios
+Enables comparability across locations 
+but reduces the scope of the data.
+Reliance on expert respondents
+Reflects knowledge of those with most 
+experience.
+Focus on domestic and formal sector
+Keeps attention on the formal sector, 
+where firms are most productive, but 
+does not reflect the informal sector or 
+foreign firms.
+Doing Business does not cover:
+✘  Market size
+✘  Macroeconomic stability
+✘  State of the financial system
+✘  Prevalence of bribery and corruption
+✘  Level of training and skills of the  
+labor force
+Subnational Doing Business in Brazil 2021 was produced by the World Bank Group at the request of the General Secretariat of the Presidency of 
+Brazil, with funding from the National Confederation of Commerce of Goods, Services and Tourism of Brazil (CNC), the Brazilian Federation of Banks 
+(Febraban), and the Brazilian Service of Support for Micro and Small Enterprises (Sebrae).
+Advantages and limitations of the Doing Business methodology
+Five Doing Business indicator sets covering areas of national and local jurisdiction or practice
+Starting a business
+Records the procedures, time, cost, and paid-in minimum 
+capital required for a small- or medium-size domestic 
+limited liability company to formally operate; includes a 
+gender dimension to account for any gender discriminatory 
+practices.
+Dealing with construction permits
+Records the procedures, time, and cost required for a small 
+or medium-size domestic business to obtain the approvals 
+needed to build a commercial warehouse and connect it 
+to water and sewerage; assesses the quality control and 
+safety mechanisms in the construction permitting system.
+Registering property
+Records the procedures, time, and cost required to transfer a 
+property title from one domestic firm to another so that the 
+buyer can use the property to expand its business, use it as 
+collateral or, if necessary, sell it; assesses the quality of the 
+land administration system; includes a gender dimension to 
+account for any gender discriminatory practices.
+Paying taxes
+Records the taxes and mandatory contributions 
+that a medium-size company must pay in a given 
+year as well as measures of the administrative 
+burden of paying taxes and contributions and of 
+complying with postfiling procedures.
+Enforcing contracts
+Records the time and cost for resolving a 
+commercial dispute through a local first-instance 
+court, which hears arguments on the merits of 
+the case and appoints an expert to provide an 
+opinion on the quality of the goods in dispute; 
+assesses the existence of good practices in the 
+court system.
+27 
+locations
+Acre, Alagoas, Amapá, Amazonas, Bahia, Ceará, Espiríto Santo, Federal District, Goiás, Maranhão, Mato Grosso,  
+Mato Grosso do Sul, Minas Gerais, Pará, Paraíba, Paraná, Pernambuco, Piauí, Rio de Janeiro, Rio Grande do Norte,  
+Rio Grande do Sul, Rondônia, Roraima, Santa Catarina, São Paulo, Sergipe and Tocantins
+2 pilot 
+studies
+Registering as an individual microbusiness owner (MEI) and paying taxes under the Simples Nacional tax regime in 
+Amazonas, Ceará, Federal District, Minas Gerais and Rio Grande do Sul 
+Full report: www.doingbusiness.org/brazil
+Subnational Doing Business in Brazil 2021 
+focuses on business regulations and their 
+enforcement. It goes beyond Rio de Janeiro 
+and São Paulo to benchmark 25 other 
+Brazilian locations across five regulatory 
+areas. The report also includes two pilot 
+studies on registering as an individual 
+microbusiness owner (‘Microempreende-
+dor Individual’, MEI) and paying taxes 
+under the Simples Nacional tax regime in 
+five locations in Brazil.
+This report presents data current as of 
+September 1, 2020 and includes compar-
+isons with other economies (data for other 
+economies, as well as for Rio de Janeiro and 
+São Paulo, are not considered official until 
+published by the Doing Business 2021 report). 
+Doing Business measures aspects of 
+regulation that enable or hinder entrepre-
+neurs in starting, operating or expanding 
+a business—and provides examples of 
+good practices for improving the business 
+environment.
+
+========== PAGE 8 ==========
+DOING BUSINESS IN CHONGQING 2020
+vi
+
+========== PAGE 9 ==========
+1
+CHAPTER 1
+Overview
+	Subnational Doing Business in Brazil 2021 presents a comparative 
+analysis of the regulatory environment for doing business in 
+27 locations across the country, covering five areas: starting a 
+business, dealing with construction permits, registering property, 
+paying taxes and enforcing contracts. The report also includes two 
+pilot studies on registering as an Individual Microbusiness Owner 
+(MEI) and paying taxes under the Simples Nacional tax regime in 
+five locations.
+	Long and complex processes are a major challenge for Brazilian 
+entrepreneurs in all five business regulatory areas, mainly due to a 
+lack of coordination among national and local agencies.
+	Brazil’s business environment presents a strong variation at the 
+subnational level. Examples of good practices are found in different 
+states, across income levels, regions, and sizes.
+	Based on the overall performance of the five areas measured, it is 
+easiest to do business in São Paulo, Minas Gerais and Roraima. At the 
+same time, no single location comes first in all areas benchmarked, 
+leaving room for all locations to learn from one another.
+	Brazil’s business environment could improve significantly if 
+existing local good practices were replicated in all cities and states, 
+particularly in enforcing contracts and dealing with construction 
+permits. 
+	Action areas addressing common themes across indicators — such 
+as strengthening coordination between federal, state, and 
+municipal agencies — will improve the prospect that reforms will 
+bear fruit.
+MAIN FINDINGS
+
+========== PAGE 10 ==========
+SUBNATIONAL DOING BUSINESS IN BRAZIL 2021
+2
+T
+wenty-five 
+years 
+after 
+the term Custo Brasil1 was 
+coined by the Brazilian 
+Confederation of Industry, the 
+high 
+cost 
+of 
+doing 
+business 
+remains a topic of debate in the 
+country. Translated as “Brazil’s 
+Cost”, it refers to the high com-
+plexity to comply with local regu-
+lation, including barriers to entry, 
+cumbersome processes, and oper-
+ational costs associated with doing 
+business, making Brazilian goods 
+and services more expensive than 
+those of other countries. While 
+significant improvements have 
+been made to reduce red tape, 
+bureaucratic hurdles remain. A 
+2019 government study estimated 
+that doing business costs compa-
+nies R$1.5 trillion ($283bn, or 
+22% of GDP) more in Brazil than 
+in Organisation for Economic 
+Co-operation and Development 
+(OECD) economies.2
+In the past 15 years, Brazil has 
+worked to improve its business 
+environment and encourage entre-
+preneurship. Since 2016, reform 
+efforts have reduced the time to 
+start a business in São Paulo dra-
+matically, from over 100 days to 
+just 2 weeks.3 Supported by new 
+legislation—mainly by establishing 
+a legal entity for individual micro-
+entrepreneurs in 20084—micro and 
+small companies play an increas-
+ingly critical role in the Brazilian 
+economy. Today, they represent 
+90% of firms in the country and 
+account for 30% of GDP (up from 
+20% in the 1990s).5 And their 
+importance continues to grow. 
+Faced with the crisis caused by the 
+COVID-19 pandemic, Brazilians 
+are turning to entrepreneurial 
+activities as an alternative source 
+of income. In the first 9 months of 
+2020, Brazilians created 684,000 
+new individual microenterprises, 
+a 15% year-on-year increase.6 In 
+2020, around one-quarter of adults 
+in the country were estimated to 
+be either starting a new business or 
+owning a company 3.5 years old or 
+younger.7 Creating a level playing 
+field is crucial to ensure that these 
+new entrepreneurs can start and 
+grow businesses, generate employ-
+ment, and diversify the economy.
+Despite improvements, barriers 
+to firm operation and growth 
+remain — a result, in part, of 
+excessive 
+government 
+bureau-
+cracy. Onerous regulation diverts 
+entrepreneurs’ energy away from 
+developing their businesses and 
+may push them into informality. 
+Informal firms accounted for an 
+estimated 17% of Brazil’s output 
+in 2019.8 Brazil underperforms 
+on measures of competitiveness. 
+In 2017, it ranked 80 out of 137 
+economies in the World Economic 
+Forum’s Global Competitiveness 
+Index.9 Likewise, in the Doing 
+Business 2021 report, Brazil, rep-
+resented by São Paulo and Rio de 
+Janeiro, stood behind other large 
+federal countries such as India, 
+Mexico, or the Russian Federation. 
+A more granular look at the regu-
+latory business environment across 
+Brazilian states reveals a more 
+nuanced story where the regula-
+tions that affect entrepreneurs can 
+vary significantly. In a country as 
+large and diverse as Brazil—the 
+world’s fifth-largest and sixth most 
+populous, with a decentralized 
+system of government comprising 
+5 regions, 27 federative units (26 
+states and the Federal District), 
+and 5,570 municipalities—entre-
+preneurs face varying local prac-
+tices and regulations. To give a 
+more complete picture of Brazil’s 
+business regulatory environment, 
+this study—the country’s first 
+Subnational Doing Business study in 
+more than 15 years—expands the 
+benchmarking exercise to 27 capi-
+tal cities representing all federative 
+units (box 1.1). 
+Despite regional economic dispari-
+ties, good performance is found in 
+states of all income levels, sizes, and 
+regions (table 1.1). Overall, doing 
+business is easiest in São Paulo, 
+Minas Gerais and Roraima, where 
+many good practices are found. The 
+results show that, going beyond 
+those places, local administra-
+tions are also implementing good 
+practices throughout the country. 
+Many top-scoring locations are 
+from the North and Northeast 
+regions, where the income per 
+capita and firm density are below 
+the national average.10 Strong vari-
+ations are found at the subnational 
+level, particularly in enforcing con-
+tracts and in dealing with construc-
+tion permits. They highlight an 
+opportunity for local policy makers 
+around the country to learn from 
+each other and adopt in-country 
+examples of good practices, taking 
+steps to increase competitiveness 
+and improve Brazil’s overall busi-
+ness environment.
+Yet, even if all of the country’s 
+good practices were implemented, 
+Brazil would still be far from the 
+global best practices. Long and 
+complex processes are a major 
+challenge for entrepreneurs in 
+all locations. Underlying reasons 
+include the lack of coordination 
+among federal, state, and munic-
+ipal agencies, as well as frag-
+mented and unclear regulations. 
+To leverage reform efforts, an 
+inclusive and structural approach 
+is needed—one that empowers 
+
+========== PAGE 11 ==========
+3
+Overview
+and encourages not only the fed-
+eral government but also local 
+governments to design and imple-
+ment reforms together.
+Main findings
+Long and complex processes 
+are a major challenge for 
+Brazilian entrepreneurs 
+On average, Brazil underperforms 
+in all five indicator areas, under-
+scoring the complex and lengthy 
+processes facing entrepreneurs. It 
+is more challenging to start a busi-
+ness, register a property, comply 
+with taxes or obtain building per-
+mits in the average Brazilian state 
+than in most other countries in 
+Latin America and the Caribbean 
+and the OECD high-income group. 
+Businesses in all locations in Brazil 
+need to complete more procedures 
+to register a company or a property 
+transfer or get the permits to build 
+a warehouse than in most econ-
+omies in the world. For example, 
+entrepreneurs in most states in 
+Brazil complete the highest num-
+ber of procedures worldwide to 
+register a property transaction. 
+Property ownership information is 
+not consolidated, and parties must 
+consult an array of agencies to 
+BOX 1.1  What is Subnational Doing Business in Brazil 2021, and what does it measure?
+Doing Business measures the business regulatory environment for small and medium-size domestic firms. It assesses whether an 
+economy has good rules and processes to yield positive outcomes for entrepreneurs and increase economic activity. Recognizing that 
+governments play a vital role in bolstering private sector development, Doing Business promotes SMART (Streamlined, Meaningful, 
+Adaptable, Relevant, and Transparent) regulation.a The premise is simple: clear laws and regulations afford entrepreneurs the confi-
+dence and the opportunities to invest. Rules should be efficient, transparent, accessible, and enforceable.
+Going beyond São Paulo and Rio de Janeiro, Subnational Doing Business in Brazil 2021 benchmarks the country’s 26 states and 
+the Federal District in the areas of starting a business, dealing with construction permits, registering property, paying taxes, and 
+enforcing contracts. States are measured through their capital cities. The report also includes two pilot studies analyzing the pro-
+cesses of registering an Individual Microbusiness Owner (Microempreendedor Individual, MEI) and paying taxes through the Simples 
+Nacional tax regime in five locations. Subnational Doing Business selected the study locations and indicators in collaboration with 
+the Government of Brazil to ensure geographic representation and indicator variation at the local level. The study’s objectives are to 
+provide a broader understanding of Brazil’s business regulatory environment and highlight good practices that can inspire improve-
+ments around the country. The Data Notes and About Doing Business and Subnational Doing Business chapters cover in detail the 
+methodology used to collect the data, as well as other aspects of this study.
+Data collection for Subnational Doing Business in Brazil 2021 started in late February 2020, at the moment when the COVID-19 
+pandemic hit the country.b As it disrupted the economy and brought many activities to a halt, the data collection phase was adjusted 
+to be performed entirely remotely in 27 capital cities. Planned visits to agencies and in-person meetings with local officials and 
+private sector experts, were replaced by videoconferences and phone calls. 
+Yet, despite the challenge of relying on remote tools to engage with local respondents and officials throughout the country, the 
+report counted with a high level of participation. This study was based on more than 1,500 contributors, collected from private and 
+public sector professionals by questionnaires, phone or video interviews. From the private sector, professionals from accounting, law 
+and engineering firms from each capital city were interviewed. Inputs from public officials, representing every agency responsible 
+for business regulations in the five areas measured by the report in all 27 state and municipal governments, as well as from relevant 
+state judiciary institutions and federal bodies, were instrumental for the report.
+As part of the data verification process, separate meetings were organized to present and obtain feedback on the preliminary data 
+collected in each location. In total, more than 150 virtual meetings were organized with representatives from agencies such as 
+commercial and property registries, municipal and state tax, urban, environmental, business licensing departments, judges and court 
+officials, and firefighters corps.
+a. 	 World Bank Group. 2013. Doing Business 2014: Understanding Regulations for Small and Medium-Size Enterprises. Washington, DC: World Bank Group.
+b.	 The Doing Business 2021 data for Rio de Janeiro and São Paulo, as well as for comparator economies and regional averages, are not considered official until 
+published by the Doing Business 2021 report. For all 27 locations, the data for starting a business, dealing with construction permits, registering property, 
+and enforcing contracts are updated as of September 1, 2020. The data for paying taxes are updated as of December 31, 2019 for the 27 locations.
+
+========== PAGE 12 ==========
+SUBNATIONAL DOING BUSINESS IN BRAZIL 2021
+4
+TABLE 1.1  Doing business is easiest in São Paulo, Minas Gerais, and Roraima
+Location
+Rank
+Aggregate score 
+(0–100)
+Starting a business score 
+(0–100)
+Starting a business rank
+Dealing with construction 
+permits score (0–100)
+Dealing with construction 
+permits rank
+Registering property score 
+(0–100)
+Registering property rank
+Paying taxes score 
+(0–100)
+Paying taxes rank
+Enforcing contracts score 
+(0–100)
+Enforcing contracts rank
+São Paulo (São Paulo)
+1
+59.1
+81.7
+14
+48.9
+15
+65.8
+1
+33.9
+19
+65.4
+3
+Minas Gerais (Belo Horizonte)
+2
+58.3
+82.0
+12
+61.6
+3
+53.3
+12
+34.0
+17
+60.7
+8
+Roraima (Boa Vista)
+3
+58.3
+76.9
+25
+63.7
+1
+53.3
+11
+34.0
+18
+63.6
+5
+Paraná (Curitiba)
+4
+57.3
+84.5
+2
+57.5
+7
+52.5
+14
+34.4
+4
+57.7
+12
+Rio de Janeiro (Rio de Janeiro)
+5
+57.1
+83.2
+6
+57.2
+8
+57.4
+2
+33.7
+25
+53.9
+18
+Tocantins (Palmas)
+6
+56.8
+77.8
+23
+59.3
+5
+52.8
+13
+34.1
+15
+59.8
+9
+Mato Grosso do Sul (Campo Grande)
+7
+56.7
+77.8
+22
+62.4
+2
+54.7
+6
+34.3
+8
+54.3
+17
+Sergipe (Aracaju)
+8
+56.3
+81.5
+15
+45.5
+24
+51.3
+18
+33.7
+24
+69.7
+1
+Ceará (Fortaleza)
+9
+56.3
+82.0
+13
+60.1
+4
+52.4
+15
+33.9
+21
+53.2
+19
+Piauí (Teresina)
+10
+56.0
+84.5
+3
+52.8
+10
+49.7
+21
+33.8
+23
+59.1
+11
+Goiás (Goiânia)
+11
+55.9
+72.2
+27
+57.7
+6
+55.8
+3
+34.4
+6
+59.6
+10
+Federal District (Brasília)
+12
+55.8
+75.9
+26
+47.2
+19
+53.3
+10
+34.3
+9
+68.4
+2
+Rondônia (Porto Velho)
+13
+55.5
+82.2
+10
+45.5
+23
+51.3
+17
+34.5
+2
+63.8
+4
+Acre (Rio Branco)
+14
+54.9
+77.6
+24
+51.7
+11
+48.3
+25
+33.8
+22
+62.9
+6
+Maranhão (São Luís)
+15
+54.4
+83.4
+5
+42.0
+27
+50.2
+20
+34.2
+10
+62.3
+7
+Amazonas (Manaus)
+16
+54.4
+79.5
+18
+49.5
+14
+53.6
+8
+34.3
+7
+54.8
+15
+Paraíba (João Pessoa)
+17
+53.9
+79.1
+20
+55.5
+9
+49.0
+23
+34.1
+14
+51.7
+20
+Alagoas (Maceió)
+18
+53.8
+82.8
+8
+48.0
+16
+53.8
+7
+34.5
+3
+49.6
+22
+Mato Grosso (Cuiabá)
+19
+53.5
+78.0
+21
+47.6
+17
+51.9
+16
+34.1
+16
+56.0
+14
+Santa Catarina (Florianópolis)
+20
+53.2
+83.9
+4
+47.5
+18
+55.6
+4
+34.2
+13
+44.8
+26
+Rio Grande do Norte (Natal)
+21
+53.1
+80.4
+16
+50.6
+13
+45.5
+26
+34.2
+11
+54.7
+16
+Rio Grande do Sul (Porto Alegre)
+22
+52.9
+83.0
+7
+46.5
+20
+49.0
+24
+34.2
+12
+51.7
+21
+Pará (Belém)
+23
+52.7
+84.7
+1
+44.5
+25
+53.5
+9
+33.0
+27
+47.8
+24
+Bahia (Salvador)
+24
+52.5
+79.6
+17
+51.5
+12
+49.4
+22
+33.2
+26
+48.9
+23
+Amapá (Macapá)
+25
+52.3
+79.5
+19
+46.2
+21
+45.2
+27
+34.4
+5
+56.5
+13
+Espírito Santo (Vitória)
+26
+51.7
+82.5
+9
+45.8
+2
+
+... [Content truncated, total 1,311,182 chars] ...

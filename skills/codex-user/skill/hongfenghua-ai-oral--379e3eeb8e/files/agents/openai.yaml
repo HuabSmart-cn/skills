@@ -1,0 +1,4 @@
+interface:
+  display_name: "洪峰华 AI 口播"
+  short_description: "用作者判断、具体例子和观众追问，讲清技术、工作与个人选择"
+  default_prompt: "使用 $hongfenghua-ai-oral 按洪峰华的口播风格写这个主题，保留我的判断和自然语气，按题材组织，不套固定结论。"

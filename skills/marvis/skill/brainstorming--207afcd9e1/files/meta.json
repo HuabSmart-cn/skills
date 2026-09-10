@@ -1,0 +1,26 @@
+{
+  "author": "GitHub",
+  "author_icon": "https://static.pc.yyb.qq.com/wupload2skill-author-icons/1775208652371_GitHub.png",
+  "description": "\"You MUST use this before any creative work - creating features, building components, adding functionality, or modifying behavior. Explores user intent, requirements and design before implementation.\"",
+  "detail_describe": "逐步提问引导你厘清需求目标和功能边界避免方向跑偏\n自动提出两到三种实现方案并分析各方案优缺点供你选择\n将讨论结果整理为完整的设计文档并保存到项目目录中\n通过浏览器可视化展示界面原型和架构图帮助确认设计细节",
+  "display_description": "让Marvis更聪明，把简单想法变成清晰的设计方案",
+  "display_name": "brainstorming",
+  "download_count": 128513,
+  "download_url": "https://static.pc.yyb.qq.com/wupload2skill-packages/1775208987251_brainstorming.zip",
+  "icon": "https://static.pc.yyb.qq.com/wupload2skill-icons/1775208628463_%E5%A4%B4%E8%84%91%E9%A3%8E%E6%9A%B4.png",
+  "id": 91,
+  "is_downloaded": false,
+  "last_modified_time": "2026-09-09 22:24:16",
+  "md5": "072f5000f9e9e9d4e770ac52eefe2447",
+  "name": "brainstorming",
+  "scope": [
+    "main"
+  ],
+  "type": "办公学习",
+  "use_cases": [
+    "我想做一个面向独立开发者的 AI 时间管理工具。",
+    "我想做一个用户登录和权限管理功能，帮我先想清楚怎么设计。",
+    "把博客订阅推送功能做成一份完整设计文档。"
+  ],
+  "version": "1.0.5"
+}

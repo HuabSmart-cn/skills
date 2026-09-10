@@ -1,0 +1,1286 @@
+{
+  "schema_version": "1.0.0",
+  "source": "generated from bytedance/IconPark packages/svg/icons.json; existing lark-slides semantic tags merged for search quality",
+  "icons": [
+    {
+      "iconType": "iconpark/Abstract/ad-product.svg",
+      "category": "Abstract",
+      "name": "ad-product",
+      "tags": [
+        "ad",
+        "product",
+        "ad-product",
+        "广告产品",
+        "抽象",
+        "盒子",
+        "箱子",
+        "立体",
+        "abstract",
+        "抽象图形"
+      ]
+    },
+    {
+      "iconType": "iconpark/Abstract/api-app.svg",
+      "category": "Abstract",
+      "name": "api-app",
+      "tags": [
+        "api",
+        "app",
+        "api-app",
+        "api 应用",
+        "应用",
+        "抽象",
+        "ad",
+        "平台",
+        "abstract",
+        "抽象图形",
+        "integration",
+        "接口",
+        "集成",
+        "系统"
+      ]
+    },
+    {
+      "iconType": "iconpark/Abstract/app-switch.svg",
+      "category": "Abstract",
+      "name": "app-switch",
+      "tags": [
+        "app",
+        "switch",
+        "app-switch",
+        "切换",
+        "屏幕切换",
+        "轮播",
+        "幻屏",
+        "abstract",
+        "抽象图形"
+      ]
+    },
+    {
+      "iconType": "iconpark/Abstract/application-one.svg",
+      "category": "Abstract",
+      "name": "application-one",
+      "tags": [
+        "application",
+        "one",
+        "application-one",
+        "应用",
+        "受众分析",
+        "抽象",
+        "立方体",
+        "abstract",
+        "抽象图形"
+      ]
+    },
+    {
+      "iconType": "iconpark/Abstract/association.svg",
+      "category": "Abstract",
+      "name": "association",
+      "tags": [
+        "association",
+        "关联",
+        "交集",
+        "联系",
+        "a",
+        "交叉",
+        "编辑",
+        "abstract",
+        "抽象图形"
+      ]
+    },
+    {
+      "iconType": "iconpark/Abstract/asterisk.svg",
+      "category": "Abstract",
+      "name": "asterisk",
+      "tags": [
+        "asterisk",
+        "星号",
+        "符号",
+        "圆形",
+        "abstract",
+        "抽象图形"
+      ]
+    },
+    {
+      "iconType": "iconpark/Abstract/badge.svg",
+      "category": "Abstract",
+      "name": "badge",
+      "tags": [
+        "badge",
+        "徽章提醒",
+        "抽象",
+        "框选",
+        "提醒",
+        "abstract",
+        "抽象图形"
+      ]
+    },
+    {
+      "iconType": "iconpark/Abstract/benz.svg",
+      "category": "Abstract",
+      "name": "benz",
+      "tags": [
+        "benz",
+        "奔驰",
+        "三叉戟",
+        "轮毂",
+        "三角",
+        "饼状",
+        "abstract",
+        "抽象图形"
+      ]
+    },
+    {
+      "iconType": "iconpark/Abstract/blocks-and-arrows.svg",
+      "category": "Abstract",
+      "name": "blocks-and-arrows",
+      "tags": [
+        "blocks",
+        "and",
+        "arrows",
+        "blocks-and-arrows",
+        "模块箭头",
+        "分类",
+        "abstract",
+        "抽象图形"
+      ]
+    },
+    {
+      "iconType": "iconpark/Abstract/category-management.svg",
+      "category": "Abstract",
+      "name": "category-management",
+      "tags": [
+        "category",
+        "management",
+        "category-management",
+        "分类管理",
+        "分类",
+        "管理",
+        "整理",
+        "抽象",
+        "abstract",
+        "抽象图形"
+      ]
+    },
+    {
+      "iconType": "iconpark/Abstract/circle-five-line.svg",
+      "category": "Abstract",
+      "name": "circle-five-line",
+      "tags": [
+        "circle",
+        "five",
+        "line",
+        "circle-five-line",
+        "圆圈",
+        "连接",
+        "抽象",
+        "锚点",
+        "abstract",
+        "抽象图形"
+      ]
+    },
+    {
+      "iconType": "iconpark/Abstract/circle-four.svg",
+      "category": "Abstract",
+      "name": "circle-four",
+      "tags": [
+        "circle",
+        "four",
+        "circle-four",
+        "圆圈",
+        "抽象",
+        "叠加",
+        "abstract",
+        "抽象图形"
+      ]
+    },
+    {
+      "iconType": "iconpark/Abstract/circle-four-line.svg",
+      "category": "Abstract",
+      "name": "circle-four-line",
+      "tags": [
+        "circle",
+        "four",
+        "line",
+        "circle-four-line",
+        "圆圈",
+        "连接",
+        "抽象",
+        "箭头",
+        "abstract",
+        "抽象图形"
+      ]
+    },
+    {
+      "iconType": "iconpark/Abstract/circle-three.svg",
+      "category": "Abstract",
+      "name": "circle-three",
+      "tags": [
+        "circle",
+        "three",
+        "circle-three",
+        "圆圈",
+        "抽象",
+        "叠加",
+        "关联",
+        "abstract",
+        "抽象图形",
+        "cycle",
+        "node",
+        "节点",
+        "循环",
+        "三步"
+      ]
+    },
+    {
+      "iconType": "iconpark/Abstract/circle-two-line.svg",
+      "category": "Abstract",
+      "name": "circle-two-line",
+      "tags": [
+        "circle",
+        "two",
+        "line",
+        "circle-two-line",
+        "圆圈",
+        "连接",
+        "抽象",
+        "锚点",
+        "缩放",
+        "abstract",
+        "抽象图形"
+      ]
+    },
+    {
+      "iconType": "iconpark/Abstract/circles-and-triangles.svg",
+      "category": "Abstract",
+      "name": "circles-and-triangles",
+      "tags": [
+        "circles",
+        "and",
+        "triangles",
+        "circles-and-triangles",
+        "圆形和三角",
+        "形状拼接",
+        "组合",
+        "abstract",
+        "抽象图形"
+      ]
+    },
+    {
+      "iconType": "iconpark/Abstract/circles-seven.svg",
+      "category": "Abstract",
+      "name": "circles-seven",
+      "tags": [
+        "circles",
+        "seven",
+        "circles-seven",
+        "圆圈",
+        "抽象",
+        "六个圆",
+        "abstract",
+        "抽象图形"
+      ]
+    },
+    {
+      "iconType": "iconpark/Abstract/circular-connection.svg",
+      "category": "Abstract",
+      "name": "circular-connection",
+      "tags": [
+        "circular",
+        "connection",
+        "circular-connection",
+        "圆形连接",
+        "渠道",
+        "关联",
+        "abstract",
+        "抽象图形",
+        "network",
+        "loop",
+        "连接",
+        "网络",
+        "循环",
+        "协同"
+      ]
+    },
+    {
+      "iconType": "iconpark/Abstract/cone.svg",
+      "category": "Abstract",
+      "name": "cone",
+      "tags": [
+        "cone",
+        "圆锥",
+        "测量",
+        "锐度",
+        "abstract",
+        "抽象图形"
+      ]
+    },
+    {
+      "iconType": "iconpark/Abstract/cones.svg",
+      "category": "Abstract",
+      "name": "cones",
+      "tags": [
+        "cones",
+        "坐标系",
+        "三角",
+        "立体",
+        "abstract",
+        "抽象图形"
+      ]
+    },
+    {
+      "iconType": "iconpark/Abstract/converging-gateway.svg",
+      "category": "Abstract",
+      "name": "converging-gateway",
+      "tags": [
+        "converging",
+        "gateway",
+        "converging-gateway",
+        "汇聚网关",
+        "汇聚",
+        "菱形",
+        "抽象",
+        "几何",
+        "abstract",
+        "抽象图形"
+      ]
+    },
+    {
+      "iconType": "iconpark/Abstract/coordinate-system.svg",
+      "category": "Abstract",
+      "name": "coordinate-system",
+      "tags": [
+        "coordinate",
+        "system",
+        "coordinate-system",
+        "坐标系统",
+        "3d",
+        "立体",
+        "坐标",
+        "abstract",
+        "抽象图形"
+      ]
+    },
+    {
+      "iconType": "iconpark/Abstract/cross-ring.svg",
+      "category": "Abstract",
+      "name": "cross-ring",
+      "tags": [
+        "cross",
+        "ring",
+        "cross-ring",
+        "交叉环",
+        "交叉",
+        "环形",
+        "关系",
+        "abstract",
+        "抽象图形"
+      ]
+    },
+    {
+      "iconType": "iconpark/Abstract/cross-ring-two.svg",
+      "category": "Abstract",
+      "name": "cross-ring-two",
+      "tags": [
+        "cross",
+        "ring",
+        "two",
+        "cross-ring-two",
+        "魔比斯环",
+        "循环",
+        "双环",
+        "关联",
+        "abstract",
+        "抽象图形"
+      ]
+    },
+    {
+      "iconType": "iconpark/Abstract/crown-two.svg",
+      "category": "Abstract",
+      "name": "crown-two",
+      "tags": [
+        "crown",
+        "two",
+        "crown-two",
+        "皇冠",
+        "王后",
+        "国王",
+        "徽章",
+        "荣耀",
+        "等级",
+        "abstract",
+        "抽象图形"
+      ]
+    },
+    {
+      "iconType": "iconpark/Abstract/cube.svg",
+      "category": "Abstract",
+      "name": "cube",
+      "tags": [
+        "cube",
+        "魔方",
+        "六边形",
+        "立方体",
+        "立体",
+        "abstract",
+        "抽象图形"
+      ]
+    },
+    {
+      "iconType": "iconpark/Abstract/cube-five.svg",
+      "category": "Abstract",
+      "name": "cube-five",
+      "tags": [
+        "cube",
+        "five",
+        "cube-five",
+        "魔方",
+        "六边形",
+        "立方体",
+        "abstract",
+        "抽象图形"
+      ]
+    },
+    {
+      "iconType": "iconpark/Abstract/cube-four.svg",
+      "category": "Abstract",
+      "name": "cube-four",
+      "tags": [
+        "cube",
+        "four",
+        "cube-four",
+        "魔方",
+        "六边形",
+        "立方体",
+        "零件",
+        "abstract",
+        "抽象图形"
+      ]
+    },
+    {
+      "iconType": "iconpark/Abstract/cube-three.svg",
+      "category": "Abstract",
+      "name": "cube-three",
+      "tags": [
+        "cube",
+        "three",
+        "cube-three",
+        "魔方",
+        "六边形",
+        "立方体",
+        "零件",
+        "abstract",
+        "抽象图形"
+      ]
+    },
+    {
+      "iconType": "iconpark/Abstract/cube-two.svg",
+      "category": "Abstract",
+      "name": "cube-two",
+      "tags": [
+        "cube",
+        "two",
+        "cube-two",
+        "魔方",
+        "六边形",
+        "三角拼接",
+        "abstract",
+        "抽象图形"
+      ]
+    },
+    {
+      "iconType": "iconpark/Abstract/cycle-arrow.svg",
+      "category": "Abstract",
+      "name": "cycle-arrow",
+      "tags": [
+        "cycle",
+        "arrow",
+        "cycle-arrow",
+        "循环箭头",
+        "环绕",
+        "连接",
+        "abstract",
+        "抽象图形"
+      ]
+    },
+    {
+      "iconType": "iconpark/Abstract/cycle-one.svg",
+      "category": "Abstract",
+      "name": "cycle-one",
+      "tags": [
+        "cycle",
+        "one",
+        "cycle-one",
+        "循环",
+        "可利用",
+        "周转",
+        "抽象",
+        "abstract",
+        "抽象图形",
+        "iteration",
+        "loop",
+        "迭代",
+        "闭环"
+      ]
+    },
+    {
+      "iconType": "iconpark/Abstract/cylinder.svg",
+      "category": "Abstract",
+      "name": "cylinder",
+      "tags": [
+        "cylinder",
+        "圆柱",
+        "容器",
+        "abstract",
+        "抽象图形"
+      ]
+    },
+    {
+      "iconType": "iconpark/Abstract/display.svg",
+      "category": "Abstract",
+      "name": "display",
+      "tags": [
+        "display",
+        "显示屏",
+        "白板",
+        "展示",
+        "投屏",
+        "abstract",
+        "抽象图形"
+      ]
+    },
+    {
+      "iconType": "iconpark/Abstract/endless.svg",
+      "category": "Abstract",
+      "name": "endless",
+      "tags": [
+        "endless",
+        "无穷尽",
+        "基因",
+        "链接",
+        "无穷大",
+        "闭环",
+        "相交",
+        "循环",
+        "abstract",
+        "抽象图形"
+      ]
+    },
+    {
+      "iconType": "iconpark/Abstract/error-prompt.svg",
+      "category": "Abstract",
+      "name": "error-prompt",
+      "tags": [
+        "error",
+        "prompt",
+        "error-prompt",
+        "错误提示",
+        "声音",
+        "静音",
+        "声音提示",
+        "abstract",
+        "抽象图形"
+      ]
+    },
+    {
+      "iconType": "iconpark/Abstract/exclusive-gateway.svg",
+      "category": "Abstract",
+      "name": "exclusive-gateway",
+      "tags": [
+        "exclusive",
+        "gateway",
+        "exclusive-gateway",
+        "排他网关",
+        "排他",
+        "菱形",
+        "抽象",
+        "几何",
+        "abstract",
+        "抽象图形"
+      ]
+    },
+    {
+      "iconType": "iconpark/Abstract/export.svg",
+      "category": "Abstract",
+      "name": "export",
+      "tags": [
+        "export",
+        "导出",
+        "输出",
+        "传输",
+        "上传",
+        "下载",
+        "abstract",
+        "抽象图形"
+      ]
+    },
+    {
+      "iconType": "iconpark/Abstract/external-transmission.svg",
+      "category": "Abstract",
+      "name": "external-transmission",
+      "tags": [
+        "external",
+        "transmission",
+        "external-transmission",
+        "外部传输",
+        "传输",
+        "导出文件",
+        "abstract",
+        "抽象图形"
+      ]
+    },
+    {
+      "iconType": "iconpark/Abstract/figma-component.svg",
+      "category": "Abstract",
+      "name": "figma-component",
+      "tags": [
+        "figma",
+        "component",
+        "figma-component",
+        "组件",
+        "菱形组合",
+        "四边形",
+        "abstract",
+        "抽象图形"
+      ]
+    },
+    {
+      "iconType": "iconpark/Abstract/figma-reset-instance.svg",
+      "category": "Abstract",
+      "name": "figma-reset-instance",
+      "tags": [
+        "figma",
+        "reset",
+        "instance",
+        "figma-reset-instance",
+        "解除组件",
+        "转移",
+        "箭头",
+        "abstract",
+        "抽象图形"
+      ]
+    },
+    {
+      "iconType": "iconpark/Abstract/five-ellipses.svg",
+      "category": "Abstract",
+      "name": "five-ellipses",
+      "tags": [
+        "five",
+        "ellipses",
+        "five-ellipses",
+        "五个椭圆",
+        "排列",
+        "abstract",
+        "抽象图形"
+      ]
+    },
+    {
+      "iconType": "iconpark/Abstract/four-arrows.svg",
+      "category": "Abstract",
+      "name": "four-arrows",
+      "tags": [
+        "four",
+        "arrows",
+        "four-arrows",
+        "四个箭头",
+        "箭头",
+        "雪花",
+        "旋转",
+        "抽象",
+        "abstract",
+        "抽象图形"
+      ]
+    },
+    {
+      "iconType": "iconpark/Abstract/four-leaves.svg",
+      "category": "Abstract",
+      "name": "four-leaves",
+      "tags": [
+        "four",
+        "leaves",
+        "four-leaves",
+        "四片叶子",
+        "abstract",
+        "抽象图形"
+      ]
+    },
+    {
+      "iconType": "iconpark/Abstract/four-point-connection.svg",
+      "category": "Abstract",
+      "name": "four-point-connection",
+      "tags": [
+        "four",
+        "point",
+        "connection",
+        "four-point-connection",
+        "四点连接",
+        "锚点",
+        "抽象",
+        "abstract",
+        "抽象图形"
+      ]
+    },
+    {
+      "iconType": "iconpark/Abstract/four-round-point-connection.svg",
+      "category": "Abstract",
+      "name": "four-round-point-connection",
+      "tags": [
+        "four",
+        "round",
+        "point",
+        "connection",
+        "four-round-point-connection",
+        "四点连接",
+        "抽象",
+        "关联",
+        "添加",
+        "abstract",
+        "抽象图形"
+      ]
+    },
+    {
+      "iconType": "iconpark/Abstract/game-emoji.svg",
+      "category": "Abstract",
+      "name": "game-emoji",
+      "tags": [
+        "game",
+        "emoji",
+        "game-emoji",
+        "游戏表情",
+        "图形拼接",
+        "抽象",
+        "abstract",
+        "抽象图形",
+        "creative",
+        "fun",
+        "idea",
+        "创意",
+        "趣味",
+        "玩法"
+      ]
+    },
+    {
+      "iconType": "iconpark/Abstract/geometric-flowers.svg",
+      "category": "Abstract",
+      "name": "geometric-flowers",
+      "tags": [
+        "geometric",
+        "flowers",
+        "geometric-flowers",
+        "几何花",
+        "几何",
+        "圆环",
+        "抽象",
+        "花形",
+        "环绕",
+        "abstract",
+        "抽象图形"
+      ]
+    },
+    {
+      "iconType": "iconpark/Abstract/graphic-design.svg",
+      "category": "Abstract",
+      "name": "graphic-design",
+      "tags": [
+        "graphic",
+        "design",
+        "graphic-design",
+        "图形设计",
+        "图形拼接",
+        "几何",
+        "组合",
+        "叠加",
+        "abstract",
+        "抽象图形"
+      ]
+    },
+    {
+      "iconType": "iconpark/Abstract/graphic-design-two.svg",
+      "category": "Abstract",
+      "name": "graphic-design-two",
+      "tags": [
+        "graphic",
+        "design",
+        "two",
+        "graphic-design-two",
+        "图形组合",
+        "拼接",
+        "组合",
+        "几何",
+        "abstract",
+        "抽象图形"
+      ]
+    },
+    {
+      "iconType": "iconpark/Abstract/graphic-stitching.svg",
+      "category": "Abstract",
+      "name": "graphic-stitching",
+      "tags": [
+        "graphic",
+        "stitching",
+        "graphic-stitching",
+        "圆形组合",
+        "组合",
+        "拼接",
+        "花形",
+        "abstract",
+        "抽象图形"
+      ]
+    },
+    {
+      "iconType": "iconpark/Abstract/graphic-stitching-four.svg",
+      "category": "Abstract",
+      "name": "graphic-stitching-four",
+      "tags": [
+        "graphic",
+        "stitching",
+        "four",
+        "graphic-stitching-four",
+        "圆形组合",
+        "连接",
+        "抽象",
+        "选中锚点",
+        "abstract",
+        "抽象图形"
+      ]
+    },
+    {
+      "iconType": "iconpark/Abstract/graphic-stitching-three.svg",
+      "category": "Abstract",
+      "name": "graphic-stitching-three",
+      "tags": [
+        "graphic",
+        "stitching",
+        "three",
+        "graphic-stitching-three",
+        "圆形组合",
+        "方形",
+        "连接",
+        "抽象",
+        "abstract",
+        "抽象图形"
+      ]
+    },
+    {
+      "iconType": "iconpark/Abstract/halo.svg",
+      "category": "Abstract",
+      "name": "halo",
+      "tags": [
+        "halo",
+        "光晕",
+        "虚线圆环",
+        "光照",
+        "扩散",
+        "焦距",
+        "abstract",
+        "抽象图形"
+      ]
+    },
+    {
+      "iconType": "iconpark/Abstract/hexagon-strip.svg",
+      "category": "Abstract",
+      "name": "hexagon-strip",
+      "tags": [
+        "hexagon",
+        "strip",
+        "hexagon-strip",
+        "六边条",
+        "花形",
+        "组合图形",
+        "abstract",
+        "抽象图形"
+      ]
+    },
+    {
+      "iconType": "iconpark/Abstract/hexagonal.svg",
+      "category": "Abstract",
+      "name": "hexagonal",
+      "tags": [
+        "hexagonal",
+        "六边立体",
+        "花纹",
+        "abstract",
+        "抽象图形"
+      ]
+    },
+    {
+      "iconType": "iconpark/Abstract/inclusive-gateway.svg",
+      "category": "Abstract",
+      "name": "inclusive-gateway",
+      "tags": [
+        "inclusive",
+        "gateway",
+        "inclusive-gateway",
+        "包容网关",
+        "网关",
+        "菱形",
+        "抽象",
+        "几何",
+        "abstract",
+        "抽象图形"
+      ]
+    },
+    {
+      "iconType": "iconpark/Abstract/internal-data.svg",
+      "category": "Abstract",
+      "name": "internal-data",
+      "tags": [
+        "internal",
+        "data",
+        "internal-data",
+        "内部数据",
+        "数据",
+        "数据展示",
+        "音调",
+        "abstract",
+        "抽象图形"
+      ]
+    },
+    {
+      "iconType": "iconpark/Abstract/internal-transmission.svg",
+      "category": "Abstract",
+      "name": "internal-transmission",
+      "tags": [
+        "internal",
+        "transmission",
+        "internal-transmission",
+        "内部传输",
+        "输送文件",
+        "接收文件",
+        "abstract",
+        "抽象图形"
+      ]
+    },
+    {
+      "iconType": "iconpark/Abstract/keyline.svg",
+      "category": "Abstract",
+      "name": "keyline",
+      "tags": [
+        "keyline",
+        "关键线",
+        "背景",
+        "底纹",
+        "仅用",
+        "abstract",
+        "抽象图形"
+      ]
+    },
+    {
+      "iconType": "iconpark/Abstract/misaligned-semicircle.svg",
+      "category": "Abstract",
+      "name": "misaligned-semicircle",
+      "tags": [
+        "misaligned",
+        "semicircle",
+        "misaligned-semicircle",
+        "半圆",
+        "切割",
+        "抽象",
+        "abstract",
+        "抽象图形"
+      ]
+    },
+    {
+      "iconType": "iconpark/Abstract/multi-circular.svg",
+      "category": "Abstract",
+      "name": "multi-circular",
+      "tags": [
+        "multi",
+        "circular",
+        "multi-circular",
+        "多圆形",
+        "圆形",
+        "叠加",
+        "缩放",
+        "圆形拼接",
+        "abstract",
+        "抽象图形"
+      ]
+    },
+    {
+      "iconType": "iconpark/Abstract/multi-rectangle.svg",
+      "category": "Abstract",
+      "name": "multi-rectangle",
+      "tags": [
+        "multi",
+        "rectangle",
+        "multi-rectangle",
+        "多方形",
+        "方形",
+        "叠加",
+        "缩放",
+        "方形拼接",
+        "abstract",
+        "抽象图形"
+      ]
+    },
+    {
+      "iconType": "iconpark/Abstract/multi-ring.svg",
+      "category": "Abstract",
+      "name": "multi-ring",
+      "tags": [
+        "multi",
+        "ring",
+        "multi-ring",
+        "多圆环",
+        "关联",
+        "圆环",
+        "交集",
+        "抽象",
+        "花形",
+        "abstract",
+        "抽象图形"
+      ]
+    },
+    {
+      "iconType": "iconpark/Abstract/multi-triangular.svg",
+      "category": "Abstract",
+      "name": "multi-triangular",
+      "tags": [
+        "multi",
+        "triangular",
+        "multi-triangular",
+        "多三角",
+        "锐度",
+        "面积",
+        "abstract",
+        "抽象图形"
+      ]
+    },
+    {
+      "iconType": "iconpark/Abstract/multi-triangular-four.svg",
+      "category": "Abstract",
+      "name": "multi-triangular-four",
+      "tags": [
+        "multi",
+        "triangular",
+        "four",
+        "multi-triangular-four",
+        "多三角",
+        "三角拼接",
+        "abstract",
+        "抽象图形"
+      ]
+    },
+    {
+      "iconType": "iconpark/Abstract/multi-triangular-three.svg",
+      "category": "Abstract",
+      "name": "multi-triangular-three",
+      "tags": [
+        "multi",
+        "triangular",
+        "three",
+        "multi-triangular-three",
+        "多三角",
+        "三角拼接",
+        "组合",
+        "abstract",
+        "抽象图形"
+      ]
+    },
+    {
+      "iconType": "iconpark/Abstract/multi-triangular-two.svg",
+      "category": "Abstract",
+      "name": "multi-triangular-two",
+      "tags": [
+        "multi",
+        "triangular",
+        "two",
+        "multi-triangular-two",
+        "多三角",
+        "三角拼接",
+        "组合",
+        "abstract",
+        "抽象图形"
+      ]
+    },
+    {
+      "iconType": "iconpark/Abstract/multilayer-sphere.svg",
+      "category": "Abstract",
+      "name": "multilayer-sphere",
+      "tags": [
+        "multilayer",
+        "sphere",
+        "multilayer-sphere",
+        "多层圆球",
+        "阴影",
+        "叠加",
+        "面积",
+        "abstract",
+        "抽象图形"
+      ]
+    },
+    {
+      "iconType": "iconpark/Abstract/nested-arrows.svg",
+      "category": "Abstract",
+      "name": "nested-arrows",
+      "tags": [
+        "nested",
+        "arrows",
+        "nested-arrows",
+        "嵌套箭头",
+        "关联",
+        "连接",
+        "abstract",
+        "抽象图形"
+      ]
+    },
+    {
+      "iconType": "iconpark/Abstract/nine-points-connected.svg",
+      "category": "Abstract",
+      "name": "nine-points-connected",
+      "tags": [
+        "nine",
+        "points",
+        "connected",
+        "nine-points-connected",
+        "九点连接",
+        "抽象",
+        "abstract",
+        "抽象图形"
+      ]
+    },
+    {
+      "iconType": "iconpark/Abstract/one-third-rotation.svg",
+      "category": "Abstract",
+      "name": "one-third-rotation",
+      "tags": [
+        "one",
+        "third",
+        "rotation",
+        "one-third-rotation",
+        "旋转",
+        "箭头",
+        "循环",
+        "风扇",
+        "abstract",
+        "抽象图形"
+      ]
+    },
+    {
+      "iconType": "iconpark/Abstract/open-one.svg",
+      "category": "Abstract",
+      "name": "open-one",
+      "tags": [
+        "open",
+        "one",
+        "open-one",
+        "打开",
+        "钥匙",
+        "开启",
+        "abstract",
+        "抽象图形"
+      ]
+    },
+    {
+      "iconType": "iconpark/Abstract/outbound.svg",
+      "category": "Abstract",
+      "name": "outbound",
+      "tags": [
+        "outbound",
+        "出库",
+        "导出",
+        "传输",
+        "abstract",
+        "抽象图形"
+      ]
+    },
+    {
+      "iconType": "iconpark/Abstract/oval-love.svg",
+      "category": "Abstract",
+      "name": "oval-love",
+      "tags": [
+        "oval",
+        "love",
+        "oval-love",
+        "椭圆爱心",
+        "喜欢",
+        "拼接",
+        "abstract",
+        "抽象图形"
+      ]
+    },
+    {
+      "iconType": "iconpark/Abstract/oval-love-two.svg",
+      "category": "Abstract",
+      "name": "oval-love-two",
+      "tags": [
+        "oval",
+        "love",
+        "two",
+        "oval-love-two",
+        "椭圆爱心",
+        "喜欢",
+        "拼接",
+        "abstract",
+        "抽象图形"
+      ]
+    },
+    {
+      "iconType": "iconpark/Abstract/parallel-gateway.svg",
+      "category": "Abstract",
+      "name": "parallel-gateway",
+      "tags": [
+        "parallel",
+        "gateway",
+        "parallel-gateway",
+        "并行网关",
+        "并行",
+        "菱形",
+        "抽象",
+        "几何",
+        "abstract",
+        "抽象图形"
+      ]
+    },
+    {
+      "iconType": "iconpark/Abstract/process-line.svg",
+      "category": "Abstract",
+      "name": "process-line",
+      "tags": [
+        "process",
+        "line",
+        "process-line",
+        "纹路",
+        "河流",
+        "小溪",
+        "雾气",
+        "水汽",
+        "abstract",
+        "抽象图形"
+      ]
+    },
+    {
+      "iconType": "iconpark/Abstract/quadrangular-pyramid.svg",
+      "category": "Abstract",
+      "name": "quadrangular-pyramid",
+      "tags": [
+        "quadrangular",
+        "pyramid",
+        "quadrangular-pyramid",
+        "四棱锥",
+        "立体",
+        "钻石",
+        "abstract",
+        "抽象图形"
+      ]
+    },
+    {
+      "iconType": "iconpark/Abstract/rectangle-tear.svg",
+      "category": "Abstract",
+      "name": "rectangle-tear",
+      "tags": [
+        "rectangle",
+        "tear",
+        "rectangle-tear",
+        "矩形撕裂",
+        "销毁",
+        "扯开",
+        "abstract",
+        "抽象图形"
+      ]
+    },
+    {
+      "iconType": "iconpark/Abstract/
+
+... [Content truncated, total 766,983 chars] ...

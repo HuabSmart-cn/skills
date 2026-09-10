@@ -1,0 +1,4 @@
+interface:
+  display_name: "Write like me"
+  icon_small: "./assets/icon.svg"
+  icon_large: "./assets/icon.svg"

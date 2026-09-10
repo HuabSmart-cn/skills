@@ -1,0 +1,703 @@
+{
+  "bucket": "brazil-financeandtaxation-1448789884",
+  "region": "ap-shanghai",
+  "total_files": 650,
+  "total_size_kb": 3379857.2,
+  "generated_at": "2026-07-09T09:09:16.349140Z",
+  "prefixes": {
+    "2010年9月1日第662号立法法令——联邦税务局.pdf": {
+      "count": 1,
+      "files": [
+        {
+          "key": "2010年9月1日第662号立法法令——联邦税务局.pdf",
+          "url": "https://brazil-financeandtaxation-1448789884.cos.ap-shanghai.myqcloud.com/2010年9月1日第662号立法法令——联邦税务局.pdf",
+          "size_kb": 701.5,
+          "size_bytes": 718304,
+          "last_modified": "2026-07-07T03:25:34.000Z",
+          "mime": "application/pdf"
+        }
+      ]
+    },
+    "2018年10月29日第9,542号法令——联邦税务局.pdf": {
+      "count": 1,
+      "files": [
+        {
+          "key": "2018年10月29日第9,542号法令——联邦税务局.pdf",
+          "url": "https://brazil-financeandtaxation-1448789884.cos.ap-shanghai.myqcloud.com/2018年10月29日第9,542号法令——联邦税务局.pdf",
+          "size_kb": 1129.8,
+          "size_bytes": 1156924,
+          "last_modified": "2026-07-07T03:26:03.000Z",
+          "mime": "application/pdf"
+        }
+      ]
+    },
+    "ADE_04_Codar - Fundos Habilitados 2026 - para Publicacao no DOU.pdf": {
+      "count": 1,
+      "files": [
+        {
+          "key": "ADE_04_Codar - Fundos Habilitados 2026 - para Publicacao no DOU.pdf",
+          "url": "https://brazil-financeandtaxation-1448789884.cos.ap-shanghai.myqcloud.com/ADE_04_Codar - Fundos Habilitados 2026 - para Publicacao no DOU.pdf",
+          "size_kb": 282.7,
+          "size_bytes": 289450,
+          "last_modified": "2026-07-06T10:35:32.000Z",
+          "mime": "application/pdf"
+        }
+      ]
+    },
+    "ADE_07_Codar.pdf": {
+      "count": 1,
+      "files": [
+        {
+          "key": "ADE_07_Codar.pdf",
+          "url": "https://brazil-financeandtaxation-1448789884.cos.ap-shanghai.myqcloud.com/ADE_07_Codar.pdf",
+          "size_kb": 143.0,
+          "size_bytes": 146455,
+          "last_modified": "2026-07-06T10:35:32.000Z",
+          "mime": "application/pdf"
+        }
+      ]
+    },
+    "ATO DECLARATÓRIO EXECUTIVO CODAR Nº 24, DE 18 DE SETEMBRO DE 2025.pdf": {
+      "count": 1,
+      "files": [
+        {
+          "key": "ATO DECLARATÓRIO EXECUTIVO CODAR Nº 24, DE 18 DE SETEMBRO DE 2025.pdf",
+          "url": "https://brazil-financeandtaxation-1448789884.cos.ap-shanghai.myqcloud.com/ATO DECLARATÓRIO EXECUTIVO CODAR Nº 24, DE 18 DE SETEMBRO DE 2025.pdf",
+          "size_kb": 101.9,
+          "size_bytes": 104305,
+          "last_modified": "2026-07-06T10:35:41.000Z",
+          "mime": "application/pdf"
+        }
+      ]
+    },
+    "Administracao_Tributaria_UECE.pdf": {
+      "count": 1,
+      "files": [
+        {
+          "key": "Administracao_Tributaria_UECE.pdf",
+          "url": "https://brazil-financeandtaxation-1448789884.cos.ap-shanghai.myqcloud.com/Administracao_Tributaria_UECE.pdf",
+          "size_kb": 1521.8,
+          "size_bytes": 1558278,
+          "last_modified": "2026-07-07T06:01:59.000Z",
+          "mime": "application/pdf"
+        }
+      ]
+    },
+    "Anexo I -  HABILITADOS FDCA 2026 - Metadados .pdf": {
+      "count": 1,
+      "files": [
+        {
+          "key": "Anexo I -  HABILITADOS FDCA 2026 - Metadados .pdf",
+          "url": "https://brazil-financeandtaxation-1448789884.cos.ap-shanghai.myqcloud.com/Anexo I -  HABILITADOS FDCA 2026 - Metadados .pdf",
+          "size_kb": 92.1,
+          "size_bytes": 94277,
+          "last_modified": "2026-07-06T10:35:32.000Z",
+          "mime": "application/pdf"
+        }
+      ]
+    },
+    "Anexo I - ADE Dados Corretos 2025.csv": {
+      "count": 1,
+      "files": [
+        {
+          "key": "Anexo I - ADE Dados Corretos 2025.csv",
+          "url": "https://brazil-financeandtaxation-1448789884.cos.ap-shanghai.myqcloud.com/Anexo I - ADE Dados Corretos 2025.csv",
+          "size_kb": 387.3,
+          "size_bytes": 396608,
+          "last_modified": "2026-07-06T10:35:32.000Z",
+          "mime": "application/octet-stream"
+        }
+      ]
+    },
+    "Anexo I - Apuração - Metadados.pdf": {
+      "count": 1,
+      "files": [
+        {
+          "key": "Anexo I - Apuração - Metadados.pdf",
+          "url": "https://brazil-financeandtaxation-1448789884.cos.ap-shanghai.myqcloud.com/Anexo I - Apuração - Metadados.pdf",
+          "size_kb": 23.9,
+          "size_bytes": 24510,
+          "last_modified": "2026-07-06T10:35:32.000Z",
+          "mime": "application/pdf"
+        }
+      ]
+    },
+    "Anexo I - FDCA Habilitados - Metadados.pdf": {
+      "count": 1,
+      "files": [
+        {
+          "key": "Anexo I - FDCA Habilitados - Metadados.pdf",
+          "url": "https://brazil-financeandtaxation-1448789884.cos.ap-shanghai.myqcloud.com/Anexo I - FDCA Habilitados - Metadados.pdf",
+          "size_kb": 25.9,
+          "size_bytes": 26502,
+          "last_modified": "2026-07-06T10:35:33.000Z",
+          "mime": "application/pdf"
+        }
+      ]
+    },
+    "Anexo I - FDCAs Habilitados para a DIRPF 2025.ods": {
+      "count": 1,
+      "files": [
+        {
+          "key": "Anexo I - FDCAs Habilitados para a DIRPF 2025.ods",
+          "url": "https://brazil-financeandtaxation-1448789884.cos.ap-shanghai.myqcloud.com/Anexo I - FDCAs Habilitados para a DIRPF 2025.ods",
+          "size_kb": 585.0,
+          "size_bytes": 599043,
+          "last_modified": "2026-07-06T10:35:33.000Z",
+          "mime": "application/octet-stream"
+        }
+      ]
+    },
+    "Anexo I - Fundos Receberam no RM - Metadados.pdf": {
+      "count": 1,
+      "files": [
+        {
+          "key": "Anexo I - Fundos Receberam no RM - Metadados.pdf",
+          "url": "https://brazil-financeandtaxation-1448789884.cos.ap-shanghai.myqcloud.com/Anexo I - Fundos Receberam no RM - Metadados.pdf",
+          "size_kb": 26.2,
+          "size_bytes": 26855,
+          "last_modified": "2026-07-06T10:35:33.000Z",
+          "mime": "application/pdf"
+        }
+      ]
+    },
+    "Anexo I - HABILITADOS FDCA 2026.csv": {
+      "count": 1,
+      "files": [
+        {
+          "key": "Anexo I - HABILITADOS FDCA 2026.csv",
+          "url": "https://brazil-financeandtaxation-1448789884.cos.ap-shanghai.myqcloud.com/Anexo I - HABILITADOS FDCA 2026.csv",
+          "size_kb": 212.2,
+          "size_bytes": 217319,
+          "last_modified": "2026-07-06T10:35:33.000Z",
+          "mime": "application/octet-stream"
+        }
+      ]
+    },
+    "Anexo I - Nota Codar RC 2025.csv": {
+      "count": 1,
+      "files": [
+        {
+          "key": "Anexo I - Nota Codar RC 2025.csv",
+          "url": "https://brazil-financeandtaxation-1448789884.cos.ap-shanghai.myqcloud.com/Anexo I - Nota Codar RC 2025.csv",
+          "size_kb": 381.7,
+          "size_bytes": 390824,
+          "last_modified": "2026-07-06T10:35:33.000Z",
+          "mime": "application/octet-stream"
+        }
+      ]
+    },
+    "Anexo I - Nota Codar RM 2025 - Fundos Que Receberam Valores.csv": {
+      "count": 1,
+      "files": [
+        {
+          "key": "Anexo I - Nota Codar RM 2025 - Fundos Que Receberam Valores.csv",
+          "url": "https://brazil-financeandtaxation-1448789884.cos.ap-shanghai.myqcloud.com/Anexo I - Nota Codar RM 2025 - Fundos Que Receberam Valores.csv",
+          "size_kb": 56.9,
+          "size_bytes": 58287,
+          "last_modified": "2026-07-06T10:35:34.000Z",
+          "mime": "application/octet-stream"
+        }
+      ]
+    },
+    "Anexo II - ADE Dados Corretos 2025.csv": {
+      "count": 1,
+      "files": [
+        {
+          "key": "Anexo II - ADE Dados Corretos 2025.csv",
+          "url": "https://brazil-financeandtaxation-1448789884.cos.ap-shanghai.myqcloud.com/Anexo II - ADE Dados Corretos 2025.csv",
+          "size_kb": 239.8,
+          "size_bytes": 245516,
+          "last_modified": "2026-07-06T10:35:34.000Z",
+          "mime": "application/octet-stream"
+        }
+      ]
+    },
+    "Anexo II - FDI Habilitados - Metadados.pdf": {
+      "count": 1,
+      "files": [
+        {
+          "key": "Anexo II - FDI Habilitados - Metadados.pdf",
+          "url": "https://brazil-financeandtaxation-1448789884.cos.ap-shanghai.myqcloud.com/Anexo II - FDI Habilitados - Metadados.pdf",
+          "size_kb": 25.9,
+          "size_bytes": 26527,
+          "last_modified": "2026-07-06T10:35:34.000Z",
+          "mime": "application/pdf"
+        }
+      ]
+    },
+    "Anexo II - FDIs Habilitados para a DIRPF 2025.ods": {
+      "count": 1,
+      "files": [
+        {
+          "key": "Anexo II - FDIs Habilitados para a DIRPF 2025.ods",
+          "url": "https://brazil-financeandtaxation-1448789884.cos.ap-shanghai.myqcloud.com/Anexo II - FDIs Habilitados para a DIRPF 2025.ods",
+          "size_kb": 287.4,
+          "size_bytes": 294269,
+          "last_modified": "2026-07-06T10:35:34.000Z",
+          "mime": "application/octet-stream"
+        }
+      ]
+    },
+    "Anexo II - Fundos Pendentes apos RM - Metadados.pdf": {
+      "count": 1,
+      "files": [
+        {
+          "key": "Anexo II - Fundos Pendentes apos RM - Metadados.pdf",
+          "url": "https://brazil-financeandtaxation-1448789884.cos.ap-shanghai.myqcloud.com/Anexo II - Fundos Pendentes apos RM - Metadados.pdf",
+          "size_kb": 25.9,
+          "size_bytes": 26551,
+          "last_modified": "2026-07-06T10:35:34.000Z",
+          "mime": "application/pdf"
+        }
+      ]
+    },
+    "Anexo II - HABILITADOS FDI 2026 - Metadados .pdf": {
+      "count": 1,
+      "files": [
+        {
+          "key": "Anexo II - HABILITADOS FDI 2026 - Metadados .pdf",
+          "url": "https://brazil-financeandtaxation-1448789884.cos.ap-shanghai.myqcloud.com/Anexo II - HABILITADOS FDI 2026 - Metadados .pdf",
+          "size_kb": 92.2,
+          "size_bytes": 94408,
+          "last_modified": "2026-07-06T10:35:35.000Z",
+          "mime": "application/pdf"
+        }
+      ]
+    },
+    "Anexo II - HABILITADOS FDI 2026.csv": {
+      "count": 1,
+      "files": [
+        {
+          "key": "Anexo II - HABILITADOS FDI 2026.csv",
+          "url": "https://brazil-financeandtaxation-1448789884.cos.ap-shanghai.myqcloud.com/Anexo II - HABILITADOS FDI 2026.csv",
+          "size_kb": 109.9,
+          "size_bytes": 112563,
+          "last_modified": "2026-07-06T10:35:35.000Z",
+          "mime": "application/octet-stream"
+        }
+      ]
+    },
+    "Anexo II - Nota Codar RC 2025.csv": {
+      "count": 1,
+      "files": [
+        {
+          "key": "Anexo II - Nota Codar RC 2025.csv",
+          "url": "https://brazil-financeandtaxation-1448789884.cos.ap-shanghai.myqcloud.com/Anexo II - Nota Codar RC 2025.csv",
+          "size_kb": 507.4,
+          "size_bytes": 519619,
+          "last_modified": "2026-07-06T10:35:35.000Z",
+          "mime": "application/octet-stream"
+        }
+      ]
+    },
+    "Anexo II - Nota Codar RM 2025 - Repasses Pendentes após RM 2025.csv": {
+      "count": 1,
+      "files": [
+        {
+          "key": "Anexo II - Nota Codar RM 2025 - Repasses Pendentes após RM 2025.csv",
+          "url": "https://brazil-financeandtaxation-1448789884.cos.ap-shanghai.myqcloud.com/Anexo II - Nota Codar RM 2025 - Repasses Pendentes após RM 2025.csv",
+          "size_kb": 149.8,
+          "size_bytes": 153380,
+          "last_modified": "2026-07-06T10:35:36.000Z",
+          "mime": "application/octet-stream"
+        }
+      ]
+    },
+    "Anexo II - Valores Repassados - Metadados.pdf": {
+      "count": 1,
+      "files": [
+        {
+          "key": "Anexo II - Valores Repassados - Metadados.pdf",
+          "url": "https://brazil-financeandtaxation-1448789884.cos.ap-shanghai.myqcloud.com/Anexo II - Valores Repassados - Metadados.pdf",
+          "size_kb": 26.0,
+          "size_bytes": 26653,
+          "last_modified": "2026-07-06T10:35:36.000Z",
+          "mime": "application/pdf"
+        }
+      ]
+    },
+    "Anexo III - FDCA - Não Habilitados - 2026.csv": {
+      "count": 1,
+      "files": [
+        {
+          "key": "Anexo III - FDCA - Não Habilitados - 2026.csv",
+          "url": "https://brazil-financeandtaxation-1448789884.cos.ap-shanghai.myqcloud.com/Anexo III - FDCA - Não Habilitados - 2026.csv",
+          "size_kb": 6.8,
+          "size_bytes": 6999,
+          "last_modified": "2026-07-06T10:35:36.000Z",
+          "mime": "application/octet-stream"
+        }
+      ]
+    },
+    "Anexo III - FDCA Não Habilitados  2026 - Metadados .pdf": {
+      "count": 1,
+      "files": [
+        {
+          "key": "Anexo III - FDCA Não Habilitados  2026 - Metadados .pdf",
+          "url": "https://brazil-financeandtaxation-1448789884.cos.ap-shanghai.myqcloud.com/Anexo III - FDCA Não Habilitados  2026 - Metadados .pdf",
+          "size_kb": 129.3,
+          "size_bytes": 132453,
+          "last_modified": "2026-07-06T10:35:36.000Z",
+          "mime": "application/pdf"
+        }
+      ]
+    },
+    "Anexo III - FDCA Não Habilitados - Metadados.pdf": {
+      "count": 1,
+      "files": [
+        {
+          "key": "Anexo III - FDCA Não Habilitados - Metadados.pdf",
+          "url": "https://brazil-financeandtaxation-1448789884.cos.ap-shanghai.myqcloud.com/Anexo III - FDCA Não Habilitados - Metadados.pdf",
+          "size_kb": 26.7,
+          "size_bytes": 27351,
+          "last_modified": "2026-07-06T10:35:36.000Z",
+          "mime": "application/pdf"
+        }
+      ]
+    },
+    "Anexo III - FDCAs NãoHabilitados para a DIRPF 2025.ods": {
+      "count": 1,
+      "files": [
+        {
+          "key": "Anexo III - FDCAs NãoHabilitados para a DIRPF 2025.ods",
+          "url": "https://brazil-financeandtaxation-1448789884.cos.ap-shanghai.myqcloud.com/Anexo III - FDCAs NãoHabilitados para a DIRPF 2025.ods",
+          "size_kb": 7.2,
+          "size_bytes": 7375,
+          "last_modified": "2026-07-06T10:35:36.000Z",
+          "mime": "application/octet-stream"
+        }
+      ]
+    },
+    "Anexo III - Nota Codar RC 2025.csv": {
+      "count": 1,
+      "files": [
+        {
+          "key": "Anexo III - Nota Codar RC 2025.csv",
+          "url": "https://brazil-financeandtaxation-1448789884.cos.ap-shanghai.myqcloud.com/Anexo III - Nota Codar RC 2025.csv",
+          "size_kb": 194.3,
+          "size_bytes": 198949,
+          "last_modified": "2026-07-06T10:35:37.000Z",
+          "mime": "application/octet-stream"
+        }
+      ]
+    },
+    "Anexo III - Valores Não Repassados.pdf": {
+      "count": 1,
+      "files": [
+        {
+          "key": "Anexo III - Valores Não Repassados.pdf",
+          "url": "https://brazil-financeandtaxation-1448789884.cos.ap-shanghai.myqcloud.com/Anexo III - Valores Não Repassados.pdf",
+          "size_kb": 26.4,
+          "size_bytes": 27047,
+          "last_modified": "2026-07-06T10:35:37.000Z",
+          "mime": "application/pdf"
+        }
+      ]
+    },
+    "Anexo IV - FDI - Não habilitados - 2026.csv": {
+      "count": 1,
+      "files": [
+        {
+          "key": "Anexo IV - FDI - Não habilitados - 2026.csv",
+          "url": "https://brazil-financeandtaxation-1448789884.cos.ap-shanghai.myqcloud.com/Anexo IV - FDI - Não habilitados - 2026.csv",
+          "size_kb": 2.3,
+          "size_bytes": 2369,
+          "last_modified": "2026-07-06T10:35:37.000Z",
+          "mime": "application/octet-stream"
+        }
+      ]
+    },
+    "Anexo IV - FDI Não Habilitados - Metadados.pdf": {
+      "count": 1,
+      "files": [
+        {
+          "key": "Anexo IV - FDI Não Habilitados - Metadados.pdf",
+          "url": "https://brazil-financeandtaxation-1448789884.cos.ap-shanghai.myqcloud.com/Anexo IV - FDI Não Habilitados - Metadados.pdf",
+          "size_kb": 27.1,
+          "size_bytes": 27726,
+          "last_modified": "2026-07-06T10:35:37.000Z",
+          "mime": "application/pdf"
+        }
+      ]
+    },
+    "Anexo IV - FDI Não Habilitados 2026 - Metadados .pdf": {
+      "count": 1,
+      "files": [
+        {
+          "key": "Anexo IV - FDI Não Habilitados 2026 - Metadados .pdf",
+          "url": "https://brazil-financeandtaxation-1448789884.cos.ap-shanghai.myqcloud.com/Anexo IV - FDI Não Habilitados 2026 - Metadados .pdf",
+          "size_kb": 129.6,
+          "size_bytes": 132710,
+          "last_modified": "2026-07-06T10:35:37.000Z",
+          "mime": "application/pdf"
+        }
+      ]
+    },
+    "Anexo IV - FDIs NãoHabilitados para a DIRPF 2025.ods": {
+      "count": 1,
+      "files": [
+        {
+          "key": "Anexo IV - FDIs NãoHabilitados para a DIRPF 2025.ods",
+          "url": "https://brazil-financeandtaxation-1448789884.cos.ap-shanghai.myqcloud.com/Anexo IV - FDIs NãoHabilitados para a DIRPF 2025.ods",
+          "size_kb": 6.1,
+          "size_bytes": 6237,
+          "last_modified": "2026-07-06T10:35:38.000Z",
+          "mime": "application/octet-stream"
+        }
+      ]
+    },
+    "Anexo IV - Fundos com Repasses Pendentes.pdf": {
+      "count": 1,
+      "files": [
+        {
+          "key": "Anexo IV - Fundos com Repasses Pendentes.pdf",
+          "url": "https://brazil-financeandtaxation-1448789884.cos.ap-shanghai.myqcloud.com/Anexo IV - Fundos com Repasses Pendentes.pdf",
+          "size_kb": 25.9,
+          "size_bytes": 26495,
+          "last_modified": "2026-07-06T10:35:38.000Z",
+          "mime": "application/pdf"
+        }
+      ]
+    },
+    "Anexo IV - Nota Codar RC 2025.csv": {
+      "count": 1,
+      "files": [
+        {
+          "key": "Anexo IV - Nota Codar RC 2025.csv",
+          "url": "https://brazil-financeandtaxation-1448789884.cos.ap-shanghai.myqcloud.com/Anexo IV - Nota Codar RC 2025.csv",
+          "size_kb": 249.5,
+          "size_bytes": 255538,
+          "last_modified": "2026-07-06T10:35:38.000Z",
+          "mime": "application/octet-stream"
+        }
+      ]
+    },
+    "Anexo Único FDCA e FDI - Metadados.pdf": {
+      "count": 1,
+      "files": [
+        {
+          "key": "Anexo Único FDCA e FDI - Metadados.pdf",
+          "url": "https://brazil-financeandtaxation-1448789884.cos.ap-shanghai.myqcloud.com/Anexo Único FDCA e FDI - Metadados.pdf",
+          "size_kb": 24.4,
+          "size_bytes": 25032,
+          "last_modified": "2026-07-06T10:35:38.000Z",
+          "mime": "application/pdf"
+        }
+      ]
+    },
+    "Base de incidência - metadados.pdf": {
+      "count": 1,
+      "files": [
+        {
+          "key": "Base de incidência - metadados.pdf",
+          "url": "https://brazil-financeandtaxation-1448789884.cos.ap-shanghai.myqcloud.com/Base de incidência - metadados.pdf",
+          "size_kb": 59.6,
+          "size_bytes": 61017,
+          "last_modified": "2026-07-06T10:35:42.000Z",
+          "mime": "application/pdf"
+        }
+      ]
+    },
+    "COS_ACCESS.md": {
+      "count": 1,
+      "files": [
+        {
+          "key": "COS_ACCESS.md",
+          "url": "https://brazil-financeandtaxation-1448789884.cos.ap-shanghai.myqcloud.com/COS_ACCESS.md",
+          "size_kb": 1.4,
+          "size_bytes": 1426,
+          "last_modified": "2026-07-06T10:35:42.000Z",
+          "mime": "text/markdown"
+        }
+      ]
+    },
+    "CREDITO_JUDICIAL.csv": {
+      "count": 1,
+      "files": [
+        {
+          "key": "CREDITO_JUDICIAL.csv",
+          "url": "https://brazil-financeandtaxation-1448789884.cos.ap-shanghai.myqcloud.com/CREDITO_JUDICIAL.csv",
+          "size_kb": 5572.2,
+          "size_bytes": 5705908,
+          "last_modified": "2026-07-08T10:53:14.000Z",
+          "mime": "application/octet-stream"
+        }
+      ]
+    },
+    "CREDITO_NAO_JUDICIAL.csv": {
+      "count": 1,
+      "files": [
+        {
+          "key": "CREDITO_NAO_JUDICIAL.csv",
+          "url": "https://brazil-financeandtaxation-1448789884.cos.ap-shanghai.myqcloud.com/CREDITO_NAO_JUDICIAL.csv",
+          "size_kb": 14757.2,
+          "size_bytes": 15111386,
+          "last_modified": "2026-07-08T10:53:36.000Z",
+          "mime": "application/octet-stream"
+        }
+      ]
+    },
+    "CTM-Belo-Horizonte-Lei1310-1966.pdf": {
+      "count": 1,
+      "files": [
+        {
+          "key": "CTM-Belo-Horizonte-Lei1310-1966.pdf",
+          "url": "https://brazil-financeandtaxation-1448789884.cos.ap-shanghai.myqcloud.com/CTM-Belo-Horizonte-Lei1310-1966.pdf",
+          "size_kb": 1435.4,
+          "size_bytes": 1469838,
+          "last_modified": "2026-07-08T10:01:34.000Z",
+          "mime": "application/pdf"
+        }
+      ]
+    },
+    "CTM-Belo-Horizonte-Lei1310-1966.txt": {
+      "count": 1,
+      "files": [
+        {
+          "key": "CTM-Belo-Horizonte-Lei1310-1966.txt",
+          "url": "https://brazil-financeandtaxation-1448789884.cos.ap-shanghai.myqcloud.com/CTM-Belo-Horizonte-Lei1310-1966.txt",
+          "size_kb": 264.8,
+          "size_bytes": 271114,
+          "last_modified": "2026-07-08T10:01:41.000Z",
+          "mime": "text/plain"
+        }
+      ]
+    },
+    "CTM-Curitiba-LC40.pdf": {
+      "count": 1,
+      "files": [
+        {
+          "key": "CTM-Curitiba-LC40.pdf",
+          "url": "https://brazil-financeandtaxation-1448789884.cos.ap-shanghai.myqcloud.com/CTM-Curitiba-LC40.pdf",
+          "size_kb": 425.2,
+          "size_bytes": 435374,
+          "last_modified": "2026-07-08T10:10:26.000Z",
+          "mime": "application/pdf"
+        }
+      ]
+    },
+    "CTM-Curitiba-LC40.txt": {
+      "count": 1,
+      "files": [
+        {
+          "key": "CTM-Curitiba-LC40.txt",
+          "url": "https://brazil-financeandtaxation-1448789884.cos.ap-shanghai.myqcloud.com/CTM-Curitiba-LC40.txt",
+          "size_kb": 181.3,
+          "size_bytes": 185657,
+          "last_modified": "2026-07-08T10:10:28.000Z",
+          "mime": "text/plain"
+        }
+      ]
+    },
+    "CTM-Fortaleza-LC159-2013.pdf": {
+      "count": 1,
+      "files": [
+        {
+          "key": "CTM-Fortaleza-LC159-2013.pdf",
+          "url": "https://brazil-financeandtaxation-1448789884.cos.ap-shanghai.myqcloud.com/CTM-Fortaleza-LC159-2013.pdf",
+          "size_kb": 2328.4,
+          "size_bytes": 2384283,
+          "last_modified": "2026-07-08T09:54:39.000Z",
+          "mime": "application/pdf"
+        }
+      ]
+    },
+    "CTM-Fortaleza-LC159-2013.txt": {
+      "count": 1,
+      "files": [
+        {
+          "key": "CTM-Fortaleza-LC159-2013.txt",
+          "url": "https://brazil-financeandtaxation-1448789884.cos.ap-shanghai.myqcloud.com/CTM-Fortaleza-LC159-2013.txt",
+          "size_kb": 599.0,
+          "size_bytes": 613427,
+          "last_modified": "2026-07-08T09:54:53.000Z",
+          "mime": "text/plain"
+        }
+      ]
+    },
+    "CTM-Manaus-Lei1697-1983.pdf": {
+      "count": 1,
+      "files": [
+        {
+          "key": "CTM-Manaus-Lei1697-1983.pdf",
+          "url": "https://brazil-financeandtaxation-1448789884.cos.ap-shanghai.myqcloud.com/CTM-Manaus-Lei1697-1983.pdf",
+          "size_kb": 253.7,
+          "size_bytes": 259745,
+          "last_modified": "2026-07-08T10:06:53.000Z",
+          "mime": "application/pdf"
+        }
+      ]
+    },
+    "CTM-Manaus-Lei1697-1983.txt": {
+      "count": 1,
+      "files": [
+        {
+          "key": "CTM-Manaus-Lei1697-1983.txt",
+          "url": "https://brazil-financeandtaxation-1448789884.cos.ap-shanghai.myqcloud.com/CTM-Manaus-Lei1697-1983.txt",
+          "size_kb": 53.2,
+          "size_bytes": 54487,
+          "last_modified": "2026-07-08T10:06:54.000Z",
+          "mime": "text/plain"
+        }
+      ]
+    },
+    "CTM-Recife-Anotado-2026.pdf": {
+      "count": 1,
+      "files": [
+        {
+          "key": "CTM-Recife-Anotado-2026.pdf",
+          "url": "https://brazil-financeandtaxation-1448789884.cos.ap-shanghai.myqcloud.com/CTM-Recife-Anotado-2026.pdf",
+          "size_kb": 3000.3,
+          "size_bytes": 3072258,
+          "last_modified": "2026-07-08T10:11:19.000Z",
+          "mime": "application/pdf"
+        }
+      ]
+    },
+    "CTM-Recife-Anotado-2026.txt": {
+      "count": 1,
+      "files": [
+        {
+          "key": "CTM-Recife-Anotado-2026.txt",
+          "url": "https://brazil-financeandtaxation-1448789884.cos.ap-shanghai.myqcloud.com/CTM-Recife-Anotado-2026.txt",
+          "size_kb": 894.6,
+          "size_bytes": 916043,
+          "last_modified": "2026-07-08T10:11:27.000Z",
+          "mime": "text/plain"
+        }
+      ]
+    },
+    "CTM-Rio-de-Janeiro-Lei691-1984.pdf": {
+      "count": 1,
+      "files": [
+        {
+          "key": "CTM-Rio-de-Janeiro-Lei691-1984.pdf",
+          "url": "https://brazil-financeandtaxation-1448789884.cos.ap-shanghai.myqcloud.com/CTM-Rio-de-Janeiro-Lei691-1984.pdf",
+          "size_kb": 9659.8,
+          "size_bytes": 9891587,
+          "last_modified": "2026-07-08T09:57:14.000Z",
+          "mime": "application/pdf"
+        }
+      ]
+    },
+    "CTM-Rio-de-Janeiro-Lei691-1984.txt": {
+      "count": 1,
+      "files": [
+        {
+          "key": "CTM-Rio-de-Janeiro-Lei691-1984.txt",
+          "url": "https://brazil-financeandtaxation-1448789884.cos.ap-shanghai.myqcloud.com/CTM-Rio-de-Janeiro-Lei691-1984.txt",
+          "size_kb": 783.6,
+          "size_bytes": 802384,
+          "last_modified": "2026-07-08T09:57:53.000Z",
+          "mime": "text/plain"
+        }
+      ]
+    },
+    "CTM-Salvador-Anotado-7186-2006.pdf": {
+      "count": 1,
+      "files": [
+        {
+          "key": "CTM-Salvador-Anotado-7186-2006.
+
+... [Content truncated, total 262,158 chars] ...

@@ -1,0 +1,67 @@
+{
+  "name": "new-share-expert",
+  "version": "5.0.0",
+  "description": "A-share IPO factual data analyst covering IPO calendar, factual matrix, board-aware reminders, first-day monitoring, K-line/intraday charts. Strict A-share only, multi-source cross-check, no rating, no recommendation.",
+  "author": {
+    "name": "darkoliu",
+    "email": "darkoliu@tencent.com"
+  },
+  "expertType": "agent",
+  "agentName": "new-share-expert",
+  "agents": [
+    "./agents/new-share-expert.md"
+  ],
+  "skills": [
+    "./skills/ipo-compliance-gate",
+    "./skills/ipo-workflow",
+    "./skills/ipo-cross-check",
+    "./skills/ipo-kline-chart"
+  ],
+  "displayName": {
+    "en": "New Share Expert",
+    "zh": "新股专家"
+  },
+  "profession": {
+    "en": "New Share Expert",
+    "zh": "新股专家"
+  },
+  "displayDescription": {
+    "en": "A-share IPO factual assistant with multi-source cross-check, board-aware rules and precise K-line/intraday charting. No rating, no recommendation.",
+    "zh": "面向A股新股的事实型助手：多源交叉校验、板块规则区分、精准K线与分时绘制，仅出客观数据不打分不推荐。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "08-FinanceInvestment",
+  "defaultInitPrompt": {
+    "zh": "最近 A 股有哪些新股可以申购？",
+    "en": "What A-share IPOs are available for subscription recently?"
+  },
+  "tags": [
+    {
+      "en": "A-Share IPO",
+      "zh": "A股新股"
+    },
+    {
+      "en": "Multi-Source Verified",
+      "zh": "多源交叉校验"
+    },
+    {
+      "en": "Board-Aware Rules",
+      "zh": "板块规则区分"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "What A-share IPOs are available for subscription recently?",
+      "zh": "最近 A 股有哪些新股可以申购？"
+    },
+    {
+      "en": "Run a factual matrix on stock XXX (no rating)",
+      "zh": "用事实矩阵帮我看看 XXX 这只新股"
+    },
+    {
+      "en": "Set board-aware reminders for next week's IPOs",
+      "zh": "按板块差异化设置下周新股的关键时间提醒"
+    }
+  ],
+  "plugin": "new-share-expert"
+}

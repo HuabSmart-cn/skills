@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "design-converter": {
+      "command": "node",
+      "args": [
+        "dist/servers/design-converter.js"
+      ]
+    }
+  }
+}

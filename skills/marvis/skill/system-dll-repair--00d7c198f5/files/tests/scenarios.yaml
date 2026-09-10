@@ -1,0 +1,188 @@
+version: 2
+skill: system-dll-repair
+scenarios:
+  - id: runtime_match_and_download_confirmation
+    description: VC++ DLL 命中 runtime 并进入下载确认
+    user_input: 程序提示找不到 vcruntime140.dll，帮我修复
+    observations:
+      - references/dll-mapping.md 将 vcruntime140.dll 映射为 runtime
+    expect:
+      must:
+        - 推荐微软常用运行库合集
+        - 用普通回复询问 A 自动下载到桌面或 B 提供手动下载链接，并在提问后结束本轮
+        - runtime 下载前提示文件约 86 MB 并需耐心等待
+      must_not:
+        - 下载单个 vcruntime140.dll
+        - 未经下载确认直接启动修复流程
+
+  - id: directx_match_and_download_confirmation
+    description: DirectX DLL 命中 directx 并进入下载确认
+    user_input: 游戏提示缺少 d3dx9_43.dll
+    observations:
+      - references/dll-mapping.md 将 d3dx9_43.dll 映射为 directx
+    expect:
+      must:
+        - 推荐 DirectX Repair 增强版
+        - 用普通回复询问 A 自动下载到桌面或 B 提供手动下载链接，并在提问后结束本轮
+      must_not:
+        - 先推荐 runtime
+        - 下载单个 d3dx9_43.dll
+
+  - id: generic_error_prefers_runtime_then_directx
+    description: 通用错误码按 runtime 到 directx 顺序处理
+    user_input: 应用程序无法正常启动，错误 0xc000007b
+    observations:
+      - 错误码映射结果为 runtime 到 directx
+    expect:
+      must:
+        - 第一档推荐 runtime
+        - 仅在用户明确反馈第一档修复失败后推荐 directx
+      must_not:
+        - 同时自动启动两款工具
+        - 用户未反馈结果就抢跑第二档
+
+  - id: scheduled_task_launcher_flow
+    description: 自动下载通过任务计划委托启动统一脚本
+    user_input: A，请自动下载并启动 runtime
+    observations:
+      - 当前为 Windows 交互式桌面会话
+      - 技能目录中存在 scripts/dll-repair-launcher.ps1
+    expect:
+      must:
+        - 使用 SKILL.md 规定的任务计划委托模板
+        - 使用 DownloadAndRun 模式
+        - 轮询并优先读取 dll-repair-result.json
+      must_not:
+        - 直接以 powershell -File 同步运行 launcher
+        - 向用户展示内部计划任务或结果文件细节
+
+  - id: plain_reply_resumes_download_choice
+    description: 同一会话用 1 回复下载选择时继续既有 DLL 状态
+    user_input: 1
+    observations:
+      - 上一轮已将 vcruntime140.dll 映射为 runtime
+      - 上一轮提供 A 自动下载到桌面、B 手动链接两个选项并已结束 Query
+    expect:
+      must:
+        - 复用 runtime 匹配结果
+        - 将 1 解释为自动下载到桌面
+        - 继续第三步的既有下载流程
+      must_not:
+        - 重新询问 DLL 名称
+        - 再次询问相同下载方式
+        - 未经既有映射改用 directx
+
+  - id: result_tag_does_not_overclaim
+    description: LAUNCHED 只代表启动命令已发出
+    user_input: 工具启动了吗
+    observations:
+      - 结果文件 tag 为 LAUNCHED 且 exit 为 0
+    expect:
+      must:
+        - 告知启动请求已发出并引导用户完成修复
+        - 要求修复后重新启动原程序并选择 A 或 B 反馈结果
+      must_not:
+        - 声称安装已经完成
+        - 声称 DLL 已经恢复
+
+  - id: private_dll_skips_repair_tools
+    description: 应用私有 DLL 不推荐两款合集工具
+    user_input: 游戏提示缺少 steam_api64.dll
+    observations:
+      - dll-mapping.md 将 steam_api64.dll 列为 Steam 私有库
+    expect:
+      must:
+        - 跳过 runtime 和 directx 推荐
+        - 建议修复或重装 Steam 及该游戏
+        - 最终报告前尝试企业现场支持卡片流程
+      must_not:
+        - 下载运行库合集
+        - 把 DLL 复制到系统目录
+
+  - id: company_card_attempted_on_success
+    description: 修复成功终态也固定尝试企业现场支持卡片
+    user_input: A，修复成功了
+    observations:
+      - 用户已明确反馈原程序复测成功
+    expect:
+      must:
+        - 先输出 DLL 问题已解决的完整正文
+        - 搜索 win.org_support.get_company_resource_card
+        - 仅使用 system-dll-repair 和 general_on_site_service 执行卡片 action
+      must_not:
+        - 输出固定专家问答链接或助手名称
+        - 因修复成功跳过卡片尝试
+
+  - id: company_card_legacy_paths_always_attempt
+    description: 旧版卡片路径在所有修复终态都固定尝试
+    user_input: 检查 DLL 修复结果并给出最终结论
+    observations:
+      - 分别覆盖修复成功、修复失败、信息不足、未匹配和工具失败终态
+      - 每个终态都已先完成结论、处理和通用下一步
+    expect:
+      must:
+        - 旧版卡片场景固定尝试
+        - 每个终态都搜索一次正式现场支持资源
+        - 先调用 mcp_wintools_action_search 并确认候选精确包含
+          win.org_support.get_company_resource_card
+      must_not:
+        - 因修复成功或信息不足跳过资源尝试
+        - 用相似 action 或模糊候选代替企业卡片
+        - 在正文写点击下方
+
+  - id: company_card_ioa_available
+    description: IOA=true 且现场支持资源 available=true 时只展示正确卡片一次
+    user_input: 两款工具都试过了，还是失败
+    observations:
+      - 框架真实识别 IOA=true
+      - action_search 精确命中 win.org_support.get_company_resource_card
+      - execute 返回 available=true、有效入口和本次 tool_call_id
+    expect:
+      must:
+        - 先完成失败情况与通用下一步正文
+        - 使用本次 execute ID 展示现场支持卡片一次
+      must_not:
+        - 不得复用 search ID 或历史 execute ID
+        - 重复输出固定人工链接
+
+  - id: company_card_non_ioa_or_unknown
+    description: IOA=false 与 IOA=unknown 都静默无卡且不伪造环境值
+    user_input: DLL 问题仍未解决，给我下一步
+    observations:
+      - 一次环境为 IOA=false，另一次为 IOA=unknown
+      - 两次业务结果均为 available=false
+    expect:
+      must:
+        - 保留完整诊断结果和通用下一步
+        - 静默省略卡片
+      must_not:
+        - 不得显式传 is_ioa 或伪造组织信号
+        - 暴露 IOA、租户或组织分流信息
+
+  - id: company_card_unavailable_or_failed
+    description: available=false 或 execute 工具失败时不使用后处理器 ID
+    user_input: 总结 DLL 处理结果并给我人工处理建议
+    observations:
+      - 一次 available=false 但有后处理器 tool_call_id
+      - 另一次 action_execute 工具失败
+    expect:
+      must:
+        - 保留诊断、处理和通用下一步
+        - 两种失败都静默省略企业卡片
+      must_not:
+        - 使用无效 tool_call_id
+        - 因卡片失败省略结论
+
+  - id: company_card_rejects_wrong_candidate
+    description: 搜索未精确命中卡片 action 时不执行错误候选
+    user_input: 总结处理结果
+    observations:
+      - action_search 仅返回 resolve_context 或 ambiguous 候选
+    expect:
+      must:
+        - 不执行错误 action
+        - 删除最终卡片代码块后正文仍完整自洽
+      must_not:
+        - 执行 resolve_context 或用相似 action 代替企业现场支持卡片
+        - 使用模糊候选的 execute ID
+        - 猜测 tool_call_id

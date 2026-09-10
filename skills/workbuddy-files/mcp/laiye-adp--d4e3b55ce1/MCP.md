@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "Laiye-ADP": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@laiye-adp/mcp"
+      ],
+      "env": {
+        "ADP_API_KEY": "***REDACTED***"
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "greptile": {
+    "type": "http",
+    "url": "https://api.greptile.com/mcp",
+    "headers": {
+      "Authorization": "***REDACTED***"
+    }
+  }
+}

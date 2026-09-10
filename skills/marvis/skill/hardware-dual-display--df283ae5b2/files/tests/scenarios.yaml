@@ -1,0 +1,325 @@
+version: 2
+skill: hardware-dual-display
+scenarios:
+  - id: explicit_extend_is_direct
+    description: 明确扩展请求直接执行并复检
+    user_input: 帮我切成扩展屏
+    observations:
+      - 正式显示模式 action 可用
+      - 设置后布局显示两块活动屏
+    expect:
+      must:
+        - 直接切换为扩展模式
+        - 后台重读布局
+        - 报告两块活动屏
+      must_not:
+        - 先跑完整故障检测
+        - 调用 ask_user
+        - 使用 DisplaySwitch.exe
+
+  - id: missing_screen_without_connection
+    description: 没有第二路连接信号时优先物理链路
+    user_input: 第二个显示器接上没反应
+    observations:
+      - 当前布局只有一块活动屏
+      - 连接状态也只有一路活动连接
+    expect:
+      must:
+        - 将电源、输入源、线材、接口或扩展坞列为当前范围
+        - 给出一次只改变一个变量的物理测试
+        - 等物理状态变化后再读连接
+      must_not:
+        - 连续切换显示模式
+        - 声称线材已经损坏
+        - 自动更新显卡驱动
+
+  - id: connected_but_disabled_uses_extend
+    description: 第二路连接存在但未启用时修复拓扑
+    user_input: 第二屏黑着，帮我恢复
+    observations:
+      - 当前布局只有一块活动屏
+      - 连接状态显示第二路连接活动
+      - 用户明确希望恢复双屏
+    expect:
+      must:
+        - 将仅单屏显示模式作为高可信候选
+        - 通过正式 action 切换扩展
+        - 重读布局确认屏幕数量
+      must_not:
+        - 让用户先确认是否切换
+        - 使用 Skill 脚本 force_extend.py
+        - 先要求更换线材
+
+  - id: mouse_direction_changes_position_only
+    description: 鼠标跨屏方向错误只调整相对位置
+    user_input: 鼠标往右移却跑到左边屏幕，帮我改
+    observations:
+      - 两块屏幕均活动
+      - 显示器 2 的系统位置与实际物理位置相反
+      - 主屏为显示器 1
+    expect:
+      must:
+        - 设置显示器 2 的正确相对位置
+        - 复检坐标和主屏
+        - 保持显示器 1 为主屏
+      must_not:
+        - 顺带切换主屏
+        - 批量优化分辨率
+        - 调用 ask_user
+
+  - id: taskbar_moves_with_primary_only
+    description: 任务栏位置问题只切换主屏
+    user_input: 把右边的显示器设为主屏
+    observations:
+      - 右边物理屏对应显示器 2
+      - 两屏当前左右排列正确
+    expect:
+      must:
+        - 将显示器 2 设为主屏
+        - 复检主屏标记
+        - 确认相对排列保持不变
+      must_not:
+        - 交换左右位置
+        - 改变显示模式
+        - 调用 ask_user
+
+  - id: ambiguous_physical_screen_uses_identify
+    description: 物理屏与编号不清楚时先显示编号
+    user_input: 把会议室大屏设为主屏
+    observations:
+      - 系统有两块活动显示器
+      - 型号不足以确定哪块是会议室大屏
+      - 正式编号标识 action 可用
+    expect:
+      must:
+        - 使用编号标识帮助建立映射
+        - 等用户自然指出对应编号
+        - 再执行主屏设置
+      must_not:
+        - 按枚举顺序猜会议室大屏
+        - 展示 DISPLAY 设备名
+        - 弹内部编号选择菜单
+
+  - id: show_only_uses_existing_guard
+    description: 仅保留指定屏由 action 自身 Guard 保护
+    user_input: 只用右边外接屏，关掉其他屏
+    observations:
+      - 右边外接屏已映射为显示器 2
+      - show_only_display action 可用
+    expect:
+      must:
+        - 精确指定保留显示器 2
+        - 服从 action 自身 Guard
+        - Guard 允许后重读活动布局
+      must_not:
+        - 在 Skill 外调用 ask_user
+        - 用脚本停用屏幕
+        - 未确认目标编号就执行
+
+  - id: blur_in_duplicate_mode
+    description: 不同原生分辨率复制时先判断模式限制
+    user_input: 外接 4K 屏很模糊
+    observations:
+      - 当前处于复制模式
+      - 内置屏和外接屏的最佳候选不同
+      - 外接屏当前分辨率低于候选
+    expect:
+      must:
+        - 将复制模式共同分辨率作为候选
+        - 提议或执行与用户意图匹配的扩展模式
+        - 切换后重读外接屏分辨率
+      must_not:
+        - 立即批量优化所有屏
+        - 宣称面板损坏
+        - 默认更新显卡驱动
+
+  - id: optimize_resolution_uses_guard
+    description: 用户明确批量优化时使用敏感 action 与后台复检
+    user_input: 把两个屏都调到各自最佳分辨率
+    observations:
+      - 两块屏均活动
+      - 至少一块低于 action 返回的最佳候选
+      - 优化 action 可用
+    expect:
+      must:
+        - 使用正式分辨率优化 action
+        - 服从 action 自身 Guard
+        - 完成后重读每块屏的分辨率
+      must_not:
+        - 额外调用 ask_user
+        - 使用 fix_resolution.py
+        - 把候选模式宣传成绝对面板原生值
+
+  - id: resolution_ok_checks_scaling
+    description: 分辨率正确但文字模糊时不重复改分辨率
+    user_input: 分辨率看着对，但外接屏文字发虚
+    observations:
+      - 当前分辨率等于最佳候选
+      - 仅一个旧应用文字模糊
+      - 其他应用清晰
+    expect:
+      must:
+        - 将应用 DPI 或缩放列为优先候选
+        - 保留当前分辨率正确的证据
+        - 转向缩放或应用兼容设置
+      must_not:
+        - 批量优化分辨率
+        - 更换显示模式
+        - 声称线材带宽不足
+
+  - id: action_success_but_recheck_differs
+    description: action 成功但布局未变化时以复检为准
+    user_input: 把显示器 2 放到左边
+    observations:
+      - 位置设置 action 返回成功
+      - 重读布局后显示器 2 仍在右边
+    expect:
+      must:
+        - 报告位置修改未生效
+        - 保留 action 与复检差异
+        - 提供显示设置入口作为不同路径
+      must_not:
+        - 声称已完成
+        - 循环执行相同位置 action
+        - 改动主屏兜底
+
+  - id: macos_uses_native_settings
+    description: macOS 能力不足时使用正式设置入口
+    user_input: Mac 上把外接屏移到左边
+    observations:
+      - 当前正式能力不能精确设置 macOS 显示器坐标
+      - 可以打开系统显示器设置
+    expect:
+      must:
+        - 打开正式显示器设置
+        - 给出拖动排列的最短界面步骤
+        - 明确本轮未自动改变坐标
+      must_not:
+        - 安装 displayplacer
+        - 执行 ioreg 或 osascript
+        - 声称排列已完成
+
+  - id: physical_damage_stops_remote_changes
+    description: 明显接口损坏时停止反复远程配置
+    user_input: HDMI 口已经松动，稍碰就花屏
+    observations:
+      - 异常随接口接触变化
+      - 更换线材仍在同一接口复现
+    expect:
+      must:
+        - 将接口物理故障列为高可信判断
+        - 建议停止反复插拔该接口
+        - 给厂商或 IT 检修方向
+      must_not:
+        - 连续切换显示模式
+        - 批量改分辨率
+        - 强行插拔测试
+
+  - id: read_only_report_stops_cleanly
+    description: 纯查询不追加操作菜单
+    user_input: 看看我现在双屏怎么排的
+    observations:
+      - 布局查询返回两块屏及坐标
+    expect:
+      must:
+        - 简洁展示当前布局
+        - 使用显示器编号和型号
+        - 在报告后结束
+      must_not:
+        - 追加全套修复选项
+        - 自动改变任何设置
+        - 输出内部设备路径
+
+  - id: company_card_legacy_paths_always_attempt
+    description: 旧版卡片路径在所有双屏终态都固定尝试
+    user_input: 检查双屏显示问题并给出最终结果
+    observations:
+      - 分别覆盖设置恢复、显示正常、物理故障和工具失败终态
+      - 每个终态都已先完成显示结论和通用下一步
+    expect:
+      must:
+        - 旧版卡片场景固定尝试
+        - 每次最终报告前读取 reporting reference
+        - 每个终态都搜索一次正式现场支持资源
+      must_not:
+        - 因显示恢复或当前正常跳过资源尝试
+        - 因工具失败省略显示正文
+        - 在正文写点击下方
+
+  - id: company_card_ioa_available
+    description: IOA=true 且现场支持资源 available=true 时只展示正确卡片一次
+    user_input: 线材和另一台电脑都试过了，还是没信号
+    observations:
+      - 证据指向显示器或接口硬件
+      - 框架真实识别 IOA=true
+      - general_on_site_service 返回 available=true 和本次 execute ID
+    expect:
+      must:
+        - 汇总交叉测试证据
+        - 给通用厂商售后或 IT 检修建议
+        - 使用本次 execute ID 展示现场支持卡片一次
+      must_not:
+        - 不得复用 search ID
+        - 在正文写点击下方或重复裸链接
+
+  - id: company_card_non_ioa_or_unknown
+    description: IOA=false 与 IOA=unknown 都静默无卡且不伪造环境值
+    user_input: 外接屏仍无信号，给我下一步
+    observations:
+      - 一次环境为 IOA=false，另一次为 IOA=unknown
+      - 两次业务结果均为 available=false
+    expect:
+      must:
+        - 保留完整物理故障判断和通用下一步
+        - 静默省略企业卡片
+      must_not:
+        - 不得显式传 is_ioa 或伪造组织信号
+        - 暴露探针、租户或组织分流
+        - 输出 org_generic_fallback
+
+  - id: company_card_unavailable_or_failed
+    description: available=false 或 execute 工具失败时不使用后处理器 ID
+    user_input: 显示器需要送修，帮我总结
+    observations:
+      - 一次 available=false 但有后处理器 tool_call_id
+      - 另一次 action_execute 工具失败
+    expect:
+      must:
+        - 保留完整结论、证据和通用检修方向
+        - 两种失败都静默省略卡片
+      must_not:
+        - 使用无效 tool_call_id
+        - 输出 fallback 卡片或内部 reason
+        - 因卡片失败省略诊断
+
+  - id: company_card_rejects_wrong_candidate_and_keeps_body
+    description: 拒绝 resolve_context 或 ambiguous 模糊候选且正文独立
+    user_input: 总结双屏故障和下一步处理办法
+    observations:
+      - action_search 只返回 win.org_support.resolve_context 和 ambiguous 候选
+    expect:
+      must:
+        - 不执行错误 action
+        - 卡片前完成判断、证据和通用下一步
+        - 删除最终卡片代码块后正文仍完整
+      must_not:
+        - 执行 resolve_context
+        - 使用模糊候选的 execute ID
+        - 用点击下方替代下一步
+
+  - id: macos_company_card_uses_platform_action
+    description: macOS 企业卡片只执行精确正式 action
+    user_input: Mac 外接屏硬件可能坏了，给我维修支持入口
+    observations:
+      - macOS action_search 精确返回 mac.org_support.get_company_resource_card
+      - 业务载荷 available=true，并返回本次 execute tool_call_id
+    expect:
+      must:
+        - 使用 macOS 正式资源 action
+        - 只展示本次 execute 的 tool_call_id 一次
+        - 卡片前完整给出显示故障证据和通用维修下一步
+      must_not:
+        - 执行 win.org_support.get_company_resource_card
+        - 使用 resolve_context 或复用 search ID
+        - 在正文写点击下方
+        - 使用 Windows 显示命令
