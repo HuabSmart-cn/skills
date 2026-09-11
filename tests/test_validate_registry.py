@@ -3,6 +3,7 @@ import subprocess
 import tempfile
 import sys
 import unittest
+import zipfile
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -58,6 +59,16 @@ class RegistryValidationTests(unittest.TestCase):
         self.assertEqual(plan["planStatus"], "ready_for_runtime_install")
         self.assertEqual(plan["runtimeVerification"], "not_verified")
         self.assertEqual(plan["actions"][0]["capabilityId"], "cap.skill.lark-skills.lark-shared.v1")
+
+    def test_cli_bundle_includes_the_same_search_guidance_as_web_downloads(self):
+        with tempfile.TemporaryDirectory() as directory:
+            bundle = Path(directory) / "calendar.zip"
+            subprocess.run([sys.executable, "tools/build_download_bundle.py", "--asset-id", "lark-skills:skill:skills__lark-calendar__SKILL.md", "--output", str(bundle)], cwd=ROOT, check=True, capture_output=True)
+            with zipfile.ZipFile(bundle) as archive:
+                readme_path = next(name for name in archive.namelist() if name.endswith("/README_HUABSMART.md"))
+                readme = archive.read(readme_path).decode("utf-8")
+        self.assertIn("https://raw.githubusercontent.com/HuabSmart-cn/skills/main/registry/search-index.json", readme)
+        self.assertIn("只有用户明确说“一起安装”后", readme)
 
 
 if __name__ == "__main__":
