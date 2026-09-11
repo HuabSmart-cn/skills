@@ -39,7 +39,11 @@ def main() -> None:
     sidecar = {
         "schemaVersion": "1.0.0",
         "asset": {"id": args.asset_id, "entry": meta["primaryFile"], "sourceRevision": revision},
-        "registry": {"url": "https://skills.huabsmart.cn/registry/index.json", "resolutionPolicy": "trusted-registry-only"},
+        "registry": {
+            "searchIndexUrl": "https://raw.githubusercontent.com/HuabSmart-cn/skills/main/registry/search-index.json",
+            "searchIndexPageUrl": "https://github.com/HuabSmart-cn/skills/blob/main/registry/search-index.json",
+            "resolutionPolicy": "trusted-github-registry-only"
+        },
         "declaredDependencies": declared,
         "textualCandidates": row["candidates"] if row else [],
         "installerBehavior": {

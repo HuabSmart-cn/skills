@@ -39,6 +39,15 @@ AI 能力散落在不同平台、社区和代码仓库中，寻找、比较和�
 
 跨包调用的候选关系由 `registry/dependency-candidates.json` 记录；下载服务可用 sidecar 将它随单个资产包提供，不改写第三方原文。
 
+### 官方能力搜索目录
+
+下载后的 Skill 如需寻找协同能力，应只使用本仓库维护的在线目录，而不将整份目录复制进 ZIP：
+
+- 供 Agent / 工具读取的 JSON：[search-index.json](https://raw.githubusercontent.com/HuabSmart-cn/skills/main/registry/search-index.json)
+- 供用户浏览的 GitHub 页面：[search-index.json](https://github.com/HuabSmart-cn/skills/blob/main/registry/search-index.json)
+
+目录为每个资产提供唯一 `assetId`、名称、简介、标签、平台、类型和源路径。名称匹配唯一时只能作为可推荐候选；名称重复或不确定时必须展示差异并等待用户选择。只有用户明确要求“一起安装”后，Agent 才可按其当前 Runtime 的官方方式继续安装；找不到时必须报告缺失，不能模拟结果。
+
 ## 参与贡献
 
 欢迎提交新的公开能力、元数据修正、界面改进和文档改进。提交前请确认：
