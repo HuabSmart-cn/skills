@@ -22,7 +22,7 @@ OPERATIONS = {"read", "create", "update", "delete", "auth", "external_write", "p
 ERROR_CODES = {
     "DEPENDENCY_REQUIRED_MISSING", "DEPENDENCY_OPTIONAL_MISSING", "DEPENDENCY_CYCLE",
     "ENTRY_MISSING", "INVALID_PATH", "ID_CONFLICT", "ALIAS_CONFLICT", "INVALID_FIELD",
-    "VERIFICATION_RECEIPT_MISSING", "LEGACY_ENTRY_MISSING",
+    "VERIFICATION_RECEIPT_MISSING", "LEGACY_ENTRY_MISSING", "ATTACHMENT_SIZE_INVALID", "ATTACHMENT_UNAVAILABLE_INVALID",
 }
 
 
@@ -81,6 +81,34 @@ def validate_legacy(report: Reporter, severity: str):
                            "Repair the captured asset or mark it withheld in migration metadata.")
         else:
             report.add("INVALID_PATH", "error", "asset.primaryFile must be a file name.", ROOT / "manifest.json", aid)
+        attachments = meta.get("attachments", [])
+        if not isinstance(attachments, list):
+            report.add("INVALID_FIELD", "error", "asset.attachments must be an array.", ROOT / "manifest.json", aid)
+            continue
+        for attachment in attachments:
+            if not isinstance(attachment, dict):
+                report.add("ATTACHMENT_SIZE_INVALID", "error", "Each attachment must provide path and byte size.", ROOT / "manifest.json", aid)
+                continue
+            attachment_path = attachment.get("path")
+            size = attachment.get("size")
+            file_path = base / attachment_path if base and isinstance(attachment_path, str) else None
+            if not isinstance(attachment_path, str) or not attachment_path or "/" == attachment_path or Path(attachment_path).is_absolute() or ".." in Path(attachment_path).parts:
+                report.add("INVALID_PATH", "error", "Attachment path must be a non-empty relative path without '..'.", ROOT / "manifest.json", aid)
+            elif not file_path or not file_path.is_file():
+                report.add("ENTRY_MISSING", "error", "Attachment file does not exist.", file_path, aid)
+            elif not isinstance(size, int) or size < 0 or file_path.stat().st_size != size:
+                report.add("ATTACHMENT_SIZE_INVALID", "error", "Attachment byte size must match the repository file.", file_path, aid)
+        unavailable = meta.get("unavailableAttachments", [])
+        if not isinstance(unavailable, list):
+            report.add("INVALID_FIELD", "error", "asset.unavailableAttachments must be an array when present.", ROOT / "manifest.json", aid)
+            continue
+        for attachment in unavailable:
+            path = attachment.get("path") if isinstance(attachment, dict) else None
+            file_path = base / path if base and isinstance(path, str) else None
+            if not isinstance(attachment, dict) or attachment.get("reason") != "file_missing" or not isinstance(path, str) or not path:
+                report.add("ATTACHMENT_UNAVAILABLE_INVALID", "error", "Unavailable attachment needs path and reason=file_missing.", ROOT / "manifest.json", aid)
+            elif file_path and file_path.is_file():
+                report.add("ATTACHMENT_UNAVAILABLE_INVALID", "error", "Unavailable attachment now exists; rerun the size enrichment tool.", file_path, aid)
 
 
 def validate_registry(report: Reporter):
