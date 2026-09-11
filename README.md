@@ -39,6 +39,10 @@ AI 能力散落在不同平台、社区和代码仓库中，寻找、比较和�
 
 跨包调用的候选关系由 `registry/dependency-candidates.json` 记录；下载服务可用 sidecar 将它随单个资产包提供，不改写第三方原文。
 
+## 许可与第三方资产
+
+根目录 [LICENSE](LICENSE) 中的 Apache-2.0 仅适用于 HuabSmart 原创的 Registry、Schema、工具、CI 配置和文档；具体范围见 [NOTICE](NOTICE)。仓库内第三方 Skill、Prompt、Agent、MCP 配置、脚本和附属文件不因收录而被重新许可，仍以原作者的版权、署名和 License 为准。License 或来源未确认时，本仓库不授予该资产的再利用许可。
+
 ### 官方能力搜索目录
 
 下载后的 Skill 如需寻找协同能力，应只使用本仓库维护的在线目录，而不将整份目录复制进 ZIP：

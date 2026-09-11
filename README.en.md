@@ -37,6 +37,10 @@ The repository is adding `registry/` as a machine-readable control plane for dep
 
 See [docs/capability-registry.md](docs/capability-registry.md) for the contract and migration rules.
 
+## License and third-party assets
+
+The Apache-2.0 [LICENSE](LICENSE) applies only to original HuabSmart registry, schema, tooling, CI configuration, and documentation; see [NOTICE](NOTICE) for scope. Third-party Skills, Prompts, Agents, MCP configurations, scripts, and attachments are not relicensed by cataloging and remain subject to their original copyright, attribution, and license terms. When license or provenance is unknown, this repository grants no reuse permission for that asset.
+
 ## Contributing
 
 Contributions are welcome: new public assets, metadata corrections, UI improvements, and documentation updates. Before opening a pull request, please verify that:

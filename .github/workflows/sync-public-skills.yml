@@ -44,6 +44,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
       - name: Configure SSH
         env:
           DEPLOY_KEY: ${{ secrets.DEPLOY_SSH_KEY }}
@@ -60,3 +62,9 @@ jobs:
           rsync -az -e "ssh -i ~/.ssh/id_ed25519" registry/ "${{ secrets.DEPLOY_USER }}@${{ secrets.DEPLOY_HOST }}:${{ secrets.DEPLOY_PATH }}/registry/"
           rsync -az --delete -e "ssh -i ~/.ssh/id_ed25519" skills/ "${{ secrets.DEPLOY_USER }}@${{ secrets.DEPLOY_HOST }}:${{ secrets.DEPLOY_PATH }}/skills/"
           ssh "${{ secrets.DEPLOY_USER }}@${{ secrets.DEPLOY_HOST }}" "chmod -R a+rX '${{ secrets.DEPLOY_PATH }}/skills'"
+      - name: Verify changed published attachments
+        run: |
+          python3 tools/verify_published_assets.py \
+            --base-url https://skills.huabsmart.cn \
+            --before "${{ github.event.before || github.sha }}" \
+            --after "${{ github.sha }}"

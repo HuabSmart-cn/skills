@@ -1,0 +1,12 @@
+HuabSmart Skills
+Copyright 2026 HuabSmart
+
+The Apache License, Version 2.0 in LICENSE applies only to original HuabSmart
+materials in this repository, including the registry, schemas, validators,
+bundle tools, CI configuration, and HuabSmart-authored documentation.
+
+Third-party Skills, Prompts, Agents, MCP configurations, scripts, and their
+attachments are not relicensed by HuabSmart. They remain subject to their
+respective original copyright, attribution, and license terms. If an asset's
+license or provenance is absent or unverified, this repository grants no reuse
+permission for that asset; consult its original source or rightsholder.
