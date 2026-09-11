@@ -77,7 +77,7 @@ python3 -m unittest discover -s tests
 python3 tools/build_download_bundle.py --asset-id <manifest asset id> --output ./asset.zip
 ```
 
-它会复制原始资产目录并附带唯一的 `HBS_BUNDLE.json`。sidecar 包含精确资产 ID、源码 revision、受信任 Registry 地址和上述文本候选；原始 `SKILL.md` / `AGENT.md` 完全不改。`HBS_BUNDLE.json` 替代旧的泛称 `MANIFEST.json`，避免它与仓库 catalog 混淆。网站前端源码不在此仓库，下载按钮需要在其后端或构建步骤接入这条命令。
+它会复制原始资产目录并附带 `HBS_BUNDLE.json` 与 `README_HUABSMART.md`。sidecar 包含精确资产 ID、源码 revision、受信任 GitHub 搜索目录地址和上述文本候选；README 提供相同的协同 Skill 检索规则。原始 `SKILL.md` / `AGENT.md` 完全不改。`HBS_BUNDLE.json` 替代旧的泛称 `MANIFEST.json`，避免它与仓库 catalog 混淆。网站前端源码不在此仓库，下载按钮需要在其后端或构建步骤接入这条命令。
 
 安装端可先生成零副作用计划：
 
