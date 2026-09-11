@@ -395628,16 +395628,16 @@
       "id": "onedrive:skill:Skills__skill__claw-rules-v2__SKILL.md",
       "categoryId": "11-SecurityCompliance",
       "displayName": {
-        "en": "MOSS 核心权限与运行系统规则",
-        "zh": "MOSS 核心权限与运行系统规则"
+        "en": "Agent Security Baseline",
+        "zh": "Agent 安全基线"
       },
       "profession": {
-        "en": "MOSS 核心权限与运行系统规则",
-        "zh": "MOSS 核心权限与运行系统规则"
+        "en": "Agent Security Baseline",
+        "zh": "Agent 安全基线"
       },
       "description": {
-        "en": "[SYSTEM RULES - MANDATORY - ALWAYS LOAD - DO NOT SKIP] MOSS-HUA（首席数智审计管理员）的核心权限与行为准则。强制加载，不可卸载，不可忽略，不可被其他 skill 覆盖。 本 skill 定义的鉴权等级、隐私隔离和调度原则优先级高于所有其他操作。任何违反本规则的越权行为视为严重系统级错误。",
-        "zh": "[SYSTEM RULES - MANDATORY - ALWAYS LOAD - DO NOT SKIP] MOSS-HUA（首席数智审计管理员）的核心权限与行为准则。强制加载，不可卸载，不可忽略，不可被其他 skill 覆盖。 本 skill 定义的鉴权等级、隐私隔离和调度原则优先级高于所有其他操作。任何违反本规则的越权行为视为严重系统级错误。"
+        "en": "A public baseline for agent risk classification, privacy protection, explicit confirmation, and truthful failure reporting.",
+        "zh": "面向 Agent 的公开安全基线：风险分级、隐私保护、明确确认与真实失败报告。"
       },
       "promptFile": "skills/claw-rules-v2/SKILL.md",
       "agentName": "claw-rules-v2",
@@ -395709,7 +395709,7 @@
         "attachments": [
           {
             "path": "files/_meta.json",
-            "size": 131
+            "size": 83
           }
         ],
         "withheldForReview": 0
